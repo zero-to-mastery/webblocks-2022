@@ -1,10 +1,4 @@
-<img src="https://media.discordapp.net/attachments/779713479976157214/891357800809250896/unknown.png?width=350&height=350" align="right" />
-
 # ![](https://img.shields.io/badge/Html%20%26%20Javascript%20%26%20CSS%20PROJECT-WebBlocks-00adb5?style=for-the-badge&logo=JavaScript)
-
----
-
-## TL;DR
 
 > There is a big hype about front-end frameworks all over the place. But in this project we are going to build a showcase library of components using vanilla HTML, CSS and maybe some Javascript.
 >
