@@ -1,0 +1,11 @@
+/* variable declarations for custom properties */
+
+:root {
+    --icon-color: black;
+    --menu-size: 40px;  /* square */
+    --line-length: 30px;
+    --line-height: 3pt;
+    --space-between-lines: 10px;
+    --negative-of-space-between-lines: -10px;
+    --icon-transition-time: 200ms;
+}
