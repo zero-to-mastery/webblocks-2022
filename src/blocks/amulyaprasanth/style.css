@@ -1,0 +1,41 @@
+body {
+    background-color: #171414;
+    
+}
+
+.empty {
+    margin-top: 100px;
+}
+
+#diamond {
+    margin-top : 100px;
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(90deg, #ff4d94 15%, red, orange);
+    transform: rotate(45deg);
+    margin: auto;
+}
+
+#omen {
+    display: flex;
+    margin: auto;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 65px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#company {
+    display:flex;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    margin-top : 20px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
