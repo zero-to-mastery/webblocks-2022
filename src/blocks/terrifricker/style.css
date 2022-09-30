@@ -9,3 +9,8 @@
     --negative-of-space-between-lines: -10px;
     --icon-transition-time: 200ms;
 }
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
