@@ -1,7 +1,7 @@
-/* variable declarations for custom properties */
-
 :root {
     --icon-color: black;
+    --menu-location-top: 0;
+    --menu-location-left: 0;
     --menu-size: 40px;  /* square */
     --line-length: 30px;
     --line-height: 3pt;
@@ -11,8 +11,8 @@
 }
 .hamburger-menu {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: var(--menu-location-top);
+    left: var(--menu-location-left);
     z-index: 1;
 }
 .hamburger-menu-hidden-checkbox {
