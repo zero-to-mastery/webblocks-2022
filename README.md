@@ -53,7 +53,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 7. Link your CSS and JS files to your HTML file.
 
-8. Create a work of art! It can be as simple or as complex as you like!
+8. Create a web component! It can be as simple or as complex as you like!
 
 9. Grab a screenshot or gif of your final Web Block, ensuring that its nicely crop and preferably squared. Save this in your directory using `icon.png` as the name.
    _If you don't add a gif/screenshot, the website won't show your work in the thumbnail._
