@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #202124;
+  padding: 2rem;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+.cta {
+  height: 5rem;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  background-color: #1db954;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Card css starts here */
+
+.card {
+  display: inline-block;
+  padding: 1.5rem;
+  max-width: 35rem;
+  width: 35rem;
+  height: 33rem;
+  perspective: 1200px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.front-side,
+.back-side {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.2rem;
+  backface-visibility: hidden;
+  transition: all 1s ease;
+  border-radius: 5px;
+  background-color: #101116;
+  color: #777;
+}
+
+.back-side {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.card:hover .front-side {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .back-side {
+  transform: rotateY(0);
+}
