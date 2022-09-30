@@ -60,3 +60,11 @@ body {
 .hamburger-icon-middle-line::after {
     top: var(--negative-of-space-between-lines);
 }
+.hamburger-menu-hidden-checkbox:checked + .hamburger-icon-container .hamburger-icon-middle-line {
+    transform: rotate(45deg);
+}
+.hamburger-menu-hidden-checkbox:checked + .hamburger-icon-container .hamburger-icon-middle-line::before,
+.hamburger-menu-hidden-checkbox:checked + .hamburger-icon-container .hamburger-icon-middle-line::after {
+    top:0;
+    transform: rotate(90deg);
+}
