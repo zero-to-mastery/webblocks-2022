@@ -47,7 +47,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 4. Create a branch
 
-5. In the Art directory (folder), create a directory named after yourself.
+5. In the blocks directory (folder), create a directory named after yourself.
 
 6. Within this folder you just made, create three files, an HTML file, a CSS file, and a JS file.
 
