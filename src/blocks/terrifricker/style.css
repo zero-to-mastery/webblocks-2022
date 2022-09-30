@@ -41,3 +41,22 @@ body {
     justify-content: center;
     z-index: 1;
 }
+.hamburger-icon-middle-line {
+    position: relative;
+    width: var(--line-length);
+    height: var(--line-height);
+    background-color: var(--icon-color);
+    transition: all var(--icon-transition-time) ease-out;
+}
+.hamburger-icon-middle-line::before,
+.hamburger-icon-middle-line::after {
+    content: '';
+    position: absolute;
+    top: var(--space-between-lines);
+    width: var(--line-length);
+    height: var(--line-height);
+    background-color: var(--icon-color);
+}
+.hamburger-icon-middle-line::after {
+    top: var(--negative-of-space-between-lines);
+}
