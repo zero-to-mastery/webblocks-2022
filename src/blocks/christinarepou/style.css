@@ -1,0 +1,13 @@
+h1, p{
+    text-align: center;
+}
+
+img{
+    width: 25%;
+    display: grid;
+    justify-self: center;
+}
+
+div {
+    display: grid;
+}
