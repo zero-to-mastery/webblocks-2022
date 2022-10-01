@@ -1,0 +1,65 @@
+:root {
+    --icon-color: black;
+    --menu-location-top: 0;
+    --menu-location-left: 0;
+    --menu-size: 40px;  /* square */
+    --line-length: 30px;
+    --line-height: 3pt;
+    --space-between-lines: 10px;
+    --negative-of-space-between-lines: -10px;
+    --icon-transition-time: 200ms;
+}
+.hamburger-menu {
+    position: fixed;
+    top: var(--menu-location-top);
+    left: var(--menu-location-left);
+    z-index: 1;
+}
+.hamburger-menu-hidden-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--menu-size);
+    height: var(--menu-size);
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+.hamburger-icon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--menu-size);
+    height: var(--menu-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.hamburger-icon-middle-line {
+    position: relative;
+    width: var(--line-length);
+    height: var(--line-height);
+    background-color: var(--icon-color);
+    transition: all var(--icon-transition-time) ease-out;
+}
+.hamburger-icon-middle-line::before,
+.hamburger-icon-middle-line::after {
+    content: '';
+    position: absolute;
+    top: var(--space-between-lines);
+    width: var(--line-length);
+    height: var(--line-height);
+    background-color: var(--icon-color);
+}
+.hamburger-icon-middle-line::after {
+    top: var(--negative-of-space-between-lines);
+}
+.hamburger-menu-hidden-checkbox:checked + .hamburger-icon-container .hamburger-icon-middle-line {
+    transform: rotate(45deg);
+}
+.hamburger-menu-hidden-checkbox:checked + .hamburger-icon-container .hamburger-icon-middle-line::before,
+.hamburger-menu-hidden-checkbox:checked + .hamburger-icon-container .hamburger-icon-middle-line::after {
+    top:0;
+    transform: rotate(90deg);
+}
