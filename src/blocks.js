@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "HP OMEM Logo",
+    "page_link": "./blocks/amulyaprasanth/index.html",
+    "block_icon": "./blocks/amulyaprasanth/icon.png",
+    "author_name": "amulyaprasanth",
+    "author_github_url": "https://github.com/amulyaprasanth/"
+  },
+  {
     "name": "ZTM Button",
     "page_link": "./blocks/mattcsmith/index.html",
     "block_icon": "./blocks/mattcsmith/icon.png",
