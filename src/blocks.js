@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Card Profile PunGrumpy",
+    "page_link": "./blocks/pungrumpy/index.html",
+    "block_icon": "./blocks/pungrumpy/icon.png",
+    "author_name": "PunGrumpy",
+    "author_github_url": "https://github.com/PunGrumpy/"
+  },
+  {
     "name": "Ripped Paper Effect",
     "page_link": "./blocks/rachelktyjohnson/index.html",
     "block_icon": "./blocks/rachelktyjohnson/icon.png",
