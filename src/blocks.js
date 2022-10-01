@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/godnondsilva/"
   },
   {
+    "name": "Animated CSS Properties",
+    "page_link": "./blocks/insidiae/index.html",
+    "block_icon": "./blocks/insidiae/icon.png",
+    "author_name": "Insidiae",
+    "author_github_url": "https://github.com/Insidiae/"
+  },
+  {
     "name": "ZTM Button",
     "page_link": "./blocks/mattcsmith/index.html",
     "block_icon": "./blocks/mattcsmith/icon.png",
