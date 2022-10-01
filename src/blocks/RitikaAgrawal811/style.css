@@ -1,0 +1,134 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  border: 3px solid #3498db;
+  background-color: #3498db;
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.itemCount,
+.icon {
+  width: 2em;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+}
+
+.itemCount {
+  font-size: 1.65rem;
+  font-family: sans-serif;
+  visibility: hidden;
+  user-select: none;
+}
+
+.itemCount::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0.5em;
+  background: #ffe5b4;
+  z-index: -1;
+  transition: height 400ms ease-in-out;
+}
+
+.icon {
+  border-radius: 50%;
+  font-size: 1.35rem;
+  transition: left 500ms ease-in-out;
+}
+
+.plus-icon::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background: #fff;
+  border-radius: 100vmax;
+}
+
+.plus-icon::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 50%;
+  background: #fff;
+  border-radius: 100vmax;
+}
+
+.minus-icon::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background: #fff;
+  border-radius: 100vmax;
+}
+
+.expand {
+  width: 10em;
+  border-radius: 4em;
+  background-color: #fff;
+}
+
+.expand .plus-icon {
+  left: 85%;
+}
+
+.expand .minus-icon {
+  left: 15%;
+}
+
+.expand .minus-icon::before,
+.expand .plus-icon::before,
+.expand .plus-icon::after {
+  background: #3498db;
+}
+
+.expand .itemCount {
+  visibility: visible;
+}
+
+.itemCount.showDown::before {
+  top: 0;
+  height: 100%;
+}
+
+.itemCount.hideDown::before {
+  height: 0;
+  bottom: 0;
+}
+
+.itemCount.showUp::before {
+  bottom: 0;
+  height: 100%;
+}
+
+.itemCount.hideUp::before {
+  height: 0;
+  top: 0;
+}
