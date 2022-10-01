@@ -1,0 +1,41 @@
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(193, 218, 255);
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.6);
+    transition: background-color 300ms ease, translate 300ms ease;
+}
+
+.card:hover {
+    background-color: rgb(199, 222, 252);
+    translate: 0px -5px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 25px;
+}
