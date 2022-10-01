@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Carousel</title>
+  </head>
+
+  <body>
+    <center><div class="images">    
+        <div class="main-img">
+            <center><img src="images/red.png" id="MainImg"></center>
+        </div>
+
+        <div class="gallery">
+            <img class= "small-img" src="images/red.png" alt="red">
+            <img class= "small-img" src="images/green.png" alt="green">
+            <img class= "small-img" src="images/blue.png" alt="blue">
+            <img class= "small-img" src="images/yellow.png" alt="yellow">
+            <img class= "small-img" src="images/white.png" alt="white">
+            <img class= "small-img" src="images/black.png" alt="black">
+        </div>
+    </div></center>  
+    <script>
+
+      var MainImg = document.getElementById('MainImg');
+      var SmallImg = document.getElementsByClassName('small-img');
+
+      for (let i = 0; i < SmallImg.length; i++) {
+          SmallImg[i].onclick = function() {
+          MainImg.src = SmallImg[i].src;
+      }}
+
+    </script>
+  </body>
+</html>
