@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/amulyaprasanth/"
   },
   {
+    "name": "ZTM Focus",
+    "page_link": "./blocks/dmitriifomin/index.html",
+    "block_icon": "./blocks/dmitriifomin/icon.png",
+    "author_name": "Dmitrii",
+    "author_github_url": "https://github.com/Kanadets"
+  },
+  {
     "name": "ZTM Button",
     "page_link": "./blocks/mattcsmith/index.html",
     "block_icon": "./blocks/mattcsmith/icon.png",
