@@ -106,6 +106,13 @@
     "author_github_url": "https://github.com/siddharthsinghvats/"
   },
   {
+    "name": "Beautiful Timeline Design",
+    "page_link": "./blocks/tarunmankar/index.html",
+    "block_icon": "./blocks/tarunmankar/icon.png",
+    "author_name": "tarunmankar",
+    "author_github_url": "https://github.com/tarunmankar/"
+  },
+  {
     "name": "Modal Window Component",
     "page_link": "./blocks/techtuner/index.html",
     "block_icon": "./blocks/techtuner/icon.png",
