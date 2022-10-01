@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#rotate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 255, 0, 1) 52%,
+    rgba(27, 255, 0, 1) 52%
+  );
+}
+#text {
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 156, 252, 0.61);
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 1px 1px 10px 5px rgb(72, 71, 72);
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(35, 1, 77);
+  font-family: 'Source Code Pro', monospace;
+}
+
+#text:hover {
+  box-shadow: 2px 1px 10px 5px rgb(100, 37, 247);
+}
+
+@keyframes rot {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes notrot {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+.start {
+  animation: rot 2s linear infinite;
+  box-shadow: 1px 1px 10px 3px rgb(250, 250, 249);
+}
+.end {
+  animation: notrot 2s linear infinite;
+}
