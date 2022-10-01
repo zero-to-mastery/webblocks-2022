@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Simple_Text",
+    "page_link": "./blocks/RajMishra/index.html",
+    "block_icon": "./blocks/RajMishra/icon.png",
+    "author_name": "Raj Mishra",
+    "author_github_url": "https://github.com/rajmishra-47/"
+  },
+  {
     "name": "Item Quantity Counter",
     "page_link": "./blocks/RitikaAgrawal811/index.html",
     "block_icon": "./blocks/RitikaAgrawal811/icon.png",
