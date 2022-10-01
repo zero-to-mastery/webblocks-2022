@@ -1,0 +1,22 @@
+button {
+    background-color: blueviolet;
+    border-radius: 50%;
+    font-size: large;
+    padding: 2%;
+    color: aliceblue;
+    margin-top: 5%;
+}
+
+h1 {
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+    text-decoration-color: blueviolet;
+}
+
+label {
+    color: blueviolet;
+}
+
+body {
+    background-color: pink;
+}
