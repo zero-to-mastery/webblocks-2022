@@ -43,6 +43,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "shopping list component",
+    "page_link": "./blocks/christinarepou2/index.html",
+    "block_icon": "./blocks/christinarepou2/icon.png",
+    "author_name": "Christina Repou",
+    "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
     "name": "ZTM Focus",
     "page_link": "./blocks/dmitriifomin/index.html",
     "block_icon": "./blocks/dmitriifomin/icon.png",
