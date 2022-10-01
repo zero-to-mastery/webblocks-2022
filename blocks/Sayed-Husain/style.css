@@ -1,0 +1,28 @@
+body {
+  background-color: #383838;
+  
+}
+
+
+.main-img {
+  margin-top: 5%;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.gallery {
+  width: 50%;
+  margin-bottom: 25px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.gallery img {
+  height: auto;
+  margin-left: 15px;
+  width: 76px;
+  flex-basis: 24%;
+  cursor: pointer;
+}

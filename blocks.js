@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/godnondsilva/"
   },
   {
+    "name": "Subscribe Button",
+    "page_link": "./blocks/godnondsilva2/index.html",
+    "block_icon": "./blocks/godnondsilva2/icon.png",
+    "author_name": "Godnon",
+    "author_github_url": "https://github.com/godnondsilva/"
+  },
+  {
     "name": "ZTM Button",
     "page_link": "./blocks/mattcsmith/index.html",
     "block_icon": "./blocks/mattcsmith/icon.png",
