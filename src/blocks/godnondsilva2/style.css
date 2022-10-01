@@ -1,0 +1,27 @@
+html,
+body {
+    background: #000;
+}
+
+.container {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: Poppins;
+    background: #c00;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    /* Disable text highlighting */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
