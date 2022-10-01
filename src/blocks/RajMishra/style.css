@@ -1,0 +1,18 @@
+#heading{
+    color: blue;
+}
+
+.b1{
+    text-align: center;
+    width: 500px;
+    margin-left:32%;
+}
+
+#btn{
+    color:white;
+    padding: 10px;
+    margin-left: 50%;
+    background-color: rgb(54, 54, 147);
+    border-radius: 10px;
+    border: 2px solid  rgb(54, 54, 147);
+}
