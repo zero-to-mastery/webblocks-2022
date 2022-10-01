@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: green;
+}
+
+.name{
+	color: black;
+	justify-content: start;
+}
+
+.toggle {
+	position: relative;
+	height: 70px;
+	width: 70px;
+	background-color: blue;
+	transform: rotate(-45deg);
+	border-bottom-left-radius: 100px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+.toggle::before,
+.toggle::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-radius: 50px;
+	background-color: blue;
+}
+
+.toggle::before{
+	top: -55%;
+	left: 0;
+}
+.toggle::after{
+	right: -40px;
+	top: 0;
+}
+
+.toggle.forward,
+.toggle.forward::before,
+.toggle.forward{
+	background-color: red;
+}
+
+.toggle,
+.toggle.forward::before,
+.toggle.forward{
+	transition: 0.5s;
+	transition-delay: 0.5ms;
+}
+
+.circle {
+	position: absolute;
+	left: 7px;
+	top: -28px;
+	height: 55px;
+	width: 55px;
+	background-color: red;
+	border-radius: 50%;
+	box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.15);
+	z-index: 100;
+}
+.toggle.forward .circle{
+	animation: front 0.6s linear forwards;
+}
+@keyframes front {
+	0%{
+		left: 7px;
+		top: -28px;
+	}
+	50%{
+		top: -1px;
+		left: 17px;
+	}
+	100%{
+		left: 42px;
+		top: 7px;
+	}
+}
+
+.toggle.reverse .circle{
+	animation: back 0.6s linear forwards;
+}
+@keyframes back {
+	0%{
+		left: 42px;
+		top: 7px;
+	}
+	50%{
+		top: -1px;
+		left: 17px;
+	}
+	100%{
+		left: 7px;
+		top: -28px;
+	}
+}
