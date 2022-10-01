@@ -106,6 +106,13 @@
     "author_github_url": "https://github.com/siddharthsinghvats/"
   },
   {
+    "name": "Rotating Div",
+    "page_link": "./blocks/siddharthsinghvats2/index.html",
+    "block_icon": "./blocks/siddharthsinghvats2/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
     "name": "Beautiful Timeline Design",
     "page_link": "./blocks/tarunmankar/index.html",
     "block_icon": "./blocks/tarunmankar/icon.png",
@@ -142,7 +149,7 @@
     contents.push([
       `<li class="card">` +
         `<a href='${c.page_link}' target="_blank">` +
-        `<img class="art-image" src='${c.art_icon}' alt='${c.name}' onerror="this.src='https://cdn.discordapp.com/attachments/870676772683919390/891310666596630538/coming-soon-logo_okok.png';"/>` +
+        `<img class="art-image" src='${c.block_icon}' alt='${c.name}' onerror="this.src='https://cdn.discordapp.com/attachments/870676772683919390/891310666596630538/coming-soon-logo_okok.png';"/>` +
         `</a>` +
         `<div class="flex-content">` +
         `<a href='${c.page_link}' target="_blank"><h3 class="art-title">${c.name}</h3></a>` +
@@ -161,5 +168,6 @@
       j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x
     );
     return o;
-  }  
+  }
+  
   
