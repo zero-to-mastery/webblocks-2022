@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Card Profile PunGrumpy",
+    "page_link": "./blocks/pungrumpy/index.html",
+    "block_icon": "./blocks/pungrumpy/icon.png",
+    "author_name": "PunGrumpy",
+    "author_github_url": "https://github.com/PunGrumpy/"
+  },
+  {
     "name": "Ripped Paper Effect",
     "page_link": "./blocks/rachelktyjohnson/index.html",
     "block_icon": "./blocks/rachelktyjohnson/icon.png",
@@ -86,7 +93,7 @@
     contents.push([
       `<li class="card">` +
         `<a href='${c.page_link}' target="_blank">` +
-        `<img class="art-image" src='${c.art_icon}' alt='${c.name}' onerror="this.src='https://cdn.discordapp.com/attachments/870676772683919390/891310666596630538/coming-soon-logo_okok.png';"/>` +
+        `<img class="art-image" src='${c.block_icon}' alt='${c.name}' onerror="this.src='https://cdn.discordapp.com/attachments/870676772683919390/891310666596630538/coming-soon-logo_okok.png';"/>` +
         `</a>` +
         `<div class="flex-content">` +
         `<a href='${c.page_link}' target="_blank"><h3 class="art-title">${c.name}</h3></a>` +
