@@ -15,13 +15,6 @@
     "author_github_url": "https://github.com/Sayed-Husain/"
   },
   {
-    "name": "Flex Box",
-    "page_link": "./blocks/avatar/index.html",
-    "block_icon": "./blocks/avatar/icon.png",
-    "author_name": "avatar",
-    "author_github_url": "https://github.com/avatar-10000/"
-  },
-  {
     "name": "HP OMEM Logo",
     "page_link": "./blocks/amulyaprasanth/index.html",
     "block_icon": "./blocks/amulyaprasanth/icon.png",
