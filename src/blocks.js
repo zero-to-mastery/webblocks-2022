@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "Image Swiper",
+    "page_link": "./blocks/Sayed-Husain/index.html",
+    "block_icon": "./blocks/Sayed-Husain/icon.png",
+    "author_name": "Sayed-Husain",
+    "author_github_url": "https://github.com/Sayed-Husain/"
+  },
+  {
     "name": "HP OMEM Logo",
     "page_link": "./blocks/amulyaprasanth/index.html",
     "block_icon": "./blocks/amulyaprasanth/icon.png",
