@@ -104,6 +104,13 @@
     "block_icon": "./blocks/techtuner/icon.png",
     "author_name": "Santhosh Pai",
     "author_github_url": "https://github.com/techtuner/"
+  },
+  {
+    "name": "Animated Hamburger Menu Icon",
+    "page_link": "./blocks/terrifricker/index.html",
+    "block_icon": "./blocks/terrifricker/icon.png",
+    "author_name": "Terri Fricker",
+    "author_github_url": "https://github.com/terrifricker/"
   }
 ]
 
