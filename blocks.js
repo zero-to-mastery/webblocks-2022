@@ -76,6 +76,13 @@
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
+    "name": "Modal Window Component",
+    "page_link": "./blocks/techtuner/index.html",
+    "block_icon": "./blocks/techtuner/icon.png",
+    "author_name": "Santhosh Pai",
+    "author_github_url": "https://github.com/techtuner/"
   }
 ]
 
