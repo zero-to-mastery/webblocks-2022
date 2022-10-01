@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+  background:black;
+  margin:0;
+}
+.container{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.btn{
+  width:200px;
+  height:55px;
+  border-radius:15px;
+  background-color:black;
+  color:#FFF;
+  border:1px solid white;
+  font-family: 'Roboto Mono', monospace;
+  font-size:large;
+}
+@keyframes flash{
+  from{border : 2px solid #FF0099;
+  box-shadow: 1px 1px 3px 4px #FF0099;}
+  to{border : 2px solid #099FFF;box-shadow:1px 1px 3px 4px #099FFF;}
+}
+.btn:hover{
+  animation-name:flash;
+  animation-duration:0.5s;
+  animation-iteration-count:infinite;
+  transform:translate(0,-2px);
+  color:yellow;
+}

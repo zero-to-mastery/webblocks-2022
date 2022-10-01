@@ -8,6 +8,20 @@
     "author_github_url": "https://github.com/amulyaprasanth/"
   },
   {
+    "name": "Flip Card",
+    "page_link": "./blocks/arunbohra/index.html",
+    "block_icon": "./blocks/arunbohra/icon.png",
+    "author_name": "Arun Bohra",
+    "author_github_url": "https://github.com/ArunBohra12/"
+  },
+  {
+    "name": "Movie Component",
+    "page_link": "./blocks/christinarepou/index.html",
+    "block_icon": "./blocks/christinarepou/icon.png",
+    "author_name": "Christina Repou",
+    "author_github_url": "https://github.com/ChrRepou/"
+  },
+  {
     "name": "ZTM Focus",
     "page_link": "./blocks/dmitriifomin/index.html",
     "block_icon": "./blocks/dmitriifomin/icon.png",
