@@ -20,6 +20,13 @@
     "block_icon": "./blocks/mattcsmith/icon.png",
     "author_name": "Matt",
     "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
+    "name": "Ripped Paper Effect",
+    "page_link": "./blocks/rachelktyjohnson/index.html",
+    "block_icon": "./blocks/rachelktyjohnson/icon.png",
+    "author_name": "Rachel",
+    "author_github_url": "https://github.com/rachelktyjohnson/"
   }
 ]
 
