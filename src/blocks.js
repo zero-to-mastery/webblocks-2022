@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Slide Menu",
+    "page_link": "./blocks/Neha/index.html",
+    "block_icon": "./blocks/Neha/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
@@ -148,6 +155,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "TicTacToe",
+    "page_link": "./blocks/pranavpathak08/index.html",
+    "block_icon": "./blocks/pranavpathak08/icon.png",
+    "author_name": "Pranav Pathak",
+    "author_github_url": "https://github.com/pranavpathak08/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
@@ -167,6 +181,13 @@
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
+    "name": "Moving Bus",
+    "page_link": "./blocks/siddharthsinghvats3/index.html",
+    "block_icon": "./blocks/siddharthsinghvats3/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
   },
   {
     "name": "Beautiful Timeline Design",
