@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Pop-up Button",
+    "page_link": "./blocks/Geetika/index.html",
+    "block_icon": "./blocks/Geetika/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
@@ -27,6 +34,13 @@
     "block_icon": "./blocks/RitikaAgrawal811/icon.png",
     "author_name": "Ritika Agrawal",
     "author_github_url": "https://github.com/Ritika-Agrawal811"
+  },
+  {
+    "name": "Flip Gallery",
+    "page_link": "./blocks/Rohald89/index.html",
+    "block_icon": "./blocks/Rohald89/icon.png",
+    "author_name": "Rohald",
+    "author_github_url": "https://github.com/Rohald89/"
   },
   {
     "name": "Wave",
@@ -127,6 +141,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "Animated Monitor design",
+    "page_link": "./blocks/imashi/index.html",
+    "block_icon": "./blocks/imashi/icon.png",
+    "author_name": "MadhaviImashi",
+    "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
@@ -160,6 +181,13 @@
     "block_icon": "./blocks/pranavpathak08/icon.png",
     "author_name": "Pranav Pathak",
     "author_github_url": "https://github.com/pranavpathak08/"
+  },
+  {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra/index.html",
+    "block_icon": "./blocks/pritindra/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
   },
   {
     "name": "Card Profile PunGrumpy",
