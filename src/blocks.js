@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/betiniakarandut/"
   },
   {
+    "name": "Flipping Text",
+    "page_link": "./blocks/billlunger/index.html",
+    "block_icon": "./blocks/billlunger/icon.png",
+    "author_name": "Bill Lunger",
+    "author_github_url": "https://github.com/billlunger/"
+  },
+  {
     "name": "Movie Component",
     "page_link": "./blocks/christinarepou/index.html",
     "block_icon": "./blocks/christinarepou/icon.png",
