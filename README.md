@@ -4,7 +4,7 @@
 >
 > Everyone is highly encouraged to partipate in this project regardless of you knowledge, after all practice makes us all better developers!
 
-## ❇️ Getting Started with Hacktoberfest
+## ❇️ Gets Started with Hacktoberfest
 
 Hacktoberfest is a month-long celebration of open source, organised by Digital Ocean. ([More details here](https://github.com/zero-to-mastery/Hacktoberfest-2022/blob/master/README.md#what-is-hacktoberfest))
 
@@ -21,7 +21,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 ---
 
-## ❇️ Rules
+## ❇️ Rules are:-
 
 - Use only HTML, CSS and vanilla JavaScript
 - Please make sure that the code is your own, and not copied from somewhere else
@@ -31,7 +31,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 > Well that is entirely upto you. Take a look at some of your favorite website and try to recreate one of their components but with your own spin. It could be anything ranging from a simple styled button or toggle switch to a complete contact form.
 
-## ❇️ How to contribute
+## ❇️ How to contribute?
 
 0. Start chatting with other ZTM students in the #hacktoberfest-2022 channel on our Discord to get help, work together, and share your contributions!
 
