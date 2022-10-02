@@ -139,6 +139,13 @@
     "block_icon": "./blocks/terrifricker/icon.png",
     "author_name": "Terri Fricker",
     "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
+    "name": "CHILL WAVES",
+    "page_link": "./blocks/vishalpatil20/index.html",
+    "block_icon": "./blocks/vishalpatil20/icon.png",
+    "author_name": "vishalpatil20",
+    "author_github_url": "https://github.com/vishalpatil20"
   }
 ]
 
