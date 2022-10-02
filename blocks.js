@@ -141,6 +141,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "Loader",
+    "page_link": "./blocks/hinedy/index.html",
+    "block_icon": "./blocks/hinedy/icon.png",
+    "author_name": "Ahmed Hinedy",
+    "author_github_url": "https://github.com/hinedy"
+  },
+  {
     "name": "Animated Monitor design",
     "page_link": "./blocks/imashi/index.html",
     "block_icon": "./blocks/imashi/icon.png",
