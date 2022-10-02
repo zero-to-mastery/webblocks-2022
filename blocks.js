@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/ArunBohra12/"
   },
   {
+    "name": "Flex box",
+    "page_link": "./blocks/avatar/index.html",
+    "block_icon": "./blocks/avatar/icon.png",
+    "author_name": "avatar",
+    "author_github_url": "https://github.com/avatar-10000/"
+  },
+  {
     "name": "Toggle Switch",
     "page_link": "./blocks/betiniakarandut/index.html",
     "block_icon": "./blocks/betiniakarandut/icon.png",
