@@ -218,6 +218,13 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Dark Mode Toggle Switch",
+    "page_link": "./blocks/sammneto/index.html",
+    "block_icon": "./blocks/sammneto/icon.png",
+    "author_name": "Samm",
+    "author_github_url": "https://github.com/sammkodes96"
+  },
+  {
     "name": "Flash Button",
     "page_link": "./blocks/siddharthsinghvats/index.html",
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
