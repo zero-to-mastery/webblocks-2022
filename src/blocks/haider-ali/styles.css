@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #28282B;
+}
+
+.req {
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+}
+.json {
+    width: 300px;
+    color: yellow;
+}
