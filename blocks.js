@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/betiniakarandut/"
   },
   {
+    "name": "Flipping Text",
+    "page_link": "./blocks/billlunger/index.html",
+    "block_icon": "./blocks/billlunger/icon.png",
+    "author_name": "Bill Lunger",
+    "author_github_url": "https://github.com/billlunger/"
+  },
+  {
     "name": "Movie Component",
     "page_link": "./blocks/christinarepou/index.html",
     "block_icon": "./blocks/christinarepou/icon.png",
@@ -170,7 +177,7 @@
     contents.push([
       `<li class="card">` +
         `<a href='${c.page_link}' target="_blank">` +
-        `<img class="art-image" src='${c.art_icon}' alt='${c.name}' onerror="this.src='https://cdn.discordapp.com/attachments/870676772683919390/891310666596630538/coming-soon-logo_okok.png';"/>` +
+        `<img class="art-image" src='${c.block_icon}' alt='${c.name}' onerror="this.src='https://cdn.discordapp.com/attachments/870676772683919390/891310666596630538/coming-soon-logo_okok.png';"/>` +
         `</a>` +
         `<div class="flex-content">` +
         `<a href='${c.page_link}' target="_blank"><h3 class="art-title">${c.name}</h3></a>` +
