@@ -148,6 +148,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "TicTacToe",
+    "page_link": "./blocks/pranavpathak08/index.html",
+    "block_icon": "./blocks/pranavpathak08/icon.png",
+    "author_name": "Pranav Pathak",
+    "author_github_url": "https://github.com/pranavpathak08/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
