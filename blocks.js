@@ -183,6 +183,13 @@
     "author_github_url": "https://github.com/siddharthsinghvats/"
   },
   {
+    "name": "Moving Bus",
+    "page_link": "./blocks/siddharthsinghvats3/index.html",
+    "block_icon": "./blocks/siddharthsinghvats3/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
+  },
+  {
     "name": "Beautiful Timeline Design",
     "page_link": "./blocks/tarunmankar/index.html",
     "block_icon": "./blocks/tarunmankar/icon.png",
