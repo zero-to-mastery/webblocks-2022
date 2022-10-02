@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Pop-up Button",
+    "page_link": "./blocks/Geetika/index.html",
+    "block_icon": "./blocks/Geetika/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",

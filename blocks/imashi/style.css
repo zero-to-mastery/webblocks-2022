@@ -1,0 +1,97 @@
+body {
+  background: #000;
+}
+
+.monitor {
+  flex-direction: row;
+}
+
+.monitor-stand {
+  position: absolute;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  height: 5em;
+  width: 5em;
+  background: #444;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+.outer-frame {
+  position: absolute;
+  right: calc(50% - 3em);
+  top: calc(50% - 2em);
+  height: 4em;
+  width: 7em;
+  background: orange;
+  border: none;
+  border-radius: 0.2em;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+.tv-brand {
+  flex-direction: row;
+  position: absolute;
+  padding-bottom: 2px;
+  font-size: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+}
+
+.screen {
+  position: absolute;
+  right: calc(50% - 3em);
+  top: calc(50% - 2em);
+  height: 3.3em;
+  width: 7em;
+  background: #444;
+  border: none;
+  border-top: 3px solid orange;
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
+  border-radius: 0.2em;
+  color: #fff;
+  font-family: italic;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+/* Animate the button elements */
+button {
+  animation: slight-move 2.5s linear infinite;
+}
+
+@keyframes slight-move {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+.screen:hover {
+  color: #1e8a49;
+  background-color: #e3e3e3;
+}
