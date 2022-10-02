@@ -162,6 +162,13 @@
     "author_github_url": "https://github.com/pranavpathak08/"
   },
   {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra/index.html",
+    "block_icon": "./blocks/pritindra/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
