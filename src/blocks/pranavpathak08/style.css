@@ -1,0 +1,150 @@
+/*----------GOOGLE FONTS----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px;
+    border-color:rgb(244, 234, 87) ;
+    border-style: solid;
+    line-height: 75px;
+    border-radius: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    background-color: rgb(26, 26, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(244, 234, 87);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+label{
+    color: rgb(244, 234, 87);
+}
+
+.displayNames{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.oPlayer{
+    padding-left: 40px;
+}
+#dispX, #dispO{
+    padding-top: 25px;
+}
+#scoreX, #scoreO{
+    padding-top: 30px;
+}
+
+.split{
+    color: rgb(244, 234, 87);
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.colon{
+    display: flex;
+    flex-direction: column;
+}
+.colon2{
+    padding-top: 90px;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+input{
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding-top: 20px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+button{
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid;
+    background-color: #060D36;
+    color: #b1b10c;
+    transition: all 0.25s;
+    margin-top: 40px;
+}
+
+button:hover{
+    color: white;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.5em #ffff00;
+    border-color: #ffff00;
+}
+
+
+.playbutton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.startgamehide{
+    display: none;
+}
+.gameContainer{
+    text-align: center;
+    
+}
+.gameContainerHide{
+    display: none;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#statusText{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.xPlayer, .oPlayer{
+    color: white;
+    font-size: 25px;
+}
+
+@media(max-width: 321px){
+    .xPlayer, .oPlayer{
+        font-size: 15px;
+    }
+}
+#rematchBtn{
+    margin-right: 15px;
+}
+#restartBtn{
+    margin-left: 15px;
+}
