@@ -15,6 +15,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "Wave",
+    "page_link": "./blocks/Sakshi-Bhakta-Wave/index.html",
+    "block_icon": "./blocks/Sakshi-Bhakta-Wave/icon.png",
+    "author_name": "Sakshi Bhakta",
+    "author_github_url": "https://github.com/sakshii2000"
+  },
+  {
     "name": "Image Swiper",
     "page_link": "./blocks/Sayed-Husain/index.html",
     "block_icon": "./blocks/Sayed-Husain/icon.png",
