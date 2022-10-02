@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.loader {
+    width: 360px;
+    height: 360px;
+   
+    border-radius: 50%;
+    border: 45px dotted rgb(255, 255, 255);
+    border-top: 45px dotted black;
+    animation: spin 3s cubic-bezier(0.6, 0.2, 0.5, 0.8) infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

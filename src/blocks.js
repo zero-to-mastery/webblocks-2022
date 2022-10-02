@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/Neha045/"
   },
   {
+    "name": "Loading...",
+    "page_link": "./blocks/Neha2/index.html",
+    "block_icon": "./blocks/Neha2/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
@@ -55,6 +62,13 @@
     "block_icon": "./blocks/Sayed-Husain/icon.png",
     "author_name": "Sayed-Husain",
     "author_github_url": "https://github.com/Sayed-Husain/"
+  },
+  {
+    "name": "Animation Card",
+    "page_link": "./blocks/Sunainacode/index.html",
+    "block_icon": "./blocks/Sunainacode/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
   },
   {
     "name": "Toggle Button",
@@ -141,6 +155,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "Loader",
+    "page_link": "./blocks/hinedy/index.html",
+    "block_icon": "./blocks/hinedy/icon.png",
+    "author_name": "Ahmed Hinedy",
+    "author_github_url": "https://github.com/hinedy"
+  },
+  {
     "name": "Animated Monitor design",
     "page_link": "./blocks/imashi/index.html",
     "block_icon": "./blocks/imashi/icon.png",
@@ -202,6 +223,13 @@
     "block_icon": "./blocks/rachelktyjohnson/icon.png",
     "author_name": "Rachel",
     "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
+    "name": "Dark Mode Toggle Switch",
+    "page_link": "./blocks/sammneto/index.html",
+    "block_icon": "./blocks/sammneto/icon.png",
+    "author_name": "Samm",
+    "author_github_url": "https://github.com/sammkodes96"
   },
   {
     "name": "Flash Button",
