@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/Neha045/"
   },
   {
+    "name": "Loading...",
+    "page_link": "./blocks/Neha2/index.html",
+    "block_icon": "./blocks/Neha2/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
