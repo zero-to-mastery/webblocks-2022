@@ -181,7 +181,14 @@
     "block_icon": "./blocks/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20"
-  }
+  },
+  {
+    "name": "Breakout Game",
+    "page_link": "./blocks/DhanushNehru/index.html",
+    "block_icon": "./blocks/DhanushNehru/icon.png",
+    "author_name": "DhanushNehru",
+    "author_github_url": "https://github.com/DhanushNehru"
+  }      
 ]
 
     
