@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Animation Card",
+    "page_link": "./blocks/ArihantPal/index.html",
+    "block_icon": "./blocks/ArihantPal/icon.png",
+    "author_name": "Arihant Pal",
+    "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
