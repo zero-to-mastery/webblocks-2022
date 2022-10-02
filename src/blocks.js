@@ -127,6 +127,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Navbar Bottom Sticky Top",
+    "page_link": "./blocks/leocsdev/index.html",
+    "block_icon": "./blocks/leocsdev/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
     "name": "Alert function with confirmation",
     "page_link": "./blocks/lordkerwin/index.html",
     "block_icon": "./blocks/lordkerwin/icon.png",
