@@ -36,6 +36,13 @@
     "author_github_url": "https://github.com/Sayed-Husain/"
   },
   {
+    "name": "Toggle Button",
+    "page_link": "./blocks/Ukesh-dev/index.html",
+    "block_icon": "./blocks/Ukesh-dev/icon.png",
+    "author_name": "Ukesh Shrestha",
+    "author_github_url": "https://github.com/Ukesh-dev/"
+  },
+  {
     "name": "HP OMEM Logo",
     "page_link": "./blocks/amulyaprasanth/index.html",
     "block_icon": "./blocks/amulyaprasanth/icon.png",
@@ -118,6 +125,13 @@
     "block_icon": "./blocks/insidiae/icon.png",
     "author_name": "Insidiae",
     "author_github_url": "https://github.com/Insidiae/"
+  },
+  {
+    "name": "Navbar Bottom Sticky Top",
+    "page_link": "./blocks/leocsdev/index.html",
+    "block_icon": "./blocks/leocsdev/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
   },
   {
     "name": "Alert function with confirmation",
