@@ -99,6 +99,13 @@
     "author_github_url": "https://github.com/godnondsilva/"
   },
   {
+    "name": "Test Your Api",
+    "page_link": "./blocks/haider-ali/index.html",
+    "block_icon": "./blocks/haider-ali/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev/"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
