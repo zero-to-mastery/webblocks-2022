@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Slide Menu",
+    "page_link": "./blocks/Neha/index.html",
+    "block_icon": "./blocks/Neha/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
