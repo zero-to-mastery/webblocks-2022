@@ -29,6 +29,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "Flip Gallery",
+    "page_link": "./blocks/Rohald89/index.html",
+    "block_icon": "./blocks/Rohald89/icon.png",
+    "author_name": "Rohald",
+    "author_github_url": "https://github.com/Rohald89/"
+  },
+  {
     "name": "Wave",
     "page_link": "./blocks/Sakshi-Bhakta-Wave/index.html",
     "block_icon": "./blocks/Sakshi-Bhakta-Wave/icon.png",
