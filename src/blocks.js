@@ -183,6 +183,13 @@
     "author_github_url": "https://github.com/leocsdev"
   },
   {
+    "name": "Return To Top Button",
+    "page_link": "./blocks/leocsdev2/index.html",
+    "block_icon": "./blocks/leocsdev2/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
     "name": "Alert function with confirmation",
     "page_link": "./blocks/lordkerwin/index.html",
     "block_icon": "./blocks/lordkerwin/icon.png",
