@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script src="index.js" defer></script>
+
+<form id="form" class="pets_form">
+   <div class="form_container">
+    <h2 class="form_title">My Pets:</h2>
+    <p id="alert" class="alert">Please do not leave any empty fields</p>
+    <div class="form_labels">
+        <div class="label_container">
+            <label class="form_label" for="name">Name:</label>
+            <input class="form_input" type="text" id="name">
+        </div>
+        <div class="label_container">
+            <label class="form_label" for="species">Species:</label>
+            <input class="form_input" type="text" id="species">
+        </div>
+        <div class="label_container">
+            <label class="form_label" for="age">Age:</label>
+            <input class="form_input" type="text" id="age">
+        </div>
+        <div class="label_container">
+            <label class="form_label" for="toy">Favorite Toy:</label>
+            <input class="form_input" type="text" id="toy">
+        </div>
+    </div>
+    <button id="add_pet">Add Pet</button>
+   </div>
+</form>
+<div id="pet_list">
+
+</div>
+</body>
+</html>

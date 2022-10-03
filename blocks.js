@@ -15,6 +15,20 @@
     "author_github_url": "https://github.com/geetika005"
   },
   {
+    "name": "Old TV",
+    "page_link": "./blocks/HaimHamiel/index.html",
+    "block_icon": "./blocks/HaimHamiel/icon.png",
+    "author_name": "HaimHamiel",
+    "author_github_url": "https://github.com/HaimHamiel"
+  },
+  {
+    "name": "Toggle Luxury Mode",
+    "page_link": "./blocks/HarshChauhan/index.html",
+    "block_icon": "./blocks/HarshChauhan/icon.png",
+    "author_name": "Harsh Chauhan",
+    "author_github_url": "https://github.com/yes-im-harsh/"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
