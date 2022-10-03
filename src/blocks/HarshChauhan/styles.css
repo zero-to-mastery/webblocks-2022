@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-items {
+  margin-top: 20px;
+  padding: 10px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dracula {
+  background-color: rgb(56, 58, 89);
+  color: rgb(255, 121, 198);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.luxury {
+  background-color: rgb(9, 9, 11);
+  color: rgb(220, 165, 76);
+  font-family: cursive;
+}
+.cyberpunk {
+  background-color: rgb(255, 238, 0);
+  color: rgb(255, 117, 152);
+  font-family: monospace;
+}
