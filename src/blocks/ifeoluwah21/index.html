@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Chart</title>
+</head>
+
+<body>
+    <form>
+        <div class="control-name">
+            <label for="item">Item :</label>
+            <input type="text" id="item" class="name">
+        </div>
+        <div class="control-price">
+            <label for="price">Price :</label>
+            <input type="number" min="0.01" step="0.01" id="price" class="amount">
+        </div>
+        <div class="control-date">
+            <label for="date">Date :</label>
+            <input type="date" min="2022-01-01" max="2022-12-31" id="date" class="date">
+        </div>
+        <button class="btn" type="submit">Add Item</button>
+    </form>
+    <div class="chart">
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="0"></div>
+            </div>
+            <div class="bar__desc">Jan</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="1"></div>
+            </div>
+            <div class="bar__desc">Feb</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="2"></div>
+            </div>
+            <div class="bar__desc">Mar</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="3"></div>
+            </div>
+            <div class="bar__desc">Apr</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="4"></div>
+            </div>
+            <div class="bar__desc">May</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="5"></div>
+            </div>
+            <div class="bar__desc">Jun</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="6"></div>
+            </div>
+            <div class="bar__desc">Jul</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="7"></div>
+            </div>
+            <div class="bar__desc">Aug</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="8"></div>
+            </div>
+            <div class="bar__desc">Sep</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="9"></div>
+            </div>
+            <div class="bar__desc">Oct</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="10"></div>
+            </div>
+            <div class="bar__desc">Nov</div>
+        </div>
+        <div class="bar-wrapper">
+            <div class="bar">
+                <div class="bar__solid" data-month="11"></div>
+            </div>
+            <div class="bar__desc">Dec</div>
+        </div>
+    </div>
+    <section class="item-section">
+
+    </section>
+</body>
+<script src="./main.js" defer></script>
+
+</html>
