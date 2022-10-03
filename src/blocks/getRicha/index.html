@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Give Feedback</h1>
+    <div class="emoji-rating">
+        <span class="emoji" data-id="1">😞</span>
+        <span class="emoji" data-id="2">🙁</span>
+        <span class="emoji" data-id="3">😐</span>
+        <span class="emoji" data-id="4">😀</span>
+        <span class="emoji" data-id="5">😁</span>
+    </div>
+    <form class="feedback">
+      <label for="feedback-note">Please rate your experience</label>
+      <textarea id="feedback-note" name="feedback-note" placeholder="Tell us what can be improved..." rows="5" cols="33"></textarea>
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class='spacer'></div>
+  <footer>
+    <div class='footer-copyright text-center'>&copy; Developed with ❤️ by <a href='https://github.com/getRicha' class='white-text'>Richa</a>.
+  </footer>
+
+  <script  src="script.js"></script>
+</body>
+</html>
