@@ -1,11 +1,25 @@
 
     let cards = [
   {
+    "name": "Toggle Button",
+    "page_link": "./blocks/AmoghRao@arioum/index.html",
+    "block_icon": "./blocks/AmoghRao@arioum/icon.png",
+    "author_name": "AmoghRao",
+    "author_github_url": "https://github.com/arioum/"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
     "author_name": "Arihant Pal",
     "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
+    "name": "To do list",
+    "page_link": "./blocks/AyushKNath/index.html",
+    "block_icon": "./blocks/AyushKNath/icon.png",
+    "author_name": "Ayush Kumar Nath",
+    "author_github_url": "https://github.com/ayushknath"
   },
   {
     "name": "Pop-up Button",
@@ -27,6 +41,13 @@
     "block_icon": "./blocks/HarshChauhan/icon.png",
     "author_name": "Harsh Chauhan",
     "author_github_url": "https://github.com/yes-im-harsh/"
+  },
+  {
+    "name": "Animated Heading",
+    "page_link": "./blocks/HarshilSharma/index.html",
+    "block_icon": "./blocks/HarshilSharma/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
     "name": "Slide Menu",
@@ -141,6 +162,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "switch box",
+    "page_link": "./blocks/conor-v/index.html",
+    "block_icon": "./blocks/conor-v/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
@@ -246,6 +274,13 @@
     "author_github_url": "https://github.com/leocsdev"
   },
   {
+    "name": "Simple Form With Validation",
+    "page_link": "./blocks/leocsdev3/index.html",
+    "block_icon": "./blocks/leocsdev3/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
     "name": "Alert function with confirmation",
     "page_link": "./blocks/lordkerwin/index.html",
     "block_icon": "./blocks/lordkerwin/icon.png",
@@ -307,6 +342,13 @@
     "block_icon": "./blocks/rachelktyjohnson/icon.png",
     "author_name": "Rachel",
     "author_github_url": "https://github.com/rachelktyjohnson/"
+  },
+  {
+    "name": "Note Card Component",
+    "page_link": "./blocks/rajarshiRoy/index.html",
+    "block_icon": "./blocks/rajarshiRoy/icon.png",
+    "author_name": "Rajarshi Roy",
+    "author_github_url": "https://github.com/Royincog"
   },
   {
     "name": "Dark Mode Toggle Switch",
