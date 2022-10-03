@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./audio-player.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Audio Player</title>
+</head>
+
+<body>
+    <div class="main-container">
+            <div class="player-container">
+                <div class="top-container">
+                    <i class="material-icons">
+                            keyboard_double_arrow_down</i>
+                    <span>Now playing</span>
+                    <i class="material-icons">                            more_horiz</i>
+                </div>
+                <div class="img-area">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/d4daf9009f14f4dbdf04635abaac5ee1/264x264.jpg" alt="">
+                </div>
+                <div class="song-details">
+                    <p class="name">Liz Martin - Mango</p>
+                    <p class="artist">Liz Martin</p>
+                </div>
+                <div class="progress-area">
+                    <div class="progress-bar"></div>
+                    <div class="timer">
+                        <span class="current">0:20</span>
+                        <span class="current">3:10</span>
+                    </div>
+                    <div class="controls">
+                        <i id="repeat-playlist" class="material-icons">repeat</i>
+                        <i id="repeat-playlist" class="material-icons">skip_previous</i>
+                        <div class="play-pause">
+                            <i  class="material-icons">play_arrow</i>
+                        </div>
+                        <i id="repeat-playlist" class="material-icons">skip_next</i>
+                        <i id="repeat-playlist" class="material-icons">queue_music</i>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="./music-list.js"></script>
+    <script src="./audio-player.js"></script>
+</body>
+
+</html>
