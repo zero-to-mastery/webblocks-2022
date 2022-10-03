@@ -176,6 +176,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Keyboard interactions with sounds ft. DBZ and Naruto",
+    "page_link": "./blocks/karan919/index.html",
+    "block_icon": "./blocks/karan919/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
     "name": "Navbar Bottom Sticky Top",
     "page_link": "./blocks/leocsdev/index.html",
     "block_icon": "./blocks/leocsdev/icon.png",
