@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Carousel container */
+.carousel-container {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.grid-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Images */
+.focused {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.not-focused {
+  transform: scale(0.8);
+  opacity: 0.45;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Button */
+.grid-container button {
+  position: absolute;
+}
+
+.right-grid button {
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
+.left-grid button {
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+.navigation-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation-button:hover {
+  transform: scale(1.15);
+}
+
+.navigation-button:disabled {
+  cursor: default;
+  transform: none;
+}
+
+/* Arrow */
+.arrow {
+  border: solid rgb(67, 67, 67);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.arrow.next {
+  transform: rotate(-45deg);
+}
+
+.arrow.previous {
+  transform: rotate(135deg);
+}
+
+@media screen and (max-width: 600px) {
+  .arrow {
+    border-width: 0 1.5px 1.5px 0;
+    padding: 3px;
+  }
+}

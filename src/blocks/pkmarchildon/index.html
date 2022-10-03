@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Component</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="carousel-container" id="carousel-container">
+      <div class="left-grid grid-container">
+        <img id="left-img" class="carousel-image not-focused" />
+        <button
+          id="previous-button"
+          class="navigation-button"
+          onclick="{previousImage()}"
+        >
+          <span class="arrow previous"></span>
+        </button>
+      </div>
+
+      <img id="center-img" class="focused carousel-image" />
+
+      <div class="right-grid grid-container">
+        <img id="right-img" class="not-focused carousel-image" />
+        <button
+          id="next-button"
+          class="navigation-button"
+          onclick="{nextImage()}"
+        >
+          <span class="arrow next"></span>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
