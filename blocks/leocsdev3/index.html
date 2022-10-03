@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Form With Validation</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Please help us improve our service. We love to hear from you.
+      </p>
+
+      <section id="form-wrap">
+        <p class="error-msg">Error Goes Here</p>
+
+        <form id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="age" id="number-label">Age</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              placeholder="Age"
+              min="10"
+              max="99"
+            />
+          </div>
+
+          <div class="form-group">
+            <p>Comments or suggestions about our service</p>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="8"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+
+          <input type="submit" class="btn" id="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
