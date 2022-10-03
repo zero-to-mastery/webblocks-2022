@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="myBody">
+    <!-- START GAME  -->
+    <div class="container" id="container">
+        <div id="startgame">
+            <h1 align="center">TIC TAC TOE</h1>
+            <form  onsubmit=" return gameScreen()" action="">
+                <label for="playerX">PLAYER X :</label>
+                <input type="text" id="playerX" name="playerX" required autofocus/><br><br><br>
+                <label for="playerO">PLAYER O :</label>
+                <input type="text" id="playerO" name="playerO" required/>  
+                <button  type="submit" id="startBtn">play</button>
+            </form>
+            <div class="playbutton">
+                  
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div class="gameContainer gameContainerHide" id="gameContainer"> 
+        <h1>The battle of X and O</h1>
+        <div class="displayNames">
+            <div class="xPlayer" id="xname">PLAYER X
+                <div id="dispX"></div>
+                <div id="scoreX"></div>
+            </div>
+            <div class="colon">
+                <span class="split">vs</span>
+                <span class="colon2 split">:</span>
+            </div>
+            <div class="oPlayer" id="oname">PLAYER O
+                <div id="dispO"></div>
+                <div id="scoreO"></div>
+            </div>
+        </div>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button id="rematchBtn">Rematch</button>
+        <button id="restartBtn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

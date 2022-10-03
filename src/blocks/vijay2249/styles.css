@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body{
+	height: 100vh;
+	font-family: 'Montseeat',sans-serif;
+	background: linear-gradient(45deg,#d8f2f3 0%,#ebf9f9 100%);
+}
+
+.center, .front-face, .back-face, .contents{
+	position: absolute;
+}
+
+.center{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 65%;
+	width: 25%;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+
+.front-face, .back-face{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)),url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: transform 1s cubic-bezier(0.4,0.2,0.2,1);
+}
+
+.contents{
+	left: 0;
+	top: 50%;
+	width: 100%;
+	perspective: 100px;
+	transform: translateY(-50%) translateZ(60px) scale(0.94);
+}
+
+.front p{
+	color: white;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+.front p::after{
+	content: '';
+	display: flex;
+	left: 0;
+	right: 0;
+	height: 2px;
+	width: 100px;
+	background:white;
+	margin: 0 auto;
+	margin-top:10px;
+}
+
+.font span{
+	color: white;
+	font-size: 23px;
+}
+
+.back-face{
+	transform: rotateY(180deg);
+	background:linear-gradient(45deg, #043348 0%,#032535 100%);
+}
+
+.back{
+	color: white;
+}
+.back h2{
+	font-weight: lighter;
+	font-size: 28px;
+	padding-bottom: 5px;
+}
+
+.back span{
+	font-size: 25px;
+}
+
+.icons{
+	margin: 10px 0;
+}
+
+.icons i{
+	color: #042f4b;
+	background:white;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	margin: 0 5px;
+	cursor: pointer; 
+}
+
+.center:hover> .back-face{
+	transform: rotateY(0deg);
+}
+
+.center:hover> .front-face{
+	transform: rotateY(-180deg);
+}
+
+img {
+	margin: 5px;
+}
+
+span{
+	color: white;
+}
+
+.front-face{
+	background-image: url(surprice.jpg);
+	background-image: cover;
+}
+
+#one{
+	color: white;
+}
+
+img{
+	height: 15%;
+	width: 15%;
+}
+
+@media screen 
+	and (device-width: 360px)
+	and (device-height: 640px)
+	and (-webkit-device-pixel-ratio: 3){
+		.front-face{
+			width: 40px;
+		}
+	}
+
+fa-twitter{
+	height:21%;
+	width:21%;
+}
