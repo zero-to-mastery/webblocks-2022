@@ -302,6 +302,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Web Developer Tasks",
+    "page_link": "./blocks/nuha/index.html",
+    "block_icon": "./blocks/nuha/icon.png",
+    "author_name": "Nuha",
+    "author_github_url": "https://github.com/nuhacodes/"
+  },
+  {
     "name": "Simple Progress Bar",
     "page_link": "./blocks/oluwatomilola/index.html",
     "block_icon": "./blocks/oluwatomilola/icon.png",
