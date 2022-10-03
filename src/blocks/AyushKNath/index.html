@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a5a5d4c734.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>To-do list</title>
+</head>
+
+<body>
+    <header>
+        <h1>To-do list</h1>
+    </header>
+
+    <main class="main-container">
+        <div class="user-task-form">
+            <input type="text" id="user-task-input" autofocus placeholder="Type task">
+            <button type="button" class="btn user-task-add" title="Add task">Add</button>
+        </div>
+
+        <section class="task-container">
+            <ul class="task-list"></ul>
+        </section>
+    </main>
+
+    <button type="button" class="theme-ctrl to-dark">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
