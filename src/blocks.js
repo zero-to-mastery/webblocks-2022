@@ -302,6 +302,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Flip Card",
+    "page_link": "./blocks/nikkikal/index.html",
+    "block_icon": "./blocks/nikkikal/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
     "name": "Web Developer Tasks",
     "page_link": "./blocks/nuha/index.html",
     "block_icon": "./blocks/nuha/icon.png",
