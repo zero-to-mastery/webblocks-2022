@@ -169,6 +169,13 @@
     "author_github_url": "https://github.com/conor-v"
   },
   {
+    "name": "social links",
+    "page_link": "./blocks/conor-v2/index.html",
+    "block_icon": "./blocks/conor-v2/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
