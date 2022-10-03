@@ -120,6 +120,12 @@
     "author_github_url": "https://github.com/amulyaprasanth/"
   },
   {
+    "page_link": "./blocks/anudeep/index.html",
+    "block_icon": "./blocks/anudeep/icon.png",
+    "author_name": "Anudeep-313",
+    "author_github_url": "https://github.com/Anudeep-313"
+  },
+  {
     "name": "Flip Card",
     "page_link": "./blocks/arunbohra/index.html",
     "block_icon": "./blocks/arunbohra/icon.png",
