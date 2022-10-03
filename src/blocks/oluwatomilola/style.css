@@ -1,0 +1,22 @@
+body{
+    margin-top: 200px;
+    text-align: center;
+}
+#easy_progress {
+    width: 100%;
+    background-color: #ddd;
+}
+  
+#easy_bar {
+  width: 10%;
+  height: 30px;
+  background-color: indigo;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
