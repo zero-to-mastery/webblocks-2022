@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: powderblue;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+.cont{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
