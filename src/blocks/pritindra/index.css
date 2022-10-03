@@ -34,31 +34,6 @@ h3 {
   margin-top: 30px;
 }
 
-/* .social-text {
-  display: none;
-}
-
-.social-text[data-my-element="youtube"] > span {
-  color: #F70000;
-}
-
-.social-text[data-my-element="twitch"] > span {
-  color: #8C44F7;
-}
-
-.social-text[data-my-element="instagram"] > span {
-  background: #f09433;
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #fff;
-}
-
-.social-text.show {
-  display: block;
-} */
 
 .social-link {
   background-color: #CCCCCC;
