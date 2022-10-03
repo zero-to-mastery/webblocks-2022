@@ -253,6 +253,13 @@
     "author_github_url": "https://github.com/siddharthsinghvats"
   },
   {
+    "name": "Click Button",
+    "page_link": "./blocks/sourabhsathe/index.html",
+    "block_icon": "./blocks/sourabhsathe/icon.png",
+    "author_name": "Sourabh Sathe",
+    "author_github_url": "https://github.com/sourhub226"
+  },
+  {
     "name": "Beautiful Timeline Design",
     "page_link": "./blocks/tarunmankar/index.html",
     "block_icon": "./blocks/tarunmankar/icon.png",
