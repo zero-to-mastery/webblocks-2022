@@ -141,6 +141,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Background_Color_Changer",
+    "page_link": "./blocks/divs14/index.html",
+    "block_icon": "./blocks/divs14/icon.png",
+    "author_name": "Divyanshu Gupta",
+    "author_github_url": "https://github.com/divs14"
+  },
+  {
     "name": "ZTM Focus",
     "page_link": "./blocks/dmitriifomin/index.html",
     "block_icon": "./blocks/dmitriifomin/icon.png",
@@ -193,6 +200,13 @@
     "name": "Toggle Background Image",
     "page_link": "./blocks/imashi2/index.html",
     "block_icon": "./blocks/imashi2/icon.png",
+    "author_name": "MadhaviImashi",
+    "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
+    "name": "Space website welcome page",
+    "page_link": "./blocks/imashi3/index.html",
+    "block_icon": "./blocks/imashi3/icon.png",
     "author_name": "MadhaviImashi",
     "author_github_url": "https://github.com/MadhaviImashi"
   },
