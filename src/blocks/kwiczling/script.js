@@ -1,6 +1,7 @@
 //Init
 const consoleShow = document.getElementById("console-show");
 const consoleWrite = document.getElementById("input-write");
+const btn = document.getElementById("btn");
 let messages = [];
 
 
@@ -24,6 +25,9 @@ const addMessage = (e) => {
     }
 }
 consoleWrite.addEventListener('keyup', addMessage);
+btn.addEventListener('click', () => {
+    alert("settings");
+});
 
 //initial messeges
 messages.push(`<p>${getCurrentTime()} Hi !</p>`);
