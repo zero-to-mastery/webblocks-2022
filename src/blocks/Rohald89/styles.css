@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #d3d3d3;
+}
+
+.card-container {
+    max-width: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+.images {
+    display: grid;
+    gap: 0.5rem;
+    grid-template:
+      'top top'
+      'bl br';
+}
+
+.images.state-0 img:nth-child(1) { grid-area: top; }
+.images.state-0 img:nth-child(2) { grid-area: bl; }
+.images.state-0 img:nth-child(3) { grid-area: br; }
+
+.images.state-1 img:nth-child(1) { grid-area: br; }
+.images.state-1 img:nth-child(2) { grid-area: top; }
+.images.state-1 img:nth-child(3) { grid-area: bl; }
+
+.images.state-2 img:nth-child(1) { grid-area: bl; }
+.images.state-2 img:nth-child(2) { grid-area: br; }
+.images.state-2 img:nth-child(3) { grid-area: top; }

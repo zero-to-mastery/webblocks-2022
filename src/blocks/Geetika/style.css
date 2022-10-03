@@ -1,0 +1,38 @@
+.fade-in-image {
+    background: url(form.png);
+    width: 58vh;
+    height: 34vh;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    border-radius: 20px;
+    box-shadow: 3px 9px 8px black
+}
+
+.container {
+    background: linear-gradient(pink, blue);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+#button {
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    right: 30%;
+}
+
+#popup-button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: inset 0px 0px 3px 0px black;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}

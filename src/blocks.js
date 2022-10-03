@@ -8,6 +8,27 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Pop-up Button",
+    "page_link": "./blocks/Geetika/index.html",
+    "block_icon": "./blocks/Geetika/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005"
+  },
+  {
+    "name": "Slide Menu",
+    "page_link": "./blocks/Neha/index.html",
+    "block_icon": "./blocks/Neha/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
+    "name": "Loading...",
+    "page_link": "./blocks/Neha2/index.html",
+    "block_icon": "./blocks/Neha2/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
@@ -22,6 +43,13 @@
     "author_github_url": "https://github.com/Ritika-Agrawal811"
   },
   {
+    "name": "Flip Gallery",
+    "page_link": "./blocks/Rohald89/index.html",
+    "block_icon": "./blocks/Rohald89/icon.png",
+    "author_name": "Rohald",
+    "author_github_url": "https://github.com/Rohald89/"
+  },
+  {
     "name": "Wave",
     "page_link": "./blocks/Sakshi-Bhakta-Wave/index.html",
     "block_icon": "./blocks/Sakshi-Bhakta-Wave/icon.png",
@@ -34,6 +62,13 @@
     "block_icon": "./blocks/Sayed-Husain/icon.png",
     "author_name": "Sayed-Husain",
     "author_github_url": "https://github.com/Sayed-Husain/"
+  },
+  {
+    "name": "Animation Card",
+    "page_link": "./blocks/Sunainacode/index.html",
+    "block_icon": "./blocks/Sunainacode/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
   },
   {
     "name": "Toggle Button",
@@ -120,6 +155,20 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "Loader",
+    "page_link": "./blocks/hinedy/index.html",
+    "block_icon": "./blocks/hinedy/icon.png",
+    "author_name": "Ahmed Hinedy",
+    "author_github_url": "https://github.com/hinedy"
+  },
+  {
+    "name": "Animated Monitor design",
+    "page_link": "./blocks/imashi/index.html",
+    "block_icon": "./blocks/imashi/icon.png",
+    "author_name": "MadhaviImashi",
+    "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
@@ -130,6 +179,13 @@
     "name": "Navbar Bottom Sticky Top",
     "page_link": "./blocks/leocsdev/index.html",
     "block_icon": "./blocks/leocsdev/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
+    "name": "Return To Top Button",
+    "page_link": "./blocks/leocsdev2/index.html",
+    "block_icon": "./blocks/leocsdev2/icon.png",
     "author_name": "leocsdev",
     "author_github_url": "https://github.com/leocsdev"
   },
@@ -148,6 +204,27 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Simple Progress Bar",
+    "page_link": "./blocks/oluwatomilola/index.html",
+    "block_icon": "./blocks/oluwatomilola/icon.png",
+    "author_name": "Oluwatomilola",
+    "author_github_url": "https://github.com/DevTomilola-OS/"
+  },
+  {
+    "name": "TicTacToe",
+    "page_link": "./blocks/pranavpathak08/index.html",
+    "block_icon": "./blocks/pranavpathak08/icon.png",
+    "author_name": "Pranav Pathak",
+    "author_github_url": "https://github.com/pranavpathak08/"
+  },
+  {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra/index.html",
+    "block_icon": "./blocks/pritindra/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
@@ -162,11 +239,32 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Dark Mode Toggle Switch",
+    "page_link": "./blocks/sammneto/index.html",
+    "block_icon": "./blocks/sammneto/icon.png",
+    "author_name": "Samm",
+    "author_github_url": "https://github.com/sammkodes96"
+  },
+  {
     "name": "Flash Button",
     "page_link": "./blocks/siddharthsinghvats/index.html",
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
+    "name": "Moving Bus",
+    "page_link": "./blocks/siddharthsinghvats3/index.html",
+    "block_icon": "./blocks/siddharthsinghvats3/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
+  },
+  {
+    "name": "Click Button",
+    "page_link": "./blocks/sourabhsathe/index.html",
+    "block_icon": "./blocks/sourabhsathe/icon.png",
+    "author_name": "Sourabh Sathe",
+    "author_github_url": "https://github.com/sourhub226"
   },
   {
     "name": "Beautiful Timeline Design",
