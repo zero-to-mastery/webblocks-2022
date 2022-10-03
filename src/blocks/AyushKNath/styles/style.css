@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+:root {
+  --accent-blue: #0061d2;
+  --dark: #000;
+  --light: #fff;
+  --green: #15d160;
+  --red: #f6461f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  transition: 0.3s background-color, 0.3s color;
+}
+
+body.dark-mode {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+input {
+  font-family: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* HEADER */
+header {
+  padding: 1rem 0;
+  background-color: var(--accent-blue);
+}
+
+header h1 {
+  color: var(--light);
+  text-align: center;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+  max-width: 768px;
+  margin: 5rem auto 0;
+}
+
+/* INPUT */
+.user-task-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+  margin-right: 1rem;
+  padding: 0.875rem;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  outline: 1px solid var(--dark);
+}
+
+input:focus {
+  outline-width: 2px;
+}
+
+/* ADD BUTTON */
+.user-task-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  color: var(--light);
+  font-size: 1rem;
+  font-family: inherit;
+  border: 0;
+  outline: 0;
+  border-radius: 0.5rem;
+  background-color: var(--accent-blue);
+}
+
+/* TASK CONTAINER */
+.task-container {
+  height: 60vh;
+  margin-top: 4rem;
+  padding: 0 0.5rem;
+  overflow-y: auto;
+}
+
+/* LIST ITEMS */
+.task-list {
+  list-style-type: none;
+}
+
+.task-list li {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  column-gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.task-list li .task {
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 97, 210, 0.05);
+  transition: 0.3s background-color;
+}
+
+body.dark-mode .task-list li .task {
+  background-color: rgba(0, 97, 210, 0.24);
+}
+
+.task-list li .task-edit-ctrls {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+
+.task-list li .task-edit-ctrls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border: 0;
+  outline: 0;
+  border-radius: 0.5rem;
+}
+
+.task-list li .task-edit-ctrls .user-task-check {
+  background-color: var(--green);
+}
+.task-list li .task-edit-ctrls .user-task-delete {
+  background-color: var(--red);
+}
+
+/* THEME CONTROL */
+.theme-ctrl {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  transition: 0.3s background-color;
+}
+
+.theme-ctrl i {
+  font-size: 1.75rem;
+}
+
+.theme-ctrl.to-dark {
+  background-color: var(--dark);
+  box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.theme-ctrl.to-dark i {
+  color: var(--light);
+}
+
+.theme-ctrl.to-light {
+  background-color: var(--light);
+}
+
+.theme-ctrl.to-light i {
+  color: var(--dark);
+}
+
+/* MEDIA QUERIES */
+
+/* TABLETS */
+@media (max-width: 768px) {
+  /* MAIN CONTAINER */
+  .main-container {
+    max-width: 95%;
+  }
+
+  /* THEME CONTROL */
+  .theme-ctrl {
+    width: 60px;
+    height: 60px;
+    bottom: 3rem;
+    right: 3rem;
+  }
+}
+
+/* SMALL SCREEN DEVICES */
+@media (max-width: 425px) {
+  /* MAIN CONTAINER */
+  .main-container {
+    max-width: 93%;
+    margin-top: 0;
+    padding-top: 1.75rem;
+  }
+
+  /* INPUT */
+  input {
+    margin-right: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  /* ADD BUTTON */
+  .user-task-add {
+    padding: 0.75rem;
+  }
+
+  /* TASK CONTAINER */
+  .task-container {
+    height: 58vh;
+    margin-top: 1.75rem;
+    padding: 0;
+  }
+
+  .task-list li {
+    column-gap: 0.5rem;
+  }
+
+  .task-list li .task {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+  }
+
+  .task-list li .task-edit-ctrls {
+    column-gap: 0.5rem;
+  }
+
+  .task-list li .task-edit-ctrls button {
+    border-radius: 50%;
+    padding: 0.875rem;
+  }
+
+  /* THEME CONTROL */
+  .theme-ctrl {
+    width: 50px;
+    height: 50px;
+    bottom: 1.5rem;
+    right: 1.75rem;
+  }
+
+  .theme-ctrl i {
+    font-size: 1.5rem;
+  }
+}

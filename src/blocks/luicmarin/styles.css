@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background: url(https://i.pinimg.com/originals/a0/77/aa/a077aa76269861ba1cf74d61d2f35cfa.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.pets_form {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form_container {
+    margin-top: 2rem;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.419);
+    text-align: center;
+}
+
+.form_labels {
+    display: grid;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.label_container {
+    display: grid;
+    column-gap: 0.5rem;
+}
+
+.form_label {
+    justify-self: start;
+}
+
+.form_input {
+    grid-column: 2;
+    justify-self: end;
+    width: 20rem;
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+    background-color: transparent;
+    transition: border-radius 1s ease;
+}
+
+.form_input:focus-visible {
+    border-radius: 1rem;
+    outline: none;
+}
+
+#add_pet {
+    margin-top: 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 0.4rem 1rem;
+    transition: transform 1s ease;
+}
+
+#add_pet:hover {
+    transform: scale(1.3);
+}
+
+#pet_list {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.419);
+}
+
+.alert {
+    padding: 1rem;
+    font-size: 1.2rem;
+    display: none;
+    z-index: 100;
+    top: 4rem;
+    background-color: red;
+}
+
+.show {
+    display: block;
+}

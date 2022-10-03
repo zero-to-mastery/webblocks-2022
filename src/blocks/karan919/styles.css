@@ -1,0 +1,36 @@
+body{
+	background: url("images/back.png") no-repeat center fixed;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Silkscreen', cursive;
+	text-align: center;
+	font-size: 4rem;
+}
+
+#goku{
+	width: 25vw;
+	position: absolute;
+    bottom: 5vw;
+    left: 13vw;
+}
+
+#naruto{
+	float: right;
+    width: 32vw;
+    position: absolute;
+    bottom: 5vw;
+    right: 13vw;
+}
+
+.grow{ 
+	animation-name: big;
+	animation-duration: 2s; 
+}
+
+@keyframes big{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.3);}
+    100% {transform: scale(1);}
+}
