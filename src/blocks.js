@@ -197,6 +197,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Simple Progress Bar",
+    "page_link": "./blocks/oluwatomilola/index.html",
+    "block_icon": "./blocks/oluwatomilola/icon.png",
+    "author_name": "Oluwatomilola",
+    "author_github_url": "https://github.com/DevTomilola-OS/"
+  },
+  {
     "name": "TicTacToe",
     "page_link": "./blocks/pranavpathak08/index.html",
     "block_icon": "./blocks/pranavpathak08/icon.png",
