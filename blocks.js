@@ -197,6 +197,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "Console",
+    "page_link": "./blocks/kwiczling/index.html",
+    "block_icon": "./blocks/kwiczling/icon.png",
+    "author_name": "K-Wiczling",
+    "author_github_url": "https://github.com/K-Wiczling/"
+  },
+  {
     "name": "Navbar Bottom Sticky Top",
     "page_link": "./blocks/leocsdev/index.html",
     "block_icon": "./blocks/leocsdev/icon.png",
@@ -216,6 +223,13 @@
     "block_icon": "./blocks/lordkerwin/icon.png",
     "author_name": "Sean Kerwin",
     "author_github_url": "https://github.com/lordkerwin"
+  },
+  {
+    "name": "My Pets",
+    "page_link": "./blocks/luicmarin/index.html",
+    "block_icon": "./blocks/luicmarin/icon.png",
+    "author_name": "Marin Luic",
+    "author_github_url": "https://github.com/AcidBurnHen"
   },
   {
     "name": "ZTM Button",
