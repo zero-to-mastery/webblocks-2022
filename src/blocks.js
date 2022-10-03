@@ -176,9 +176,23 @@
     "author_github_url": "https://github.com/hinedy"
   },
   {
+    "name": "Budget Chart",
+    "page_link": "./blocks/ifeoluwah21/index.html",
+    "block_icon": "./blocks/ifeoluwah21/icon.png",
+    "author_name": "Ifeoulwa Oludare",
+    "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
     "name": "Animated Monitor design",
     "page_link": "./blocks/imashi/index.html",
     "block_icon": "./blocks/imashi/icon.png",
+    "author_name": "MadhaviImashi",
+    "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
+    "name": "Toggle Background Image",
+    "page_link": "./blocks/imashi2/index.html",
+    "block_icon": "./blocks/imashi2/icon.png",
     "author_name": "MadhaviImashi",
     "author_github_url": "https://github.com/MadhaviImashi"
   },
@@ -260,6 +274,13 @@
     "author_github_url": "https://github.com/pritindra/"
   },
   {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra2/index.html",
+    "block_icon": "./blocks/pritindra2/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
@@ -321,6 +342,13 @@
     "block_icon": "./blocks/terrifricker/icon.png",
     "author_name": "Terri Fricker",
     "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
+    "name": "3D Flip Card",
+    "page_link": "./blocks/vijay2249/index.html",
+    "block_icon": "./blocks/vijay2249/icon.png",
+    "author_name": "Vijay2249",
+    "author_github_url": "https://github.com/Vijay2249/"
   },
   {
     "name": "CHILL WAVES",
