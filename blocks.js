@@ -196,6 +196,13 @@
     "author_github_url": "https://github.com/Kanadets"
   },
   {
+    "name": "Feedback component",
+    "page_link": "./blocks/getRicha/index.html",
+    "block_icon": "./blocks/getRicha/icon.png",
+    "author_name": "Richa",
+    "author_github_url": "https://github.com/getRicha/"
+  },
+  {
     "name": "Project Card",
     "page_link": "./blocks/godnondsilva/index.html",
     "block_icon": "./blocks/godnondsilva/icon.png",
