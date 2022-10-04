@@ -1,0 +1,70 @@
+body {
+	background: #475F77;
+}
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+.searchbox {
+	position: relative;
+	min-width: 50px;
+	width: 0%;
+	height: 50px;
+	overflow: hidden;
+	float: right;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-ms-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	transition: width 0.3s;
+}
+.searchbox-input {
+	position: absolute;
+	top: 0;
+	right: 4px;
+	border: 0;
+	outline: 0;
+	background-color: #dcddd8;
+	width: 80%;
+	height: 50px;
+	margin: 0;
+	padding-left: 20px;
+	font-size: 20px;
+	color: #1d1818;
+  border-radius: 25px;
+}
+.searchbox-input::-webkit-input-placeholder {
+ color: #1d1818;
+}
+.searchbox-input:-moz-placeholder {
+ color: #1d1818;
+}
+.searchbox-input::-moz-placeholder {
+ color: #1d1818;
+}
+.searchbox-input:-ms-input-placeholder {
+ color: #1d1818;
+}
+.searchbox-icon, .searchbox-submit {
+	position: absolute;
+	right: 0;
+	top: 0;
+  border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	color: #dcddd8;
+	background-color: #1F2B3C;
+}
+.searchbox-open {
+	width: 100%;
+}
