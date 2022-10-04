@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/arioum/"
   },
   {
+    "name": "Simple Calculator",
+    "page_link": "./blocks/AnubhavChakraborty/index.html",
+    "block_icon": "./blocks/AnubhavChakraborty/icon.png",
+    "author_name": "Anubhav Chakraborty",
+    "author_github_url": "https://github.com/AnubhavChakrabortynits"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
@@ -55,6 +62,13 @@
     "block_icon": "./blocks/HarshilSharma/icon.png",
     "author_name": "Harshil Sharma",
     "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
+    "name": "TypeWriter Component",
+    "page_link": "./blocks/LuisPellizzon/index.html",
+    "block_icon": "./blocks/LuisPellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
   },
   {
     "name": "Slide Menu",
@@ -336,6 +350,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Chill Zone",
+    "page_link": "./blocks/michaella23/index.html",
+    "block_icon": "./blocks/michaella23/icon.png",
+    "author_name": "Micha",
+    "author_github_url": "https://github.com/michaella23/"
+  },
+  {
     "name": "Flip Card",
     "page_link": "./blocks/nikkikal/index.html",
     "block_icon": "./blocks/nikkikal/icon.png",
@@ -378,6 +399,13 @@
     "author_github_url": "https://github.com/pritindra/"
   },
   {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra3/index.html",
+    "block_icon": "./blocks/pritindra3/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
@@ -411,6 +439,13 @@
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
+    "name": "Quote Cards",
+    "page_link": "./blocks/siddharthsinghvats2/index.html",
+    "block_icon": "./blocks/siddharthsinghvats2/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
   },
   {
     "name": "Moving Bus",
