@@ -336,6 +336,13 @@
     "author_github_url": "https://github.com/MattCSmith/"
   },
   {
+    "name": "Chill Zone",
+    "page_link": "./blocks/michaella23/index.html",
+    "block_icon": "./blocks/michaella23/icon.png",
+    "author_name": "Micha",
+    "author_github_url": "https://github.com/michaella23/"
+  },
+  {
     "name": "Flip Card",
     "page_link": "./blocks/nikkikal/index.html",
     "block_icon": "./blocks/nikkikal/icon.png",
@@ -411,6 +418,13 @@
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
+    "name": "Quote Cards",
+    "page_link": "./blocks/siddharthsinghvats2/index.html",
+    "block_icon": "./blocks/siddharthsinghvats2/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
   },
   {
     "name": "Moving Bus",
