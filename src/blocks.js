@@ -266,6 +266,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "Bouncing DVD",
+    "page_link": "./blocks/karan919_2/index.html",
+    "block_icon": "./blocks/karan919_2/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
     "name": "Console",
     "page_link": "./blocks/kwiczling/index.html",
     "block_icon": "./blocks/kwiczling/icon.png",
