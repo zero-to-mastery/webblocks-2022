@@ -14,8 +14,6 @@ formSetTime.addEventListener('submit', function (e) {
   dateTimeValue = inputDateTime.value
   titleValue = inputTitle.value
 
-  console.log('dateTime', dateTimeValue)
-
   if (dateTimeValue === '' || titleValue === '') {
     e.preventDefault()
     document.querySelector('#error').innerHTML = 'All Fields Required'
@@ -53,9 +51,6 @@ function startCountdown(dateTime) {
     document.querySelector('#countdown-timer').innerHTML =
       days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
 
-    console.log('x:', x)
-    console.log('distance:', distance)
-
     // If the count down is over, show EXPIRED message
     // and render the set time form
     if (distance < 0) {
@@ -70,7 +65,5 @@ function startCountdown(dateTime) {
 
 // Reset - Just reload the page for simplicity
 btnClear.addEventListener('click', function () {
-  console.log('clear')
-
   location.reload()
 })
