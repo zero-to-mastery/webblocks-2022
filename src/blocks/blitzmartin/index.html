@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./styles.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -13,6 +14,7 @@
   </head>
 
   <body>
+    <!--leave src empty, you will fill it with js -->
     <audio src="" id="audio"></audio>
 
     <div class="main-container">
@@ -36,8 +38,8 @@
         <!-- slider for song progression and duration -->
         <div class="slider">
           <input type="range" value="0" class="time-bar" />
-          <span class="current-time">00:00</span>
-          <span class="song-duration">03:15</span>
+          <span class="progress-time"></span>
+          <span class="song-duration"></span>
         </div>
 
         <!-- control buttons with Google Material Icons -->

@@ -2,7 +2,7 @@ const songs = [
   {
     id: 0,
     songTitle: "Misty",
-    artist: "Liz Martin",
+    artist: "Blitzmartin",
     source: "./assets/music/Liz Martin_Misty_LoFi.mp3",
     cover:
       "https://www.japannakama.co.uk/wp-content/uploads/2021/10/lo-fi-girl-feature.jpg",
