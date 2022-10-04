@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/ayushknath"
   },
   {
+    "name": "Breakout Game",
+    "page_link": "./blocks/DhanushNehru/index.html",
+    "block_icon": "./blocks/DhanushNehru/icon.png",
+    "author_name": "Dhanush Nehru",
+    "author_github_url": "https://github.com/DhanushNehru"
+  },
+  {
     "name": "Pop-up Button",
     "page_link": "./blocks/Geetika/index.html",
     "block_icon": "./blocks/Geetika/icon.png",
