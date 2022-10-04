@@ -1,7 +1,7 @@
 const songs = [
   {
     id: 1,
-    song: "Mango",
+    song: "Misty",
     artist: "Liz Martin",
     source: "./assets/music/Liz Martin_Misty_LoFi.mp3",
     cover:

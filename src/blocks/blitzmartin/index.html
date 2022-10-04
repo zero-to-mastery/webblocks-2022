@@ -14,39 +14,44 @@
   <body>
     <audio src="" id="audio"></audio>
 
-    <div class="container">
+    <div class="main-container">
+
       <div class="player">
+
         <h3>Now Playing</h3>
+
         <div class="cover">
           <img
-            src="https://www.japannakama.co.uk/wp-content/uploads/2021/10/lo-fi-girl-feature.jpg"
+            src="https://i.scdn.co/image/ab67616d0000b2735419c0986ee778b7489da418"
             alt="song-cover"
           />
         </div>
-        <p class="song">Mango</p>
+
+        <p class="song">Misty</p>
         <p class="artist">Liz Martin</p>
+
         <div class="slider">
           <input type="range" value="0" class="time-bar" />
           <span class="current-time">00:00</span>
           <span class="song-duration">03:15</span>
         </div>
+
         <div class="controls">
             <button class="skip-btn previous"><i class="material-icons"><span class="material-symbols-outlined">
                 skip_previous
                 </span></i></button>
           <button class="play-pause-btn">
             <i class="material-icons">
-              <span class="material-symbols-outlined play">play_circle</span>
-            </i>
-            <i class="material-icons">
-              <span class="material-symbols-outlined pause">pause_circle</span>
+              <span class="material-symbols-outlined play-pause-span">play_circle</span>
             </i>
           </button>
           <button class="skip-btn next"><i class="material-icons"><span class="material-symbols-outlined">
             skip_next
             </span></i></button>
         </div>
+
       </div>
+
     </div>
 
     <script src="./app.js"></script>
