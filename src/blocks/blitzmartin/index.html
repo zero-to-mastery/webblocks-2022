@@ -11,15 +11,17 @@
     />
     <title>Simple Music Player</title>
   </head>
+
   <body>
     <audio src="" id="audio"></audio>
 
     <div class="main-container">
 
+      <!-- player component starts here -->
       <div class="player">
-
         <h3>Now Playing</h3>
 
+        <!-- album cover -->
         <div class="cover">
           <img
             src="https://i.scdn.co/image/ab67616d0000b2735419c0986ee778b7489da418"
@@ -27,33 +29,42 @@
           />
         </div>
 
-        <p class="song">Misty</p>
+        <!-- song and artist info -->
+        <p class="song-title">Misty</p>
         <p class="artist">Liz Martin</p>
 
+        <!-- slider for song progression and duration -->
         <div class="slider">
           <input type="range" value="0" class="time-bar" />
           <span class="current-time">00:00</span>
           <span class="song-duration">03:15</span>
         </div>
 
+        <!-- control buttons with Google Material Icons -->
         <div class="controls">
-            <button class="skip-btn previous"><i class="material-icons"><span class="material-symbols-outlined">
-                skip_previous
-                </span></i></button>
+          <button class="skip-btn previous">
+            <i class="material-icons"
+              ><span class="material-symbols-outlined"> skip_previous </span></i
+            >
+          </button>
           <button class="play-pause-btn">
             <i class="material-icons">
-              <span class="material-symbols-outlined play-pause-span">play_circle</span>
+              <span class="material-symbols-outlined play-pause-span"
+                >play_circle</span
+              >
             </i>
           </button>
-          <button class="skip-btn next"><i class="material-icons"><span class="material-symbols-outlined">
-            skip_next
-            </span></i></button>
+          <button class="skip-btn next">
+            <i class="material-icons"
+              ><span class="material-symbols-outlined"> skip_next </span></i
+            >
+          </button>
         </div>
-
       </div>
-
     </div>
 
+    <script src="./data.js"></script>   <!-- keep data.js BEFORE app.js!! otherwise the script cannot access the songs -->
     <script src="./app.js"></script>
+
   </body>
 </html>
