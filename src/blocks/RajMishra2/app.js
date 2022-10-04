@@ -12,9 +12,7 @@ const b=()=>{
         a.textContent=mess.quote;
         console.log(mess.anime);
     })
-    // .catch((data)=>{
-    //     a=data;
-    // })    
+     
 }
 
 document.getElementById('btn').addEventListener('click',b);
