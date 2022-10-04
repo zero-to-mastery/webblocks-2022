@@ -1,4 +1,5 @@
 html, body, div, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -45,8 +46,37 @@ input {
     height: 30px;
     background-color: black;
     border: 0;
-    color: rgb(49, 218, 34);;
+    color: rgb(49, 218, 34);
     font-size: 1.5rem;
+}
+.settings {
+    color: black;
+    font-size: larger;
+    font-weight: 900;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5vh;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgb(49, 218, 34);
+    width: 10vh;
+    height: 10vh;
+    animation: rotate 3s infinite;
+    transition: width 1s;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.settings:hover {
+    background-color: rgb(39, 178, 26);
+    width: 40vh;
+    border-radius: 5vh ;
+    animation: none;
 }
 input:focus {
     border: 0;

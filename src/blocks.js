@@ -1,11 +1,39 @@
 
     let cards = [
   {
+    "name": "Toggle Button",
+    "page_link": "./blocks/AmoghRao@arioum/index.html",
+    "block_icon": "./blocks/AmoghRao@arioum/icon.png",
+    "author_name": "AmoghRao",
+    "author_github_url": "https://github.com/arioum/"
+  },
+  {
+    "name": "Simple Calculator",
+    "page_link": "./blocks/AnubhavChakraborty/index.html",
+    "block_icon": "./blocks/AnubhavChakraborty/icon.png",
+    "author_name": "Anubhav Chakraborty",
+    "author_github_url": "https://github.com/AnubhavChakrabortynits"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
     "author_name": "Arihant Pal",
     "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
+    "name": "To do list",
+    "page_link": "./blocks/AyushKNath/index.html",
+    "block_icon": "./blocks/AyushKNath/icon.png",
+    "author_name": "Ayush Kumar Nath",
+    "author_github_url": "https://github.com/ayushknath"
+  },
+  {
+    "name": "Breakout Game",
+    "page_link": "./blocks/DhanushNehru/index.html",
+    "block_icon": "./blocks/DhanushNehru/icon.png",
+    "author_name": "Dhanush Nehru",
+    "author_github_url": "https://github.com/DhanushNehru"
   },
   {
     "name": "Pop-up Button",
@@ -27,6 +55,20 @@
     "block_icon": "./blocks/HarshChauhan/icon.png",
     "author_name": "Harsh Chauhan",
     "author_github_url": "https://github.com/yes-im-harsh/"
+  },
+  {
+    "name": "Animated Heading",
+    "page_link": "./blocks/HarshilSharma/index.html",
+    "block_icon": "./blocks/HarshilSharma/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
+    "name": "TypeWriter Component",
+    "page_link": "./blocks/LuisPellizzon/index.html",
+    "block_icon": "./blocks/LuisPellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
   },
   {
     "name": "Slide Menu",
@@ -99,6 +141,12 @@
     "author_github_url": "https://github.com/amulyaprasanth/"
   },
   {
+    "page_link": "./blocks/anudeep/index.html",
+    "block_icon": "./blocks/anudeep/icon.png",
+    "author_name": "Anudeep-313",
+    "author_github_url": "https://github.com/Anudeep-313"
+  },
+  {
     "name": "Flip Card",
     "page_link": "./blocks/arunbohra/index.html",
     "block_icon": "./blocks/arunbohra/icon.png",
@@ -141,6 +189,20 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "switch box",
+    "page_link": "./blocks/conor-v/index.html",
+    "block_icon": "./blocks/conor-v/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
+    "name": "social links",
+    "page_link": "./blocks/conor-v2/index.html",
+    "block_icon": "./blocks/conor-v2/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
@@ -153,6 +215,13 @@
     "block_icon": "./blocks/dmitriifomin/icon.png",
     "author_name": "Dmitrii",
     "author_github_url": "https://github.com/Kanadets"
+  },
+  {
+    "name": "Feedback component",
+    "page_link": "./blocks/getRicha/index.html",
+    "block_icon": "./blocks/getRicha/icon.png",
+    "author_name": "Richa",
+    "author_github_url": "https://github.com/getRicha/"
   },
   {
     "name": "Project Card",
@@ -225,6 +294,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "Bouncing DVD",
+    "page_link": "./blocks/karan919_2/index.html",
+    "block_icon": "./blocks/karan919_2/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
     "name": "Console",
     "page_link": "./blocks/kwiczling/index.html",
     "block_icon": "./blocks/kwiczling/icon.png",
@@ -242,6 +318,13 @@
     "name": "Return To Top Button",
     "page_link": "./blocks/leocsdev2/index.html",
     "block_icon": "./blocks/leocsdev2/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
+    "name": "Simple Form With Validation",
+    "page_link": "./blocks/leocsdev3/index.html",
+    "block_icon": "./blocks/leocsdev3/icon.png",
     "author_name": "leocsdev",
     "author_github_url": "https://github.com/leocsdev"
   },
@@ -265,6 +348,27 @@
     "block_icon": "./blocks/mattcsmith/icon.png",
     "author_name": "Matt",
     "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
+    "name": "Chill Zone",
+    "page_link": "./blocks/michaella23/index.html",
+    "block_icon": "./blocks/michaella23/icon.png",
+    "author_name": "Micha",
+    "author_github_url": "https://github.com/michaella23/"
+  },
+  {
+    "name": "Flip Card",
+    "page_link": "./blocks/nikkikal/index.html",
+    "block_icon": "./blocks/nikkikal/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
+    "name": "Web Developer Tasks",
+    "page_link": "./blocks/nuha/index.html",
+    "block_icon": "./blocks/nuha/icon.png",
+    "author_name": "Nuha",
+    "author_github_url": "https://github.com/nuhacodes/"
   },
   {
     "name": "Simple Progress Bar",
@@ -295,6 +399,13 @@
     "author_github_url": "https://github.com/pritindra/"
   },
   {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra3/index.html",
+    "block_icon": "./blocks/pritindra3/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
@@ -309,6 +420,13 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Note Card Component",
+    "page_link": "./blocks/rajarshiRoy/index.html",
+    "block_icon": "./blocks/rajarshiRoy/icon.png",
+    "author_name": "Rajarshi Roy",
+    "author_github_url": "https://github.com/Royincog"
+  },
+  {
     "name": "Dark Mode Toggle Switch",
     "page_link": "./blocks/sammneto/index.html",
     "block_icon": "./blocks/sammneto/icon.png",
@@ -321,6 +439,13 @@
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats/"
+  },
+  {
+    "name": "Quote Cards",
+    "page_link": "./blocks/siddharthsinghvats2/index.html",
+    "block_icon": "./blocks/siddharthsinghvats2/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
   },
   {
     "name": "Moving Bus",
