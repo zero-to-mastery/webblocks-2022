@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/arioum/"
   },
   {
+    "name": "Simple Calculator",
+    "page_link": "./blocks/AnubhavChakraborty/index.html",
+    "block_icon": "./blocks/AnubhavChakraborty/icon.png",
+    "author_name": "Anubhav Chakraborty",
+    "author_github_url": "https://github.com/AnubhavChakrabortynits"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
@@ -381,6 +388,13 @@
     "name": "Subscribe Icons",
     "page_link": "./blocks/pritindra2/index.html",
     "block_icon": "./blocks/pritindra2/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra3/index.html",
+    "block_icon": "./blocks/pritindra3/icon.png",
     "author_name": "Pritindra Das",
     "author_github_url": "https://github.com/pritindra/"
   },
