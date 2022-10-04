@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="timer-display">
+        <h1 id="title">Countdown Timer</h1>
+        <p id="countdown-timer"></p>
+      </section>
+
+      <form id="form-set-time">
+        <p id="error"></p>
+        <p id="form-description">Set Countdown Name and Time</p>
+        <input type="text" id="input-title" placeholder="Set Countdown Name" />
+        <input type="datetime-local" name="date-time" id="date-time" /><br />
+        <input type="submit" value="Set Countdown" class="btn" />
+      </form>
+
+      <button id="btn-clear" class="btn">Reset</button>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
