@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: row;
+}
+.container {
+  max-width: 1024px;
+  height: 100%;
+}
+
+h1 {
+  color: rgb(125, 88, 237);
+  position: relative;
+}
+
+.cursor-pointer {
+  padding: 4px;
+}
+
+.block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(125, 88, 237);
+  animation: 1s infinite fade;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
