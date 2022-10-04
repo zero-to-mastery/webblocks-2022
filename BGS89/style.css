@@ -1,0 +1,58 @@
+body {
+    font-family: 'Major Mono Display', monospace;
+}
+
+button { 
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    font-family: 'Major Mono Display', monospace;
+    background: black;
+    color: #fbff12;
+}
+
+button:hover {
+    background:#fbff12;
+    color: black;
+}
+
+
+
+p {
+    border: 1px solid black;
+    padding: 25px;
+    width: fit-content;
+    border-radius: 25px;
+    color: #ff206e;
+    background: black;
+    font-weight: 900;
+}
+
+p:hover {
+    background: #ff206e;
+    color: black;
+}
+
+
+
+.clock {
+  
+    border: 1px solid black;
+    padding: 25px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+    
+    
+    
