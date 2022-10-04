@@ -64,6 +64,13 @@
     "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
+    "name": "TypeWriter Component",
+    "page_link": "./blocks/LuisPellizzon/index.html",
+    "block_icon": "./blocks/LuisPellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
