@@ -329,6 +329,13 @@
     "author_github_url": "https://github.com/leocsdev"
   },
   {
+    "name": "Countdown Timer",
+    "page_link": "./blocks/leocsdev4/index.html",
+    "block_icon": "./blocks/leocsdev4/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
     "name": "Alert function with confirmation",
     "page_link": "./blocks/lordkerwin/index.html",
     "block_icon": "./blocks/lordkerwin/icon.png",
