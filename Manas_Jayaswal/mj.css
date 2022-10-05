@@ -1,0 +1,68 @@
+.whole_content{
+    margin: 30px;
+}
+.top,.bottom{
+    display: flex;
+    height: 1100px;
+    align-items: center;
+    overflow: hidden;
+}
+h1{
+    padding: 20px;
+    margin: 0px;
+    font-family: "Bungee Spice";
+}
+.thor,.hulk{
+    margin-left: 90px;
+}
+.avengers{
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 100px;
+    text-shadow: 2px 2px 2px grey;
+}
+.ironman,.hawkeye{
+    margin-left: 65px;
+}
+.captain,.strange{
+    margin-left: 45px;
+}
+p{
+    padding: 20px;
+    margin: 0px;
+    font-size: 130%;
+}
+.top_1,.top_2,.top_3,
+.bottom_1,.bottom_2,.bottom_3{
+    width: 33%;
+    /* padding: 20px; */
+    height: 800px;
+    /* height: 550px; */
+    /* border: 2px solid black; */
+    /* box-shadow: 4px 3px #888888; */
+    box-shadow: 3px 3px 8px 10px #d6d4d4;
+    margin: 30px;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+button{
+    position: relative;
+    left: 18%;
+    border: none;
+    background-color: grey;
+    padding: 10px;
+    font-size: 150%;
+    color: white;
+    width: 200px;
+}
+button:hover{
+    background-color: white;
+    color: grey;
+    border: 3px solid grey;
+    cursor: pointer;
+    transition: 0ms;
+}
+.top_2,.bottom_2{
+    /* align-self: stretch; */
+    height: 900px;
+}
