@@ -1,0 +1,93 @@
+/*-------------------*/
+/* Custom Properties */
+/*-------------------*/
+
+:root {
+  /* Colors */
+  --clr-orange: hsl(25, 97%, 53%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-grey: hsl(217, 12%, 63%);
+  --clr-medium-grey: hsl(216, 12%, 54%);
+  --clr-dark-blue: hsl(213, 19%, 18%);
+  --clr-very-dark-blue: hsl(216, 12%, 8%);
+
+  /* Font Size */
+  --fs-normal: 0.9375rem;
+
+  /* Font Family */
+  --ff-sans: 'Overpass', sans-serif;
+}
+
+/*-------------------*/
+/* Reset             */
+/*-------------------*/
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* Set up the body */
+body {
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-400);
+  background-color: hsl( var(--clr-dark) );
+  color: hsl( var(--clr-white) );
+  line-height: 1.5;
+  min-height: 100vh; 
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Make forms elements easier to work with */
+/* This is because the listed form elements don't inherit font properites by default */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
