@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/lhpellizzon"
   },
   {
+    "name": "Tic-Tac-Toe",
+    "page_link": "./blocks/Mohamed_Bilal/index.html",
+    "block_icon": "./blocks/Mohamed_Bilal/icon.png",
+    "author_name": "Mohamed Bilal",
+    "author_github_url": "https://github.com/dmdbilal/"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
