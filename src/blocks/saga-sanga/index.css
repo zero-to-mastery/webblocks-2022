@@ -4,12 +4,12 @@
 
 :root {
   /* Colors */
-  --clr-orange: hsl(25, 97%, 53%);
-  --clr-white: hsl(0, 0%, 100%);
-  --clr-light-grey: hsl(217, 12%, 63%);
-  --clr-medium-grey: hsl(216, 12%, 54%);
-  --clr-dark-blue: hsl(213, 19%, 18%);
-  --clr-very-dark-blue: hsl(216, 12%, 8%);
+  --clr-orange: 25 97% 53%;
+  --clr-white: 0 0% 100%;
+  --clr-light-grey: 217 12% 63%;
+  --clr-medium-grey: 216 12% 54%;
+  --clr-dark-blue: 213 19% 18%;
+  --clr-very-dark-blue: 216 12% 8%;
 
   /* Font Size */
   --fs-normal: 0.9375rem;
@@ -56,12 +56,14 @@ p {
 
 /* Set up the body */
 body {
-  font-family: var(--ff-sans-normal);
-  font-size: var(--fs-400);
-  background-color: hsl( var(--clr-dark) );
+  font-family: var(--ff-sans);
+  font-size: var(--fs-normal);
+  background-color: hsl( var(--clr-very-dark-blue) );
   color: hsl( var(--clr-white) );
   line-height: 1.5;
   min-height: 100vh; 
+  display: grid;
+  place-items: center;
 }
 
 /* Make images easier to work with */
@@ -90,4 +92,56 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* ------------------- */
+/* Components          */
+/* ------------------- */
+
+p {
+  color: hsl(var(--clr-light-grey));
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+  color: hsl(var(--clr-light-grey));
+}
+
+button {
+  width: 100%;
+  background-color: hsl(var(--clr-orange));
+  color: hsl( var(--clr-white) );
+  border: none;
+  letter-spacing: 2.7px;
+  padding-block: 0.875rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.container {
+  background-color: hsl( var(--clr-dark-blue) );
+  max-width: 28rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.padding-circle {
+  padding: 0.875rem;
+  background-color: hsl( var(--clr-medium-grey) / 0.2);
+  border-radius: 50%;
 }
