@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+.linkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.link {
+  background: #BBD9FF;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 22;
+}
+
+.link2 {
+left: 80px;
+}
+
+.link4 {
+  right: 80px;
+}
+
+.link:hover {
+  background: #85B4EE
+}
+
+div.wiggle:hover {
+  animation: shake 2.5s infinite;
+} 
+
+.linkbox .border1,
+.linkbox .border2,
+.linkbox .border3 {
+  border-radius: 100px;
+  position: absolute;
+  display: none;
+}  
+
+.border1 {
+  border: 1px #AEAEAE solid;
+  height: 60px;
+  width: 60px;
+}
+
+.border2 {
+  border: 1px #D7D7D7 solid;
+  height: 75px;
+  width: 75px;
+}
+
+.border3 {
+  border: 1px #F3F1F1 solid;
+  height: 90px;
+  width: 90px;
+}
+
+.linkbox:hover .border1 {
+  animation: out 1s;
+  display: block;
+}  
+
+.linkbox:hover .border2 {
+  animation: out 1.5s;
+  display: block;
+} 
+
+.linkbox:hover .border3 {
+  animation: out 2s;
+  display: block;
+} 
+
+@keyframes out {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}

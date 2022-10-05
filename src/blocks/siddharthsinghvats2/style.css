@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Kalam', cursive;
+}
+.container{
+  height:75vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+h1{
+  text-align: center;
+  color: rgb(255, 255, 6);
+  font-size: 3rem;
+  margin: 3% 0;
+}
+.card{
+  background-color: rgb(255, 0, 187);
+  color: rgb(0, 19, 11);
+  border:3px solid black;
+  height:40%;
+  width:11%;
+  padding:2%;
+  margin:0 2%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 3px rgb(33, 33, 33);
+}
+.card p{
+  height:70%;
+  width:100%;
+  margin:10% 5% 0 0;
+  font-size: large;
+}
+.btn{
+  display: block;
+  width:100%;
+  padding: 3%;
+  font-size: large;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(114, 4, 54);
+  color: rgb(179, 245, 80);
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes rot {
+  from {
+    border: 3px solid rgb(255, 149, 0);
+
+  }
+  to{
+   border: 3px solid rgb(0, 136, 255);
+  }
+}
+.card:hover{
+  animation: rot 1s linear infinite;
+  rotate: 2deg;
+  transform: scale(1.05);
+  color: rgb(134, 4, 4);
+
+}
