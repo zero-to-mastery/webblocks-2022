@@ -530,6 +530,13 @@
     "block_icon": "./blocks/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20"
+  },
+  {
+    "name": "Black Jack",
+    "page_link": "./blocks/shemils/index.html",
+    "block_icon": "./blocks/shemils/icon.png",
+    "author_name": "shemil076",
+    "author_github_url": "https://github.com/shemil076"
   }
 ]
 
