@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  height: 16px;
+  width: 16px;
+  margin: 2px;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.square:hover {
+  transition: 0s;
+}
