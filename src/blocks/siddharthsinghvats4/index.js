@@ -5,7 +5,6 @@ const time = () => {
     let h = curt.getHours();
     let m = curt.getMinutes();
     let s = curt.getSeconds();
-    h = 14;
     if (h > 0 && h < 12) {
         body.setAttribute("style",
             "background:url('https://images.unsplash.com/photo-1415750465391-51ed29b1e610?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9ybmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=4000&q=60');height:100vh;px;width:100vw;background-repeat:no-repeat;background-size: cover;"
