@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/lhpellizzon"
   },
   {
+    "name": "CRUD Project",
+    "page_link": "./blocks/MannyP31/index.html",
+    "block_icon": "./blocks/MannyP31/icon.png",
+    "author_name": "Manisha Parichha",
+    "author_github_url": "https://github.com/MannyP31"
+  },
+  {
     "name": "Tic-Tac-Toe",
     "page_link": "./blocks/Mohamed_Bilal/index.html",
     "block_icon": "./blocks/Mohamed_Bilal/icon.png",
