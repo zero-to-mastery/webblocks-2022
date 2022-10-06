@@ -6,7 +6,7 @@
         Wait for user ✓
         Get guess from user ✓
         Check if guess is correct ✓
-        Unveil pokemon
+        Unveil pokemon ✓
 */
 
 // API base url
@@ -37,6 +37,7 @@ async function getPokemon()
     id = getRandomIntInclusive(1, 151); // first gen
     pokemon = await callPokeAPI();
     console.log(pokemon.name);
+    sprite.style.setProperty('transition', 'initial');
     sprite.style.setProperty('filter','brightness(0)');
     sprite.src = baseSpriteUrl + id.toString() + ".png";
     //setTimeout(()=> getPokemon(), 5000);
@@ -55,7 +56,9 @@ function checkGuess()
 function revealPokemon()
 {
     // TODO
-    getPokemon();
+    sprite.style.setProperty('transition', 'filter 1s ease-out');
+    sprite.style.setProperty('filter', 'initial');
+    setTimeout(() => getPokemon(), 2000);
 }
 
 // Following code found at: https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
