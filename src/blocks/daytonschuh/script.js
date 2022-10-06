@@ -15,6 +15,7 @@ let id = 0;
 let pokemon = "";
 const playerGuess = document.getElementById('playerGuess');
 const pokemonSprite = document.getElementById('sprite');
+const pokemonName = document.getElementById('pokemon');
 
 playerGuess.addEventListener('keypress', function(e)
 {
@@ -32,6 +33,7 @@ async function callPokeAPI()
 
 async function getPokemon()
 {
+    pokemonName.textContent = "";
     id = getRandomIntInclusive(1, 151); // first gen only
     pokemon = await callPokeAPI();
     sprite.style.setProperty('transition', 'initial'); // Reset transition to not fade
@@ -52,6 +54,7 @@ function revealPokemon()
 {
     sprite.style.setProperty('transition', 'filter 1s ease-out');
     sprite.style.setProperty('filter', 'initial');
+    pokemonName.textContent = pokemon.name;
     setTimeout(() => getPokemon(), 2000);
 }
 
