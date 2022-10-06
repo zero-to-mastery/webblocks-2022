@@ -308,6 +308,13 @@
     "author_github_url": "https://github.com/hinedy"
   },
   {
+    "name": "Country card",
+    "page_link": "./blocks/ifeoluwah2/index.html",
+    "block_icon": "./blocks/ifeoluwah2/icon.png",
+    "author_name": "Ifeoluwa Oludare",
+    "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
     "name": "Budget Chart",
     "page_link": "./blocks/ifeoluwah21/index.html",
     "block_icon": "./blocks/ifeoluwah21/icon.png",

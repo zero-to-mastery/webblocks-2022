@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.tc-testimonial-style5 .testi-desc {padding: 35px;background: #fff;border: 1px solid #444;border-radius: 10px;margin-bottom: 25px;margin-top: 10px;position: relative;}
+.tc-testimonial-style5 .testi-desc:after {content: '';border: 12px solid transparent;position: absolute;border-top-color: #fff;height: 20px;bottom: -23px;}
+.tc-testimonial-style5 .testi-desc:before {content: '';border: 12px solid transparent;position: absolute;border-top-color: #000;height: 20px;bottom: -24px;}
+.tc-testimonial-style5 .testi-photo {display: inline-block;}
+.tc-testimonial-style5 .testi-photo img {height: 80px;width: 80px;border-radius: 50%;padding: 3px;background: #444;cursor: pointer;}
+.tc-testimonial-style5 .testi-info {display: inline-block;vertical-align: middle;margin-left: 5px;}
+.tc-testimonial-style5 .position {font-size: 12px;color: #888;}
+.tc-testimonial-style5 .position a {color: #888;}
