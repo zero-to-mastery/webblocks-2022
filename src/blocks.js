@@ -231,6 +231,13 @@
     "author_github_url": "https://github.com/conor-v"
   },
   {
+    "name": "Timeline",
+    "page_link": "./blocks/danicc/index.html",
+    "block_icon": "./blocks/danicc/icon.png",
+    "author_name": "Daniel Esquinazi",
+    "author_github_url": "https://github.com/danicc"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
