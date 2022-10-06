@@ -12,7 +12,7 @@
   --clr-very-dark-blue: 216 12% 8%;
 
   /* Font Size */
-  --fs-normal: 0.9375rem;
+  --fs-normal: 0.875rem;
 
   /* Font Family */
   --ff-sans: 'Overpass', sans-serif;
@@ -63,7 +63,7 @@ body {
   line-height: 1.5;
   min-height: 100vh; 
   display: grid;
-  place-items: center;
+  place-content: center;
 }
 
 /* Make images easier to work with */
@@ -135,29 +135,32 @@ h1 {
 button {
   width: 100%;
   font-weight: 700;
+  line-height: normal;
   background-color: hsl(var(--clr-orange));
   color: hsl( var(--clr-white) );
   border: none;
   letter-spacing: 2.7px;
   padding-block: 0.75rem;
+  margin-bottom: 0.375rem;
   border-radius: 2rem;
   cursor: pointer;
   transition: background-color 300ms ease-in-out, color 400ms ease-in;
 }
 
-button:hover {
+button:hover,
+button:focus {
   color: hsl(var(--clr-orange));
   background-color: hsl( var(--clr-white) );
 }
 
 .container {
   display: grid;
-  gap: 2rem;
+  gap: 1.25rem;
   background-color: hsl( var(--clr-dark-blue) );
-  max-width: 25rem;
-  padding: 2rem;
-  margin: 2rem;
-  border-radius: 2rem;
+  max-width: 22rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
 }
 
 .padding-circle {
@@ -169,9 +172,11 @@ button:hover {
 label {
   display: grid;
   aspect-ratio: 1;
-  width: 3rem;
+  place-items: center;
+  width: 2.75rem;
   border-radius: 50%;
   padding-inline: 1rem;
+  font-weight: 700;
   background-color: hsl( var(--clr-medium-grey) / 0.2);
   color: hsl(var(--clr-light-grey));
 }
