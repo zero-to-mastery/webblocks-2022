@@ -71,6 +71,13 @@
     "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
+    "name": "Netflix Carousel",
+    "page_link": "./blocks/ImieboGodson/index.html",
+    "block_icon": "./blocks/ImieboGodson/icon.png",
+    "author_name": "Godson Imiebo",
+    "author_github_url": "https://github.com/ImieboGodson"
+  },
+  {
     "name": "Colorful Hoverboard",
     "page_link": "./blocks/Lhpellizzon/index.html",
     "block_icon": "./blocks/Lhpellizzon/icon.png",
