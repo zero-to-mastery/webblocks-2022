@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Popup prompt",
+    "page_link": "./blocks/AmoghRao2@arioum/index.html",
+    "block_icon": "./blocks/AmoghRao2@arioum/icon.png",
+    "author_name": "Amogh Rao",
+    "author_github_url": "https://github.com/arioum/"
+  },
+  {
     "name": "Toggle Button",
     "page_link": "./blocks/AmoghRao@arioum/index.html",
     "block_icon": "./blocks/AmoghRao@arioum/icon.png",
