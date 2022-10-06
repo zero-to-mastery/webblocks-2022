@@ -12,18 +12,20 @@
 // API base url
 let baseApiUrl = "https://pokeapi.co/api/v2/";
 let baseSpriteUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
-let id = 5;
+let id = 0;
 let pokemon = "";
 const playerGuess = document.getElementById('playerGuess');
 const pokemonSprite = document.getElementById('sprite');
 
-playerGuess.addEventListener('keypress', function(e){
+playerGuess.addEventListener('keypress', function(e)
+{
     if(e.key === 'Enter'){
         checkGuess();
     }
 });
 
-async function callPokeAPI(){
+async function callPokeAPI()
+{
     let endpoint = `pokemon/${id}`
     return fetch(baseApiUrl + endpoint)
     .then(response => response.json());
@@ -49,17 +51,19 @@ function checkGuess()
     revealPokemon();
 }
 
-function revealPokemon(){
+function revealPokemon()
+{
     // TODO
     getPokemon();
 }
 
 // Following code found at: https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
-function getRandomIntInclusive(min, max) {
+function getRandomIntInclusive(min, max)
+{
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min); // The maximum is inclusive and the minimum is inclusive
-  }
+}
 
 getPokemon();
 
