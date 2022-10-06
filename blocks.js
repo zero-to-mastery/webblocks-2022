@@ -511,6 +511,13 @@
     "author_github_url": "https://github.com/PunGrumpy/"
   },
   {
+    "name": "ZTM Card",
+    "page_link": "./blocks/qashifpeer/index.html",
+    "block_icon": "./blocks/qashifpeer/icon.png",
+    "author_name": "Qashif Peer",
+    "author_github_url": "https://github.com/qashifpeer/"
+  },
+  {
     "name": "Ripped Paper Effect",
     "page_link": "./blocks/rachelktyjohnson/index.html",
     "block_icon": "./blocks/rachelktyjohnson/icon.png",
