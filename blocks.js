@@ -120,6 +120,13 @@
     "author_github_url": "https://github.com/rajmishra-47/"
   },
   {
+    "name": "Simple_Quotes",
+    "page_link": "./blocks/RajMishra2/index.html",
+    "block_icon": "./blocks/RajMishra2/icon.png",
+    "author_name": "Raj Mishra",
+    "author_github_url": "https://github.com/rajmishra-47/"
+  },
+  {
     "name": "Item Quantity Counter",
     "page_link": "./blocks/RitikaAgrawal811/index.html",
     "block_icon": "./blocks/RitikaAgrawal811/icon.png",
