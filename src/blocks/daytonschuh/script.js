@@ -9,7 +9,6 @@
         Unveil pokemon ✓
 */
 
-// API base url
 let baseApiUrl = "https://pokeapi.co/api/v2/";
 let baseSpriteUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 let id = 0;
@@ -33,19 +32,15 @@ async function callPokeAPI()
 
 async function getPokemon()
 {
-    // TODO
-    id = getRandomIntInclusive(1, 151); // first gen
+    id = getRandomIntInclusive(1, 151); // first gen only
     pokemon = await callPokeAPI();
-    console.log(pokemon.name);
-    sprite.style.setProperty('transition', 'initial');
+    sprite.style.setProperty('transition', 'initial'); // Reset transition to not fade
     sprite.style.setProperty('filter','brightness(0)');
     sprite.src = baseSpriteUrl + id.toString() + ".png";
-    //setTimeout(()=> getPokemon(), 5000);
 }
 
 function checkGuess()
 {
-    // TODO
     if(playerGuess.value.toLowerCase() === pokemon.name.toLowerCase()){
         console.log("Good job!");
     }
@@ -55,7 +50,6 @@ function checkGuess()
 
 function revealPokemon()
 {
-    // TODO
     sprite.style.setProperty('transition', 'filter 1s ease-out');
     sprite.style.setProperty('filter', 'initial');
     setTimeout(() => getPokemon(), 2000);
