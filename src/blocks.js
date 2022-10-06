@@ -238,6 +238,13 @@
     "author_github_url": "https://github.com/conor-v"
   },
   {
+    "name": "credit card",
+    "page_link": "./blocks/conor-v3/index.html",
+    "block_icon": "./blocks/conor-v3/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
     "name": "Timeline",
     "page_link": "./blocks/danicc/index.html",
     "block_icon": "./blocks/danicc/icon.png",
