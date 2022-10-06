@@ -371,6 +371,13 @@
     "author_github_url": "https://github.com/MadhaviImashi"
   },
   {
+    "name": "Words and Characters Counter",
+    "page_link": "./blocks/incognion/index.html",
+    "block_icon": "./blocks/incognion/icon.png",
+    "author_name": "Ashutosh Kumar",
+    "author_github_url": "https://github.com/incognion"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
