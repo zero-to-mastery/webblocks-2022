@@ -2,7 +2,7 @@
     Base functionality:
         Make a call to pokeapi ✓
         Get random pokemon ✓
-        Display blacked out image of pokemon 
+        Display blacked out image of pokemon ✓
         Wait for user ✓
         Get guess from user ✓
         Check if guess is correct ✓
@@ -37,6 +37,7 @@ async function getPokemon()
     id = getRandomIntInclusive(1, 151); // first gen
     pokemon = await callPokeAPI();
     console.log(pokemon.name);
+    sprite.style.setProperty('filter','brightness(0)');
     sprite.src = baseSpriteUrl + id.toString() + ".png";
     //setTimeout(()=> getPokemon(), 5000);
 }
