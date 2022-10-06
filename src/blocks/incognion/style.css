@@ -1,0 +1,19 @@
+
+h1{
+    text-align: center;
+    background-color: midnightblue;
+    color: whitesmoke;
+    padding: 10px;
+}
+#textbox{
+    width: 99%;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    background-color: midnightblue;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px;
+}
