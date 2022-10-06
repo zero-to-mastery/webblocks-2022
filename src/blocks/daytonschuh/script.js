@@ -2,8 +2,8 @@
     Base functionality:
         Make a call to pokeapi ✓
         Get random pokemon ✓
-        Display blacked out image of pokemon
-        Wait for user
+        Display blacked out image of pokemon 
+        Wait for user ✓
         Get guess from user ✓
         Check if guess is correct ✓
         Unveil pokemon
@@ -11,9 +11,11 @@
 
 // API base url
 let baseApiUrl = "https://pokeapi.co/api/v2/";
+let baseSpriteUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 let id = 5;
 let pokemon = "";
 const playerGuess = document.getElementById('playerGuess');
+const pokemonSprite = document.getElementById('sprite');
 
 playerGuess.addEventListener('keypress', function(e){
     if(e.key === 'Enter'){
@@ -33,6 +35,7 @@ async function getPokemon()
     id = getRandomIntInclusive(1, 151); // first gen
     pokemon = await callPokeAPI();
     console.log(pokemon.name);
+    sprite.src = baseSpriteUrl + id.toString() + ".png";
     //setTimeout(()=> getPokemon(), 5000);
 }
 
@@ -48,6 +51,7 @@ function checkGuess()
 
 function revealPokemon(){
     // TODO
+    getPokemon();
 }
 
 // Following code found at: https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
