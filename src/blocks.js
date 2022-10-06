@@ -511,6 +511,13 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Accessible Accordion",
+    "page_link": "./blocks/raissa-k/index.html",
+    "block_icon": "./blocks/raissa-k/icon.png",
+    "author_name": "Raissa",
+    "author_github_url": "https://github.com/raissa-k/"
+  },
+  {
     "name": "Note Card Component",
     "page_link": "./blocks/rajarshiRoy/index.html",
     "block_icon": "./blocks/rajarshiRoy/icon.png",
