@@ -12,16 +12,20 @@
 // API base url
 let baseApiUrl = "https://pokeapi.co/api/v2/";
 let id = 5;
-// endpoint
-let endpoint = `pokemon/${id}`;
 
-function getPokemon()
+async function callPokeAPI(){
+    let endpoint = `pokemon/${id}`
+    return fetch(baseApiUrl + endpoint)
+    .then(response => response.json());
+}
+
+async function getPokemon()
 {
     // TODO
     id = getRandomIntInclusive(1, 151); // first gen
-    let response = fetch(baseApiUrl + endpoint).then(response => response.json());
-    let pokemon = response.results; // result undefined, but base promise is pending
-    console.log(pokemon);
+    let pokemon = await callPokeAPI();
+    console.log(pokemon.name);
+    //setTimeout(()=> getPokemon(), 5000);
 }
 
 function checkGuess()
