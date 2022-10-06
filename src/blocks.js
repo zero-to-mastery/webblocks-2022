@@ -71,6 +71,13 @@
     "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
+    "name": "Digital Clock",
+    "page_link": "./blocks/HarshilSharma2/index.html",
+    "block_icon": "./blocks/HarshilSharma2/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
     "name": "Netflix Carousel",
     "page_link": "./blocks/ImieboGodson/index.html",
     "block_icon": "./blocks/ImieboGodson/icon.png",
