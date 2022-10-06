@@ -280,6 +280,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "VirtuCard",
+    "page_link": "./blocks/henrykhosasih/index.html",
+    "block_icon": "./blocks/henrykhosasih/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
     "name": "Loader",
     "page_link": "./blocks/hinedy/index.html",
     "block_icon": "./blocks/hinedy/icon.png",
