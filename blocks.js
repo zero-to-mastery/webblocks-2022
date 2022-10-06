@@ -155,6 +155,13 @@
     "author_github_url": "https://github.com/Sayed-Husain/"
   },
   {
+    "name": "Modern Responsive Testimonial",
+    "page_link": "./blocks/SubramanyaRao11/index.html",
+    "block_icon": "./blocks/SubramanyaRao11/icon.png",
+    "author_name": "Subramanya Rao",
+    "author_github_url": "https://github.com/Subramanyarao11"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/Sunainacode/index.html",
     "block_icon": "./blocks/Sunainacode/icon.png",
