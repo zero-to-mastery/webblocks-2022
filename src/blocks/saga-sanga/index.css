@@ -111,6 +111,11 @@ select {
 /* Components          */
 /* ------------------- */
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 p {
   color: hsl(var(--clr-light-grey));
 }
@@ -122,21 +127,36 @@ ul {
   color: hsl(var(--clr-light-grey));
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 button {
   width: 100%;
+  font-weight: 700;
   background-color: hsl(var(--clr-orange));
   color: hsl( var(--clr-white) );
   border: none;
   letter-spacing: 2.7px;
-  padding-block: 0.875rem;
+  padding-block: 0.75rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: background-color 300ms ease-in-out, color 400ms ease-in;
+}
+
+button:hover {
+  color: hsl(var(--clr-orange));
+  background-color: hsl( var(--clr-white) );
 }
 
 .container {
+  display: grid;
+  gap: 2rem;
   background-color: hsl( var(--clr-dark-blue) );
-  max-width: 28rem;
+  max-width: 25rem;
   padding: 2rem;
+  margin: 2rem;
   border-radius: 2rem;
 }
 
@@ -144,4 +164,20 @@ button {
   padding: 0.875rem;
   background-color: hsl( var(--clr-medium-grey) / 0.2);
   border-radius: 50%;
+}
+
+label {
+  display: grid;
+  aspect-ratio: 1;
+  width: 3rem;
+  border-radius: 50%;
+  padding-inline: 1rem;
+  background-color: hsl( var(--clr-medium-grey) / 0.2);
+  color: hsl(var(--clr-light-grey));
+}
+
+input[type="radio"] {
+  appearance: none;
+  margin: 0;
+  background-color: hsl( var(--clr-dark-blue) );
 }
