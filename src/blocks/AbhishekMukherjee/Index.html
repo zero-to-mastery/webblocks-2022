@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolset</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Toolkit</h2>
+    <div id=container>
+        <div id="clock"><span id=time></span> <br> <br>
+            <label for="alarm" id=alarmlabel>Set Alarm</label>
+            <select id="Alarm" title="Set Alarm">
+                <option value="1">1 AM - 2AM</option>
+                <option value="2">2 AM - 3AM</option>
+                <option value="3">3 AM - 4AM</option>
+                <option value="4">4 AM - 5AM</option>
+                <option value="5">5 AM - 6AM</option>
+                <option value="6">6 AM - 7AM</option>
+                <option value="7">7 AM - 8AM</option>
+                <option value="8" selected>8 AM - 9AM</option>
+                <option value="9">9 AM - 10AM</option>
+                <option value="10">10 AM - 11AM</option>
+                <option value="11">11 AM - 12PM</option>
+                <option value="12">12 PM - 1PM</option>
+                <option value="13">1 PM - 2PM</option>
+                <option value="14">2 PM - 3PM</option>
+                <option value="15">3 PM - 4PM</option>
+                <option value="16">4 PM - 5PM</option>
+                <option value="17">5 PM - 6PM</option>
+                <option value="18">6 PM - 7PM</option>
+                <option value="19">7 PM - 8PM</option>
+                <option value="20">8 PM - 9PM</option>
+                <option value="21">9 PM - 10PM</option>
+                <option value="22">10 PM - 11PM</option>
+                <option value="23">11 PM - 12AM</option>
+                <option value="24">12 AM - 1AM</option>
+            </select>
+            <p class="names">Alarm clock</p>
+        </div>
+        <div class=calculator>
+            <div class=calculator__display>0</div>
+            <div class=calculator__keys>
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">&times;</button>
+                <button class="key--operator" data-action="divide">÷</button>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="number">0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">AC</button>
+                <button class="key--equal" data-action="calculate">=</button>
+            </div>
+            <p class="names">Calculator</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+body, html{
+  margin:0;
+  padding:0;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 50px;
+  background: linear-gradient(38deg, rgba(204,43,94,.8) 0%, rgba(117,58,136,.9) 100%);
+}
+
+.card {
+  width: 400px;
+  height: 240px;
+  background: pink;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.b {
+  background: rgba(255, 255, 255, 0.5);
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+
+.c {
+  background: rgba(255, 255, 255, 0.5);
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  position: absolute;
+  top: -350px;
+}
+
+.d {
+  background: rgba(255, 255, 255, 0.5);
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  position: absolute;
+  top: -200px;
+  left: -400px;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  right: 80px;
+}
+
+.logo_bal1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background: red;
+  z-index: 10;
+  position: absolute;
+}
+
+.logo_bal2_under, .logo_bal2_front {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background: orange;
+  position: absolute;
+  top: 0;
+  left: 25px
+}
+
+.logo_bal2_front {
+  z-index: 110;
+  opacity: 0.7;
+}
+
+.logo_text {
+  position: absolute;
+  top: 26px;
+  left: 4px;
+  font-size: 12px;
+}
+
+.card__reader {
+  width: 50px;
+  height: 40px;
+  background: radial-gradient(#d9a56c, #b18457);
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  overflow: hidden;
+}
+
+.l1 {
+  background: #444;
+  width: 1px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  left: 30px;
+}
+
+.l2 {
+  background: #444;
+  width: 1px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  left: 40px;
+}
+
+.l3 {
+  background: #444;
+  width: 50px;
+  height: 1px;
+  border-radius: 100%;
+  position: absolute;
+  top: 19px;
+}
+
+.l4 {
+  background: #444;
+  width: 50px;
+  height: 1px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.l5 {
+  background: #444;
+  width: 1px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  left: 7px;
+}
+
+.card_numbers {
+ font-family: Share Tech Mono;
+  color: transparent;
+  text-shadow: -2px -2px 2px rgba(255,255,255,1),
+                1px 1px 1px rgba(0,0,0,0.9),
+                2px -2px 4px rgba(255,255,255,1),
+                -2px -2px 2px rgba(0,0,0,0.9),
+                -2px 2px 1px rgba(0,0,0,0.9);
+  -webkit-text-stroke:2px rgba(0,0,0,0.4);
+  font-size: 30px;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 60px;
+  text-align: center;
+  width: 100%
+}
+
+.val {
+  bottom: 32px;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 18px;
+  bottom: -5px;
+  left: 42px;
+  width: auto;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+}
