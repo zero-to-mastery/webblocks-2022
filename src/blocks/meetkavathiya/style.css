@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020202;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.magic {
+    background-color: rgb(226, 181, 31);
+    color: white;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 6px 10px;
+    cursor: crosshair;
+    position: fixed;
+    top: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 3px rgba(248, 200, 36);
+    z-index: 100;
+}
+
+.magic:focus{
+    outline: none;
+}
+
+.magic:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    height: 500px;
+    width: 500px;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+
+.boxes.big{
+    width: 600px;
+    height: 600px;
+}
+
+.boxes.big .box{
+    transform: rotateZ(360deg);
+}
+
+.box {
+    background: url("https://media.tenor.com/4ppL9Gf9aDsAAAAM/tom-and-jerry-tom.gif");
+    height: 125px;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    width: 125px;
+    position:relative;
+    transition: 0.5s ease;;
+}
+
+.box::after {
+    content: '';
+    background-color: rgb(177, 141, 24);
+    position: absolute;
+    top: 8px;
+    right: -15px;
+    height: 100%;
+    width: 15px;
+    transform: skewY(45deg);
+}
+
+.box::before {
+    content: '';
+    background-color: rgb(49, 51, 177);
+    position: absolute;
+    bottom: -15px;
+    left: 8px;
+    height: 15px;
+    width: 100%;
+    transform: skewX(45deg);
+}
