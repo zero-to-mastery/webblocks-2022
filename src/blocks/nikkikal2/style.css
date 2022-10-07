@@ -1,0 +1,31 @@
+.button {
+    cursor: pointer;
+      outline: none;
+      border:none;
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      padding: 20px 30px;
+      border-radius: 50px;
+      background: #ffc14d;
+      color: white;
+      font-size: 20px;
+      width: 300px;
+      overflow: hidden;
+    
+  }
+  .button:hover{
+    background: #8450ff;
+  }
+  .button:active{
+    background:#8450ff;
+  }
+  p {
+    position: absolute;
+    top: 15%;
+    right: 48%;
+    font-size: 40px;
+  }
+  

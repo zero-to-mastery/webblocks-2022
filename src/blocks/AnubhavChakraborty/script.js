@@ -2,8 +2,7 @@
 const n1=document.getElementsByClassName("numbers");
 const n2=document.getElementsByClassName("operator");
 
-//console.log(n1,"\n",n2);
-//console.log(typeof(+(n1[4].textContent)));
+
 let sum="";
 let num="";
 
