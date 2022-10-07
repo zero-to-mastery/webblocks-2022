@@ -183,6 +183,13 @@
     "author_github_url": "https://github.com/Subramanyarao11"
   },
   {
+    "name": "Age Calculator",
+    "page_link": "./blocks/SudiptoDas/index.html",
+    "block_icon": "./blocks/SudiptoDas/icon.png",
+    "author_name": "Sudipto Das",
+    "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/Sunainacode/index.html",
     "block_icon": "./blocks/Sunainacode/icon.png",
