@@ -18,6 +18,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;    /* sets font-size = 16px */
   font-weight: 400;
+  
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(16%2c 16%2c 16%2c 1)'%3e%3c/rect%3e%3cpath d='M895.68 411.36L949.02 411.36L949.02 464.7L895.68 464.7z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M496.76 406.43 a40.2 40.2 0 1 0 80.4 0 a40.2 40.2 0 1 0 -80.4 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1163.18 116.42a43.7 43.7 0 1 0-70.92-51.08z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M349.25 49.95L349.72 49.95L349.72 50.42L349.25 50.42z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1403.86 229.99a34.5 34.5 0 1 0-67.59-13.85z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M556.23 84.79 a51.18 51.18 0 1 0 102.36 0 a51.18 51.18 0 1 0 -102.36 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1150.1 184.5L1202.37 184.5L1202.37 188.64L1150.1 188.64z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1103.4 208.96 a25.87 25.87 0 1 0 51.74 0 a25.87 25.87 0 1 0 -51.74 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M806.76 472.64L861.99 472.64L861.99 504.25L806.76 504.25z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M386.74 195.98a14.01 14.01 0 1 0-16.72 22.48z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M67.85 217.64L96.57 217.64L96.57 270.04L67.85 270.04z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M641.98 78.22 a49.06 49.06 0 1 0 98.12 0 a49.06 49.06 0 1 0 -98.12 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M951.65 400.47L1002.22 400.47L1002.22 450.77L951.65 450.77z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M106.7 262.75 a20.89 20.89 0 1 0 41.78 0 a20.89 20.89 0 1 0 -41.78 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M494.37 395.81L495.62 395.81L495.62 397.06L494.37 397.06z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1283.95 187.74L1317.14 187.74L1317.14 202.89L1283.95 202.89z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M444.15 219.4L469.05 219.4L469.05 246.84L444.15 246.84z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M789.28 335.01 a15.16 15.16 0 1 0 30.32 0 a15.16 15.16 0 1 0 -30.32 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M709.19 238.29L744.52 238.29L744.52 275.36L709.19 275.36z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M836.06 121.26a23.85 23.85 0 1 0-41.26 23.94z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M247.95 559.27L283.17 559.27L283.17 594.49L247.95 594.49z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M399.33 234.89L410.78 234.89L410.78 246.34L399.33 246.34z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M265.91 508.24a0.98 0.98 0 1 0-0.54 1.88z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M340.58 399.24L389.27 399.24L389.27 426.05L340.58 426.05z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1350.4 518.49L1397.72 518.49L1397.72 565.81L1350.4 565.81z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1406.53 192.87a7.88 7.88 0 1 0-13.83-7.56z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M190.46 300.79 a21.82 21.82 0 1 0 43.64 0 a21.82 21.82 0 1 0 -43.64 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1160.86 140.46L1183.16 140.46L1183.16 162.76L1160.86 162.76z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M89.03 397.59L96.65 397.59L96.65 438.37L89.03 438.37z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1340.86 368.19a47.39 47.39 0 1 0-92.03 22.66z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M137.93 507.06a2.65 2.65 0 1 0-3.49-3.99z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1269.16 456.46L1316.54 456.46L1316.54 503.84L1269.16 503.84z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M249.6 334.95 a36.45 36.45 0 1 0 72.9 0 a36.45 36.45 0 1 0 -72.9 0z' stroke='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
 a,
@@ -25,4 +27,45 @@ a:visited,
 a:active {
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Navigation bar styles */
+
+.header__nav {
+  display: flex;
+  height: 10rem;
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 10rem;
+  height: 10rem;
+  margin-left: 4rem;
+  margin-right: auto;
+}
+
+.logo__icon{
+  width: 100%;
+  height: 100%;
+}
+
+.toggle__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 5rem;
+  height: 5rem;
+  margin-right: 4rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.toggle__open{
+  width: 3rem;
+  height: 3rem;
 }
