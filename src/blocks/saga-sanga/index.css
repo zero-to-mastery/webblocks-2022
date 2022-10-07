@@ -170,19 +170,59 @@ button:focus {
 }
 
 label {
+  cursor: pointer;
+  position: relative;
   display: grid;
   aspect-ratio: 1;
   place-items: center;
   width: 2.75rem;
   border-radius: 50%;
+  padding-top: 3px;
   padding-inline: 1rem;
   font-weight: 700;
   background-color: hsl( var(--clr-medium-grey) / 0.2);
   color: hsl(var(--clr-light-grey));
+  transition: background-color 500ms ease-in-out, color 300ms ease-in;
 }
 
+label:hover,
+label:focus {
+  background-color: hsl(var(--clr-orange));
+  color: hsl( var(--clr-white) );
+}
+
+/* Radio Checked custom style */
+
 input[type="radio"] {
+  cursor: pointer;
+  width: 2.75rem;
+  height: 2.75rem;
+  position: absolute;
   appearance: none;
   margin: 0;
-  background-color: hsl( var(--clr-dark-blue) );
+  color: currentColor;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  /* background-color: currentColor; */
+  /* background-color: hsl( var(--clr-dark-blue) ); */
+}
+
+input[type="radio"]::after {
+  content: attr(no-rating);
+  z-index: 2;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  padding-top: 3px;
+  color:hsl( var(--clr-white) );
+  transform: scale(0);
+  background-color: hsl( var(--clr-medium-grey) );
+  /* box-shadow: inset 0 0 hsl( var(--clr-medium-grey) ); */
+}
+
+input[type="radio"]:checked::after {
+  transform: scale(1);
 }
