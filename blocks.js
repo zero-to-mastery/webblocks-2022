@@ -490,6 +490,13 @@
     "author_github_url": "https://github.com/michaella23/"
   },
   {
+    "name": "Login and Signup form",
+    "page_link": "./blocks/nikhil_mishra/index.html",
+    "block_icon": "./blocks/nikhil_mishra/icon.png",
+    "author_name": "Nikhil Mishra",
+    "author_github_url": "https://github.com/codewizard26/"
+  },
+  {
     "name": "Flip Card",
     "page_link": "./blocks/nikkikal/index.html",
     "block_icon": "./blocks/nikkikal/icon.png",
