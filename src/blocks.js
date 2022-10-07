@@ -245,6 +245,13 @@
     "author_github_url": "https://github.com/carmen170796"
   },
   {
+    "name": "Ferris-wheel component",
+    "page_link": "./blocks/carmen170796.2/index.html",
+    "block_icon": "./blocks/carmen170796.2/icon.png",
+    "author_name": "Carmen Mendoza",
+    "author_github_url": "https://github.com/carmen170796"
+  },
+  {
     "name": "Movie Component",
     "page_link": "./blocks/christinarepou/index.html",
     "block_icon": "./blocks/christinarepou/icon.png",
