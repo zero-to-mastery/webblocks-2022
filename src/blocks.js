@@ -36,13 +36,6 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
-    "name": "Digital Clock",
-    "page_link": "./blocks/SahilRawat/index.html",
-    "block_icon": "./blocks/DhanushNehru/icon.png",
-    "author_name": "Sahil Rawat",
-    "author_github_url": "https://github.com/sahilrawat001"
-  },
-  {
     "name": "Pop-up Button",
     "page_link": "./blocks/Geetika/index.html",
     "block_icon": "./blocks/Geetika/icon.png",
