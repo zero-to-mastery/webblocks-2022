@@ -684,6 +684,13 @@
     "block_icon": "./blocks/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20"
+  },
+  {
+    "name": "Simple To Do List",
+    "page_link": "./blocks/yashraj2003e/index.html",
+    "block_icon": "./blocks/yashraj2003e/icon.png",
+    "author_name": "Yashraj",
+    "author_github_url": "https://github.com/yashraj2003e/"
   }
 ]
 
