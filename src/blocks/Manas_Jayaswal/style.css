@@ -1,0 +1,67 @@
+*{
+    background-color:darkslategrey;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+.card{
+    width: 65%;
+    height: 50%;
+    background-color: white;
+    align-self: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 50px 2px;
+}
+
+h1{
+    background-color: inherit;
+    font-family: "Ubuntu";
+    margin-left: 30%;
+    font-size: 300%;
+}
+.name,.email,.message{
+    background-color: white;
+    margin-left: 13%;
+    width: 70%;
+    padding: 10px;
+    border: white solid 3px;
+    border-bottom: solid 3px rgba(42, 41, 41, 0.567);
+    font-size: 120%;
+    outline: none;
+    /* transition-delay: 0.5s; */
+}
+.message{
+    font-size: 160%;
+    overflow: hidden;
+    resize: none;
+}
+.name:hover,.email:hover,.message:hover{
+    border-bottom: solid rgba(42, 41, 41, 0.979) 3px;
+}
+.name:focus,.email:focus,.message:focus{
+    border-bottom: solid rgba(42, 41, 41, 0.979) 3px;
+}
+button{
+    background-color: white;
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 5px;
+    font-family: "Ubuntu";
+    font-weight: 900;
+    color: rgba(42, 41, 41, 0.567);
+    border: 3px solid rgba(42, 41, 41, 0.567);
+    width: 40%;
+    margin-left: 30%;
+}
+button:hover{
+    border: solid darkslategrey 3px ;
+    background-color: darkslategrey;
+    color: white;
+}
