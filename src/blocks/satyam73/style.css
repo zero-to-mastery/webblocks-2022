@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: white;
+}
+
+.heading {
+    font-size: 3rem;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.product-card {
+    margin: 12rem auto;
+    /* margin-top: ; */
+    height: 50rem;
+    width: 35rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px 10px rgb(216 216 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.image-container {
+    height: 50%;
+}
+
+.product-image {
+    height: 20rem;
+    width: 20rem;
+}
+
+.product-image:hover {
+    height: 26rem;
+    width: 26rem;
+}
+
+.product-card-body {
+    border-top: 3px solid #e8a834;
+    /* background-color: #eaeaea; */
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.product-card-body h1 {
+    font-size: 2.9rem;
+}
+
+.rating {
+    font-size: 2rem;
+}
+
+.product-card-body p {
+    font-size: 1.76rem;
+}
+
+.price {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #e69500;
+}
+
+.button-group {
+    display: flex;
+    margin: 0.3rem;
+}
+
+.button {
+    border-radius: 0.6rem;
+    border: 2px solid #856937;
+    background: #e8a834;
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    font-size: 2.1rem;
+}
