@@ -1,0 +1,27 @@
+body{
+    background-color: #a62b89;
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   text-align: center;
+}
+canvas{
+    border-radius: 20px;
+    border: 20px solid #330536;
+   
+}
+h1 ,h2,p{
+   
+    color:white;
+    font-family: Montserrat;
+}
+#res{
+    color: white;
+    font-size: 2em;
+}
+button{
+    width: 200px;
+    margin-bottom: 10px;
+    height: 30px;
+}
