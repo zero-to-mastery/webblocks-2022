@@ -1,0 +1,36 @@
+.container{
+
+        background-color: #34b7eb;
+        text-align: center;
+        padding: 50px;
+        width: 17rem;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 10px;
+}
+#month, #date, #year{
+  border:none;
+  text-align: center;
+height:2rem;
+   border-radius: 10px;      
+}
+p{
+ color:#155e7a;
+}
+#button{
+  border:none;
+  text-align: center;
+height:2rem;
+   border-radius: 10px;  
+        margin-top:25px;
+        width:10rem;
+        background: blue;
+        color:white;
+}
+h4{
+    color:#152d7a;    
+}
+#age{
+        margin-top:25px;
+    color:white;        
+}
