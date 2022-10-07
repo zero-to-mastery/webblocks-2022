@@ -637,6 +637,13 @@
     "author_github_url": "https://github.com/terrifricker/"
   },
   {
+    "name": "Share Social Media Button",
+    "page_link": "./blocks/terrifricker2/index.html",
+    "block_icon": "./blocks/terrifricker2/icon.png",
+    "author_name": "Terri Fricker",
+    "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
     "name": "3D Flip Card",
     "page_link": "./blocks/vijay2249/index.html",
     "block_icon": "./blocks/vijay2249/icon.png",
