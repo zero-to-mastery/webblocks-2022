@@ -490,6 +490,13 @@
     "author_github_url": "https://github.com/NikkiKal/"
   },
   {
+    "name": "Button",
+    "page_link": "./blocks/nikkikal2/index.html",
+    "block_icon": "./blocks/nikkikal2/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
     "name": "Web Developer Tasks",
     "page_link": "./blocks/nuha/index.html",
     "block_icon": "./blocks/nuha/icon.png",
