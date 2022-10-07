@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(90deg, rgba(7,3,71,1) 0%, rgba(18,18,142,0.18204367928812148) 51%, rgba(6,157,187,1) 100%);
+}
+
+.spinner {
+    margin: 20px auto;
+    width: 500px;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.spinner .circle {
+    animation: spinners linear infinite;
+    position: absolute;
+    border: 5px solid transparent;
+    border-top-color: rgb(255, 217, 0);
+    border-radius: 50%
+}
+
+.spinner .one {
+    width: 70px;
+    height: 70px;
+    border-top-color: #8f3b76;
+    animation-duration: .85s
+}
+
+.spinner .two {
+    width: 110px;
+    height: 110px;
+    border-top-color: #f5487f;
+    animation-duration: .85s
+}
+
+
+@keyframes spinners {
+    0% {
+        transform: rotate(0deg)
+    }
+    
+    100% {
+        transform: rotate(360deg)
+    }
+}

@@ -1,0 +1,91 @@
+.loading-animation{
+    display: flex;
+    height: 50vh;
+    width: 50%;
+}
+
+.pretzel {
+    position: relative;
+    background-color: transparent;
+}
+
+.pretzel::before,
+.pretzel::after {
+    position: absolute;
+    content: "";
+    width: 15em;
+    height: 7em;
+    border-color: #BB8E4C;
+    border-width: 35PX;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.pretzel:before{
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    left:0;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 30%;
+}
+
+.pretzel:after{
+    transform: rotate(-45deg);
+    transform-origin: 100% 100%;
+    left: 8em;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius:100px;
+    border-top-left-radius:30%;
+
+}
+
+.bites{
+    z-index: 10;
+    position:relative;
+    margin-left: 150px;
+    opacity: 1;
+    animation: eat 4s infinite;
+}
+
+.tooth{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+#first{
+    top:210px;
+    left: 200px;
+}
+
+#second{
+    top:255px;
+    left: 150px;
+}
+
+#third{
+    top:305px;
+    left: 100px;
+}
+
+#fourth{
+    top:340px;
+    left: 40px;
+}
+
+@keyframes eat {
+    1% 
+    {opacity: 1}
+    49%
+    {opacity: 1}
+    50%
+    {opacity: 0}
+    100%
+    {opacity: 0 }
+    
+}

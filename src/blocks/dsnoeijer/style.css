@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+main {
+    background-color: hsl(213, 44%, 12%);
+    border-radius: 20px;
+    padding: 25px 25px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 20%, 24%);
+    width: 36px;
+    height: 36px;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.star img {
+    z-index: 5;
+    width: 14px;
+    height: 14px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 22px 0 12px 0;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: hsl(213, 20%, 24%);
+    border-radius: 50%;
+}
+
+.submit {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(0, 46%, 53%);
+    padding: 14px 0;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.result {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    padding: 10px 0 18px 0;
+}
+
+.img img {
+    height: 96px;
+    width: auto;
+}
+
+.selected {
+    padding: 6px 12px;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(213, 20%, 24%);
+    opacity: .8;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text h1 {
+    padding: 26px 0 13px;
+}
+
+.show {
+    display: flex;
+}
+
+.color {
+    background-color: hsl(0, 46%, 53%);
+    color: #ffffff;
+}
+
+@media screen and (min-width: 600px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    main {
+        width: 360px;
+        margin: auto;
+        padding: 35px;
+    }
+
+    .star {
+        width: 46px;
+        height: 46px;
+    }
+
+    .question-text h1 {
+        padding: 33px 0 13px 0;
+    }
+
+    .question-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .rating {
+        padding: 24px 0 34px;
+    }
+
+    .number {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img {
+        padding: 10px 0 24px 0;
+    }
+
+    .img img {
+        height: 110px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text h1 {
+        padding: 36px 0 11px;
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+}
