@@ -130,7 +130,8 @@ ul {
 h1 {
   font-weight: 700;
   font-size: 1.5rem;
-}
+  line-height: 1;
+  }
 
 button {
   width: 100%;
@@ -155,10 +156,10 @@ button:focus {
 
 .container {
   display: grid;
-  gap: 1.25rem;
+  gap: 1.5rem;
   background-color: hsl( var(--clr-dark-blue) );
   max-width: 22rem;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   margin: 1.5rem;
   border-radius: 1rem;
 }
@@ -189,6 +190,27 @@ label:hover,
 label:focus {
   background-color: hsl(var(--clr-orange));
   color: hsl( var(--clr-white) );
+}
+
+.thank-you-section {
+  display: none;
+  position: absolute;
+  justify-items: center; 
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  z-index: 2;
+  /* padding-block: 2rem; */
+}
+
+#rating-msg {
+  font-weight: 700;
+  background-color: hsl( var(--clr-medium-grey) / 0.2);
+  color: hsl(var(--clr-orange));
+  padding: 0.25rem 0.635rem;
+  padding-top: 7px;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
 }
 
 /* Radio Checked custom style */

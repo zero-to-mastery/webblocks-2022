@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
+  <section class="container">
     <div>
       <img class="padding-circle" src="./images/icon-star.svg" alt="Star icon">
     </div>
@@ -35,30 +35,43 @@
     </ul> -->
     <div class="flex-container">
       <label>
-        <input type="radio" name="radio" no-rating="1">
+        <input type="radio" name="radio" value="1" no-rating="1">
         1
       </label>
       <label>
-        <input type="radio" name="radio" no-rating="2">
+        <input type="radio" name="radio" value="2" no-rating="2">
         2
       </label>
       <label>
-        <input type="radio" name="radio" no-rating="3">
+        <input type="radio" name="radio" value="3" no-rating="3">
         3
       </label>
       <label>
-        <input type="radio" name="radio" no-rating="4">
+        <input type="radio" name="radio" value="4" no-rating="4">
         4
       </label>
       <label>
-        <input type="radio" name="radio" no-rating="5">
+        <input type="radio" name="radio" value="5" no-rating="5">
         5
       </label>
     </div>
 
     <button class="uppercase">Submit</button>
 
-  </main>
+  </section>
+
+  <section class="container thank-you-section">
+    <img src="./images/illustration-thank-you.svg" alt="Mobile payment receipt illustration">
+
+    <div id="rating-msg"></div>
+  
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don't hesitate to get in touch!
+    </p>
+    
+  </section>
   <script src="./script.js"></script>
 </body>
 </html>
