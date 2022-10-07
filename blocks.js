@@ -343,6 +343,13 @@
     "author_github_url": "https://github.com/HenryKhosasih"
   },
   {
+    "name": "css-button",
+    "page_link": "./blocks/heyraeh/index.html",
+    "block_icon": "./blocks/heyraeh/icon.png",
+    "author_name": "Rachel (heyraeh)",
+    "author_github_url": "https://github.com/heyraeh/"
+  },
+  {
     "name": "Loader",
     "page_link": "./blocks/hinedy/index.html",
     "block_icon": "./blocks/hinedy/icon.png",
