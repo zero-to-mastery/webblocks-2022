@@ -581,6 +581,13 @@
     "author_github_url": "https://github.com/sammkodes96"
   },
   {
+    "name": "Product Card",
+    "page_link": "./blocks/satyam73/index.html",
+    "block_icon": "./blocks/satyam73/icon.png",
+    "author_name": "satyam73",
+    "author_github_url": "https://github.com/satyam73/"
+  },
+  {
     "name": "Flash Button",
     "page_link": "./blocks/siddharthsinghvats/index.html",
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
