@@ -504,6 +504,13 @@
     "author_github_url": "https://github.com/DevTomilola-OS/"
   },
   {
+    "name": "TypeWriter Component",
+    "page_link": "./blocks/pellizzon/index.html",
+    "block_icon": "./blocks/pellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
+  },
+  {
     "name": "TicTacToe",
     "page_link": "./blocks/pranavpathak08/index.html",
     "block_icon": "./blocks/pranavpathak08/icon.png",
