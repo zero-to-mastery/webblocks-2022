@@ -315,6 +315,13 @@
     "author_github_url": "https://github.com/Kanadets"
   },
   {
+    "name": "Rating Component",
+    "page_link": "./blocks/dsnoeijer/index.html",
+    "block_icon": "./blocks/dsnoeijer/icon.png",
+    "author_name": "W.D. Snoeijer",
+    "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
     "name": "Feedback component",
     "page_link": "./blocks/getRicha/index.html",
     "block_icon": "./blocks/getRicha/icon.png",
