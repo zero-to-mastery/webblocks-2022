@@ -213,7 +213,7 @@ label:focus {
   border-radius: 1rem;
 }
 
-/* Radio Checked custom style */
+/* Radio button custom style */
 
 input[type="radio"] {
   cursor: pointer;
@@ -226,8 +226,6 @@ input[type="radio"] {
   border-radius: 50%;
   display: grid;
   place-content: center;
-  /* background-color: currentColor; */
-  /* background-color: hsl( var(--clr-dark-blue) ); */
 }
 
 input[type="radio"]::after {
@@ -242,7 +240,6 @@ input[type="radio"]::after {
   color:hsl( var(--clr-white) );
   transform: scale(0);
   background-color: hsl( var(--clr-medium-grey) );
-  /* box-shadow: inset 0 0 hsl( var(--clr-medium-grey) ); */
 }
 
 input[type="radio"]:checked::after {
