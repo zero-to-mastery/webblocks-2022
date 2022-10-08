@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: AmazonReg;
+  src: url("./App-fonts/amazonember_rg-webfont.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: AmazonBold;
+  src: url("./App-fonts/amazonember_bd-webfont.woff");
+  font-display: swap;
+}
+
+body {
+  background-color: #eaeded;
+  font-family: AmazonReg;
+}
+
+a {
+  text-decoration: none;
+}
+
+.signUp__header {
+  padding: 15px 0;
+  background: #fff;
+}
+
+.signUp__header img {
+  height: 31px;
+  display: flex;
+  margin: 0 auto 20px auto;
+}
+
+.signUp__form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 350px;
+  max-height: 623px;
+  border-radius: 4px;
+  border: 1px solid #dddd;
+  padding: 14px 18px;
+  margin: 0 auto;
+}
+
+.signUp-form-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+.signUp-input-label {
+  width: 100%;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
+
+.signUp-form-input {
+  margin-bottom: 14px;
+}
+.signUp-txt {
+  font-size: 13px;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  padding: 2px 0;
+}
+
+.signUp-form-input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px 7px;
+  border: 1px solid #a6a6a6;
+  font-size: 13px;
+  outline: none;
+}
+
+.signUp-form-input:focus {
+  border: 1px solid #ff9100;
+  box-shadow: 0 0 7px #ff9100;
+}
+
+.signUp-btn {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background: #f7cb5d;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+  border: 1px solid;
+  color: #111;
+  font-size: 13px;
+  padding: 6px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signUp-form-footer-txt {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 18px;
+}
+
+.signUp-form-footer {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+}
+
+.form-wrapper-footer {
+  margin: 35px auto 0 auto;
+  border-top: 1px solid #dddd;
+  max-width: 350px;
+}
+
+.signUp-copyright-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+  margin-top: 20px;
+  background: #eaeded;
+}
+
+.signUp-footer-links a {
+  margin: 0 10px;
+}
+
+.signUp-copyright-section p {
+  margin-top: 10px;
+}
+
+#success {
+  display: none;
+  text-align: center;
+  width: 50%;
+  height: 40vh;
+  background-color: #fff;
+  margin-inline: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 2px #ffae2dfd;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  line-height: 28px;
+  place-content: center;
+  place-items: center;
+}
+
+#success p {
+  width: 60%;
+  text-align: center;
+}
+
+#success span {
+  color: #ff9100;
+  font-weight: bold;
+  text-transform: capitalize;
+}
