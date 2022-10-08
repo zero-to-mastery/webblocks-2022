@@ -15,7 +15,7 @@ push.addEventListener('click', (e) => {
 
 const api_url = "https://api.adviceslip.com/advice"
 
-const fetchData =  () => {
+const fetchData = () => {
   fetch(api_url).then(response => response.json())
     .then((data) => {
       quote.innerText = data.slip.advice;

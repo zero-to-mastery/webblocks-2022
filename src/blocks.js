@@ -691,7 +691,7 @@
     "block_icon": "./blocks/yashraj2003e/icon.png",
     "author_name": "Yashraj",
     "author_github_url": "https://github.com/yashraj2003e/"
-  },
+  }
 ]
 
     
