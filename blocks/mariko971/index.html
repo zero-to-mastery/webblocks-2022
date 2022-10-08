@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Amazon Sign Up</title>
+  </head>
+  <body>
+    <div class="signUp__header">
+      <img src="./marikodev.png" alt="mariko logo" />
+      <div class="signUp__form-container">
+        <p class="form-title">Create Account</p>
+        <form action="" id="signUp-form" method="post">
+          <!-- CUSTOMER EMAIL -->
+          <label for="customer-name" class="signUp-input-label">
+            Your Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            required
+            class="signUp-form-input"
+            id="customer-name"
+            autofocus
+          />
+          <!-- CUSTOMER EMAIL -->
+          <label for="customer-email" class="signUp-input-label"> Email </label>
+          <input
+            type="email"
+            name="email"
+            required
+            class="signUp-form-input"
+            id="customer-email"
+          />
+          <!-- PASSWORD -->
+          <label for="customer-password" class="signUp-input-label">
+            Password
+          </label>
+          <input
+            type="password"
+            name="password"
+            required
+            class="signUp-form-input"
+            id="customer-password"
+          />
+          <!-- PASSWORD -->
+          <label for="customer-re-password" class="signUp-input-label">
+            Re-enter password
+          </label>
+          <input
+            type="password"
+            name="re-password"
+            required
+            class="signUp-form-input"
+            id="customer-re-password"
+          />
+          <p class="signUp-txt">Passwords must be atleast 6 characters</p>
+          <p class="signUp-txt">
+            By enrolling your email, you consent to receiving automated security
+            notifications via text message. You can opt out by removing your
+            email on the Login & Security page located in Your Account settings.
+            Message and data rates may apply.
+          </p>
+          <!-- SIGN-UP BUTTON -->
+          <button type="button" class="signUp-btn">Create your Account</button>
+        </form>
+        <p class="signUp-form-footer-txt">
+          By creating an account, you agree to Mariko's
+          <span>
+            <a href="#"> Conditions of use </a>
+          </span>
+          and
+          <span>
+            <a href="#"> Privacy Notice. </a>
+          </span>
+        </p>
+      </div>
+      <article id="success"></article>
+    </div>
+    <footer class="signUp-copyright-section">
+      <span class="signUp-footer-links">
+        <a href="#">Conditions of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Help</a>
+      </span>
+      <p>© 1996-2022</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

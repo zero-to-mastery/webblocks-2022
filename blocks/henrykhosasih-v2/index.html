@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<script src="./script.js" defer></script>
+		<title>AstroToday</title>
+	</head>
+	<body>
+		<div id="card-container">
+			<div id="astro-header">
+				<h1>🔭 AstroToday 🔭</h1>
+				<br />
+				<label for="birthday" class="medium-font">🐣</label><br />
+				<input type="date" name="birthday" id="birthday" />
+			</div>
+
+			<div id="astro-content">
+				<p id="sign"></p>
+				<p id="description"></p>
+				<div id="astro-extra">
+					<h2>Luck 🍀</h2>
+					<div id="astro-lucks">
+						<div>
+							<p class="lucks-icon">🔢</p>
+							<p id="lucky-num" class="lucks-text"></p>
+						</div>
+						<div>
+							<p class="lucks-icon">💘</p>
+							<p id="compatible-sign" class="lucks-text"></p>
+						</div>
+						<div>
+							<p class="lucks-icon">⌚</p>
+							<p id="lucky-time" class="lucks-text"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
