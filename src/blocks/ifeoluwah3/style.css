@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+	background-color: #0081cf;
+}
+
+.header {
+	display: flex;
+	width: 90%;
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 2rem 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header h1 {
+	font-size: 1rem;
+}
+
+.header button {
+	padding: 0.5rem 1.5rem;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 1px 1px 2px 0 #ccc, -1px -1px 2px 0 #ccc;
+	cursor: pointer;
+	font-size: 1rem;
+	font-family: inherit;
+	font-weight: 700;
+}
+.card {
+	background-color: #fbeaff;
+	min-height: 10rem;
+	width: 90%;
+	max-width: 450px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card__quote {
+	width: 90%;
+	margin: 1rem auto;
+	text-align: left;
+}
