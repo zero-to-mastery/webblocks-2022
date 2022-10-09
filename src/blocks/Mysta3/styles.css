@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#header-container {
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 3%;
+}
+#header-container h1 {
+  margin: 0;
+}
+
+#glass-button-container {
+  margin: 5%;
+}
+
+#glass-button {
+  font-size: 280%;
+  border-radius: 5%;
+  padding: 5%;
+  cursor: pointer;
+  border: none;
+  margin: 5%;
+  background-color: rgb(234, 239, 239);
+  box-shadow: 0px 5px 5px rgb(11, 11, 11);
+}
+
+button:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 228, 1, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+}
+button:active {
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  transform: translateY(4px);
+}

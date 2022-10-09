@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.push {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 399;
+}
+
+.push.hidden {
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  opacity: 0;
+  display: hidden;
+}
+
+.open {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transform: translateY(-200%);
+  background-image: linear-gradient(to bottom right, #FB9132, #F46967);
+}
+
+.open h2 {
+  text-align: center;
+  margin: 10px 10%;
+  font-size: 2rem;
+}
+
+.flowers {
+  display: flex;
+  gap: 2rem;
+}
+
+ion-icon {
+  scale: 2;
+}
+
+.open.show {
+  display: flex;
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+
+
+.door {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+}
+
+.door-side {
+  width: 50%;
+  height: 100%;
+}
+
+.left {
+  background-color: #F23A12;
+  position: absolute;
+}
+
+.right {
+  background-color: #F46967;
+  position: absolute;
+  left: 50%;
+}
+
+
+.left.open-door{
+  transform: translateX(-100%);
+  transition: 1s ease;
+}
+
+.right.open-door{
+  transform: translateX(100%);
+  transition: 1s ease;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 10%;
+  text-align: center;
+}
+
+button {
+  margin: 1rem 0;
+  height: 50px;
+  width: 200px;
+  font-size: 2rem;
+  background-color: #865C95;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  box-shadow: 0 5px 5px 5px #FB9132,
+  0 0 15px #FB9132,
+  0 0 30px #FB9132;
+}
+
+button:hover,
+button:focus {
+  filter: brightness(1.5);
+}

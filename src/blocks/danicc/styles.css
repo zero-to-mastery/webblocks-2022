@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  max-width: 120px;
+  margin: 10% auto 0;
+  padding: 16px;
+  background: dodgerblue;
+  border-radius: 6px;
+}
+
+.timelineItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.timelineSeparator {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.timelineContent {
+  text-transform: capitalize;
+  color: gold;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+}
+
+.timelineDot::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #403f3f;
+  border-radius: 50%;
+}
+
+.timelineConnector::before {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 50px;
+  background: #403f3f;
+}

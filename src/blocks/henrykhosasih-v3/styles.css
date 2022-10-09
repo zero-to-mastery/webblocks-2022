@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+@keyframes shaking {
+	0% {
+		margin-left: 50px;
+	}
+	30% {
+		margin-right: 50px;
+	}
+	60% {
+		margin-left: 30px;
+	}
+	70% {
+		margin-right: 30px;
+	}
+	75% {
+		margin-left: 20px;
+	}
+	80% {
+		margin-right: 20px;
+	}
+	90% {
+		margin-left: 5px;
+	}
+	100% {
+		margin-right: 5px;
+	}
+}
+
+@keyframes changing-color {
+	0% {
+		background-color: #ff69b4;
+		color: #00ffff;
+	}
+	25% {
+		background-color: #89abe3ff;
+		color: #ea738dff;
+	}
+	50% {
+		background-color: #ec449b;
+		color: #99f443;
+	}
+	75% {
+		background-color: #00539cff;
+		color: #eea47fff;
+	}
+	100% {
+		background-color: #2bae66ff;
+		color: #fcf6f5ff;
+	}
+}
+
+#hacktoberfest:hover {
+	animation: 0.5s shaking infinite alternate;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 48px;
+	transition: transform 0.1s;
+	animation: 0.8s changing-color infinite alternate;
+}
+
+h1:hover {
+	transform: rotateZ(180deg) scale(1.5);
+}

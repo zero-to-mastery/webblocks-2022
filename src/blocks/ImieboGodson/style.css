@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: fit-content;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.carousel-header {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-header > h3 {
+    font-size: 0.75rem;
+    
+}
+
+.carousel-progress-bars {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.carousel-progress-bar {
+    flex: 0 0 1rem;
+    min-width: 1rem;
+    height: 0.125rem;
+    background: rgba(129, 129, 129, 0.511);
+}
+
+.carousel-progress-bar.active {
+    background: rgb(129, 129, 129);
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.carousel > button {
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+    background: rgba(129, 129, 129, 0.511);
+    color: #fff;
+    
+}
+
+.left-btn {
+    left: 0;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.right-btn {
+    right: 0;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.carousel-items {
+    --items-length: 0;
+    --items-per-screen: 4;
+    --carousel-index: 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    gap: 0.2rem;
+    padding-left: 30px;
+    transform: translateX(calc(var(--carousel-index) * -100%));
+    transition: transform 250ms ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 calc(100% / var(--items-per-screen));
+    max-width: calc(100% / var(--items-per-screen));
+    background: #acacac;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/9;
+    border-radius: 0.2rem;
+}

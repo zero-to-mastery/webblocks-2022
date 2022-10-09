@@ -1,0 +1,39 @@
+body{
+    background-image: url(images/background.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#main{
+    font-size: 50px;
+    text-align: center;
+}
+.btn{
+    font-size:20px;
+    font-weight: bold;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+    margin-left: 20%;
+
+}
+
+.lables{
+    color: white;
+    font-family:cursive;
+}
+
+#mainResult{
+    text-align: center;
+    font-size: 40px;
+    border: white 3px solid
+  
+}
+
+#btn-restart{
+    display: none;
+}
+
+img{
+    margin-left: 10px;
+}

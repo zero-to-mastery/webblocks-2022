@@ -1,0 +1,136 @@
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 3em;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: #757575;
+
+}
+
+.game-container{
+    position: absolute;
+    top: 20%;
+    left: 40%;    
+}
+
+.wheel-container{
+    position: absolute;
+    top: 30%;
+    left:10%;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+    transform: scale(1.5);
+    animation: spinWheel 10s infinite linear;
+    
+}
+
+    
+.ferris-wheel{
+    position: absolute;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 20px solid #84c1d4;
+    border-radius: 50%;
+}
+
+.ferris-wheel::before{
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top:40%;
+    left: 40%;
+    background-color: #84c1d4;
+    border: 1px solid #7BD9F6;
+    z-index: 2;
+
+}
+
+.ferris-wheel::after{
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    top:35%;
+    left: 35%;
+    background-color: #e0b468;
+    border: 1px solid #FCBC4C;
+    z-index: 1;
+
+}
+
+span{
+    position: absolute;
+    height: 260px;
+    width:1.5px;
+    background-color: #b7e1ee;
+    left:50%;
+}
+
+span:nth-child(2){
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+span:nth-child(3){
+    transform-origin: center;
+    transform: rotate(-45deg);
+}
+
+span:nth-child(4){
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+.stand{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    background-color: #e0b468;
+    top:350px;
+    left: -25px;
+    border-radius: 20px;
+}
+
+.stand::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 210px;
+    background-color: #e0b468;
+    top:-650%;
+    left: 35%;
+    transform: skew(-20deg, 0deg);
+    z-index: -1;
+    
+}
+
+.stand::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 210px;
+    background-color: #e0b468;
+    top:-650%;
+    left: 58%;
+    transform: skew(20deg, 0deg);
+    z-index: -1;
+    
+}
+
+@keyframes spinWheel {
+    0% {
+        transform: rotate(0);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saga-sanga's Web Component</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="container">
+    <div>
+      <img class="padding-circle" src="./images/icon-star.svg" alt="Star icon">
+    </div>
+
+    <div>
+      <h1 style="padding-bottom: 0.625rem">How did we do?</h1>
+      <p>Please let us know how we did with your support request. 
+        All feedback is appreciated to help us improve our offering!</p>
+    </div>
+
+    <!-- <ul class="">
+      <li class="padding-circle">1</li>
+      <li class="padding-circle">2</li>
+      <li class="padding-circle">3</li>
+      <li class="padding-circle">4</li>
+      <li class="padding-circle">5</li>
+    </ul> -->
+    <div class="flex-container">
+      <label>
+        <input type="radio" name="radio" value="1" no-rating="1">
+        1
+      </label>
+      <label>
+        <input type="radio" name="radio" value="2" no-rating="2">
+        2
+      </label>
+      <label>
+        <input type="radio" name="radio" value="3" no-rating="3">
+        3
+      </label>
+      <label>
+        <input type="radio" name="radio" value="4" no-rating="4">
+        4
+      </label>
+      <label>
+        <input type="radio" name="radio" value="5" no-rating="5">
+        5
+      </label>
+    </div>
+
+    <button class="uppercase">Submit</button>
+
+  </section>
+
+  <section class="container thank-you-section">
+    <img src="./images/illustration-thank-you.svg" alt="Mobile payment receipt illustration">
+
+    <div id="rating-msg"></div>
+  
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don't hesitate to get in touch!
+    </p>
+    
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
