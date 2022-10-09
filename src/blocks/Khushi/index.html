@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="csstyle.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="input" style="margin: auto 25% auto;
+        text-align: center">
+            <input type="text" placeholder="Enter your Name...." id="name" style="width: 100%;
+            padding: 4%;
+            margin-bottom: 2px;
+            color: white;
+            background: transparent;
+            border: 2px solid white;">
+            <div class="button">
+                <button onclick="blockl()">Press me</button>
+                <button onclick="clearst()">Clear</button>
+            </div>
+        </div>
+        <div class="block">
+        </div>
+    </div>
+
+
+</body>
+<script>
+
+    function blockl() {
+        var name = document.querySelector("#name").value;
+        name = name.toUpperCase();
+        var block = document.querySelector(".block");
+        for (var i = 0; i < name.length; i++) {
+
+            var l = document.createElement('div');
+            l.textContent = name[i];
+            if (i % 2 == 0)
+                l.classList.add('letter');
+            else
+                l.classList.add('letter1');
+            block.appendChild(l);
+
+
+        }
+    };
+
+    function clearst() {
+        var name = document.querySelector("#name").value;
+        const lett = document.querySelectorAll('.letter');
+        const lett2 = document.querySelectorAll('.letter1');
+        var j = 0,
+            k = 0;
+        document.querySelector("#name").value = "";
+        for (var i = 0; i < lett.length; i++)
+            lett[i].remove();
+
+        for (var i = 0; i < lett2.length; i++)
+            lett2[i].remove();
+
+    };
+</script>
+
+</html>
