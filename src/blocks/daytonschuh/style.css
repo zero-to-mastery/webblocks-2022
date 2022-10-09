@@ -1,3 +1,41 @@
 #pokemon {
-    transition: 'filter 1s ease-out'
+    animation: fadeIn 2s;
+}
+
+#sprite {
+    height: 100px;
+    width: 100px;
+}
+
+.capitalize{
+    text-transform: capitalize;
+    text-align:center;
+}
+
+.row {
+    height:100px;
+    width:50%;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.container {
+    width:100%;
+    max-width:500px;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.column {
+    width:49%;
+    float:left;
+    height:100%;
+    margin-right:2%;    
+}
+
+.column:last-child { margin-right:0; }
+
+input {
+	border: 3px solid lightgray;
+	border-radius: 10px;
 }

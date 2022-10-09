@@ -33,7 +33,7 @@ async function callPokeAPI()
 
 async function getPokemon()
 {
-    pokemonName.textContent = "";
+    pokemonName.textContent = "?";
     id = getRandomIntInclusive(1, 151); // first gen only
     pokemon = await callPokeAPI();
     sprite.style.setProperty('transition', 'initial'); // Reset transition to not fade
