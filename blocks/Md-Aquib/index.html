@@ -60,10 +60,20 @@
     <section class="contact-section" id="contact">
         <div class="contact-box">
             <h1 class="sect-head">Contact Me</h1>
-            <div class="contact-info">
-                <h1>&lt Your Email Address &gt</h1>
-                <h1>&lt Your Github &gt</h1>
-                <h1>&lt Your Social Media &gt</h1>
+            <div class="contact-items">
+                <div class="contact-info">
+                    <h1>&lt Your Email Address &gt</h1>
+                    <h1>&lt Your Github &gt</h1>
+                    <h1>&lt Your Social Media &gt</h1>
+                </div>
+                <div class="contact-form">
+                    <form action="mailto:youremailaddress@email.com" method="post" enctype="text/plain">
+                        <input id="name"name='Name' type="text" placeholder="Your name">
+                        <textarea placeholder="Type Your Message here." name="Message" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Send">
+                        <input type="reset">
+                    </form>
+                </div>
             </div>
         </div>
     </section>

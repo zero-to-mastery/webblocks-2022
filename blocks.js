@@ -924,6 +924,13 @@
     "author_github_url": "https://github.com/sourhub226"
   },
   {
+    "name": "Eat Sleep Code Repeat",
+    "page_link": "./blocks/t-moennich/index.html",
+    "block_icon": "./blocks/t-moennich/icon.png",
+    "author_name": "Tommy Mönnich",
+    "author_github_url": "https://github.com/t-moennich"
+  },
+  {
     "name": "Beautiful Timeline Design",
     "page_link": "./blocks/tarunmankar/index.html",
     "block_icon": "./blocks/tarunmankar/icon.png",
