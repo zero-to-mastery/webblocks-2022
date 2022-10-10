@@ -330,6 +330,13 @@
     "author_github_url": "https://github.com/amulyaprasanth/"
   },
   {
+    "name": "Toggle Theme Button",
+    "page_link": "./blocks/ankeshp03/index.html",
+    "block_icon": "./blocks/ankeshp03/icon.png",
+    "author_name": "Ankesh Paramanik",
+    "author_github_url": "https://github.com/ankeshp03/"
+  },
+  {
     "page_link": "./blocks/anudeep/index.html",
     "block_icon": "./blocks/anudeep/icon.png",
     "author_name": "Anudeep-313",
