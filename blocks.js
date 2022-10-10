@@ -427,6 +427,13 @@
     "author_github_url": "https://github.com/conor-v"
   },
   {
+    "name": "ZTM Guardian Live Widget",
+    "page_link": "./blocks/cquaid/index.html",
+    "block_icon": "./blocks/cquaid/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
     "name": "Timeline",
     "page_link": "./blocks/danicc/index.html",
     "block_icon": "./blocks/danicc/icon.png",
