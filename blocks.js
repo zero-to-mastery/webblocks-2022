@@ -141,6 +141,13 @@
     "author_github_url": "https://github.com/KajaDabrowska"
   },
   {
+    "name": "Name-in-Space",
+    "page_link": "./blocks/Khushi/index.html",
+    "block_icon": "./blocks/Khushi/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005/"
+  },
+  {
     "name": "Colorful Hoverboard",
     "page_link": "./blocks/Lhpellizzon/index.html",
     "block_icon": "./blocks/Lhpellizzon/icon.png",
@@ -579,6 +586,13 @@
     "block_icon": "./blocks/insidiae/icon.png",
     "author_name": "Insidiae",
     "author_github_url": "https://github.com/Insidiae/"
+  },
+  {
+    "name": "Minimal Calculator",
+    "page_link": "./blocks/joedravarol/index.html",
+    "block_icon": "./blocks/joedravarol/icon.png",
+    "author_name": "JD",
+    "author_github_url": "https://github.com/joedravarol"
   },
   {
     "name": "Keyboard interactions with sounds ft. DBZ and Naruto",
