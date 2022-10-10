@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="media/img/yogi.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Bebas+Neue&family=Kaushan+Script&family=Niconne&family=Norican&display=swap" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <title>Yoga Timer</title>
+   </head>
+   <body>
+      <div class="container_main">
+         <div class="header">
+            <h1 class="heading">Welcome To Namaste Yoga</h1>
+         </div>
+         <form class="select_container">
+            <select id="select">
+               <option selected disabled>Choose workout</option>
+               <option value="Shavasana">Shavasana</option>
+               <option value="Trikonasana">Trikonasana</option>
+               <option value="Virabhadrasana">Virabhadrasana</option>
+               <option value="Adho Mukha Svanasana">Adho Mukha Svanasana</option>
+               <option value="Sukhasana">Sukhasana</option>
+            </select>
+         </form>
+         <div class="container_input">
+            <div class="input">
+               <label>Minutes</label>
+               <input class="minutes input" type="number" placeholder="0" maxlength="" size="2" min="0" id="minutes">
+            </div>
+            <div class="colon_container">
+               <p class="colon">:</p>
+            </div>
+            <div class="input">
+               <label>Seconds</label>
+               <input class="seconds input" type="number" placeholder="00" maxlength="4" size="2" min="0" id="seconds">
+            </div>
+         </div>
+         <div class="btn_par_container" id="btn_par">
+            <div class="button_container">
+               <button id="button">Start</button>
+            </div>
+            <div id="container-countdown" class="center column">
+               <p class="countdown" id="countdown">0 : 00</p>
+            </div>
+         </div>
+         <div class="video-container">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline class="adho myVideo">
+               <source class="video" src="media/video/Adho Mukha Svanasana.mp4" type="video/mp4">
+            </video>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline class="shavasana myVideo">
+               <source class="video" src="media/video/shavasana.mp4" type="video/mp4">
+            </video>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline class="stretch myVideo">
+               <source class="video" src="media/video/stretch.mp4" type="video/mp4">
+            </video>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline class="trikonasana myVideo">
+               <source class="video" src="media/video/Trikonasana.mp4" type="video/mp4">
+            </video>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline class="virabhadrasana myVideo">
+               <source class="video" src="media/video/Virabhadrasana.mp4" type="video/mp4">
+            </video>
+         </div>
+         <div class="logo">
+            <p class="logo_par">To Learn More Click On The Icon</p>
+            <a href="https://namaste-yoga-studio.glitch.me" class="link_logo" target="_blank"><img src="media/img/yogi.png" alt="Yoga" class="logo_img"></a>
+         </div>
+         <audio id="player" autoplay loop>
+            <source src="media/audio.mp3" type="audio/mp3">
+         </audio>
+      </div>
+
+      <!-- <h2>Contact</h2> -->
+      <div class="contact-icons">
+         <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+         <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
