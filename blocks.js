@@ -232,6 +232,13 @@
     "author_github_url": "https://github.com/rajmishra-47/"
   },
   {
+    "name": "Coolor Change",
+    "page_link": "./blocks/RajMishra3/index.html",
+    "block_icon": "./blocks/RajMishra3/icon.png",
+    "author_name": "Raj Mishra",
+    "author_github_url": "https://github.com/rajmishra-47/"
+  },
+  {
     "name": "Item Quantity Counter",
     "page_link": "./blocks/RitikaAgrawal811/index.html",
     "block_icon": "./blocks/RitikaAgrawal811/icon.png",
