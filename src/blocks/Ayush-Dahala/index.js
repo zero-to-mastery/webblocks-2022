@@ -1,4 +1,3 @@
-console.log("Welcome to my notes")
 showNotes()
 let btn = document.getElementById("addBtn");
 btn.addEventListener("click", function (e) {
@@ -68,7 +67,6 @@ let search=document.getElementById("searchVal")
 search.addEventListener("input",func)
 function func(){
     let inputVal=search.value;
-    console.log(inputVal)
     let noteCard=document.getElementsByClassName("noteCard")
     Array.from(noteCard).forEach(function(element){
         let cardTxt=element.getElementsByTagName("p")[0].innerText;
