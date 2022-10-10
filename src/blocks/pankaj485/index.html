@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Github Login Page</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<section class="header">
+				<img src="./github.png" class="githubLogo" alt="github icon" />
+				<h1>Sign in to GithHub</h1>
+			</section>
+
+			<div class="form">
+				<label for="email">Username or email address</label>
+				<input autofocus required type="text" name="email" id="emailInput" />
+				<br />
+				<label for="password"
+					>Password <span class="forgotPasswordLink">Forgot password?</span>
+				</label>
+				<input type="password" required name="password" id="passwordInput" />
+				<br />
+				<button class="signInBtn">Sign In</button>
+			</div>
+			<section class="promotion">
+				<h2>New to Github? <span>Create an account</span>.</h2>
+				<div class="promotionLinks">
+					<p>Terms</p>
+					<p>Privacy</p>
+					<p>Security</p>
+					<p>Contact Github</p>
+				</div>
+			</section>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
