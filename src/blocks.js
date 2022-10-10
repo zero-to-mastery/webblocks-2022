@@ -455,6 +455,13 @@
     "author_github_url": "https://github.com/conor-v"
   },
   {
+    "name": "Neumorphism form element",
+    "page_link": "./blocks/conor-v4/index.html",
+    "block_icon": "./blocks/conor-v4/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
     "name": "ZTM Guardian Live Widget",
     "page_link": "./blocks/cquaid/index.html",
     "block_icon": "./blocks/cquaid/icon.png",
