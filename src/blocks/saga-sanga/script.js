@@ -1,7 +1,6 @@
 const button = document.querySelector("button");
 const radioButtons = document.querySelectorAll("input[type='radio'");
 const ratingElement = document.querySelector("#rating-msg");
-const thankYouSection = document.querySelector(".thank-you-section");
 let selectedRank;
 
 button.addEventListener('click', () => {
@@ -13,8 +12,9 @@ button.addEventListener('click', () => {
   }
   if (selectedRank) {
     ratingElement.innerText = `You selected ${selectedRank} out of 5`;
-    thankYouSection.style.display = "grid";
+    document.querySelector(".thank-you-section").style.display = "grid";
+    document.querySelector("#rating-section").style.display = "none";
   } else {
-    alert("Please select a ranting!");
+    alert("Please select a rating!");
   }
 });

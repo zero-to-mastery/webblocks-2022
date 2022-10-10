@@ -194,10 +194,10 @@ label:focus {
 
 .thank-you-section {
   display: none;
-  position: absolute;
+  /* position: absolute; */
   justify-items: center; 
-  text-align: center;
-  align-self: center;
+  /* text-align: center; */
+  /* align-self: center; */
   justify-self: center;
   z-index: 2;
   /* padding-block: 2rem; */
