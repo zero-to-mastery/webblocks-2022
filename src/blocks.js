@@ -295,6 +295,13 @@
     "author_github_url": "https://github.com/Sayed-Husain/"
   },
   {
+    "name": "Color Zoomer & Revealers",
+    "page_link": "./blocks/Sayed-Husain-2/index.html",
+    "block_icon": "./blocks/Sayed-Husain-2/icon.png",
+    "author_name": "Sayed-Husain",
+    "author_github_url": "https://github.com/Sayed-Husain/"
+  },
+  {
     "name": "Modern Responsive Testimonial",
     "page_link": "./blocks/SubramanyaRao11/index.html",
     "block_icon": "./blocks/SubramanyaRao11/icon.png",
