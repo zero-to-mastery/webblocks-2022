@@ -525,6 +525,13 @@
     "author_github_url": "https://github.com/ifeoluwah21"
   },
   {
+    "name": "Random Quotes",
+    "page_link": "./blocks/ifeoluwah3/index.html",
+    "block_icon": "./blocks/ifeoluwah3/icon.png",
+    "author_name": "Ifeoluwa Oludare",
+    "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
     "name": "Animated Monitor design",
     "page_link": "./blocks/imashi/index.html",
     "block_icon": "./blocks/imashi/icon.png",
