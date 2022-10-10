@@ -490,6 +490,13 @@
     "author_github_url": "https://github.com/dsnoeijer/"
   },
   {
+    "name": "List item with favorite button",
+    "page_link": "./blocks/dsnoeijer2/index.html",
+    "block_icon": "./blocks/dsnoeijer2/icon.png",
+    "author_name": "W.D. Snoeijer",
+    "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
     "name": "Feedback component",
     "page_link": "./blocks/getRicha/index.html",
     "block_icon": "./blocks/getRicha/icon.png",
