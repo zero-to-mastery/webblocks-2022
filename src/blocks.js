@@ -679,6 +679,13 @@
     "author_github_url": "https://github.com/mustafadede"
   },
   {
+    "name": "Desktop Navigation",
+    "page_link": "./blocks/mustafadede-1/index.html",
+    "block_icon": "./blocks/mustafadede-1/icon.png",
+    "author_name": "Mustafa DEDE",
+    "author_github_url": "https://github.com/mustafadede"
+  },
+  {
     "name": "Login and Signup form",
     "page_link": "./blocks/nikhil_mishra/index.html",
     "block_icon": "./blocks/nikhil_mishra/icon.png",
