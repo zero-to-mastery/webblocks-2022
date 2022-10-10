@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/AbhishekM2001/"
   },
   {
+    "name": "Menu Button",
+    "page_link": "./blocks/Aditya Musale/index.html",
+    "block_icon": "./blocks/Aditya Musale/icon.png",
+    "author_name": "Aditya Musale",
+    "author_github_url": "https://github.com/the-anomalous/"
+  },
+  {
     "name": "Popup prompt",
     "page_link": "./blocks/AmoghRao2@arioum/index.html",
     "block_icon": "./blocks/AmoghRao2@arioum/icon.png",
