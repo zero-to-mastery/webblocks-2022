@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #f9f5eb;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f9f5eb;
+  font-weight: 300;
+  height: 150vh;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo svg {
+  width: 21px;
+  fill: #f9f5eb;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+h1 {
+  user-select: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0 10px 24px;
+  height: inherit;
+  background-color: #1c3879;
+  width: 11%;
+  height: 100vh;
+}
+
+nav ul a {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+a svg {
+  width: 21px;
+  fill: #f9f5eb;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+nav ul a li {
+  position: relative;
+  top: 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 500;
+}
+
+span {
+  width: 12%;
+}
+
+.theme-wrapper {
+  margin: 24px;
+}
+
+section p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1c3879;
+}
+
+.colors-wrapper {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.color {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  background-color: #1c3879;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1.5s ease-out;
+}
+
+.color:hover {
+  transition: 0.3s ease-in;
+  border: 4px solid white;
+  box-shadow: 0 10px 12px rgba(128, 128, 128, 0.357);
+}

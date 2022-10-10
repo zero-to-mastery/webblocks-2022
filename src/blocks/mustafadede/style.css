@@ -36,7 +36,11 @@ img {
   margin-bottom: 64px;
 }
 
-button {
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
   border-radius: 12px;
   border: none;
   cursor: pointer;
@@ -49,7 +53,7 @@ button {
   transition: 0.2s ease-out;
 }
 
-button:hover {
+a:hover {
   transition: 0.2s ease-in;
   background-color: #bf8367;
   color: white;
