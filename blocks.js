@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "NOTES TAKING APP",
+    "page_link": "./blocks/Ayush-Dahala/index.html",
+    "block_icon": "./blocks/Ayush-Dahala/icon.png",
+    "author_name": "AYUSH-DAHALA",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
     "name": "To do list",
     "page_link": "./blocks/AyushKNath/index.html",
     "block_icon": "./blocks/AyushKNath/icon.png",
