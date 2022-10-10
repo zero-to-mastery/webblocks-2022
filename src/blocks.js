@@ -903,6 +903,13 @@
     "author_github_url": "https://github.com/terrifricker/"
   },
   {
+    "name": "Drum 🥁 Kit",
+    "page_link": "./blocks/vanithaak/index.html",
+    "block_icon": "./blocks/vanithaak/icon.png",
+    "author_name": "Vanitha",
+    "author_github_url": "https://github.com/vanithaak"
+  },
+  {
     "name": "3D Flip Card",
     "page_link": "./blocks/vijay2249/index.html",
     "block_icon": "./blocks/vijay2249/icon.png",
