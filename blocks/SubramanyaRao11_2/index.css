@@ -1,0 +1,169 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #0e141b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Title stylings */
+/* Lineaer Gradient text Effect */
+
+/* Credits for text effect:- */
+/* https://codepen.io/caseycallow/pen/yMNqPY */
+
+.header {
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+
+
+
+/* Button stylings */
+/* For button Stylings Refer below */
+
+
+.button {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    background: rgb(24, 38, 53) none repeat scroll 0% 0%;
+    color: #fff;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    animation: move 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px
+}
+
+.button:hover:before {
+    opacity: 1
+}
+
+.button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(24, 38, 53) none repeat scroll 0% 0%;
+    left: 0;
+    top: 0;
+    border-radius: 10px
+}
+
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
