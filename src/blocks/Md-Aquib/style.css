@@ -62,8 +62,11 @@ nav{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.about-section{
+.about-section,.skill-section,.contact-section{
     padding-top:10vh;
+}
+
+.about-section{
     background-color: #a0e9ff;
 }
 
@@ -85,7 +88,7 @@ footer{
     font-weight:600;
 }
 
-.about-box{
+.about-box,.skill-box,.contact-box{
     background-color:white;
     margin:0px 1rem;
     height:80vh;
@@ -102,8 +105,23 @@ footer{
 }
 
 .sect-p{
-    padding-top:10vh;
+    padding:10vh 0;
     word-spacing:2px;
+}
+
+.skill-set{
+    display: flex;
+    box-sizing: border-box;
+    padding-top:5vh;
+}
+
+.skill{
+    width:33%;
+    float: left;
+}
+
+.contact-info{
+    padding-top:10vh;
 }
 
 @media (max-width:768px){
@@ -136,6 +154,28 @@ footer{
         padding:0.5rem 0rem;
     }
     .sect-p{
+        padding-top:0;
+    }
+    .about-section{
+        height:fit-content;
+        padding-bottom:10vh;
+    }
+    .about-box{
+        height: fit-content;
+    }
+    .sect-p{
+        padding:0px 1rem;
+    }
+    .sect-head{
+        font-size:1.9rem;
+    }
+    .skill-set{
+        display: block;
+    }
+    .skill{
+        width:50%;
+    }
+    .contact-info{
         padding-top:0;
     }
 }
