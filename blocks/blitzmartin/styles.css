@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins&display=swap");
+
+:root {
+  --col-primary: rgb(50, 74, 209);
+  --col-accent: rgba(253, 29, 29, 1);
+  --col-white: #ffff;
+  --col-light: rgb(231, 231, 231);
+  --col-dark: rgb(31, 31, 31);
+  --col-shadow: 2px 5px 30px rgb(87, 87, 87);
+  --font-primary: "Poppins", sans-serif;
+  --font-accent: "Abyssinica SIL", serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--font-primary);
+  background: linear-gradient(
+    160deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-accent);
+  color: var(--col-accent);
+}
+
+.player {
+  background: var(--col-light);
+  color: var(--col-dark);
+  width: 380px;
+  height: 550px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 50px;
+  box-shadow: var(--col-shadow);
+  overflow: hidden;
+}
+
+.cover {
+  width: 290px;
+  height: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  box-shadow: var(--col-shadow);
+}
+
+.cover img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.song-title {
+  font-size: 1.7rem;
+}
+
+.artist {
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+}
+
+.time-bar {
+  -webkit-appearance: none; /* remove all browser styling */
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: rgb(255, 172, 172);
+  cursor: pointer;
+  overflow: hidden; /* for double color */
+}
+
+.time-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1px;
+  box-shadow: -400px 0 0 400px var(--col-accent); /* for double color */
+}
+
+.song-duration {
+  position: absolute;
+  right: 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls > * {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.controls i {
+  color: var(--col-accent);
+}
+
+.controls i:active {
+  color: var(--col-primary);
+}
+
+.play-pause-btn i {
+  font-size: 4rem;
+}
+
+.skip-btn i {
+  font-size: 2rem;
+}
