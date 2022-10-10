@@ -749,6 +749,13 @@
     "author_github_url": "https://github.com/DevTomilola-OS/"
   },
   {
+    "name": "Github Login Page",
+    "page_link": "./blocks/pankaj485/index.html",
+    "block_icon": "./blocks/pankaj485/icon.png",
+    "author_name": "Pankaj Thapaliya",
+    "author_github_url": "https://github.com/pankaj485/"
+  },
+  {
     "name": "TypeWriter Component",
     "page_link": "./blocks/pellizzon/index.html",
     "block_icon": "./blocks/pellizzon/icon.png",
