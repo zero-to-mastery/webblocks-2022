@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>youtube.com/watch?v=5xooMXyleXM</title>
+
+    <style>
+      body{
+        background-color: rgb(193, 226, 226);
+        text-align: center;
+      }
+      div{
+        padding: 30px;
+        height: 200px;
+        margin: 0 auto;
+        margin:4%;
+        display:flex;
+
+      }
+      .zoom {
+        transition: transform .3s;
+      }
+      
+      .zoom:hover {
+        transform: scale(1.5); 
+      }
+      </style>
+
+      
+  </head>
+
+  <body>
+    <h1>Zoom-in feature + Reveal Color Name</h1><span>Zoom when hover, have action when clicked</span>
+    <div>
+      <div class="zoom" id="red" style="background-color: rgb(235, 0, 0);"></div>
+      <div class="zoom" id="green" style="background-color: green;"></div>
+      <div class="zoom" id="blue" style="background-color: blue;"></div>
+      <div class="zoom" id="purple" style="background-color: purple;"></div>
+      <div class="zoom" id="brown" style="background-color:brown"></div>
+      <div class="zoom" id="orange" style="background-color:darkorange"></div>
+      <div class="zoom" id="navy" style="background-color:navy"></div>
+      <div class="zoom" id="black" style="background-color:black"></div>
+    </div>
+
+    <h1 id="container" style="margin-top: 10%;"></h1>
+
+
+    <script>
+      var blocks = document.getElementsByClassName("zoom")
+
+      for (let i = 0; i < blocks.length; i++) {
+          blocks[i].addEventListener("click", function() { document.getElementById("container").innerHTML = blocks[i].id;});
+          }
+
+    </script>
+    </body>
+</html>
