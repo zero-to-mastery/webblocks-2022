@@ -302,6 +302,13 @@
     "author_github_url": "https://github.com/Subramanyarao11"
   },
   {
+    "name": "CSS Linear Gradient Button",
+    "page_link": "./blocks/SubramanyaRao11_2/index.html",
+    "block_icon": "./blocks/SubramanyaRao11_2/icon.png",
+    "author_name": "Subramanya Rao",
+    "author_github_url": "https://github.com/Subramanyarao11"
+  },
+  {
     "name": "Age Calculator",
     "page_link": "./blocks/SudiptoDas/index.html",
     "block_icon": "./blocks/SudiptoDas/icon.png",
