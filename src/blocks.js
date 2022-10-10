@@ -113,6 +113,13 @@
     "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
+    "name": "SIP Calculator",
+    "page_link": "./blocks/HarshilSharma3/index.html",
+    "block_icon": "./blocks/HarshilSharma3/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
     "name": "Netflix Carousel",
     "page_link": "./blocks/ImieboGodson/index.html",
     "block_icon": "./blocks/ImieboGodson/icon.png",
