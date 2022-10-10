@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Simple Music Player</title>
+  </head>
+
+  <body>
+    <!--leave src empty, you will fill it with js -->
+    <audio src="" id="audio"></audio>
+
+    <div class="main-container">
+
+      <!-- player component starts here -->
+      <div class="player">
+        <h3>Now Playing</h3>
+
+        <!-- album cover -->
+        <div class="cover">
+          <img class="cover-img"
+            src=""
+            alt="song-cover"
+          />
+        </div>
+
+        <!-- song and artist info -->
+        <p class="song-title"></p>
+        <p class="artist"></p>
+
+        <!-- slider for song progression and duration -->
+        <div class="slider">
+          <input type="range" value="" class="time-bar" />
+          <span class="progress-time"></span>
+          <span class="song-duration"></span>
+        </div>
+
+        <!-- control buttons with Google Material Icons -->
+        <div class="controls">
+          <button class="skip-btn previous">
+            <i class="material-icons"
+              ><span class="material-symbols-outlined"> skip_previous </span></i
+            >
+          </button>
+          <button class="play-pause-btn">
+            <i class="material-icons">
+              <span class="material-symbols-outlined play-pause-span"
+                >play_circle</span
+              >
+            </i>
+          </button>
+          <button class="skip-btn next">
+            <i class="material-icons"
+              ><span class="material-symbols-outlined"> skip_next </span></i
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./data.js"></script>   <!-- keep data.js BEFORE app.js!! otherwise the script cannot access the songs -->
+    <script src="./app.js"></script>
+
+  </body>
+</html>
