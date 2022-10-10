@@ -721,6 +721,13 @@
     "author_github_url": "https://github.com/lhpellizzon"
   },
   {
+    "name": "HEX Quiz",
+    "page_link": "./blocks/philipbos/index.html",
+    "block_icon": "./blocks/philipbos/icon.png",
+    "author_name": "Philip Bos",
+    "author_github_url": "https://github.com/Philip-Bos"
+  },
+  {
     "name": "TicTacToe",
     "page_link": "./blocks/pranavpathak08/index.html",
     "block_icon": "./blocks/pranavpathak08/icon.png",
