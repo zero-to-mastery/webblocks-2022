@@ -204,6 +204,13 @@
     "author_github_url": "https://github.com/Md-Aquib/"
   },
   {
+    "name": "Card component",
+    "page_link": "./blocks/MdZaidSiddiqui/index.html",
+    "block_icon": "./blocks/MdZaidSiddiqui/icon.png",
+    "author_name": "Zaid",
+    "author_github_url": "https://github.com/zaidsidd360/"
+  },
+  {
     "name": "Magic 8 Ball",
     "page_link": "./blocks/MiguelSemedo/index.html",
     "block_icon": "./blocks/MiguelSemedo/icon.png",
