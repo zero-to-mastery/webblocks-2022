@@ -350,6 +350,13 @@
     "author_github_url": "https://github.com/billlunger/"
   },
   {
+    "name": "simple-audio-player",
+    "page_link": "./blocks/blitzmartin/index.html",
+    "block_icon": "./blocks/blitzmartin/icon.png",
+    "author_name": "blitzmartin",
+    "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
     "name": "pretzel loading icon",
     "page_link": "./blocks/carmen170796/index.html",
     "block_icon": "./blocks/carmen170796/icon.png",
