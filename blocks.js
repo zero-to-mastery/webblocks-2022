@@ -777,6 +777,13 @@
     "author_github_url": "https://github.com/shemil076"
   },
   {
+    "name": "Animated Navigation Bar",
+    "page_link": "./blocks/shubham2/index.html",
+    "block_icon": "./blocks/shubham2/icon.png",
+    "author_name": "Shubham Kumar",
+    "author_github_url": "https://github.com/shubham7668"
+  },
+  {
     "name": "Animated Search Widget",
     "page_link": "./blocks/shubham7668/index.html",
     "block_icon": "./blocks/shubham7668/icon.png",
