@@ -1,0 +1,151 @@
+
+/* VARIABLES */
+:root {
+    --light: #BECA5C;
+    --lighter: #EF8D32;
+    --dark: #CC561E;
+    --darker: #AA2B1D;
+    --headerHeight: 60px;
+    --footerHeight: 20px;
+}
+/* INITIAL */
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+/* CONTAINER */
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+/* General */
+button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--lighter);
+    border-radius: 10px 5px 10px 5px;
+    transition: background-color 0.4s,  margin 0.4s;
+}
+button:hover {
+    background-color: var(--light);
+    width: 110px;
+}
+
+/* HEADER */
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: var(--headerHeight);
+    border-bottom: 2px solid var(--darker);
+    background-color: white;
+}
+menu#navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5px;
+}
+#hamburger {
+    display: none;
+}
+menu#popup-menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: none;
+    width: 100vw;
+    top: var(--headerHeight);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#popup-menu button:hover {
+    width: 65%
+}
+menu button, header button {
+    height: 100%;
+    border-radius: 20px 10px 20px 10px;
+    margin: 2px;
+}
+#logo {
+    /* padding-top: 25px; */
+    /* width: 150px; */
+    height: 100%;
+}
+#logo-img{
+    height: 100%;
+    transition: width 0.4s, height 0.4s;
+}
+#logo-img:hover{
+    width: 110%;
+    height: 110%;
+}
+a {
+    color: var(--lighter);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--light);
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    menu#navbar{
+        display: none;
+    }
+    #hamburger {
+        display: block;
+    }
+    header {
+        justify-content: space-around;
+        padding: 0;
+    }
+    menu#popup-menu {
+        padding: 30px;
+    }
+    menu button {
+        height: 50px;
+        width: 65%;
+        border-radius: 20px 10px 20px 10px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #student-data {
+        font-size: 0.9rem;
+        width: 400px;
+        height: 300px;
+    }
+    #personal-data {
+        width: 95%;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    table{
+        font-size: 0.9rem;
+    }
+    #student-data{
+        font-size: 0.7rem;
+        width: 85%;
+    }
+    #modal-img {
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 360px) {
+    table{
+        font-size: 0.8rem;
+    }
+}
