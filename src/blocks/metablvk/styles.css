@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Silkscreen&display=swap');
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 62.5%;
+  color: rgb(22, 22, 22);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.4rem;
+}
+
+.editor {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 1.2rem;
+}
+
+.text-area {
+  background: #fff;
+  padding: 2rem;  
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-size: 1.6rem;
+  border: 1px solid #D8D9CF;
+  background: none;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-active {
+  background: #D8D9CF;
+}
+
+.cursor::after {
+  content: '|';
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #E26868;
+  }
+}
