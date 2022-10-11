@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  width: 100%;
+  height: fit-content;
+  font-size: x-large;
+  font-family: 'helvetica';
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-list {
+  display: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  padding: 8px;
+  position: absolute;
+  background-color: black;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+  transition: ease-in-out 0.2s;
+}
+
+.dropdown-list > a {
+  color: white;
+  text-decoration: none;
+  font-family: "helvetica";
+  font-weight: 600;
+  padding: 4px 0;
+  border-radius: 2px;
+}
+
+.dropdown-list > a:hover {
+  background-color: lightgrey;
+  color: black;
+  transition: ease-in-out 0.1s;
+}
+
+.show-dropdown {
+  display: flex;
+  flex-direction: column;
+  transition: ease-in-out 1s;
+}
+
+.dropdown-list a:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+a > span {
+  padding-left: 8px;
+}
+
+.image-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+
