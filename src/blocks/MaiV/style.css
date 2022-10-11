@@ -43,7 +43,7 @@
     background: #d17eef;
 }
 
-.volume{
+#volume-bar{
     display: flex;
     justify-content: center;
 }
