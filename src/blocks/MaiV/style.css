@@ -1,0 +1,49 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  background-color: #967969;
+  font-family:Verdana;
+}
+
+#first {
+  align-items: center;
+  width: 700px;
+  height: 700px;
+  background: #FDF5E6;
+  overflow: hidden;
+  position: center;
+  border:10px black solid;
+}
+
+#second {
+  position: relative;
+  width: 50%;
+  height: 70%;
+  margin: auto;
+  background: #FFFFFF;
+}
+
+.image-play{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#commands{
+    display:flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.song{
+    background: #d17eef;
+}
+
+.artist{
+    background: #d17eef;
+}
+
+.volume{
+    display: flex;
+    justify-content: center;
+}

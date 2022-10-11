@@ -4,8 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <body>
-      <script src="script.js"></script>
-    </body>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    
   </head>
+  <body>
+    <div id="first">
+      <h1 style="text-align: center">Lofi Playlist</h1>
+
+      <div id="second">
+        <img class="image-play" src="data:image/png;base64,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" alt="image" />
+        <br />
+
+        <p class="song">Song</p>
+        <p class="artist">Artist</p>
+
+        <div id="commands">
+        <button id="rewind">
+          <i class="bi bi-rewind-btn-fill" style="font-size: 48px">Rewind</i>
+        </button>
+        <button id="playlist">
+          <i class="bi bi-file-play-fill" style="font-size: 48px"></i>
+        </button>
+        <button id="forward">
+            <i class="bi bi-fast-forward-btn-fill">Forward</i>
+          </button>
+        </div>
+        <br /> 
+        <div id="volume">
+            <input type="range" id="volume" name="volume"
+            min="0" max="11">
+     <label for="volume">Volume</label>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
+
+<!-- switch icons to bootstrap icons -->
