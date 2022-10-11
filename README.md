@@ -2,7 +2,7 @@
 
 > There is a big hype about front-end frameworks all over the place. But in this project we are going to build a showcase library of components using vanilla HTML, CSS and maybe some Javascript.
 >
-> Everyone is highly encouraged to partipate in this project regardless of you knowledge, after all practice makes us all better developers!
+> Everyone is highly encouraged to partipate in this project regardless of your knowledge, after all practice makes us all better developers!
 
 ## ❇️ Getting Started with Hacktoberfest
 
@@ -39,7 +39,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 2. Clone (download) your fork to your computer
 
-3. Set your streams so you can sync your clone with the original repo (get the latest updates)
+3. Set up your streams so you can sync your clone with the original repo (get the latest updates)
 
    - `git remote add upstream https://github.com/zero-to-mastery/webblocks-2022.git`
    - `git pull upstream master`
