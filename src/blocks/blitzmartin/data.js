@@ -37,39 +37,16 @@ const songs = [
   },
   {
     id: 5,
-    songTitle: "Bang Bang",
-    artist: "Liz Martin",
-    source: "./assets/music/Liz Martin_Bang Bang.mp3",
-    cover: "https://i1.sndcdn.com/artworks-000104202518-pogdts-t240x240.jpg",
-  },
-
-  {
-    id: 6,
     songTitle: "Immaculate Heart",
     artist: "BLiTZ",
     source: "./assets/music/Liz Martin_The Immaculate Heart.mp3",
     cover: "https://i1.sndcdn.com/artworks-000588334994-2wrysh-t500x500.jpg",
   },
   {
-    id: 7,
+    id: 6,
     songTitle: "La Moda Italiana",
     artist: "BLiTZ",
     source: "./assets/music/Liz Martin_Schubert_MilanoFashionWeek.mp3",
     cover: "https://i1.sndcdn.com/artworks-000125251010-j2u4en-t500x500.jpg",
-  },
-  {
-    id: 8,
-    songTitle: "Prisoner",
-    artist: "Liz Martin (ft Singrey)",
-    source: "./assets/music/Liz Martin_Prisoner.mp3",
-    cover:
-      "https://i1.sndcdn.com/artworks-DFX2yzNZp8t24L1K-RbWvSA-t500x500.jpg",
-  },
-  {
-    id: 9,
-    songTitle: "Dua Lipa x Daft Punk",
-    artist: "Liz Martin",
-    source: "./assets/music/Liz Martin_DON'T START NOW_GET LUCKY.mp3",
-    cover: "https://i1.sndcdn.com/artworks-000637024867-m6jwy6-t500x500.jpg",
   },
 ];
