@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h1>Spotify</h1>
+    <h1 id="heading">Sign up for free to start listening.</h1>
+
+    <button id="facebook-button">Sign up with Facebook</button>
+    <button>Sign up with Google</button>
+
+    <p id="line">or</p>
+
+    <h2>Sign up with your email address</h2>
+
+    <div id="form-div">
+        <form action="">
+            <label for="emailAddress">What's your email?</label><br>
+            <input type="text" id="emailAddress" name="email" placeholder="Enter your email."><br>
+
+            <label for="confirmEmail">Confirm your email</label><br>
+            <input type="text" id="lname" name="confirmEmail" placeholder="Enter your email again."><br>
+
+            <label for="createPassword">Create a password</label><br>
+            <input type="text" id="createPassword" name="password" placeholder="Create a password."><br>
+
+            <label for="Name">What should we call you</label><br>
+            <input type="text" id="Name" name="name" placeholder="Enter a profile name."><br>
+
+            <label>What's your date of birth</label>
+            <div id="grid-container">
+                <div>
+                    <label for="DD">Day</label><br>
+                    <input type="text" id="DD" name="Day" placeholder="DD">
+                </div>
+                <div>
+                    <label for="month">Month</label><br>
+                    <select name="month" id="month">
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">Septmber</option>
+                        <option value="oct">Octoboer</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="YYYY">Day</label><br>
+                    <input type="text" id="YYYY" name="year" placeholder="YYYY">
+                </div>
+            </div>
+
+            <label>What's your gender?</label><br>
+            <div id="gender-input">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="non-binary" name="gender" value="non-binary">
+                <label for="non-binary">Non-binary</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+                <input type="radio" id="na" name="gender" value="n/a">
+                <label for="na">Prefer not to say</label>
+            </div><br>
+
+            <div id="check-input">
+                <input type="checkbox" id="news" name="news" value="news">
+                <label for="news"> Please send me news and offers from Spotify</label><br><br>
+                <input type="checkbox" id="share" name="share" value="share">
+                <label for="share"> Share my registration data with Spotify's content providers for
+                    marketing purposes. Note that your data may be transferred to a country outside of
+                    the EEA as described in our privacy policy.</label>
+                <br><br>
+            </div>
+
+            <p class="checkInput-text">By clicking on sign-up, you agree to Spotify's <a>Terms and Conditions of Use.</a></p>
+            <p class="checkInput-text">To learn more about how Spotify collects, uses, shares and protects your personal data, 
+                please see <a>Spotify's Privacy Policy.</a></p>
+
+            <button id="submit-button">Sign up</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
