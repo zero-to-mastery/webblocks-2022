@@ -1,4 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 * {
   background-color: #967969;
@@ -36,11 +35,11 @@
 }
 
 .song{
-    background: #d17eef;
+    background: #D2B48C;
 }
 
 .artist{
-    background: #d17eef;
+    background: #D2B48C;
 }
 
 #volume-bar{
