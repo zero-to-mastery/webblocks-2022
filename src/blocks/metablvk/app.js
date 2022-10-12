@@ -3,48 +3,22 @@
  */
 const editor = document.querySelector('.editor');
 const textArea = document.createElement('p');
-const controls = document.createElement('div');
-
-// Build strong button for bolding text
-const strongBtn = document.createElement('button');
-strongBtn.appendChild(document.createTextNode('B'));
-strongBtn.classList.add('btn');
-
-controls.appendChild(strongBtn);
 
 // Build text area
 let text = "I'm a simple text editor...";
 textArea.appendChild(document.createTextNode(text));
 textArea.classList.add('text-area');
 // Build editor
-editor.appendChild(controls);
+
 editor.appendChild(textArea);
 
 /**
  * TODO:
- * - Allow basic user input and display cursor
+ * - [x] Allow basic user input and display cursor
  * - Add in ability to make text strong, or emphasized
  */
 
-strongBtn.addEventListener('click', () => {
-  strongBtn.classList.toggle('btn-active');
-});
-const typing = (e) => {
-  // logic goes here.
-  switch (e.key) {
-    case 'Backspace':
-      text = text.slice(0, text.length - 1);
-      break;
-    case 'Enter':
-      text += '\n';
-      break;
-    case 'Shift':
-      // No logic, because it will capitalize the text automatically.
-      break;
-    default:
-      text += e.key;
-  }
-
+const updateDOM = (text) => {
   textArr = text.split('\n');
   // remove the previous children
   while (textArea.lastChild) {
@@ -59,10 +33,33 @@ const typing = (e) => {
   });
 };
 
+const typing = (e) => {
+  // logic goes here.
+  switch (e.code) {
+    case 'Backspace':
+      text = text.slice(0, text.length - 1);
+      break;
+    case 'Enter':
+      text += '\n';
+      break;
+    case 'ShiftLeft':
+    case 'ShiftRight':
+    case 'ControlLeft':
+    case 'ControlRight':
+      // No logic, because it will capitalize the text automatically.
+      break;
+    case ' ':
+      text += ' ';
+    default:
+      text += e.key;
+  }
+  updateDOM(text);
+};
+
 window.addEventListener('click', (e) => {
   // if event.target equals editor add cursor, and ability to type
   // else unfocus editor if focused
-  if (e.target === editor || e.target === textArea || e.target === strongBtn) {
+  if (e.target === editor || e.target === textArea) {
     window.addEventListener('keydown', typing);
     textArea.classList.add('cursor');
   } else {
