@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<div class="container-fluid " id="alert"></div>
+<div class="container mt-5">
+    <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Name</label>
+        <input type="text" id="Name" class="form-control">
+        
+    </div>
+    <small id="namevalid" class="form-text text-warning">
+      </small>
+
+
+    <div class="input-group mt-3">
+        <label class="input-group-text"  for="inputGroupSelect01">Email Address</label>
+        <input type="text" id="email" class="form-control">
+    </div>
+    <small id="emailvalid" class="form-text text-warning">
+    </small>
+
+    <div class="input-group mt-3">
+        <label class="input-group-text" for="inputGroupSelect01">Select Car</label>
+        <select class="form-select" id="select" aria-label="Example select with button addon">
+            <option selected>Choose...</option>
+            <option value="1">Audi</option>
+            <option value="2">Mustang</option>
+            <option value="3">Alto</option>
+        </select>
+    </div>
+
+    <div class="input-group mt-3">
+        <span class="input-group-text">Address</span>
+        <textarea class="form-control" id="address" aria-label="With textarea"></textarea>
+      </div>
+
+      <div class="input-group mt-3">
+        <label class="input-group-text"  for="inputGroupSelect01">Phone no.</label>
+        <input type="text" id="phone" class="form-control">
+      </div>
+      <small id="phonevalid" class="form-text text-warning">
+    </small>
+
+      <button type="button" id="btn" class="btn btn-outline-dark d-grid gap-2 col-6 mx-auto mt-5">Submit</button>
+
+    <body>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+
+</html>
