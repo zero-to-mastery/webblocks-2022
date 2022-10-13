@@ -16,11 +16,25 @@ let updateTimer;
 const music_list = [
   {
     id: 0,
-    songTitle: "Rather Be",
-    artist: "Clean Bandit",
-    music: "music/Rather Be.mp3",
-    image: "https://i.scdn.co/image/ab67616d0000b2735419c0986ee778b7489da418",
+    songTitle: "All Out",
+    artist: "Shotkallar715",
+    music: "music/All Out Master.mp3",
+    image: "images/xwm1.jpeg",
   },
+  {
+    id: 1,
+    songTitle: "For the Gang",
+    artist: "Shotkallar715",
+    music: "music/For the Gang.mp3",
+    image: "images/xwm2.jpeg",
+  },
+{
+  id: 2,
+  songTitle: "Know my name",
+  artist: "Shotkallar715",
+  music: "music/Know my name.mp3",
+  image: "images/xwm3.jpeg",
+}
 ];
 
 loadTrack(track_index);
@@ -60,7 +74,8 @@ function seekTo() {
 
 function setUpdate() {
   let seekPosition = 0;
-  if (!isNaN(curr_track.duration)) {
+  if (!isNaN(curr_track.duration)) { 
+    //isNaN function returns true if the argument is not a number, otherwise it is false
     seekPosition = curr_track.currentTime * (100 / curr_track.duration);
     seek_slider.value = seekPosition;
 
