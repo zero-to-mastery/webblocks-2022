@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+	font-size: 2.5em;
+}
+
+p {
+	text-align: center;
+}
+
+#content {
+	display: none;
+	flex-direction: column;
+}
+
+#flag {
+	max-width: 60px;
+	height: auto;
+	margin: 0 10px;
+}
+
+#loader {
+	animation: move 0.4s linear 0s infinite alternate;
+}
+
+@keyframes move {
+	100% {
+		margin-right: 30px;
+	}
+}

@@ -2,7 +2,7 @@
 
 > There is a big hype about front-end frameworks all over the place. But in this project we are going to build a showcase library of components using vanilla HTML, CSS and maybe some Javascript.
 >
-> Everyone is highly encouraged to partipate in this project regardless of you knowledge, after all practice makes us all better developers!
+> Everyone is highly encouraged to participate in this project regardless of you knowledge, after all practice makes us all better developers!
 
 ## ❇️ Getting Started with Hacktoberfest
 
@@ -29,7 +29,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 ## ❇️ But what should I create?
 
-> Well that is entirely upto you. Take a look at some of your favorite website and try to recreate one of their components but with your own spin. It could be anything ranging from a simple styled button or toggle switch to a complete contact form.
+> Well that is entirely up to you. Take a look at some of your favorite website and try to recreate one of their components but with your own spin. It could be anything ranging from a simple styled button or toggle switch to a complete contact form.
 
 ## ❇️ How to contribute
 

@@ -120,8 +120,44 @@ footer{
     float: left;
 }
 
-.contact-info{
+.contact-items{
+    display: flex;
+    box-sizing: border-box;
     padding-top:10vh;
+}
+
+.contact-info{
+    width:50%;
+    float: left;
+}
+
+.contact-form{
+    width:50%;
+    float: right;
+}
+
+#name{
+    margin-left:110px;
+    margin-bottom:10px;
+    margin-top:10px;
+    display: block;
+}
+
+
+@Media(max-width:1025px){
+    .contact-items{
+        display:block;
+        box-sizing: border-box;
+        padding-top:0;
+    }
+    
+    .contact-info,.contact-form{
+        width:100%;
+        float: left;
+    }
+    #name{
+        margin:0;
+    }
 }
 
 @media (max-width:768px){
@@ -175,7 +211,7 @@ footer{
     .skill{
         width:50%;
     }
-    .contact-info{
-        padding-top:0;
+    .contact-box{
+        height:95vh;
     }
 }

@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #262626;
+	color: white;
+	text-align: center;
+	font-family: Roboto, -apple-system, sans-serif;
+}
+
+.githubLogo {
+	margin-top: 2rem;
+}
+
+h1 {
+	font-weight: lighter;
+}
+
+.form {
+	font-family: inherit;
+	background-color: #222222;
+	outline: 2px solid #404040;
+	width: 20rem;
+	margin: auto;
+	padding: 1.4rem 1rem;
+	border-radius: 5px;
+	margin-top: 2em;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.8rem;
+	font-size: 0.9rem;
+	text-align: left;
+}
+
+input {
+	width: 100%;
+	outline: 2px solid #404040;
+	background-color: #262626;
+	border-radius: 3px;
+	margin-bottom: 1.3rem;
+	font-size: 1.2rem;
+	padding: 0.3rem 0.5rem;
+	border: none;
+	color: inherit;
+}
+
+.forgotPasswordLink {
+	float: right;
+	color: #58a6ff;
+}
+
+.signInBtn {
+	margin-top: 1rem;
+	width: 100%;
+	font-size: inherit;
+	padding: 0.5rem;
+	background-color: #2ea043;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: inherit;
+}
+
+.signInBtn:hover {
+	background-color: #288239;
+}
+
+.promotion h2 {
+	width: 20rem;
+	margin: auto;
+	padding: 1rem;
+	font-weight: lighter;
+	font-size: 0.9rem;
+	margin-top: 1.5rem;
+	border-radius: 5px;
+	outline: 2px solid #404040;
+	background-color: #222222;
+}
+
+.promotion h2 span {
+	color: #58a6ff;
+}
+
+.promotionLinks {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	font-size: 0.8rem;
+}
+
+.promotionLinks p {
+	color: #58a6ff;
+}
+
+.promotionLinks p:nth-of-type(4) {
+	color: white;
+}
