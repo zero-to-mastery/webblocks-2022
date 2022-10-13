@@ -567,6 +567,13 @@
     "author_github_url": "https://github.com/HenryKhosasih"
   },
   {
+    "name": "DriveSafe",
+    "page_link": "./blocks/henrykhosasih-v4/index.html",
+    "block_icon": "./blocks/henrykhosasih-v4/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
     "name": "css-button",
     "page_link": "./blocks/heyraeh/index.html",
     "block_icon": "./blocks/heyraeh/icon.png",
