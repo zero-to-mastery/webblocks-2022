@@ -1,56 +1,61 @@
-
 * {
-  background-color: #967969;
-  font-family:Verdana;
+  background-color: #ffffff;
+  font-family: Copperplate;
 }
 
 #first {
   align-items: center;
-  width: 700px;
-  height: 700px;
-  background: #FDF5E6;
+  flex-direction: column;
+  height: 100vh;
+  background: #dc143c;
   overflow: hidden;
   position: center;
-  border:10px black solid;
+  border: 7px black solid;
 }
 
 #second {
   position: relative;
-  width: 50%;
-  height: 70%;
+  width: 50vh;
+  height: 50vwh;
   margin: auto;
-  background: #FFFFFF;
+  background: #dc143c;
 }
 
-.image-play{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.image-play {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-#commands{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0.8;
-    transition: opacity 0.2s;
-    background: #FFFFFF;
+#commands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  background: #b22222;
+}
+
+.song {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
 }
 
 .slider_container,
-.song,
-.artist{
+.artist {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#volume-bar{
-    display: flex;
-    justify-content: center;
+#volume-bar {
+  display: flex;
+  justify-content: center;
 }
 
 .current-time,
-.total-duration{
-    padding: 10px;
+.total-duration {
+  padding: 10px;
 }

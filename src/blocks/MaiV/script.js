@@ -2,6 +2,7 @@
 const play = document.querySelector("#play");
 const song = document.querySelector(".song");
 const artist = document.querySelector(".artist");
+const image = document.querySelector(".image-play");
 const rewind = document.querySelector("#rewind");
 const forward = document.querySelector("#forward");
 const curr_time = document.querySelector(".current-time");
@@ -13,7 +14,8 @@ let isPlaying = false;
 let track_index = 0;
 let updateTimer;
 
-const music_list = [
+
+const music = [
   {
     id: 0,
     songTitle: "All Out",
@@ -28,13 +30,13 @@ const music_list = [
     music: "music/For the Gang.mp3",
     image: "images/xwm2.jpeg",
   },
-{
-  id: 2,
-  songTitle: "Know my name",
-  artist: "Shotkallar715",
-  music: "music/Know my name.mp3",
-  image: "images/xwm3.jpeg",
-}
+  {
+    id: 2,
+    songTitle: "Know my name",
+    artist: "Shotkallar715",
+    music: "music/Know my name.mp3",
+    image: "images/xwm3.jpeg",
+  },
 ];
 
 loadTrack(track_index);
@@ -42,11 +44,12 @@ loadTrack(track_index);
 function loadTrack(track_index) {
   clearInterval(updateTimer);
 
-  curr_track.src = music_list[track_index].music;
+  curr_track.src = music[track_index].music;
   curr_track.load();
 
-  song.textContent = music_list[track_index].songTitle;
-  artist.textContent = music_list[track_index].artist;
+  song.textContent = music[track_index].songTitle;
+  artist.textContent = music[track_index].artist;
+  image.src = music[track_index].image;
 
   updateTimer = setInterval(setUpdate, 1000);
 }
@@ -67,6 +70,27 @@ function pauseTrack() {
   play.innerHTML = '<i class="bi bi-file-play-fill"></i>';
 }
 
+function next() {
+  if (track_index < music.length - 1) {
+    track_index += 1;
+  } else {
+    track_index = 0;
+  }
+  loadTrack(track_index);
+  playTrack();
+}
+
+function previous() {
+  if (track_index > 0) {
+    track_index -= 1;
+  } else {
+    track_index = music.length - 1;
+  }
+  loadTrack(track_index);
+  playTrack();
+}
+
+//jump to a specific part in the track
 function seekTo() {
   let seekto = curr_track.duration * (seek_slider.value / 100);
   curr_track.currentTime = seekto;
@@ -74,7 +98,7 @@ function seekTo() {
 
 function setUpdate() {
   let seekPosition = 0;
-  if (!isNaN(curr_track.duration)) { 
+  if (!isNaN(curr_track.duration)) {
     //isNaN function returns true if the argument is not a number, otherwise it is false
     seekPosition = curr_track.currentTime * (100 / curr_track.duration);
     seek_slider.value = seekPosition;

@@ -16,20 +16,20 @@
   </head>
   <body>
     <div id="first">
-      <h1 style="text-align: center">Lofi Playlist</h1>
+      <h1 style="text-align: center">Playlist</h1>
 
       <!-- Cover -->
       <div id="second">
         <img
           class="image-play"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1UzbrXJ2AoHJA5nBNWDiWDiaTtNcKhtFZw&usqp=CAU"
+          src=""
           alt="image"
         />
         <br />
 
         <!-- Song and Arist-->
-        <p class="song">Song: </p>
-        <p class="artist">Artist: </p>
+        <p class="song"> </p>
+        <p class="artist"> </p>
 
         <!-- Song and Arist-->
         <div class="slider_container">
@@ -40,32 +40,21 @@
 
         <!-- Commands -->
         <div id="commands">
-          <button id="rewind">
+          <button id="rewind" onclick="previous()">
             <i class="bi bi-skip-backward" style="font-size: 48px; text-shadow:2px 2px 4px #000000"></i>
             
           </button>
           <button id="play" onclick="playpauseTrack()">
             <i class="bi bi-file-play-fill" style="font-size: 48px; text-shadow:2px 2px 4px #000000"></i>
           </button>
-          <button id="forward">
+          <button id="forward" onclick="next()">
             <i class="bi bi-skip-forward" style="font-size: 48px; text-shadow:2px 2px 4px #000000"></i>
           </button>
         </div>
         <br />
 
-        <!-- Scroll Bar for Volume -->
-        <div id="volume-bar">
-            <label for="volume">Volume</label>
-          <input type="range" id="volume" name="volume" min="0" max="11" />
-          
-        </div>
-      </div>
-    </div>
-
     <!-- JS Scripts -->
     <script src="script.js"></script>
 
-    <!-- Songs Scripts -->
-    <!-- <script src="songs.js"></script> -->
   </body>
 </html>
