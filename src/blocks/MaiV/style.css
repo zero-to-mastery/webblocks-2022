@@ -34,6 +34,12 @@
     background: #FFFFFF;
 }
 
+.slider_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .song{
     background: #D2B48C;
 }
