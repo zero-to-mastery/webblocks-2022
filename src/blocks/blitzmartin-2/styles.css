@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins&display=swap");
+
+:root {
+  --col-primary: rgb(93, 178, 204);
+  --col-accent: rgb(25, 55, 118);
+  --col-white: #ffff;
+  --col-light: rgb(231, 231, 231);
+  --col-dark: rgb(31, 31, 31);
+  --col-shadow: 2px 5px 30px rgb(87, 87, 87);
+  --font-primary: "Poppins", sans-serif;
+  --font-accent: "Abyssinica SIL", serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-accent);
+  color: var(--col-accent);
+}
+
+h1 {
+  color: var(--col-white);
+  font-size: 3rem;
+  margin: 50px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--font-primary);
+  background: linear-gradient(160deg,
+      rgb(29, 22, 75) 0%,
+      rgb(22, 126, 133) 50%,
+      rgb(12, 163, 189) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  height: auto;
+  background: var(--col-light);
+}
+
+.subscription-container > * {
+  padding: 30px;
+}
+
+.subscription-container h2, h3 {
+  margin-bottom: 20px;
+}
+
+.subscription-container p, li {
+  margin-bottom: 5px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.top-container h2, .top-container h3 {
+  color: var(--col-accent)
+}
+
+.top-container p {
+  color: grey;
+}
+
+.bottom-container {
+  background-color: var(--col-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom-container .text {
+  color: var(--col-white)
+}
+
+.bottom-container ul {
+ list-style-type: none;
+}
+
+.bottom-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-item button {
+  background-color: var(--col-accent);
+  color: var(--col-white);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  width: 100%;
+  box-shadow: var(--col-shadow);
+}
+
+.bottom-item button:hover {
+  background-color: var(--col-white);
+  color: var(--col-accent);
+  cursor: pointer;
+}
+
+.price-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: left;
+}
+
+.price-container p {
+margin-left: 10px;
+ }
+
