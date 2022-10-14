@@ -47,5 +47,3 @@ function update() {
     next.disabled = false;
   }
 }
-
-console.log({ currentActive });
