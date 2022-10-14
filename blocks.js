@@ -36,6 +36,13 @@
     "author_github_url": "https://github.com/arioum/"
   },
   {
+    "name": "Drum Kit",
+    "page_link": "./blocks/AnayatDrum/index.html",
+    "block_icon": "./blocks/AnayatDrum/icon.png",
+    "author_name": "Anayat",
+    "author_github_url": "https://github.com/anayatkhan1/"
+  },
+  {
     "name": "Simple Calculator",
     "page_link": "./blocks/AnubhavChakraborty/index.html",
     "block_icon": "./blocks/AnubhavChakraborty/icon.png",
