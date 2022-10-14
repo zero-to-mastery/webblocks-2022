@@ -351,6 +351,13 @@
     "author_github_url": "https://github.com/Sayed-Husain/"
   },
   {
+    "name": "Protonmail UI",
+    "page_link": "./blocks/Shariq/index.html",
+    "block_icon": "./blocks/Shariq/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
     "name": "Modern Responsive Testimonial",
     "page_link": "./blocks/SubramanyaRao11/index.html",
     "block_icon": "./blocks/SubramanyaRao11/icon.png",
