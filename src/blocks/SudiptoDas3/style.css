@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    color: rgba(red, green, blue, alpha);
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top :15%;
+    background: linear-gradient(to right ,red,yellow);
+}
