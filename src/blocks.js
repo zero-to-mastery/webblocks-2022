@@ -756,6 +756,13 @@
     "author_github_url": "https://github.com/mk-8"
   },
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/mherzog4/index.html",
+    "block_icon": "./blocks/mherzog4/icon.png",
+    "author_name": "Matt Herzog",
+    "author_github_url": "https://github.com/Mherzog4/"
+  },
+  {
     "name": "Chill Zone",
     "page_link": "./blocks/michaella23/index.html",
     "block_icon": "./blocks/michaella23/icon.png",
