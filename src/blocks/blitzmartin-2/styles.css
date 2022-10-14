@@ -126,7 +126,7 @@ h1 {
   justify-content: space-between;
 }
 
-.bottom-item button {
+#subscribe-btn {
   background-color: var(--col-accent);
   color: var(--col-white);
   border: none;
@@ -136,10 +136,14 @@ h1 {
   box-shadow: var(--col-shadow);
 }
 
-.bottom-item button:hover {
+#subscribe-btn:hover {
   background-color: var(--col-white);
   color: var(--col-accent);
   cursor: pointer;
+}
+
+#subscribe-btn:active {
+  background-color: rgb(235, 235, 235);
 }
 
 .price-container {
