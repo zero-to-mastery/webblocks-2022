@@ -141,6 +141,31 @@ footer{
     margin-bottom:10px;
     margin-top:10px;
     display: block;
+    border:1.8px solid black;
+    padding:4px;
+    border-radius:5px;
+    color: black;
+}
+
+textarea{
+    border:1.8px solid black;
+    padding:4px;
+    border-radius:5px;
+    color: black;
+    margin-right:110px;
+}
+
+.form-btn-group{
+    display: block;
+    margin-right:110px;
+}
+
+.form-btn{
+    margin-right:10px;
+    border:1px solid #181818;
+    border-radius:5px;
+    padding:4px;
+    background-color: lightblue;
 }
 
 
