@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 90px;
+    width: 220px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    border: 2px solid silver;
+    transition: all 0.4s;
+}
+
+button:hover {
+    transform: scale(1.05) skewX(-10deg);
+    background-color: rgb(51, 51, 51);
+    border: none;
+    opacity: 0.8;
+    border-radius: 2px;
+    box-shadow: 5px 5px 6px #CCC;
+}
