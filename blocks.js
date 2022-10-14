@@ -8,6 +8,13 @@
     "author_github_url": "https://github.com/AbhishekM2001/"
   },
   {
+    "name": "Dictionary",
+    "page_link": "./blocks/Aditya Dictionary_app/index.html",
+    "block_icon": "./blocks/Aditya Dictionary_app/icon.png",
+    "author_name": "Aditya Rawat",
+    "author_github_url": "https://github.com/adityasp1/"
+  },
+  {
     "name": "Menu Button",
     "page_link": "./blocks/Aditya Musale/index.html",
     "block_icon": "./blocks/Aditya Musale/icon.png",
