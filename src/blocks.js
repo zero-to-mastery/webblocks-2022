@@ -469,6 +469,13 @@
     "author_github_url": "https://github.com/carmen170796"
   },
   {
+    "name": "CSS Toggle",
+    "page_link": "./blocks/cherbear263/index.html",
+    "block_icon": "./blocks/cherbear263/icon.png",
+    "author_name": "Cheryl",
+    "author_github_url": "https://github.com/cherbear263/"
+  },
+  {
     "name": "Movie Component",
     "page_link": "./blocks/christinarepou/index.html",
     "block_icon": "./blocks/christinarepou/icon.png",
