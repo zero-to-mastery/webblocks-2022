@@ -176,6 +176,13 @@
     "author_github_url": "https://github.com/IreeHale"
   },
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale2/index.html",
+    "block_icon": "./blocks/IreeHale2/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
     "name": "Put the bunny back",
     "page_link": "./blocks/KajaDabrowska/index.html",
     "block_icon": "./blocks/KajaDabrowska/icon.png",
