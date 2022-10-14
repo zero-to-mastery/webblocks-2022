@@ -99,6 +99,13 @@
     "author_github_url": "https://https://github.com/BGS89"
   },
   {
+    "name": "Login Form",
+    "page_link": "./blocks/BrianWhelanDublin/index.html",
+    "block_icon": "./blocks/BrianWhelanDublin/icon.png",
+    "author_name": "Brian Whelan",
+    "author_github_url": "https://github.com/BrianWhelanDublin"
+  },
+  {
     "name": "Animated Cards on Hover",
     "page_link": "./blocks/Carlos/index.html",
     "block_icon": "./blocks/Carlos/icon.png",
