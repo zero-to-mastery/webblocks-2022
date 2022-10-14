@@ -1,0 +1,77 @@
+:root {
+  --primary-light: #cdcdcd;
+  --primary-xlight: #d3d3d3;
+  --primary-dark: #121212;
+  --secondary-light: #7fffd4;
+  --font-light: #e5e4e2;
+  --font-dark: #34282c;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: var(--primary-light);
+  width: 4rem;
+  height: 2.5rem;
+  border-radius: 2em;
+  transition: background 0.4s;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  transition: left 0.3s;
+}
+input[type="checkbox"]:checked {
+  background: var(--secondary-light);
+}
+input:checked::after {
+  left: 70%;
+}
+.toggle {
+  margin-top: 2rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+.bgDark {
+  background: var(--primary-dark);
+  color: var(--primary-light);
+}
+.bgDark .heading {
+  color: var(--secondary-light);
+}
+
+.toggle.dark > div {
+  max-width: 400px;
+  display: inline-block;
+  margin: 20px;
+}
+
+#darkToggle,
+#darkToggle::after {
+  border: 2px var(--primary-dark) solid;
+}

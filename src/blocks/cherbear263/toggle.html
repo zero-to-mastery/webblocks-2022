@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="toggle.css" />
+    <title>CSS toggle button</title>
+  </head>
+  <body>
+    <h1 class="heading">CSS Toggle Button</h1>
+    <p>A toggle button is basically just a checkbox input element.</p>
+    <p>
+      If we remove the default styling of the checkbox we can add our own
+      styling.
+    </p>
+    <p>To add the circular element, we need to use the ::after pseudo-class</p>
+
+    <div class="toggle">
+      <input type="checkbox" />
+    </div>
+    <h3 class="heading">
+      Let's make our button actually do something with Javascript
+    </h3>
+    <p>For fun, let's toggle dark mode.</p>
+    <div id="darkCallout" class="toggle dark">
+      <div>
+        <h2 class="heading">Dark Mode:</h2>
+      </div>
+      <div>
+        <input type="checkbox" onclick="toggleClass()" id="darkToggle" />
+      </div>
+    </div>
+    <script src="toggle.js"></script>
+  </body>
+</html>
