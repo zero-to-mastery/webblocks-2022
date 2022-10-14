@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
 
 :root {
   --col-primary: rgb(93, 178, 204);
@@ -7,9 +7,9 @@
   --col-white: #ffff;
   --col-light: rgb(231, 231, 231);
   --col-dark: rgb(31, 31, 31);
-  --col-shadow: 2px 5px 30px rgb(87, 87, 87);
-  --font-primary: "Poppins", sans-serif;
-  --font-accent: "Abyssinica SIL", serif;
+  --col-shadow: 2px 3px 25px rgb(25, 72, 118);
+  --font-primary: 'Raleway', sans-serif;
+  --font-accent:  'Merriweather', serif;
 }
 
 *,
@@ -96,7 +96,7 @@ h1 {
 }
 
 .top-container p {
-  color: grey;
+  color: rgb(104, 104, 104);
 }
 
 .bottom-container {
@@ -126,12 +126,17 @@ h1 {
   justify-content: space-between;
 }
 
+.price-container h2 {
+  font-size: 2rem;
+}
+
 #subscribe-btn {
   background-color: var(--col-accent);
   color: var(--col-white);
   border: none;
   border-radius: 10px;
   padding: 15px 20px;
+  margin-top: 15px;
   width: 100%;
   box-shadow: var(--col-shadow);
 }
@@ -143,7 +148,7 @@ h1 {
 }
 
 #subscribe-btn:active {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(221, 221, 221);
 }
 
 .price-container {
