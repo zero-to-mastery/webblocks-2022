@@ -1,5 +1,6 @@
 function clickMe() {
-  
+  const width = document.getElementById('number').value
+  console.log(width)
 
   const top = document.getElementById('top')
   top.animate([
@@ -7,7 +8,7 @@ function clickMe() {
       width: "0",
     },
     {
-      width: "45%"
+      width: `${width}%`
     }
     
   ], {

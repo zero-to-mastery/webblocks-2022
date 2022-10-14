@@ -1,0 +1,41 @@
+:root {
+  --primary-light: #cdcdcd;
+  --primary-xlight: #d3d3d3;
+  --primary-dark: #121212;
+  --secondary-light: #7fffd4;
+  --font-light: #e5e4e2;
+  --font-dark: #1f1b24;
+  --bg-dark: #339240;
+}
+/* Margins */
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-4 {
+  martin-top: 1rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+/* Font */
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+  color: var(--font-light);
+}
+body {
+  background: var(--font-dark);
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}

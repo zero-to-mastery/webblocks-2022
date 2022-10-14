@@ -11,6 +11,10 @@
     <meta name="description" content="" />
     <script src="scripts.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,20 +24,23 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <main>
+    <main class="container">
+      <h1>Animated Charts with CSS and JS</h1>
+      <input type="number" id="number">
       <button id="demo" onclick="clickMe()">Click me.</button>
       <!-- the viewbox sets the height and width in last 2 values. First 2 are the x- and y- offset. r will set the radius (half of the viewbox) -->
       <svg
+      id="chart1"
+      class="mt-10"
         width="400" 
         height="110"
         viewBox=" 0 0 400 110"
-        style="background-color: blue;"
       >
         <rect 
           id="bottom"
           width="400"
           height="110"
-          fill="lightgray"
+          fill="#332940"
 
           />
           <rect 
