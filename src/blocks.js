@@ -456,6 +456,13 @@
     "author_github_url": "https://github.com/amulyaprasanth/"
   },
   {
+    "name": "Yoga Timer",
+    "page_link": "./blocks/anastasia_lunina/index.html",
+    "block_icon": "./blocks/anastasia_lunina/icon.png",
+    "author_name": "Anastasia",
+    "author_github_url": "https://github.com/AnastasiaLunina"
+  },
+  {
     "name": "Toggle Theme Button",
     "page_link": "./blocks/ankeshp03/index.html",
     "block_icon": "./blocks/ankeshp03/icon.png",
@@ -808,6 +815,13 @@
     "name": "Console",
     "page_link": "./blocks/kwiczling/index.html",
     "block_icon": "./blocks/kwiczling/icon.png",
+    "author_name": "K-Wiczling",
+    "author_github_url": "https://github.com/K-Wiczling/"
+  },
+  {
+    "name": "Responsive Header",
+    "page_link": "./blocks/kwiczling2/index.html",
+    "block_icon": "./blocks/kwiczling2/icon.png",
     "author_name": "K-Wiczling",
     "author_github_url": "https://github.com/K-Wiczling/"
   },
