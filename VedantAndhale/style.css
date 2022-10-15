@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FED54A, #FF9347);
+  }
+  
+  .nav-icon {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100px;
+    min-height: 40px;
+  }
+  
+  .nav-icon > .line {
+    position: absolute;
+    width: 70px;
+    height: 7px;
+    background-color: white;
+    transform-origin: center center;
+    border-radius: 2px;
+    box-shadow: 0 0 5px 1px #000000;
+  }
+  
+  .nav-icon > .line2 {
+    top: 20px;
+  }
+  
+  .nav-icon > .line3 {
+    top: 40px;
+  }
+  
+  /* hamburer to Cross animation */
+  
+  .nav-icon.close > .line1 {
+    animation: hamToCloseline1 0.8s 1 ease forwards;
+  }
+  
+  .nav-icon.close > .line2 {
+    animation: hamToCloseline2 0.8s 1 ease forwards;
+  }
+  
+  .nav-icon.close > .line3 {
+    animation: hamToCloseline3 0.8s 1 ease forwards;
+  }
+  
+  @keyframes hamToCloseline1 {
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(20px) rotate(45deg);
+    }
+  }
+  
+  @keyframes hamToCloseline2 {
+    100% {
+      transform: scale(0);
+    }
+  }
+  
+  @keyframes hamToCloseline3 {
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(-20px) rotate(135deg);
+    }
+  }
+  
+  /* Close to Hamburger animation */
+  
+  .nav-icon.ham > .line1 {
+    animation: crossToHamline1 0.8s 1 ease forwards;
+  }
+  
+  .nav-icon.ham > .line2 {
+    animation: crossToHamline2 0.8s 1 ease forwards;
+  }
+  
+  .nav-icon.ham > .line3 {
+    animation: crossToHamline3 0.8s 1 ease forwards;
+  }
+  
+  @keyframes crossToHamline1 {
+    0% {
+      transform: translateY(20px) rotate(45deg);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes crossToHamline2 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes crossToHamline3 {
+    0% {
+      transform: translateY(-20px) rotate(135deg);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
