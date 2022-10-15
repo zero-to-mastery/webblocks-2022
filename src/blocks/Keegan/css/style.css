@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Crete Round', serif;
+    /* border:5px red solid; */
+    /* background-color: #61890c; */
+    background-image: url("/src/blocks/Keegan/img/home.jpg");
+    overflow: hidden;
+    /* background-size: 100vw; */
+    background-repeat: no-repeat;
+}
+
+/* <!-- Navigation bar starts here */
+.logo img {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+    height: 130px;
+}
+
+.help {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    display: inline-block;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.navbar {
+
+    display: inline-block;
+    position: absolute;
+    right: 35%;
+    /* width: 33%; */
+    margin: 18px auto;
+    /* border:2px rebeccapurple solid; */
+}
+
+.navbar ul li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    font-size: 20px;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline 3px solid;
+    color:#1F4068;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.btn {
+    font-family: 'Crete Round', serif;
+    border-style: groove;
+    border-radius: 0px 0px 15px 0px;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.btn:hover
+{
+    font-family: 'Crete Round', serif;
+    background-color:#162447;
+    color: #b9c8ca;
+    font-size: 18px;
+    border: 2px #f1f1f1 groove;
+    cursor: pointer;
+}
+
+/* <!-- Navigation bar ends here  */
+
+.container {
+    background-color: rgba(245, 245, 245,0.1);
+    border: 3px white solid;
+    border-radius: 30px;
+    position: absolute;
+    top: 158px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 30vw;
+    margin: 20px 30px 0px 192px;
+    padding: 20px 30px;
+    height: 50vh;
+}
+
+.form-group input{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 16px;
+    width:56%;
+   margin: 12px auto;
+   font-size:16px;
+   padding: 3px;
+}
+
+.container h1{
+text-align: center;
+}
+
+.contact{
+    width:88%;
+}
+
+.gender{
+    margin:8px;
+    /* margin-right: 153px; */
+    padding-right: 11px;
+  }
+  .gender label{
+    padding:0px 8px;
+  }
+
+
+
+
+
+
+
+
+
+
+/* {
+    color:#afe341 green
+    #20292a black
+    #f1f1f1 white
+} */
