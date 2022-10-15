@@ -1,0 +1,1 @@
+// Happy Hactoberfest 2022! This project does not use Javascript.
