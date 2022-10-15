@@ -12,9 +12,9 @@
     <script src="scripts.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -25,32 +25,35 @@
       </p>
     <![endif]-->
     <main class="container">
-      <h1>Animated Charts with CSS and JS</h1>
-      <input type="number" id="number">
-      <button id="demo" onclick="clickMe()">Click me.</button>
+      <h1>Are you drinking enough water?</h1>
+      <p>Most people are not drinking nearly enough water!</p>
+      <p>You should drink about 2.7L of water, or 10.5 cups per day.</p>
+      <p>
+        How do you measure up? Enter the amount of water you drink per day,
+        below, to find out.
+      </p>
+      <div class="flex" id="form">
+        <label for="water" class="water">Water intake:</label>
+        <input type="number" id="water" onkeyup="calculate('litres')" />
+        <span class="water">Litres</span>
+        <input type="number" id="waterCups" onkeyup="calculate('cups')" />
+        <span class="water">cups</span>
+      </div>
+
       <!-- the viewbox sets the height and width in last 2 values. First 2 are the x- and y- offset. r will set the radius (half of the viewbox) -->
-      <svg
-      id="chart1"
-      class="mt-10"
-        width="400" 
-        height="110"
-        viewBox=" 0 0 400 110"
-      >
-        <rect 
-          id="bottom"
+      <div class="chart">
+        <svg
+          id="chart1"
+          class="mt-10 relative"
           width="400"
           height="110"
-          fill="#332940"
-
-          />
-          <rect 
-          id="top"
-          width="0"
-          height="110"
-          fill="magenta"
-
-          />
+          viewBox=" 0 0 400 110"
+        >
+          <rect id="bottom" width="400" height="110" fill="#332940" />
+          <rect id="top" width="0" height="110" fill="cyan" />
+        </svg>
+        <span id="chart1Text"></span>
+      </div>
     </main>
-    
   </body>
 </html>
