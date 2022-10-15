@@ -1,0 +1,5 @@
+body {background-color: yellow;}
+
+.top {text-align: right; position: sticky; top:0;padding-right: 40%;background-color: inherit;}
+#logo { text-align: right; float:right ;image-orientation: left;padding-right: 50px;}
+.stop{background-color: white;}
