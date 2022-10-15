@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #F29492, #114357);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body , .wrap{
+    overflow: hidden;
+}
+
+.heart{
+    min-height: 40vmin;
+    width: 40vmin;
+    background: rgb(148, 130, 133);
+    border-radius: 10px;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+    transform: rotate(-45deg);
+    overflow: visible;
+    opacity: 0.7;
+    animation-name: beat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.heart:after{
+    background: rgb(148, 130, 133);
+    content: "";
+    min-height: 40vmin;
+    width: 40vmin;
+    position: absolute;
+    border-radius: 50%;
+    backdrop-filter: blur(600px);
+    top: -20vmin;
+    left: 0vmin;
+}
+
+.heart:before{
+    background: rgb(148, 130, 133);
+    content: "";
+    min-height: 40vmin;
+    width: 40vmin;
+    position: absolute;
+    top: 0vmin;
+    left: 20vmin;
+    border-radius: 50%;
+    backdrop-filter: blur(600px);
+}
+
+@keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.9) rotate(-45deg);
+    }
+ }
+/* @media screen {
+    
+} */
+
+
+
+.circle1{
+    background: linear-gradient(to right, rgba(168, 202, 186, 0.3), rgba(93, 65, 87, 0.3));
+    height: 50vmax;
+    width: 50vmax;
+    border-radius: 50vmax;
+    position: absolute;
+    top:60%;
+    left: 3%;
+}
+
+.circle2{
+    background: linear-gradient(to right, rgba(168, 202, 186, 0.3), rgba(93, 65, 87, 0.3));
+    height: 70vmax;
+    width: 70vmax;
+    border-radius: 50vmax;
+    position: absolute;
+    bottom: 50%;
+    right: -20%;
+}
+
+
+.bubbles {
+    position: absolute;
+    bottom: -200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+}
+
+.bubbles span{
+    background: linear-gradient(to right, rgba(168, 202, 186, 0.2), rgba(93, 65, 87, 0.2));
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    animation: moveup 8s cubic-bezier(.17,.67,.83,.67) infinite;
+
+}
+
+@keyframes moveup{
+
+    100%{
+        transform: translateY(-150vh);
+    }
+
+}
+
+.bubbles span.one{
+    animation-delay: 2.2s;
+    transform: scale(2.7);
+}
+
+.bubbles span.two{
+    animation-delay: 3.5s;
+    transform: scale(3);
+}
+
+.bubbles span.three{
+    animation-delay: 7.2s;
+    transform: scale(0.5);
+}
+
+.bubbles span.four{
+    animation-delay: 6s;
+    transform: scale(5);
+}
+
+.bubbles span.five{
+    animation-delay: 4.5s;
+    transform: scale(2.6);
+}
+
+.bubbles span.six{
+    animation-delay: 2.2s;
+    transform: scale(1.8);
+}
+
+.bubbles span.seven{
+    animation-delay: 5s;
+    transform: scale(3.8);
+}
+
+.bubbles span.eight{
+    animation-delay: 1s;
+    transform: scale(0.8);
+}
+
+.bubbles span.nine{
+    animation-delay: 3s;
+    transform: scale(2.8);
+}
+
+.bubbles span.ten{
+    animation-delay: 7s;
+    transform: scale(4.8);
+}
+
+img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 25%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    filter: grayscale(.8);
+    opacity: 0.8;
+    z-index: 5;
+}
+
+.title{
+    position: absolute;
+    left: 27vw;
+    top: 25vh;
+    font-family: 'Kristi', cursive;
+    z-index: 10;
+    font-size: 2vw; 
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: grayscale(.8);
+    opacity: 0.8;
+}
+
+@media (max-width: 400px){
+    .title{
+     position: absolute;
+     left: 17vw;
+     top: 35vh;
+     font-size: 3vw; 
+     
+    }
+
+    img{
+        width: 45%;
+    }
+
+    .circle1{
+        height: 40vmax;
+        width: 40vmax;
+        border-radius: 50vmax;
+        position: absolute;
+        top:70%;
+        left: -2%;
+    }
+    
+    .circle2{
+        height: 60vmax;
+        width: 60vmax;
+        border-radius: 50vmax;
+        position: absolute;
+        bottom: 50%;
+        right: -20%;
+    }
+    
+}
