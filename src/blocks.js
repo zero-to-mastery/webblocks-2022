@@ -190,6 +190,13 @@
     "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
+    "name": "Current Date and Time",
+    "page_link": "./blocks/Hero988/index.html",
+    "block_icon": "./blocks/Hero988/icon.png",
+    "author_name": "Suliman",
+    "author_github_url": "https://github.com/Hero988"
+  },
+  {
     "name": "Netflix Carousel",
     "page_link": "./blocks/ImieboGodson/index.html",
     "block_icon": "./blocks/ImieboGodson/icon.png",
