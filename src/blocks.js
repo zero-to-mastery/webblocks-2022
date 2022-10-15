@@ -134,6 +134,13 @@
     "author_github_url": "https://github.com/LadyClairekt"
   },
   {
+    "name": "Cool Photogrid",
+    "page_link": "./blocks/Claire02-coolphotogrid/index.html",
+    "block_icon": "./blocks/Claire02-coolphotogrid/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
     "name": "Breakout Game",
     "page_link": "./blocks/DhanushNehru/index.html",
     "block_icon": "./blocks/DhanushNehru/icon.png",
