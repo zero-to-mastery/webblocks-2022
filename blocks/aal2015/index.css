@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+#heading {
+    font-size: 2.5rem;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 0;
+    width: 350px;
+    border-radius: 24px;
+    display: block;
+    margin: 25px auto;
+    -webkit-transition: width 0.1s;
+    transition: width 0.1s;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 370px;
+    padding: 14px 0;
+}
+
+#submit-button {
+    width: 200px;
+    background-color: #1DB954;
+    border: none;
+}
+
+#submit-button:hover {
+    width: 230px;
+}
+
+#facebook-button {
+    border: none;
+    background-color: #4267B2;
+    color: white;
+    font-weight: bold;
+}
+
+#form-div {
+    text-align: left;
+    width: 450px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+#grid-container div {
+    padding: 5px;
+    text-align: center;
+}
+
+#grid-container label, #check-input label {
+    font-weight: normal;
+}
+
+#grid-container input {
+    width: 35%;
+}
+
+#gender-input label {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+
+.checkInput-text {
+    width: 400px;
+    margin: 20px auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #96e4b3;
+}
+
+#line {
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    margin: 5px auto;
+    color: gray;
+}
+
+#line:before, #line:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+#line:before {
+  margin-right: 10px
+}
+#line:after {
+  margin-left: 10px
+}

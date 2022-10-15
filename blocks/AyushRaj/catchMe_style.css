@@ -1,0 +1,17 @@
+#box{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    background-color: red;
+    top: 40%;
+    left: 45%;
+    text-align: center;
+    transition: all 0.3s;
+}
+#box>p{
+    margin-top: 40%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: yellowgreen;
+}

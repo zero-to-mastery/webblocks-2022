@@ -700,6 +700,13 @@
     "author_github_url": "https://github.com/incognion"
   },
   {
+    "name": "ZTM Modal Signup Form",
+    "page_link": "./blocks/ingridclaire/index.html",
+    "block_icon": "./blocks/ingridclaire/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",

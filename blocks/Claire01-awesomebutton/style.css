@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #023047;
+}
+
+h2 {
+    font-family: Silkscreen, cursive;
+    color: #8ecae6;
+    font-size: 0.8em;
+    margin-top: 20 rem;
+    position: absolute;
+    bottom: 5em;
+
+}
+
+a {
+    color: #ffb703;
+}
+
+button {
+    font-family: Silkscreen, cursive;
+    background: none;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #8ecae6;
+    border: 2px solid;
+    padding: 1em 2em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: color 0.37s, border-color 0.37s, box-shadow 0.37s, transform 0.37s;
+}
+
+button:hover {
+    border-color: #ffb703;
+    color: #ffb703;
+    box-shadow: 1px 1px 1px 0px #ffb703, 2px 2px 2px 0px #ffb803bc, 3px 3px 3px 0px #ffb80372, 4px 4px 4px 0px #ffb8033a, 5px 5px 5px 0px #ffb80318;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+}
+
+button:active {
+    font-family: Silkscreen, cursive;
+    background: none;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: color 0.37s, border-color 0.37s, box-shadow 0.37s, transform 0.37s;
+    transform: translateY(-0.3em);
+}
