@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    box-shadow: 0px 4px 8px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  #loading {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 1s;
+    width: 100%;
+    height: 0%;
+    background-color: rgb(28, 55, 160);
+  }
+  
+  #loading div {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(28, 55, 160);
+    border-radius: 80px 80px 0 0;
+    top: -40px;
+  }
+  
+  #loading div:nth-child(2n) {
+    animation: 2s infinite wavy-reverse;
+  }
+  #loading div:nth-child(2n+1) {
+    animation: 2s infinite wavy;
+  }
+  
+  #loading div:nth-child(2) {
+    left: 0px
+  }
+  #loading div:nth-child(4) {
+    left: calc(2*30px);
+  }
+  #loading div:nth-child(6) {
+    left: calc(4*30px);
+  }
+  #loading div:nth-child(8) {
+    left: calc(6*30px);
+  }
+  
+  #loading div:nth-child(1) {
+    left: -20px
+  }
+  #loading div:nth-child(3) {
+    left: calc(2*20px);
+  }
+  #loading div:nth-child(5) {
+    left: calc(5*20px);
+  }
+  #loading div:nth-child(7) {
+    left: calc(8*20px);
+  }
+  #loading div:nth-child(9) {
+    left: calc(11*20px);
+  }
+  
+  @keyframes wavy {
+    0% {
+      transform: translateY(-2px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-2px);
+    }
+  }
+  @keyframes wavy-reverse {
+    0% {
+      transform: translateY(2px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(4px);
+    }
+  }
