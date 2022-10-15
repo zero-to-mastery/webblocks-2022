@@ -218,6 +218,13 @@
     "author_github_url": "https://github.com/IreeHale"
   },
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale3/index.html",
+    "block_icon": "./blocks/IreeHale3/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
     "name": "little Zoo",
     "page_link": "./blocks/Jeven/index.html",
     "block_icon": "./blocks/Jeven/icon.png",
