@@ -92,6 +92,20 @@
     "author_github_url": "https://github.com/Ayush-Dahala"
   },
   {
+    "name": "Newz App",
+    "page_link": "./blocks/AyushPj4/index.html",
+    "block_icon": "./blocks/AyushPj4/icon.png",
+    "author_name": "Ayush-Dahala",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
+    "name": "Catch Me If You Can",
+    "page_link": "./blocks/AyushRaj/index.html",
+    "block_icon": "./blocks/AyushRaj/icon.png",
+    "author_name": "Ayush Raj",
+    "author_github_url": "https://github.com/ayushraaaj"
+  },
+  {
     "name": "ZTM Stop clock",
     "page_link": "./blocks/BGS89/index.html",
     "block_icon": "./blocks/BGS89/icon.png",
@@ -111,6 +125,13 @@
     "block_icon": "./blocks/Carlos/icon.png",
     "author_name": "Carlos",
     "author_github_url": "https://github.com/CHZelaya/"
+  },
+  {
+    "name": "Awesome Button",
+    "page_link": "./blocks/Claire01-awesomebutton/index.html",
+    "block_icon": "./blocks/Claire01-awesomebutton/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
   },
   {
     "name": "Breakout Game",
@@ -181,6 +202,13 @@
     "block_icon": "./blocks/IreeHale2/icon.png",
     "author_name": "Iree Hale",
     "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "little Zoo",
+    "page_link": "./blocks/Jeven/index.html",
+    "block_icon": "./blocks/Jeven/icon.png",
+    "author_name": "Jeven",
+    "author_github_url": "https://github.com/Jeven212"
   },
   {
     "name": "Put the bunny back",
@@ -379,6 +407,13 @@
     "author_github_url": "https://github.com/Sudip200/"
   },
   {
+    "name": "Background Generator",
+    "page_link": "./blocks/SudiptoDas3/index.html",
+    "block_icon": "./blocks/SudiptoDas3/icon.png",
+    "author_name": "Sudipto Das",
+    "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
     "name": "Object Detection",
     "page_link": "./blocks/SudiptoMlJS/index.html",
     "block_icon": "./blocks/SudiptoMlJS/icon.png",
@@ -398,6 +433,13 @@
     "block_icon": "./blocks/Ukesh-dev/icon.png",
     "author_name": "Ukesh Shrestha",
     "author_github_url": "https://github.com/Ukesh-dev/"
+  },
+  {
+    "name": "Spotify Sign Up Template",
+    "page_link": "./blocks/aal2015/index.html",
+    "block_icon": "./blocks/aal2015/icon.png",
+    "author_name": "Abhinav Lugun",
+    "author_github_url": "https://github.com/aal2015"
   },
   {
     "name": "Anime Button",
@@ -460,6 +502,20 @@
     "block_icon": "./blocks/blitzmartin/icon.png",
     "author_name": "blitzmartin",
     "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
+    "name": "subscription-payment",
+    "page_link": "./blocks/blitzmartin-2/index.html",
+    "block_icon": "./blocks/blitzmartin-2/icon.png",
+    "author_name": "blitzmartin",
+    "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
+    "name": "Testimonials Grid",
+    "page_link": "./blocks/carls13/index.html",
+    "block_icon": "./blocks/carls13/icon.png",
+    "author_name": "Carls13",
+    "author_github_url": "https://github.com/carls13/"
   },
   {
     "name": "pretzel loading icon",
@@ -553,6 +609,13 @@
     "author_github_url": "https://github.com/danicc"
   },
   {
+    "name": "Dante's' Color Button",
+    "page_link": "./blocks/danteSadeghi/index.html",
+    "block_icon": "./blocks/danteSadeghi/icon.png",
+    "author_name": "Dante",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
@@ -607,6 +670,13 @@
     "block_icon": "./blocks/haider-ali/icon.png",
     "author_name": "Haider Ali",
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
+  },
+  {
+    "name": "TowerBlock",
+    "page_link": "./blocks/hardeeppatel/index.html",
+    "block_icon": "./blocks/hardeeppatel/icon.png",
+    "author_name": "HardeepPatel",
+    "author_github_url": "https://github.com/HardeepPatel"
   },
   {
     "name": "VirtuCard",
@@ -782,6 +852,13 @@
     "block_icon": "./blocks/luicmarin/icon.png",
     "author_name": "Marin Luic",
     "author_github_url": "https://github.com/AcidBurnHen"
+  },
+  {
+    "name": "DragDrop",
+    "page_link": "./blocks/manavukani/index.html",
+    "block_icon": "./blocks/manavukani/icon.png",
+    "author_name": "ManavUkani",
+    "author_github_url": "https://github.com/manavukani/"
   },
   {
     "name": "Amazon sign-up",
@@ -1043,6 +1120,13 @@
     "author_github_url": "https://github.com/sourhub226"
   },
   {
+    "name": "Swipecard",
+    "page_link": "./blocks/swipe-card-nattkits/index.html",
+    "block_icon": "./blocks/swipe-card-nattkits/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Eat Sleep Code Repeat",
     "page_link": "./blocks/t-moennich/index.html",
     "block_icon": "./blocks/t-moennich/icon.png",
@@ -1074,6 +1158,13 @@
     "name": "Share Social Media Button",
     "page_link": "./blocks/terrifricker2/index.html",
     "block_icon": "./blocks/terrifricker2/icon.png",
+    "author_name": "Terri Fricker",
+    "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
+    "name": "Conversation Bubble",
+    "page_link": "./blocks/terrifricker3/index.html",
+    "block_icon": "./blocks/terrifricker3/icon.png",
     "author_name": "Terri Fricker",
     "author_github_url": "https://github.com/terrifricker/"
   },
