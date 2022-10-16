@@ -57,6 +57,13 @@
     "author_github_url": "https://github.com/AnubhavChakrabortynits"
   },
   {
+    "name": "Pink blush toggle",
+    "page_link": "./blocks/AnushreePal/index.html",
+    "block_icon": "./blocks/AnushreePal/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
@@ -239,6 +246,13 @@
     "author_github_url": "https://github.com/IreeHale"
   },
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale4/index.html",
+    "block_icon": "./blocks/IreeHale4/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
     "name": "little Zoo",
     "page_link": "./blocks/Jeven/index.html",
     "block_icon": "./blocks/Jeven/icon.png",
@@ -293,6 +307,13 @@
     "block_icon": "./blocks/MannyP31/icon.png",
     "author_name": "Manisha Parichha",
     "author_github_url": "https://github.com/MannyP31"
+  },
+  {
+    "name": "Modern Slider",
+    "page_link": "./blocks/MariaMills/index.html",
+    "block_icon": "./blocks/MariaMills/icon.png",
+    "author_name": "Maria Mills",
+    "author_github_url": "https://github.com/mariamills"
   },
   {
     "name": "Employee database management website",
@@ -498,6 +519,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Like Button Animation",
+    "page_link": "./blocks/VedantAndhale-v2/index.html",
+    "block_icon": "./blocks/VedantAndhale-v2/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
+  },
+  {
     "name": "Spotify Sign Up Template",
     "page_link": "./blocks/aal2015/index.html",
     "block_icon": "./blocks/aal2015/icon.png",
@@ -565,6 +593,13 @@
     "block_icon": "./blocks/billlunger/icon.png",
     "author_name": "Bill Lunger",
     "author_github_url": "https://github.com/billlunger/"
+  },
+  {
+    "name": "Expanding Badge",
+    "page_link": "./blocks/bk987-1/index.html",
+    "block_icon": "./blocks/bk987-1/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
   },
   {
     "name": "simple-audio-player",
