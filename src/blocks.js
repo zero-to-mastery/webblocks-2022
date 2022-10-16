@@ -1148,6 +1148,13 @@
     "author_github_url": "https://github.com/Philip-Bos"
   },
   {
+    "name": "Halloween Navbar",
+    "page_link": "./blocks/phyllis-wb-1/index.html",
+    "block_icon": "./blocks/phyllis-wb-1/icon.png",
+    "author_name": "Phyllis",
+    "author_github_url": "https://github.com/phylliswong"
+  },
+  {
     "name": "TicTacToe",
     "page_link": "./blocks/pranavpathak08/index.html",
     "block_icon": "./blocks/pranavpathak08/icon.png",
