@@ -1,7 +1,8 @@
 const els = {
   navFull: document.querySelector('.nav-full'),
   navMobile: document.querySelector('.nav-mobile'),
-  hamburger: document.querySelector('.fa-burger')
+  hamburger: document.querySelector('.fa-burger'),
+  dropdown: document.querySelector('.dropdown')
 }
 
 const toggleNav = () => {
@@ -13,6 +14,10 @@ const toggleNav = () => {
     els.navMobile.classList.add('hidden')
   }
 }
+
+els.hamburger.addEventListener('click', () => {
+  els.dropdown.classList.toggle('hidden')
+})
 
 window.addEventListener('resize', (e) => {
   toggleNav();
