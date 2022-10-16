@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    color: #ffb4a2;
+}
+
+.scene {
+    display: flex;
+    justify-content: center;
+    perspective: 50vw;
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 1s ease-in-out;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s ease-in-out;
+}
+
+.image1 {
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.image2 {
+    position: absolute;
+    left: 0px;
+    object-fit: cover;
+    z-index: 0;
+    transform: scaleX(-1) rotateY(180deg);
+}
