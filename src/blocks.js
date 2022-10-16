@@ -1,6 +1,13 @@
 
     let cards = [
   {
+    "name": "Glitch Image for Portfolio",
+    "page_link": "./blocks/@lhpellizzon/index.html",
+    "block_icon": "./blocks/@lhpellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon/"
+  },
+  {
     "name": "Toolkit of Alarm Clock and Calculator",
     "page_link": "./blocks/AbhishekMukherjee/index.html",
     "block_icon": "./blocks/AbhishekMukherjee/icon.png",
