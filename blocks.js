@@ -1288,6 +1288,13 @@
     "author_github_url": "https://github.com/vishalpatil20"
   },
   {
+    "name": "Water Loading animation",
+    "page_link": "./blocks/water-loading-nattkit/index.html",
+    "block_icon": "./blocks/water-loading-nattkit/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Simple To Do List",
     "page_link": "./blocks/yashraj2003e/index.html",
     "block_icon": "./blocks/yashraj2003e/icon.png",
