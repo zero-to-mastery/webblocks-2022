@@ -623,6 +623,13 @@
     "author_github_url": "https://github.com/bk987"
   },
   {
+    "name": "Offcanvas Sidebar",
+    "page_link": "./blocks/bk987-2/index.html",
+    "block_icon": "./blocks/bk987-2/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
     "name": "simple-audio-player",
     "page_link": "./blocks/blitzmartin/index.html",
     "block_icon": "./blocks/blitzmartin/icon.png",
