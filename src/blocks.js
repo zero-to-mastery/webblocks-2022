@@ -1,6 +1,20 @@
 
     let cards = [
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/9112Michael/index.html",
+    "block_icon": "./blocks/9112Michael/icon.png",
+    "author_name": "9112Michael",
+    "author_github_url": "https://github.com/9112Michael/"
+  },
+  {
+    "name": "Glitch Image for Portfolio",
+    "page_link": "./blocks/@lhpellizzon/index.html",
+    "block_icon": "./blocks/@lhpellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon/"
+  },
+  {
     "name": "Toolkit of Alarm Clock and Calculator",
     "page_link": "./blocks/AbhishekMukherjee/index.html",
     "block_icon": "./blocks/AbhishekMukherjee/icon.png",
@@ -517,6 +531,13 @@
     "block_icon": "./blocks/Ukesh-dev/icon.png",
     "author_name": "Ukesh Shrestha",
     "author_github_url": "https://github.com/Ukesh-dev/"
+  },
+  {
+    "name": "Hamburger Menu Icon Animation",
+    "page_link": "./blocks/VedantAndhale/index.html",
+    "block_icon": "./blocks/VedantAndhale/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
   },
   {
     "name": "Like Button Animation",
