@@ -22,6 +22,13 @@
     "author_github_url": "https://github.com/AbhishekM2001/"
   },
   {
+    "name": "Cool buttons",
+    "page_link": "./blocks/Aditya/index.html",
+    "block_icon": "./blocks/Aditya/icon.png",
+    "author_name": "Aditya",
+    "author_github_url": "https://github.com/AdityaPote"
+  },
+  {
     "name": "Dictionary",
     "page_link": "./blocks/Aditya Dictionary_app/index.html",
     "block_icon": "./blocks/Aditya Dictionary_app/icon.png",
