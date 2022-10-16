@@ -1120,6 +1120,13 @@
     "author_github_url": "https://github.com/sammkodes96"
   },
   {
+    "name": "Tab Switch",
+    "page_link": "./blocks/sanjithpk/index.html",
+    "block_icon": "./blocks/sanjithpk/icon.png",
+    "author_name": "Sanjith",
+    "author_github_url": "https://github.com/sanjithpk"
+  },
+  {
     "name": "Product Card",
     "page_link": "./blocks/satyam73/index.html",
     "block_icon": "./blocks/satyam73/icon.png",
