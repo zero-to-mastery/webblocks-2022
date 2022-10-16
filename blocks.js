@@ -127,6 +127,13 @@
     "author_github_url": "https://github.com/CHZelaya/"
   },
   {
+    "name": "Footer with wave",
+    "page_link": "./blocks/Carlos Hernandez/index.html",
+    "block_icon": "./blocks/Carlos Hernandez/icon.png",
+    "author_name": "Carlos Hernandez",
+    "author_github_url": "https://github.com/Carls13/"
+  },
+  {
     "name": "Awesome Button",
     "page_link": "./blocks/Claire01-awesomebutton/index.html",
     "block_icon": "./blocks/Claire01-awesomebutton/icon.png",
