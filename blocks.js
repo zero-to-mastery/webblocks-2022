@@ -379,6 +379,13 @@
     "author_github_url": "https://github.com/Rohald89/"
   },
   {
+    "name": "Battery Indicator",
+    "page_link": "./blocks/S44WN-BatteryIndicator/index.html",
+    "block_icon": "./blocks/S44WN-BatteryIndicator/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "Digital Clock",
     "page_link": "./blocks/SahilRawat/index.html",
     "block_icon": "./blocks/SahilRawat/icon.png",
