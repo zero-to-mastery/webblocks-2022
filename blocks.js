@@ -526,6 +526,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Hamburger Menu Icon Animation",
+    "page_link": "./blocks/VedantAndhale/index.html",
+    "block_icon": "./blocks/VedantAndhale/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
+  },
+  {
     "name": "Like Button Animation",
     "page_link": "./blocks/VedantAndhale-v2/index.html",
     "block_icon": "./blocks/VedantAndhale-v2/icon.png",
