@@ -386,6 +386,13 @@
     "author_github_url": "https://github.com/S44WN/"
   },
   {
+    "name": "Minimalist Clock",
+    "page_link": "./blocks/S44WN-MClock/index.html",
+    "block_icon": "./blocks/S44WN-MClock/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "Digital Clock",
     "page_link": "./blocks/SahilRawat/index.html",
     "block_icon": "./blocks/SahilRawat/icon.png",
