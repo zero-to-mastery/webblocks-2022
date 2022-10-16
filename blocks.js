@@ -148,6 +148,13 @@
     "author_github_url": "https://github.com/LadyClairekt"
   },
   {
+    "name": "CSS Cat",
+    "page_link": "./blocks/Claire03-csscat/index.html",
+    "block_icon": "./blocks/Claire03-csscat/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
     "name": "Breakout Game",
     "page_link": "./blocks/DhanushNehru/index.html",
     "block_icon": "./blocks/DhanushNehru/icon.png",
