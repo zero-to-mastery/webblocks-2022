@@ -67,11 +67,13 @@
                     <h1>&lt Your Social Media &gt</h1>
                 </div>
                 <div class="contact-form">
-                    <form action="mailto:youremailaddress@email.com" method="post" enctype="text/plain">
+                    <form action="mailto:youremailaddress@email.com" onsubmit="submitted()" method="post" enctype="text/plain">
                         <input id="name"name='Name' type="text" placeholder="Your name">
                         <textarea placeholder="Type Your Message here." name="Message" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Send">
-                        <input type="reset">
+                        <div class="form-btn-group">
+                            <input class="form-btn" type="submit" value="Send">
+                            <input class="form-btn" type="reset">
+                        </div>
                     </form>
                 </div>
             </div>
@@ -79,6 +81,8 @@
     </section>
 
     <footer>© Copyright Made By - Md-Aquib</footer>
+
+    <script src="/src/blocks/Md-Aquib/contact.js"></script>
     
 </body>
 </html>

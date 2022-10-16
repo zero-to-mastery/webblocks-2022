@@ -1,0 +1,123 @@
+*, *::before, *:after {
+    box-sizing: content-box;
+}
+
+html, body {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swipe-card {
+    position: relative;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 8px rgba(250, 112, 112, 0.1);
+    padding: 16px;
+    animation: 1s rubberband;
+}
+
+.swipe-card__container {
+    display: flex;
+    transition: 0.37s;
+    animation-delay: 2s;
+}
+
+.swipe-card__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.37s;
+    flex: 1 0 100%;
+}
+
+.swipe-card__content:not([page='1']) {
+    opacity: 0;
+}
+
+.swipe-card__logo {
+    margin: 4px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+}
+
+.swipe-card__btn {
+    width: 48px;
+    height: 100%;
+    position: absolute;
+    border: none;
+    outline: none;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.37s;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(250, 112, 112);
+}
+
+.swipe-card__btn:hover {
+    opacity: 1;
+}
+
+.swipe-card__btn--left {
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(250, 112, 112, 0.1), rgba(250, 112, 112, 0));
+}
+.swipe-card__btn--right {
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(270deg, rgba(250, 112, 112, 0.1), rgba(250, 112, 112, 0));
+}
+
+.swipe-card__header {
+    font-size: 24px;
+    color: #277BC0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.swipe-card__preview {
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #FFCB42;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+    font-size: 16px;
+    margin: 0px;
+}
+
+@keyframes rubberband {
+    40%{
+        transform: scaleX(1.12) scaleY(0.75);
+    }
+    55%{
+        transform: scaleX(0.85) scaleY(1);
+    }
+    65%{
+        transform: scaleX(1.09) scaleY(0.85);
+    }
+    75%{
+        transform: scaleX(0.9)  scaleY(1);
+    }
+    90%{
+        transform: scaleX(1.05) scaleY(0.95);
+    }
+    100%{
+        transform: scaleX(1) scaleY(1);
+    }
+}

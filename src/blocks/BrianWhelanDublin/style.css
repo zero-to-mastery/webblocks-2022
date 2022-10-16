@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+	margin: 0;
+	border: 0;
+	font-size: 10px;
+	background-color: #efeeee;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 400px;
+	width: 100%;
+	max-width: 400px;
+	border-radius: 25px;
+	box-shadow: -6px -6px 26px 2px rgba(255, 255, 255), 6px 6px 16px 2px rgba(211, 205, 196);
+	padding: 20px;
+}
+
+form h1 {
+	padding: 12px 30px;
+	border-radius: 25px;
+	box-shadow: -5px -5px 20px 0 rgba(255, 255, 255, 0.8), 5px 5px 15px 0 rgba(199, 197, 193, 0.911);
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-weight: 400;
+	text-align: center;
+}
+p {
+	padding: 30px;
+	font-size: 2rem;
+	font-weight: 400;
+
+	margin-bottom: 30px;
+}
+
+.form-input {
+	width: 80%;
+	height: 40px;
+	border: solid 3px rgba(255, 255, 255, 0.2);
+	border-radius: 24px;
+	box-shadow: inset -10px -10px 15px 0 rgba(255, 255, 255, 0.8), inset 8px 8px 12px 0 rgba(199, 197, 193, 0.911);
+	margin: 30px 0;
+	text-align: center;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.form-input:focus-visible {
+	outline: #e0e0e0 auto 1px;
+}
+
+form.hide {
+	display: none;
+}
+
+.login {
+	border-radius: 25px;
+	background: rgba(160, 255, 157, 0.4);
+	border-top: solid 1px rgba(255, 255, 255, 0.5);
+	border-left: solid 1px rgba(255, 255, 255, 0.5);
+	border-bottom: solid 1px rgba(199, 197, 193, 0.911);
+	border-right: solid 1px rgba(199, 197, 193, 0.911);
+	margin-top: 20px;
+	padding: 10px 30px;
+	font-size: 1.5rem;
+	box-shadow: -10px -10px 15px 0 rgba(255, 255, 255, 0.8), 8px 8px 12px 0 rgba(199, 197, 193, 0.911);
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.login:hover {
+	box-shadow: -5px -5px 15px 0 rgba(199, 197, 193, 0.911), 4px 4px 12px 0 rgba(255, 255, 255, 0.8);
+}
+
+.message {
+	display: none;
+	border-radius: 25px;
+	box-shadow: -6px -6px 26px 2px rgba(255, 255, 255), 6px 6px 16px 2px rgba(211, 205, 196);
+	padding: 20px;
+}
+
+a {
+	font-size: 1.8rem;
+}
+
+.message__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 20px;
+	text-align: center;
+}
+
+@media screen and (min-width: 570px) {
+	/* .message__content {
+		width: 420px;
+	} */
+}
