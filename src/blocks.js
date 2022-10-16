@@ -735,6 +735,13 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "Different Types of Buttons",
+    "page_link": "./blocks/haider-ali2/index.html",
+    "block_icon": "./blocks/haider-ali2/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev/"
+  },
+  {
     "name": "TowerBlock",
     "page_link": "./blocks/hardeeppatel/index.html",
     "block_icon": "./blocks/hardeeppatel/icon.png",
