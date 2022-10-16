@@ -1,5 +1,4 @@
-
-        body {
+  body {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
@@ -24,7 +23,7 @@
         }
         
         body {
-            background-color: whitesmoke;
+            background: linear-gradient(pink, yellow);
         }
         
         .box1 {
@@ -32,8 +31,8 @@
             grid-row-end: 4;
             grid-column-start: 1;
             grid-column-end: 1;
-            border-top: 5px solid rgb(29, 233, 223);
-            box-shadow: 4px 6px 14px 0px #88a9c4;
+            border-radius: 20px;
+            box-shadow: inset -4px -5px 9px 0px pink;
         }
         
         .box2 {
@@ -41,8 +40,8 @@
             grid-row-end: 3;
             grid-column-start: 2;
             grid-column-end: 2;
-            border-top: 5px solid red;
-            box-shadow: 4px 6px 14px 0px #88a9c4;
+            border-radius: 20px;
+            box-shadow: inset -4px -5px 9px 0px pink;
         }
         
         .box3 {
@@ -50,8 +49,8 @@
             grid-row-end: 5;
             grid-column-start: 2;
             grid-column-end: 2;
-            border-top: 5px solid yellow;
-            box-shadow: 4px 6px 14px 0px #88a9c4;
+            border-radius: 20px;
+            box-shadow: inset -4px -5px 9px 0px pink;
         }
         
         .box4 {
@@ -59,8 +58,8 @@
             grid-row-end: 4;
             grid-column-start: 3;
             grid-column-end: 3;
-            border-top: 5px solid blue;
-            box-shadow: 4px 6px 14px 0px #88a9c4;
+            border-radius: 20px;
+            box-shadow: inset -4px -5px 9px 0px pink;
         }
         
         @media screen and (max-width:600px) {
@@ -85,4 +84,3 @@
                 grid-column-end: 2;
             }
         }
-   
