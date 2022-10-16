@@ -400,6 +400,13 @@
     "author_github_url": "https://github.com/S44WN/"
   },
   {
+    "name": "Cards Carousel",
+    "page_link": "./blocks/S44WN-cards/index.html",
+    "block_icon": "./blocks/S44WN-cards/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "Digital Clock",
     "page_link": "./blocks/SahilRawat/index.html",
     "block_icon": "./blocks/SahilRawat/icon.png",
