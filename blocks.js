@@ -644,6 +644,13 @@
     "author_github_url": "https://github.com/cherbear263/"
   },
   {
+    "name": "Water Calculator",
+    "page_link": "./blocks/cherbear263-2/index.html",
+    "block_icon": "./blocks/cherbear263-2/icon.png",
+    "author_name": "Cheryl",
+    "author_github_url": "https://github.com/cherbear263/"
+  },
+  {
     "name": "Movie Component",
     "page_link": "./blocks/christinarepou/index.html",
     "block_icon": "./blocks/christinarepou/icon.png",
