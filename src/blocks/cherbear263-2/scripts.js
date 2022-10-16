@@ -32,15 +32,4 @@ function calculate(unit) {
     easing: 'cubic-bezier(0.57, -0.04, 0.41, 1.13)',
     fill: 'forwards'
   })
-
-  // text.animate([
-  //   {
-  //     opacity: 0,
-  //     transform: 'translateY(20%)'
-  //   },
-  //   { 
-  //     opacity: "100%",
-  //     transform: 'translateY(0%)'
-  //   }
-  // ])
 }
