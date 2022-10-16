@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 1.5rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    padding: .5rem;
+    background-color: #7045c0;
+    color: #fff;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.badge:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px #7045c0;
+}
+
+.badge-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.badge-text {
+    max-width: 0;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transform: scale(0.9);
+}
+
+.badge:hover .badge-text,
+.badge:focus .badge-text {
+    max-width: 100vh;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transform: scale(1);
+}
