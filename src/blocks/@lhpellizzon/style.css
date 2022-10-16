@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #d2a8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4rem;
+    font-style: italic;
+    padding: 10px;
+}
+.image-block{
+    width: 150px;
+    height: 200px;
+    padding: 2px;
+    background: linear-gradient(92.05deg, #d2a8ff 12.09%, #f778ba 42.58%, #ff7b72 84.96%);
+    border-radius: 10px;
+}
+
+.images-glitch{
+    width: 100%;
+    height: 100%;
+    background: url('./assets/about-image.jpg') center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    animation: changeImage 5s linear infinite;
+}
+
+/*  Below, you can place your images between the frames */
+
+@keyframes changeImage {
+    /*  Css animation property only applies before the animations starts, after the animation, it will
+    run without any delay. To do this animation delay after it is finish, we set a range between the start
+    of the animation (0%) and then give a long range as it will remain the start of the animation (60%) 
+    */
+
+    /*  You mess around when you will understand when you see how it reacts on the browser*/
+    0%, 60%{
+        background-image: url('./assets/about-image.jpg');
+        
+    }
+    61%,68%{
+        background-image: url('./assets/glitch-2.png') ;
+        
+    } 
+    69%, 74%{
+        background-image: url('./assets/about-image.jpg');
+        
+    } 
+
+    75% ,79%{
+        background-image: url('./assets/glitch-4.png') ;
+        
+    }
+    80%{
+        background-image: url('./assets/glitch-1.png') ;
+        
+    }
+    85%{    
+        background-image: url('./assets/glitch-3.png') ;
+        
+    }
+    90%{
+        background-image: url('./assets/glitch-2.png') ;
+        
+    }       
+    91%{    
+        background-image: url('./assets/glitch-3.png') ;
+        
+    }
+    93%{
+        background-image: url('./assets/glitch-3.png') ;
+        
+    }
+    
+}
