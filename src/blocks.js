@@ -784,6 +784,13 @@
     "author_github_url": "https://github.com/ifeoluwah21"
   },
   {
+    "name": "Swipecard",
+    "page_link": "./blocks/images-grid-nattkits/index.html",
+    "block_icon": "./blocks/images-grid-nattkits/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Animated Monitor design",
     "page_link": "./blocks/imashi/index.html",
     "block_icon": "./blocks/imashi/icon.png",
