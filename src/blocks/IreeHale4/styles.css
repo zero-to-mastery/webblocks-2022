@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: slategrey;
+}
+
+div{
+    height: 33.33vh;
+}
+
+#fahrenheit {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+input[type=number] {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #222222;
+}
+
+::-moz-placeholder {
+    color: #222222;
+}
+
+::-ms-input-placeholder{
+    color: #222222;
+}

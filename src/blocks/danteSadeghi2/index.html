@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dante's Hacktober Form 2022</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;800&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome. Please fill out the form below for absolutely no reason.</h1>
+        </header>
+        <div id="container">
+            <form method="GET">
+                <strong>Your Name</strong><hr>
+                First Name: <input type="text" placeholder="John" required><br>
+                Middle Initial (Optional): <input type="text" placeholder="L."><br>
+                Last Name: <input type="text" placeholder="Doe" required><br><br>
+                <strong>Contact Information</strong><hr>
+                Email: <input type="email" placeholder="E.g. johnLDoe@gmail.com" required><br>
+                Phone Number (Optional): <input type="text" placeholder="(123) 456-7890" minlength="10"><br><br>
+                <strong>Gender</strong><hr>
+                <input type="radio" name="gender"> Male<br>
+                <input type="radio" name="gender"> Female<br>
+                <input type="radio" name="gender"> Other<br><br>
+                <strong>Pets? (Optional)</strong><hr>
+                <select name="Pets">
+                    <option value="none">None</option>
+                    <option value="dogs">Dog(s)</option>
+					<option value="cats">Cat(s)</option>
+					<option value="other">Other</option>
+                </select>
+                <br><br>
+                <strong>Birth Date</strong><hr>
+                <input type="date" required><br><br><br>
+                <input id="submit" type="submit" value="Register!">
+                <input id="reset" type="reset" value="Reset Form">
+            </form>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
