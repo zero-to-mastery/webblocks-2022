@@ -637,6 +637,13 @@
     "author_github_url": "https://github.com/bk987"
   },
   {
+    "name": "3D Button",
+    "page_link": "./blocks/bk987-3/index.html",
+    "block_icon": "./blocks/bk987-3/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
     "name": "simple-audio-player",
     "page_link": "./blocks/blitzmartin/index.html",
     "block_icon": "./blocks/blitzmartin/icon.png",
