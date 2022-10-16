@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Montserrat',sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e76d6d;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.nav {
+  width: 50%;
+}
+
+.nav-full {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-solid {
+  font-size: 2.4rem;
+}
+
+.fa-solid:hover {
+  color: rgb(231, 227, 227);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(231, 227, 227);
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    width: 40%;
+  }
+}
