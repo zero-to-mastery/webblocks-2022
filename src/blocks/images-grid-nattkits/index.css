@@ -1,0 +1,47 @@
+body {
+    font-family: system-ui;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+  
+  .image-grid {
+    display: grid;
+    padding: 24px;
+    grid-template-columns: repeat(3, calc(325px - 16px));
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+  
+  [class^="grid-column"] img {
+    position: relative;
+    transition: 0.37s;
+    width: 100%;
+    filter: blur(1px);
+  }
+  
+  [class^="grid-column"] img:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  
+  [class^="grid-column"] img:hover {
+    transform: scale(1.02);
+    filter: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .image-grid {
+      grid-template-columns: calc(325px - 16px);
+    }
+    [class^="grid-column"] img:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 325px) {
+    .image-grid {
+      grid-template-columns: calc(325px - 48px);
+      padding: 8px;
+    }
+  }
