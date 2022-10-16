@@ -714,9 +714,16 @@
     "author_github_url": "https://github.com/danicc"
   },
   {
-    "name": "Dante's' Color Button",
+    "name": "Dante's Color Button",
     "page_link": "./blocks/danteSadeghi/index.html",
     "block_icon": "./blocks/danteSadeghi/icon.png",
+    "author_name": "Dante",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
+    "name": "Dante's Hacktober Form",
+    "page_link": "./blocks/danteSadeghi2/index.html",
+    "block_icon": "./blocks/danteSadeghi2/icon.png",
     "author_name": "Dante",
     "author_github_url": "https://github.com/dantesadeghi"
   },

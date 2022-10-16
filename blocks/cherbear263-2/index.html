@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Animated Charts</title>
+    <meta name="description" content="" />
+    <script src="scripts.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <main class="container">
+      <h1>Are you drinking enough water?</h1>
+      <p>Most people are not drinking nearly enough water!</p>
+      <p>You should drink about 2.7L of water, or 10.5 cups per day.</p>
+      <p>
+        How do you measure up? Enter the amount of water you drink per day,
+        below, to find out.
+      </p>
+      <div class="flex" id="form">
+        <label for="water" class="water">Water intake:</label>
+        <input type="number" id="water" onkeyup="calculate('litres')" />
+        <span class="water">Litres</span>
+        <input type="number" id="waterCups" onkeyup="calculate('cups')" />
+        <span class="water">cups</span>
+      </div>
+
+      <!-- the viewbox sets the height and width in last 2 values. First 2 are the x- and y- offset. r will set the radius (half of the viewbox) -->
+      <div class="chart">
+        <svg
+          id="chart1"
+          class="mt-10 relative"
+          width="400"
+          height="110"
+          viewBox=" 0 0 400 110"
+        >
+          <rect id="bottom" width="400" height="110" fill="#332940" />
+          <rect id="top" width="0" height="110" fill="cyan" />
+        </svg>
+        <span id="chart1Text"></span>
+      </div>
+    </main>
+  </body>
+</html>
