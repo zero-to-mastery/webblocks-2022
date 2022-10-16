@@ -1,11 +1,32 @@
 
     let cards = [
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/9112Michael/index.html",
+    "block_icon": "./blocks/9112Michael/icon.png",
+    "author_name": "9112Michael",
+    "author_github_url": "https://github.com/9112Michael/"
+  },
+  {
+    "name": "Glitch Image for Portfolio",
+    "page_link": "./blocks/@lhpellizzon/index.html",
+    "block_icon": "./blocks/@lhpellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon/"
+  },
+  {
     "name": "Toolkit of Alarm Clock and Calculator",
     "page_link": "./blocks/AbhishekMukherjee/index.html",
     "block_icon": "./blocks/AbhishekMukherjee/icon.png",
     "author_name": "Abhishek Mukherjee",
     "author_github_url": "https://github.com/AbhishekM2001/"
+  },
+  {
+    "name": "Cool buttons",
+    "page_link": "./blocks/Aditya/index.html",
+    "block_icon": "./blocks/Aditya/icon.png",
+    "author_name": "Aditya",
+    "author_github_url": "https://github.com/AdityaPote"
   },
   {
     "name": "Dictionary",
@@ -57,6 +78,13 @@
     "author_github_url": "https://github.com/AnubhavChakrabortynits"
   },
   {
+    "name": "Pink blush toggle",
+    "page_link": "./blocks/AnushreePal/index.html",
+    "block_icon": "./blocks/AnushreePal/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
@@ -92,6 +120,20 @@
     "author_github_url": "https://github.com/Ayush-Dahala"
   },
   {
+    "name": "Newz App",
+    "page_link": "./blocks/AyushPj4/index.html",
+    "block_icon": "./blocks/AyushPj4/icon.png",
+    "author_name": "Ayush-Dahala",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
+    "name": "Catch Me If You Can",
+    "page_link": "./blocks/AyushRaj/index.html",
+    "block_icon": "./blocks/AyushRaj/icon.png",
+    "author_name": "Ayush Raj",
+    "author_github_url": "https://github.com/ayushraaaj"
+  },
+  {
     "name": "ZTM Stop clock",
     "page_link": "./blocks/BGS89/index.html",
     "block_icon": "./blocks/BGS89/icon.png",
@@ -111,6 +153,34 @@
     "block_icon": "./blocks/Carlos/icon.png",
     "author_name": "Carlos",
     "author_github_url": "https://github.com/CHZelaya/"
+  },
+  {
+    "name": "Footer with wave",
+    "page_link": "./blocks/Carlos Hernandez/index.html",
+    "block_icon": "./blocks/Carlos Hernandez/icon.png",
+    "author_name": "Carlos Hernandez",
+    "author_github_url": "https://github.com/Carls13/"
+  },
+  {
+    "name": "Awesome Button",
+    "page_link": "./blocks/Claire01-awesomebutton/index.html",
+    "block_icon": "./blocks/Claire01-awesomebutton/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
+    "name": "Cool Photogrid",
+    "page_link": "./blocks/Claire02-coolphotogrid/index.html",
+    "block_icon": "./blocks/Claire02-coolphotogrid/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
+    "name": "CSS Cat",
+    "page_link": "./blocks/Claire03-csscat/index.html",
+    "block_icon": "./blocks/Claire03-csscat/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
   },
   {
     "name": "Breakout Game",
@@ -162,6 +232,13 @@
     "author_github_url": "https://github.com/harshilsharmaa"
   },
   {
+    "name": "Current Date and Time",
+    "page_link": "./blocks/Hero988/index.html",
+    "block_icon": "./blocks/Hero988/icon.png",
+    "author_name": "Suliman",
+    "author_github_url": "https://github.com/Hero988"
+  },
+  {
     "name": "Netflix Carousel",
     "page_link": "./blocks/ImieboGodson/index.html",
     "block_icon": "./blocks/ImieboGodson/icon.png",
@@ -181,6 +258,27 @@
     "block_icon": "./blocks/IreeHale2/icon.png",
     "author_name": "Iree Hale",
     "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale3/index.html",
+    "block_icon": "./blocks/IreeHale3/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale4/index.html",
+    "block_icon": "./blocks/IreeHale4/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "little Zoo",
+    "page_link": "./blocks/Jeven/index.html",
+    "block_icon": "./blocks/Jeven/icon.png",
+    "author_name": "Jeven",
+    "author_github_url": "https://github.com/Jeven212"
   },
   {
     "name": "Put the bunny back",
@@ -230,6 +328,13 @@
     "block_icon": "./blocks/MannyP31/icon.png",
     "author_name": "Manisha Parichha",
     "author_github_url": "https://github.com/MannyP31"
+  },
+  {
+    "name": "Modern Slider",
+    "page_link": "./blocks/MariaMills/index.html",
+    "block_icon": "./blocks/MariaMills/icon.png",
+    "author_name": "Maria Mills",
+    "author_github_url": "https://github.com/mariamills"
   },
   {
     "name": "Employee database management website",
@@ -323,6 +428,34 @@
     "author_github_url": "https://github.com/Rohald89/"
   },
   {
+    "name": "Battery Indicator",
+    "page_link": "./blocks/S44WN-BatteryIndicator/index.html",
+    "block_icon": "./blocks/S44WN-BatteryIndicator/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Love Birds",
+    "page_link": "./blocks/S44WN-Lovies/index.html",
+    "block_icon": "./blocks/S44WN-Lovies/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Minimalist Clock",
+    "page_link": "./blocks/S44WN-MClock/index.html",
+    "block_icon": "./blocks/S44WN-MClock/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Cards Carousel",
+    "page_link": "./blocks/S44WN-cards/index.html",
+    "block_icon": "./blocks/S44WN-cards/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "Digital Clock",
     "page_link": "./blocks/SahilRawat/index.html",
     "block_icon": "./blocks/SahilRawat/icon.png",
@@ -379,6 +512,13 @@
     "author_github_url": "https://github.com/Sudip200/"
   },
   {
+    "name": "Background Generator",
+    "page_link": "./blocks/SudiptoDas3/index.html",
+    "block_icon": "./blocks/SudiptoDas3/icon.png",
+    "author_name": "Sudipto Das",
+    "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
     "name": "Object Detection",
     "page_link": "./blocks/SudiptoMlJS/index.html",
     "block_icon": "./blocks/SudiptoMlJS/icon.png",
@@ -400,6 +540,27 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Hamburger Menu Icon Animation",
+    "page_link": "./blocks/VedantAndhale/index.html",
+    "block_icon": "./blocks/VedantAndhale/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
+  },
+  {
+    "name": "Like Button Animation",
+    "page_link": "./blocks/VedantAndhale-v2/index.html",
+    "block_icon": "./blocks/VedantAndhale-v2/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
+  },
+  {
+    "name": "Spotify Sign Up Template",
+    "page_link": "./blocks/aal2015/index.html",
+    "block_icon": "./blocks/aal2015/icon.png",
+    "author_name": "Abhinav Lugun",
+    "author_github_url": "https://github.com/aal2015"
+  },
+  {
     "name": "Anime Button",
     "page_link": "./blocks/ab-3/index.html",
     "block_icon": "./blocks/ab-3/icon.png",
@@ -412,6 +573,13 @@
     "block_icon": "./blocks/amulyaprasanth/icon.png",
     "author_name": "amulyaprasanth",
     "author_github_url": "https://github.com/amulyaprasanth/"
+  },
+  {
+    "name": "Yoga Timer",
+    "page_link": "./blocks/anastasia_lunina/index.html",
+    "block_icon": "./blocks/anastasia_lunina/icon.png",
+    "author_name": "Anastasia",
+    "author_github_url": "https://github.com/AnastasiaLunina"
   },
   {
     "name": "Toggle Theme Button",
@@ -455,11 +623,46 @@
     "author_github_url": "https://github.com/billlunger/"
   },
   {
+    "name": "Expanding Badge",
+    "page_link": "./blocks/bk987-1/index.html",
+    "block_icon": "./blocks/bk987-1/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
+    "name": "Offcanvas Sidebar",
+    "page_link": "./blocks/bk987-2/index.html",
+    "block_icon": "./blocks/bk987-2/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
+    "name": "3D Button",
+    "page_link": "./blocks/bk987-3/index.html",
+    "block_icon": "./blocks/bk987-3/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
     "name": "simple-audio-player",
     "page_link": "./blocks/blitzmartin/index.html",
     "block_icon": "./blocks/blitzmartin/icon.png",
     "author_name": "blitzmartin",
     "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
+    "name": "subscription-payment",
+    "page_link": "./blocks/blitzmartin-2/index.html",
+    "block_icon": "./blocks/blitzmartin-2/icon.png",
+    "author_name": "blitzmartin",
+    "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
+    "name": "Testimonials Grid",
+    "page_link": "./blocks/carls13/index.html",
+    "block_icon": "./blocks/carls13/icon.png",
+    "author_name": "Carls13",
+    "author_github_url": "https://github.com/carls13/"
   },
   {
     "name": "pretzel loading icon",
@@ -479,6 +682,13 @@
     "name": "CSS Toggle",
     "page_link": "./blocks/cherbear263/index.html",
     "block_icon": "./blocks/cherbear263/icon.png",
+    "author_name": "Cheryl",
+    "author_github_url": "https://github.com/cherbear263/"
+  },
+  {
+    "name": "Water Calculator",
+    "page_link": "./blocks/cherbear263-2/index.html",
+    "block_icon": "./blocks/cherbear263-2/icon.png",
     "author_name": "Cheryl",
     "author_github_url": "https://github.com/cherbear263/"
   },
@@ -553,6 +763,20 @@
     "author_github_url": "https://github.com/danicc"
   },
   {
+    "name": "Dante's Color Button",
+    "page_link": "./blocks/danteSadeghi/index.html",
+    "block_icon": "./blocks/danteSadeghi/icon.png",
+    "author_name": "Dante",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
+    "name": "Dante's Hacktober Form",
+    "page_link": "./blocks/danteSadeghi2/index.html",
+    "block_icon": "./blocks/danteSadeghi2/icon.png",
+    "author_name": "Dante",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
@@ -607,6 +831,20 @@
     "block_icon": "./blocks/haider-ali/icon.png",
     "author_name": "Haider Ali",
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
+  },
+  {
+    "name": "Different Types of Buttons",
+    "page_link": "./blocks/haider-ali2/index.html",
+    "block_icon": "./blocks/haider-ali2/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev/"
+  },
+  {
+    "name": "TowerBlock",
+    "page_link": "./blocks/hardeeppatel/index.html",
+    "block_icon": "./blocks/hardeeppatel/icon.png",
+    "author_name": "HardeepPatel",
+    "author_github_url": "https://github.com/HardeepPatel"
   },
   {
     "name": "VirtuCard",
@@ -670,6 +908,13 @@
     "block_icon": "./blocks/ifeoluwah3/icon.png",
     "author_name": "Ifeoluwa Oludare",
     "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
+    "name": "Swipecard",
+    "page_link": "./blocks/images-grid-nattkits/index.html",
+    "block_icon": "./blocks/images-grid-nattkits/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
   },
   {
     "name": "Animated Monitor design",
@@ -742,6 +987,13 @@
     "author_github_url": "https://github.com/K-Wiczling/"
   },
   {
+    "name": "Responsive Header",
+    "page_link": "./blocks/kwiczling2/index.html",
+    "block_icon": "./blocks/kwiczling2/icon.png",
+    "author_name": "K-Wiczling",
+    "author_github_url": "https://github.com/K-Wiczling/"
+  },
+  {
     "name": "Navbar Bottom Sticky Top",
     "page_link": "./blocks/leocsdev/index.html",
     "block_icon": "./blocks/leocsdev/icon.png",
@@ -782,6 +1034,13 @@
     "block_icon": "./blocks/luicmarin/icon.png",
     "author_name": "Marin Luic",
     "author_github_url": "https://github.com/AcidBurnHen"
+  },
+  {
+    "name": "DragDrop",
+    "page_link": "./blocks/manavukani/index.html",
+    "block_icon": "./blocks/manavukani/icon.png",
+    "author_name": "ManavUkani",
+    "author_github_url": "https://github.com/manavukani/"
   },
   {
     "name": "Amazon sign-up",
@@ -903,6 +1162,13 @@
     "author_github_url": "https://github.com/Philip-Bos"
   },
   {
+    "name": "Halloween Navbar",
+    "page_link": "./blocks/phyllis-wb-1/index.html",
+    "block_icon": "./blocks/phyllis-wb-1/icon.png",
+    "author_name": "Phyllis",
+    "author_github_url": "https://github.com/phylliswong"
+  },
+  {
     "name": "TicTacToe",
     "page_link": "./blocks/pranavpathak08/index.html",
     "block_icon": "./blocks/pranavpathak08/icon.png",
@@ -980,6 +1246,13 @@
     "author_github_url": "https://github.com/sammkodes96"
   },
   {
+    "name": "Tab Switch",
+    "page_link": "./blocks/sanjithpk/index.html",
+    "block_icon": "./blocks/sanjithpk/icon.png",
+    "author_name": "Sanjith",
+    "author_github_url": "https://github.com/sanjithpk"
+  },
+  {
     "name": "Product Card",
     "page_link": "./blocks/satyam73/index.html",
     "block_icon": "./blocks/satyam73/icon.png",
@@ -1043,6 +1316,13 @@
     "author_github_url": "https://github.com/sourhub226"
   },
   {
+    "name": "Swipecard",
+    "page_link": "./blocks/swipe-card-nattkits/index.html",
+    "block_icon": "./blocks/swipe-card-nattkits/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Eat Sleep Code Repeat",
     "page_link": "./blocks/t-moennich/index.html",
     "block_icon": "./blocks/t-moennich/icon.png",
@@ -1078,6 +1358,13 @@
     "author_github_url": "https://github.com/terrifricker/"
   },
   {
+    "name": "Conversation Bubble",
+    "page_link": "./blocks/terrifricker3/index.html",
+    "block_icon": "./blocks/terrifricker3/icon.png",
+    "author_name": "Terri Fricker",
+    "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
     "name": "Drum 🥁 Kit",
     "page_link": "./blocks/vanithaak/index.html",
     "block_icon": "./blocks/vanithaak/icon.png",
@@ -1097,6 +1384,13 @@
     "block_icon": "./blocks/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20"
+  },
+  {
+    "name": "Water Loading animation",
+    "page_link": "./blocks/water-loading-nattkit/index.html",
+    "block_icon": "./blocks/water-loading-nattkit/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
   },
   {
     "name": "Simple To Do List",

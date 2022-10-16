@@ -1,0 +1,27 @@
+body {
+    font-family: system-ui, serif;
+    margin: auto;
+    background-color: #000;
+    color: #999;
+    width: 50%;
+  }
+  .outer {
+    background: lightcoral;
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+  }
+  .inner {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 0.5px solid black;
+    background: floralwhite;
+    color: black;
+    font-size: 3rem;
+    cursor: pointer;
+    text-align: center;
+  }
