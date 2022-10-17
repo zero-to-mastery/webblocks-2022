@@ -68,12 +68,6 @@ header {
     cursor: pointer;
 }
 
-.logo-txt{
-color: #fff;
-margin-left:15px;
-}
-
-
 
 .btn {
     font-family: 'Crete Round', serif;
@@ -135,4 +129,9 @@ text-align: center;
   }
   .gender label{
     padding:0px 8px;
+
   }
+  .logo-txt{
+    color: #fff;
+    margin-left:15px;
+    }
