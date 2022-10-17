@@ -616,6 +616,13 @@
     "author_github_url": "https://github.com/betiniakarandut/"
   },
   {
+    "name": "betiniakarandut02",
+    "page_link": "./blocks/betiniakarandut02/index.html",
+    "block_icon": "./blocks/betiniakarandut02/icon.png",
+    "author_name": "Betini Akarandut",
+    "author_github_url": "https://github.com/betiniakarandut"
+  },
+  {
     "name": "Flipping Text",
     "page_link": "./blocks/billlunger/index.html",
     "block_icon": "./blocks/billlunger/icon.png",
