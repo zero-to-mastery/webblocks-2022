@@ -1,0 +1,92 @@
+:root {
+  --primary-light: #cdcdcd;
+  --primary-xlight: #d3d3d3;
+  --primary-dark: #121212;
+  --secondary-light: cyan;
+  --font-light: #e5e4e2;
+  --font-dark: #1f1b24;
+  --bg-dark: #339240;
+}
+/* Margins */
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-4 {
+  martin-top: 1rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+/* Font */
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li,
+span,
+label {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+  color: var(--font-light);
+  margin-top: 4rem;
+}
+p {
+  font-size: 1rem;
+  color: var(--font-light);
+}
+
+body {
+  background: var(--font-dark);
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#form {
+  margin: 3rem 0;
+}
+.chart {
+  position: relative;
+}
+.flex {
+  display: inline-flex;
+  gap: 10px;
+}
+#chart1Text {
+  position: absolute;
+  top: 75px;
+  left: 410px;
+  color: var(--secondary-light);
+  font-size: 1.5rem;
+}
+/* remove arrows from input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.water {
+  color: var(--primary-light);
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+#water,
+#waterCups {
+  border-radius: 10px;
+  height: 2rem;
+  width: 4rem;
+  background-color: var(--primary-light);
+  font-size: 1.6rem;
+  padding: 10px;
+}

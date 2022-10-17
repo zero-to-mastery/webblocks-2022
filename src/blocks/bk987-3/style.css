@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background: rgb(160, 5, 57);
+    border-radius: .75rem;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: .25rem;
+}
+.front {
+    display: block;
+    padding: 1rem 2.5rem;
+    border-radius: .75rem;
+    font-size: 1.25rem;
+    background: rgb(240, 0, 60);
+    color: white;
+    transform: translateY(-6px);
+}
+
+.button:active .front {
+    transform: translateY(-2px);
+}
