@@ -8,10 +8,11 @@ body {
     font-family: 'Crete Round', serif;
     /* border:5px red solid; */
     /* background-color: #61890c; */
-    background-image: url("/src/blocks/Keegan/img/home.jpg");
+    background-image: url("/src/blocks/Keegan/img/img1.avif");
     overflow: hidden;
     /* background-size: 100vw; */
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* <!-- Navigation bar starts here */
@@ -61,11 +62,16 @@ header {
 .navbar li a:hover,
 .navbar li a:active {
     text-decoration: underline 3px solid;
-    color:#1F4068;
+    color:#242d8b;
+    background-color: #fff;
     text-align: center;
     cursor: pointer;
 }
 
+.logo-txt{
+color: #fff;
+margin-left:15px;
+}
 
 
 
@@ -130,18 +136,3 @@ text-align: center;
   .gender label{
     padding:0px 8px;
   }
-
-
-
-
-
-
-
-
-
-
-/* {
-    color:#afe341 green
-    #20292a black
-    #f1f1f1 white
-} */
