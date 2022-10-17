@@ -1461,6 +1461,13 @@
     "block_icon": "./blocks/yashraj2003e/icon.png",
     "author_name": "Yashraj",
     "author_github_url": "https://github.com/yashraj2003e/"
+  },
+  {
+    "name": "iBlog- Bloggers Point",
+    "page_link": "./blocks/noobmaster432/index.html",
+    "block_icon": "./blocks/noobmaster432/icon.png",
+    "author_name": "Gyanendra Tiwari",
+    "author_github_url": "https://github.com/noobmaster432/"
   }
 ]
 
