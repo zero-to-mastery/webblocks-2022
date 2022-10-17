@@ -1,0 +1,29 @@
+#b1{
+    height: 400px;
+    width: 800px;
+    background-color: red;
+border-radius: 20px;
+display:inline-block;
+
+}
+
+body{
+    background-image: linear-gradient(grey, white);
+    background-repeat: no-repeat;
+}
+
+.box{
+
+    margin-left: 18%;
+    margin-top: 8%;
+}
+
+#clk{
+    margin: 10%;
+    font-size: larger;
+    height: 50px;
+    width: 250px;
+
+    border-radius: 10px;
+
+}

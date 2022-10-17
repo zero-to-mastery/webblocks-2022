@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+    background-color: #29a5e3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  button {
+    width: 130px;
+    height: 45px;
+    position: relative;
+    font-size: 16pt;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #052536;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #e8f5fc;
+    box-shadow: 2px 2px 4px #03131c;
+  }
+  button:active {
+    top: .5px;
+    left: .5px;
+    color: black;
+    box-shadow: 1px 1px 4px #03131c;
+  }
+  .social-media-links {
+    width: 250px;
+    height: 45px;
+    font-size: 16pt;
+    border-radius: 40px;
+    box-shadow: 2px 2px 4px #052536;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+  }
+  .social-media-links img {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+  }
+  .social-media-links img:hover {
+    opacity: 0.85;
+    animation: rotateAnimation 2s linear infinite;
+  }
+  @keyframes rotateAnimation {
+    from 
+      {transform: rotateY(0deg)}
+    to 
+      {transform: rotateY(360deg)}
+  }

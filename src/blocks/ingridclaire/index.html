@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <title>Modal Button</title>
+</head>
+<body>
+  <div class="container">
+    <div class="button-container"> <button class="btn modal-btn">Sign up!</button></div>
+   
+    <div class="modal-container hidden">
+      <div class="modal">
+        <a href="#" aria-label="Close sign up Modal Box">×</a>
+        <br>
+        <form>
+          <h2>Sign up for our Newsletter!</h2>
+          <div class="input-group">
+            <label>First Name:</label>
+            <input type="text" name="first" placeholder="everyone's got one!">
+          </div>
+          <div class="input-group">
+            <label>Last Name:</label>
+            <input type="text" name="last"placeholder="you might call this surname...">
+          </div>
+          <div class="input-group">
+            <label>Email address:</label>
+            <input type="text" name="email" placeholder="tell us how to reach you!">
+          </div>
+          <div class="input-group" id="checkbox-group">
+            <label>Interested in opportunities?</label>
+            <input name="opportunities" type="checkbox">
+          </div>
+          <div class="sign-up-group">
+            <input class="submit-btn btn" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="thank-you hidden">
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

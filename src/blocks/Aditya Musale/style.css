@@ -1,0 +1,152 @@
+/* CSS Resets */
+
+html{
+  font-size: 62.5%;       /* sets 1rem = 10px */
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;    /* sets font-size = 16px */
+  font-weight: 400;
+  background-image: url('background.svg');
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Navigation bar styles */
+
+.header__nav {
+  display: flex;
+  height: 10rem;
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.toggle__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3rem;
+
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.toggle__open{
+  width: 2.8rem;
+  height: 2.8rem;
+
+  transition: all .5s;
+}
+
+.toggle__close{
+  width: 4rem;
+  height: 4rem;
+
+  transition: all .5s;
+}
+
+.hide {
+  width: 0;
+  height: 0;
+}
+
+/* Navigation window styles */
+
+.bg__img {
+  position: fixed;
+  top: 4rem;
+  right: 4.5rem;
+
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #EA281E;
+  
+  transition: all .8s;
+}
+
+.appear {
+  width: 3rem;
+  height: 3rem;
+  transform: scale(100);
+  background-color: #EA281E;
+}
+
+/* Navigation links styles */
+
+.nav__links {
+  position: fixed;
+  top: 0;
+  left: -30rem;
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  transition: all .4s;
+}
+
+.slide {
+  left: 0;
+}
+
+.nav__items {
+  list-style: none;
+}
+
+.nav__item {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 3.4rem;
+  cursor: pointer;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.link::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  background-color: currentColor;
+  width: 0;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all .2s;
+}
+
+.nav__item:hover .link::after {
+  width: 100%;  
+}

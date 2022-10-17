@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, orange, indigo);
+    font-family: 'Inter Tight', sans-serif;
+}
+
+h1 {
+    text-align: center; 
+    color: rgb(43, 29, 29);
+    opacity: 0.9;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+   border: 1px solid rgb(43, 29, 29);
+   opacity: 0.8;
+}
+
+#submit,
+#reset {
+    margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.4s;
+}
+
+#submit:hover,
+#reset:hover {
+    transform: scale(1.05) skewX(-8deg);
+    background-color: rgb(51, 51, 51);
+    border: none;
+    opacity: 0.8;
+    box-shadow: 5px 5px 6px #CCC;
+}

@@ -1,0 +1,139 @@
+@import url(https://fonts.bunny.net/css?family=noto-sans-display:100,300,600);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+header {
+    margin: 1em 2em 4em;
+}
+
+main, .copyright {
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto 2rem;
+    padding: 2.5rem;
+    /* Glassmorphism */
+    background: rgba( 144, 19, 254, 0.001 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.9px );
+    -webkit-backdrop-filter: blur( 4.9px );
+    border-radius: 10px;
+}
+
+.content, .btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.pfp {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin-right: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+span {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.head {
+    margin-block-end: 2rem;
+}
+
+.head p {
+    font-size: small;
+}
+
+.accounts {
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 1.5rem;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border:transparent;
+    border-radius: 0.5rem;
+}
+
+.account--details {
+    flex-grow: 1;
+}
+
+.account--details a:hover {
+    text-decoration: none;
+}
+
+.account:hover, .btn:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.acc-name {
+    font-weight: bold;
+}
+
+.arrow {
+    margin-left: auto;
+}
+
+a:active {
+    color: #6243e6;
+}
+
+hr {
+    border: 0.1px solid rgb(211, 211, 211);
+    margin: 0.6em;
+}
+
+.btn {
+    margin: 0.2em 0;
+    padding: 0.7rem ;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.btn--add {
+    border: 1px solid #e4e4e4;
+    font-weight: 500;
+}
+
+.btn--signout {
+    color: #6d4aff;
+}
+
+.copyright {
+    text-align: center;
+    font-size:small;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 480px;
+        margin: 0 auto 2rem;
+        padding: 2.5rem;
+        box-shadow: none;
+    }
+}

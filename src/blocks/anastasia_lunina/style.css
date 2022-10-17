@@ -1,0 +1,181 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url(media/img/n-n-BtbjCFUvBXs-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d5dad1;
+}
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+option {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  
+}
+
+#select {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  width: 270px;
+  font-size: 1rem;
+  padding: 7px;
+  background-color: #edeee9;
+  border-radius: 15px;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+}
+
+.container_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 50px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  margin: 15px 0px 0px 0px;
+  color: black;
+}
+
+.minutes, .seconds {
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  margin: 0px 45px;
+  font-size: 20px;
+}
+
+label {
+  margin: 0px 0px 0px 35px;
+  padding: 3px 10px;
+  font-size: 20px;
+}
+
+.colon_container {
+  margin-top: 40px;
+  font-size: 3.5rem;
+}
+
+.btn_par_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+#button {
+  margin-top: 0px;
+  background-color: #e1e2da;
+  padding: 16px;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.7);
+  letter-spacing: 20px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  width: 140px;
+  color: black;
+}
+
+#button:disabled {
+  cursor: not-allowed;
+  color: grey;
+}
+
+#button:hover {
+  background: linear-gradient(to right, #edeee9, #e1e2da);
+  filter: brightness(90%);
+}
+
+#button:active {
+  transform: scale(0.98);
+  box-shadow: 2px 2px 20px 10px rgba(255, 255, 255, 0.7);
+}
+
+.countdown {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shavasana, .adho, .stretch, .trikonasana, .virabhadrasana {
+  display: none;
+}
+
+.myVideo {
+  width: 300px;
+  height: 200px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  color: black;
+}
+
+.fab {
+  padding: 10px;
+  color: black;
+}

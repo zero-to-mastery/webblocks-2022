@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.nav-container {
+  background-color: #0E1934;
+  color: orange;
+  height: 100px;
+  
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Creepster, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 12px;
+  font-size: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding-right: 12px;
+}
+
+.nav-link {
+  margin: 0 8px;
+  text-decoration: none;
+  color: orange;
+}
+
+.nav-link:active {
+  color: yellow;
+}

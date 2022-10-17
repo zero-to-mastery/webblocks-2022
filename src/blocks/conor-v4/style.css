@@ -1,0 +1,67 @@
+html {
+  font-size: 62.5%;
+  box-sizing: initial;
+  line-height: 1.2;
+}
+
+body {
+  background-color: #252525;
+  font-family: 'Roboto', sans-serif;
+  width: 96rem;
+  margin: 0 auto;
+  color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.slider__age {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.radio__from {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+}
+
+label .radio_cat[type=radio] + span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  width: 3.7rem;
+  height: 3.7rem;
+  background: #252525;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(68, 68, 68, 0.68);
+}
+
+.radio_cat[type=radio] {
+  display: none;
+}
+
+label .radio_cat[type=radio]:checked + span {
+  box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(90, 90, 90, 0.22);
+}

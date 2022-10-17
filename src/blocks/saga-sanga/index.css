@@ -1,0 +1,247 @@
+/*-------------------*/
+/* Custom Properties */
+/*-------------------*/
+
+:root {
+  /* Colors */
+  --clr-orange: 25 97% 53%;
+  --clr-white: 0 0% 100%;
+  --clr-light-grey: 217 12% 63%;
+  --clr-medium-grey: 216 12% 54%;
+  --clr-dark-blue: 213 19% 18%;
+  --clr-very-dark-blue: 216 12% 8%;
+
+  /* Font Size */
+  --fs-normal: 0.875rem;
+
+  /* Font Family */
+  --ff-sans: 'Overpass', sans-serif;
+}
+
+/*-------------------*/
+/* Reset             */
+/*-------------------*/
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* Set up the body */
+body {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-normal);
+  background-color: hsl( var(--clr-very-dark-blue) );
+  color: hsl( var(--clr-white) );
+  line-height: 1.5;
+  min-height: 100vh; 
+  display: grid;
+  place-content: center;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Make forms elements easier to work with */
+/* This is because the listed form elements don't inherit font properites by default */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* ------------------- */
+/* Components          */
+/* ------------------- */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: hsl(var(--clr-light-grey));
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+  color: hsl(var(--clr-light-grey));
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+  }
+
+button {
+  width: 100%;
+  font-weight: 700;
+  line-height: normal;
+  background-color: hsl(var(--clr-orange));
+  color: hsl( var(--clr-white) );
+  border: none;
+  letter-spacing: 2.7px;
+  padding-block: 0.75rem;
+  margin-bottom: 0.375rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out, color 400ms ease-in;
+}
+
+button:hover,
+button:focus {
+  color: hsl(var(--clr-orange));
+  background-color: hsl( var(--clr-white) );
+}
+
+.container {
+  display: grid;
+  gap: 1.5rem;
+  background-color: hsl( var(--clr-dark-blue) );
+  max-width: 22rem;
+  padding: 2rem 1.5rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+}
+
+.padding-circle {
+  padding: 0.875rem;
+  background-color: hsl( var(--clr-medium-grey) / 0.2);
+  border-radius: 50%;
+}
+
+label {
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  aspect-ratio: 1;
+  place-items: center;
+  width: 2.75rem;
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-inline: 1rem;
+  font-weight: 700;
+  background-color: hsl( var(--clr-medium-grey) / 0.2);
+  color: hsl(var(--clr-light-grey));
+  transition: background-color 500ms ease-in-out, color 300ms ease-in;
+}
+
+label:hover,
+label:focus {
+  background-color: hsl(var(--clr-orange));
+  color: hsl( var(--clr-white) );
+}
+
+.thank-you-section {
+  display: none;
+  position: absolute;
+  justify-items: center; 
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  z-index: 2;
+  /* padding-block: 2rem; */
+}
+
+#rating-msg {
+  font-weight: 700;
+  background-color: hsl( var(--clr-medium-grey) / 0.2);
+  color: hsl(var(--clr-orange));
+  padding: 0.25rem 0.635rem;
+  padding-top: 7px;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+/* Radio button custom style */
+
+input[type="radio"] {
+  cursor: pointer;
+  width: 2.75rem;
+  height: 2.75rem;
+  position: absolute;
+  appearance: none;
+  margin: 0;
+  color: currentColor;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::after {
+  content: attr(no-rating);
+  z-index: 2;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  padding-top: 3px;
+  color:hsl( var(--clr-white) );
+  transform: scale(0);
+  background-color: hsl( var(--clr-medium-grey) );
+}
+
+input[type="radio"]:checked::after {
+  transform: scale(1);
+}

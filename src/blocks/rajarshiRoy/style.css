@@ -1,0 +1,28 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.card {
+width: 250px;
+text-align: center;
+border-radius: 7px;
+background: #f4f0f0;
+box-shadow:  19px 19px 26px #e5e2e2,
+             -19px -19px 26px #fffefe;
+  }
+  
+  div.header {
+    padding: 10px;
+    font-size: 40px;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+  p.note {
+    padding-left: 20px;
+    padding-right: 20px;
+  }

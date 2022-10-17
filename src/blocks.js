@@ -1,11 +1,207 @@
 
     let cards = [
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/9112Michael/index.html",
+    "block_icon": "./blocks/9112Michael/icon.png",
+    "author_name": "9112Michael",
+    "author_github_url": "https://github.com/9112Michael/"
+  },
+  {
+    "name": "Glitch Image for Portfolio",
+    "page_link": "./blocks/@lhpellizzon/index.html",
+    "block_icon": "./blocks/@lhpellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon/"
+  },
+  {
+    "name": "Toolkit of Alarm Clock and Calculator",
+    "page_link": "./blocks/AbhishekMukherjee/index.html",
+    "block_icon": "./blocks/AbhishekMukherjee/icon.png",
+    "author_name": "Abhishek Mukherjee",
+    "author_github_url": "https://github.com/AbhishekM2001/"
+  },
+  {
+    "name": "Cool buttons",
+    "page_link": "./blocks/Aditya/index.html",
+    "block_icon": "./blocks/Aditya/icon.png",
+    "author_name": "Aditya",
+    "author_github_url": "https://github.com/AdityaPote"
+  },
+  {
+    "name": "Dictionary",
+    "page_link": "./blocks/Aditya Dictionary_app/index.html",
+    "block_icon": "./blocks/Aditya Dictionary_app/icon.png",
+    "author_name": "Aditya Rawat",
+    "author_github_url": "https://github.com/adityasp1/"
+  },
+  {
+    "name": "Menu Button",
+    "page_link": "./blocks/Aditya Musale/index.html",
+    "block_icon": "./blocks/Aditya Musale/icon.png",
+    "author_name": "Aditya Musale",
+    "author_github_url": "https://github.com/the-anomalous/"
+  },
+  {
+    "name": "Popup prompt",
+    "page_link": "./blocks/AmoghRao2@arioum/index.html",
+    "block_icon": "./blocks/AmoghRao2@arioum/icon.png",
+    "author_name": "Amogh Rao",
+    "author_github_url": "https://github.com/arioum/"
+  },
+  {
+    "name": "Accodion",
+    "page_link": "./blocks/AmoghRao3@arioum/index.html",
+    "block_icon": "./blocks/AmoghRao3@arioum/icon.png",
+    "author_name": "Amogh Rao",
+    "author_github_url": "https://github.com/arioum/"
+  },
+  {
+    "name": "Toggle Button",
+    "page_link": "./blocks/AmoghRao@arioum/index.html",
+    "block_icon": "./blocks/AmoghRao@arioum/icon.png",
+    "author_name": "AmoghRao",
+    "author_github_url": "https://github.com/arioum/"
+  },
+  {
+    "name": "Drum Kit",
+    "page_link": "./blocks/AnayatDrum/index.html",
+    "block_icon": "./blocks/AnayatDrum/icon.png",
+    "author_name": "Anayat",
+    "author_github_url": "https://github.com/anayatkhan1/"
+  },
+  {
+    "name": "Simple Calculator",
+    "page_link": "./blocks/AnubhavChakraborty/index.html",
+    "block_icon": "./blocks/AnubhavChakraborty/icon.png",
+    "author_name": "Anubhav Chakraborty",
+    "author_github_url": "https://github.com/AnubhavChakrabortynits"
+  },
+  {
+    "name": "Pink blush toggle",
+    "page_link": "./blocks/AnushreePal/index.html",
+    "block_icon": "./blocks/AnushreePal/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
+    "name": "A transparent login form",
+    "page_link": "./blocks/AnushreePal2/index.html",
+    "block_icon": "./blocks/AnushreePal2/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
     "author_name": "Arihant Pal",
     "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
+    "name": "Creative background",
+    "page_link": "./blocks/Atul/index.html",
+    "block_icon": "./blocks/Atul/icon.png",
+    "author_name": "Atul Yadav",
+    "author_github_url": "https://github.com/atulyadav745/"
+  },
+  {
+    "name": "NOTES TAKING APP",
+    "page_link": "./blocks/Ayush-Dahala/index.html",
+    "block_icon": "./blocks/Ayush-Dahala/icon.png",
+    "author_name": "AYUSH-DAHALA",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
+    "name": "To do list",
+    "page_link": "./blocks/AyushKNath/index.html",
+    "block_icon": "./blocks/AyushKNath/icon.png",
+    "author_name": "Ayush Kumar Nath",
+    "author_github_url": "https://github.com/ayushknath"
+  },
+  {
+    "name": "Animated Images",
+    "page_link": "./blocks/AyushPj-2/index.html",
+    "block_icon": "./blocks/AyushPj-2/icon.png",
+    "author_name": "Ayush Dahala",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
+    "name": "Form Validation",
+    "page_link": "./blocks/AyushPj-3/index.html",
+    "block_icon": "./blocks/AyushPj-3/icon.png",
+    "author_name": "Ayush-Dahala",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
+    "name": "Newz App",
+    "page_link": "./blocks/AyushPj4/index.html",
+    "block_icon": "./blocks/AyushPj4/icon.png",
+    "author_name": "Ayush-Dahala",
+    "author_github_url": "https://github.com/Ayush-Dahala"
+  },
+  {
+    "name": "Catch Me If You Can",
+    "page_link": "./blocks/AyushRaj/index.html",
+    "block_icon": "./blocks/AyushRaj/icon.png",
+    "author_name": "Ayush Raj",
+    "author_github_url": "https://github.com/ayushraaaj"
+  },
+  {
+    "name": "ZTM Stop clock",
+    "page_link": "./blocks/BGS89/index.html",
+    "block_icon": "./blocks/BGS89/icon.png",
+    "author_name": "Ben",
+    "author_github_url": "https://https://github.com/BGS89"
+  },
+  {
+    "name": "Login Form",
+    "page_link": "./blocks/BrianWhelanDublin/index.html",
+    "block_icon": "./blocks/BrianWhelanDublin/icon.png",
+    "author_name": "Brian Whelan",
+    "author_github_url": "https://github.com/BrianWhelanDublin"
+  },
+  {
+    "name": "Animated Cards on Hover",
+    "page_link": "./blocks/Carlos/index.html",
+    "block_icon": "./blocks/Carlos/icon.png",
+    "author_name": "Carlos",
+    "author_github_url": "https://github.com/CHZelaya/"
+  },
+  {
+    "name": "Footer with wave",
+    "page_link": "./blocks/Carlos Hernandez/index.html",
+    "block_icon": "./blocks/Carlos Hernandez/icon.png",
+    "author_name": "Carlos Hernandez",
+    "author_github_url": "https://github.com/Carls13/"
+  },
+  {
+    "name": "Awesome Button",
+    "page_link": "./blocks/Claire01-awesomebutton/index.html",
+    "block_icon": "./blocks/Claire01-awesomebutton/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
+    "name": "Cool Photogrid",
+    "page_link": "./blocks/Claire02-coolphotogrid/index.html",
+    "block_icon": "./blocks/Claire02-coolphotogrid/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
+    "name": "CSS Cat",
+    "page_link": "./blocks/Claire03-csscat/index.html",
+    "block_icon": "./blocks/Claire03-csscat/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
+    "name": "Breakout Game",
+    "page_link": "./blocks/DhanushNehru/index.html",
+    "block_icon": "./blocks/DhanushNehru/icon.png",
+    "author_name": "Dhanush Nehru",
+    "author_github_url": "https://github.com/DhanushNehru"
   },
   {
     "name": "Pop-up Button",
@@ -15,6 +211,188 @@
     "author_github_url": "https://github.com/geetika005"
   },
   {
+    "name": "Old TV",
+    "page_link": "./blocks/HaimHamiel/index.html",
+    "block_icon": "./blocks/HaimHamiel/icon.png",
+    "author_name": "HaimHamiel",
+    "author_github_url": "https://github.com/HaimHamiel"
+  },
+  {
+    "name": "Toggle Luxury Mode",
+    "page_link": "./blocks/HarshChauhan/index.html",
+    "block_icon": "./blocks/HarshChauhan/icon.png",
+    "author_name": "Harsh Chauhan",
+    "author_github_url": "https://github.com/yes-im-harsh/"
+  },
+  {
+    "name": "Animated Heading",
+    "page_link": "./blocks/HarshilSharma/index.html",
+    "block_icon": "./blocks/HarshilSharma/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
+    "name": "Digital Clock",
+    "page_link": "./blocks/HarshilSharma2/index.html",
+    "block_icon": "./blocks/HarshilSharma2/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
+    "name": "SIP Calculator",
+    "page_link": "./blocks/HarshilSharma3/index.html",
+    "block_icon": "./blocks/HarshilSharma3/icon.png",
+    "author_name": "Harshil Sharma",
+    "author_github_url": "https://github.com/harshilsharmaa"
+  },
+  {
+    "name": "Current Date and Time",
+    "page_link": "./blocks/Hero988/index.html",
+    "block_icon": "./blocks/Hero988/icon.png",
+    "author_name": "Suliman",
+    "author_github_url": "https://github.com/Hero988"
+  },
+  {
+    "name": "Netflix Carousel",
+    "page_link": "./blocks/ImieboGodson/index.html",
+    "block_icon": "./blocks/ImieboGodson/icon.png",
+    "author_name": "Godson Imiebo",
+    "author_github_url": "https://github.com/ImieboGodson"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale/index.html",
+    "block_icon": "./blocks/IreeHale/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale2/index.html",
+    "block_icon": "./blocks/IreeHale2/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale3/index.html",
+    "block_icon": "./blocks/IreeHale3/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/IreeHale4/index.html",
+    "block_icon": "./blocks/IreeHale4/icon.png",
+    "author_name": "Iree Hale",
+    "author_github_url": "https://github.com/IreeHale"
+  },
+  {
+    "name": "little Zoo",
+    "page_link": "./blocks/Jeven/index.html",
+    "block_icon": "./blocks/Jeven/icon.png",
+    "author_name": "Jeven",
+    "author_github_url": "https://github.com/Jeven212"
+  },
+  {
+    "name": "Put the bunny back",
+    "page_link": "./blocks/KajaDabrowska/index.html",
+    "block_icon": "./blocks/KajaDabrowska/icon.png",
+    "author_name": "Kaja",
+    "author_github_url": "https://github.com/KajaDabrowska"
+  },
+  {
+    "name": "Name-in-Space",
+    "page_link": "./blocks/Khushi/index.html",
+    "block_icon": "./blocks/Khushi/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005/"
+  },
+  {
+    "name": "Colorful Hoverboard",
+    "page_link": "./blocks/Lhpellizzon/index.html",
+    "block_icon": "./blocks/Lhpellizzon/icon.png",
+    "author_name": "Luis Henrique de Andrade Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
+  },
+  {
+    "name": "Badges Range Numbers",
+    "page_link": "./blocks/Lpellizzon/index.html",
+    "block_icon": "./blocks/Lpellizzon/icon.png",
+    "author_name": "Luis Henrique de Andrade Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
+  },
+  {
+    "name": "TypeWriter Component",
+    "page_link": "./blocks/LuisPellizzon/index.html",
+    "block_icon": "./blocks/LuisPellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
+  },
+  {
+    "name": "Contact Form",
+    "page_link": "./blocks/Manas_Jayaswal/index.html",
+    "block_icon": "./blocks/Manas_Jayaswal/icon.png",
+    "author_name": "Manas Jayaswal",
+    "author_github_url": "https://github.com/mjmanas54/"
+  },
+  {
+    "name": "CRUD Project",
+    "page_link": "./blocks/MannyP31/index.html",
+    "block_icon": "./blocks/MannyP31/icon.png",
+    "author_name": "Manisha Parichha",
+    "author_github_url": "https://github.com/MannyP31"
+  },
+  {
+    "name": "Modern Slider",
+    "page_link": "./blocks/MariaMills/index.html",
+    "block_icon": "./blocks/MariaMills/icon.png",
+    "author_name": "Maria Mills",
+    "author_github_url": "https://github.com/mariamills"
+  },
+  {
+    "name": "Employee database management website",
+    "page_link": "./blocks/MarkL50/index.html",
+    "block_icon": "./blocks/MarkL50/icon.png",
+    "author_name": "MarkL50",
+    "author_github_url": "https://github.com/MarkL50"
+  },
+  {
+    "name": "Demo Portfolio",
+    "page_link": "./blocks/Md-Aquib/index.html",
+    "block_icon": "./blocks/Md-Aquib/icon.png",
+    "author_name": "Md-Aquib",
+    "author_github_url": "https://github.com/Md-Aquib/"
+  },
+  {
+    "name": "Card component",
+    "page_link": "./blocks/MdZaidSiddiqui/index.html",
+    "block_icon": "./blocks/MdZaidSiddiqui/icon.png",
+    "author_name": "Zaid",
+    "author_github_url": "https://github.com/zaidsidd360/"
+  },
+  {
+    "name": "Magic 8 Ball",
+    "page_link": "./blocks/MiguelSemedo/index.html",
+    "block_icon": "./blocks/MiguelSemedo/icon.png",
+    "author_name": "Miguel",
+    "author_github_url": "https://github.com/msemedo2"
+  },
+  {
+    "name": "Tic-Tac-Toe",
+    "page_link": "./blocks/Mohamed_Bilal/index.html",
+    "block_icon": "./blocks/Mohamed_Bilal/icon.png",
+    "author_name": "Mohamed Bilal",
+    "author_github_url": "https://github.com/dmdbilal/"
+  },
+  {
+    "name": "Gradient Transition Button",
+    "page_link": "./blocks/Mysta3/index.html",
+    "block_icon": "./blocks/Mysta3/icon.png",
+    "author_name": "Mysta3",
+    "author_github_url": "https://github.com/Mysta3/"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
@@ -22,9 +400,30 @@
     "author_github_url": "https://github.com/Neha045/"
   },
   {
+    "name": "Loading...",
+    "page_link": "./blocks/Neha2/index.html",
+    "block_icon": "./blocks/Neha2/icon.png",
+    "author_name": "Neha",
+    "author_github_url": "https://github.com/Neha045/"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
+    "author_name": "Raj Mishra",
+    "author_github_url": "https://github.com/rajmishra-47/"
+  },
+  {
+    "name": "Simple_Quotes",
+    "page_link": "./blocks/RajMishra2/index.html",
+    "block_icon": "./blocks/RajMishra2/icon.png",
+    "author_name": "Raj Mishra",
+    "author_github_url": "https://github.com/rajmishra-47/"
+  },
+  {
+    "name": "Coolor Change",
+    "page_link": "./blocks/RajMishra3/index.html",
+    "block_icon": "./blocks/RajMishra3/icon.png",
     "author_name": "Raj Mishra",
     "author_github_url": "https://github.com/rajmishra-47/"
   },
@@ -43,6 +442,41 @@
     "author_github_url": "https://github.com/Rohald89/"
   },
   {
+    "name": "Battery Indicator",
+    "page_link": "./blocks/S44WN-BatteryIndicator/index.html",
+    "block_icon": "./blocks/S44WN-BatteryIndicator/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Love Birds",
+    "page_link": "./blocks/S44WN-Lovies/index.html",
+    "block_icon": "./blocks/S44WN-Lovies/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Minimalist Clock",
+    "page_link": "./blocks/S44WN-MClock/index.html",
+    "block_icon": "./blocks/S44WN-MClock/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Cards Carousel",
+    "page_link": "./blocks/S44WN-cards/index.html",
+    "block_icon": "./blocks/S44WN-cards/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Digital Clock",
+    "page_link": "./blocks/SahilRawat/index.html",
+    "block_icon": "./blocks/SahilRawat/icon.png",
+    "author_name": "Sahil Rawat",
+    "author_github_url": "https://github.com/sahilrawat001"
+  },
+  {
     "name": "Wave",
     "page_link": "./blocks/Sakshi-Bhakta-Wave/index.html",
     "block_icon": "./blocks/Sakshi-Bhakta-Wave/icon.png",
@@ -57,6 +491,69 @@
     "author_github_url": "https://github.com/Sayed-Husain/"
   },
   {
+    "name": "Color Zoomer & Revealers",
+    "page_link": "./blocks/Sayed-Husain-2/index.html",
+    "block_icon": "./blocks/Sayed-Husain-2/icon.png",
+    "author_name": "Sayed-Husain",
+    "author_github_url": "https://github.com/Sayed-Husain/"
+  },
+  {
+    "name": "Protonmail UI",
+    "page_link": "./blocks/Shariq/index.html",
+    "block_icon": "./blocks/Shariq/icon.png",
+    "author_name": "Shariq",
+    "author_github_url": "https://github.com/cosmicqbit/"
+  },
+  {
+    "name": "Modern Responsive Testimonial",
+    "page_link": "./blocks/SubramanyaRao11/index.html",
+    "block_icon": "./blocks/SubramanyaRao11/icon.png",
+    "author_name": "Subramanya Rao",
+    "author_github_url": "https://github.com/Subramanyarao11"
+  },
+  {
+    "name": "CSS Linear Gradient Button",
+    "page_link": "./blocks/SubramanyaRao11_2/index.html",
+    "block_icon": "./blocks/SubramanyaRao11_2/icon.png",
+    "author_name": "Subramanya Rao",
+    "author_github_url": "https://github.com/Subramanyarao11"
+  },
+  {
+    "name": "Age Calculator",
+    "page_link": "./blocks/SudiptoDas/index.html",
+    "block_icon": "./blocks/SudiptoDas/icon.png",
+    "author_name": "Sudipto Das",
+    "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
+    "name": "Background Generator",
+    "page_link": "./blocks/SudiptoDas3/index.html",
+    "block_icon": "./blocks/SudiptoDas3/icon.png",
+    "author_name": "Sudipto Das",
+    "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
+    "name": "Object Detection",
+    "page_link": "./blocks/SudiptoMlJS/index.html",
+    "block_icon": "./blocks/SudiptoMlJS/icon.png",
+    "author_name": "Sudipto Das",
+    "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
+    "name": "Animation Card",
+    "page_link": "./blocks/Sunainacode/index.html",
+    "block_icon": "./blocks/Sunainacode/icon.png",
+    "author_name": "Sunaina Agarwal",
+    "author_github_url": "https://github.com/Sunainacode"
+  },
+  {
+    "name": "Card Information",
+    "page_link": "./blocks/TheaAleksovDev/index.html",
+    "block_icon": "./blocks/TheaAleksovDev/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
     "name": "Toggle Button",
     "page_link": "./blocks/Ukesh-dev/index.html",
     "block_icon": "./blocks/Ukesh-dev/icon.png",
@@ -64,11 +561,59 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Hamburger Menu Icon Animation",
+    "page_link": "./blocks/VedantAndhale/index.html",
+    "block_icon": "./blocks/VedantAndhale/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
+  },
+  {
+    "name": "Like Button Animation",
+    "page_link": "./blocks/VedantAndhale-v2/index.html",
+    "block_icon": "./blocks/VedantAndhale-v2/icon.png",
+    "author_name": "Vedant Andhale",
+    "author_github_url": "https://github.com/VedantAndhale/"
+  },
+  {
+    "name": "Spotify Sign Up Template",
+    "page_link": "./blocks/aal2015/index.html",
+    "block_icon": "./blocks/aal2015/icon.png",
+    "author_name": "Abhinav Lugun",
+    "author_github_url": "https://github.com/aal2015"
+  },
+  {
+    "name": "Anime Button",
+    "page_link": "./blocks/ab-3/index.html",
+    "block_icon": "./blocks/ab-3/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
     "name": "HP OMEM Logo",
     "page_link": "./blocks/amulyaprasanth/index.html",
     "block_icon": "./blocks/amulyaprasanth/icon.png",
     "author_name": "amulyaprasanth",
     "author_github_url": "https://github.com/amulyaprasanth/"
+  },
+  {
+    "name": "Yoga Timer",
+    "page_link": "./blocks/anastasia_lunina/index.html",
+    "block_icon": "./blocks/anastasia_lunina/icon.png",
+    "author_name": "Anastasia",
+    "author_github_url": "https://github.com/AnastasiaLunina"
+  },
+  {
+    "name": "Toggle Theme Button",
+    "page_link": "./blocks/ankeshp03/index.html",
+    "block_icon": "./blocks/ankeshp03/icon.png",
+    "author_name": "Ankesh Paramanik",
+    "author_github_url": "https://github.com/ankeshp03/"
+  },
+  {
+    "page_link": "./blocks/anudeep/index.html",
+    "block_icon": "./blocks/anudeep/icon.png",
+    "author_name": "Anudeep-313",
+    "author_github_url": "https://github.com/Anudeep-313"
   },
   {
     "name": "Flip Card",
@@ -92,11 +637,88 @@
     "author_github_url": "https://github.com/betiniakarandut/"
   },
   {
+    "name": "betiniakarandut02",
+    "page_link": "./blocks/betiniakarandut02/index.html",
+    "block_icon": "./blocks/betiniakarandut02/icon.png",
+    "author_name": "Betini Akarandut",
+    "author_github_url": "https://github.com/betiniakarandut"
+  },
+  {
     "name": "Flipping Text",
     "page_link": "./blocks/billlunger/index.html",
     "block_icon": "./blocks/billlunger/icon.png",
     "author_name": "Bill Lunger",
     "author_github_url": "https://github.com/billlunger/"
+  },
+  {
+    "name": "Expanding Badge",
+    "page_link": "./blocks/bk987-1/index.html",
+    "block_icon": "./blocks/bk987-1/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
+    "name": "Offcanvas Sidebar",
+    "page_link": "./blocks/bk987-2/index.html",
+    "block_icon": "./blocks/bk987-2/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
+    "name": "3D Button",
+    "page_link": "./blocks/bk987-3/index.html",
+    "block_icon": "./blocks/bk987-3/icon.png",
+    "author_name": "bk987",
+    "author_github_url": "https://github.com/bk987"
+  },
+  {
+    "name": "simple-audio-player",
+    "page_link": "./blocks/blitzmartin/index.html",
+    "block_icon": "./blocks/blitzmartin/icon.png",
+    "author_name": "blitzmartin",
+    "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
+    "name": "subscription-payment",
+    "page_link": "./blocks/blitzmartin-2/index.html",
+    "block_icon": "./blocks/blitzmartin-2/icon.png",
+    "author_name": "blitzmartin",
+    "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
+    "name": "Testimonials Grid",
+    "page_link": "./blocks/carls13/index.html",
+    "block_icon": "./blocks/carls13/icon.png",
+    "author_name": "Carls13",
+    "author_github_url": "https://github.com/carls13/"
+  },
+  {
+    "name": "pretzel loading icon",
+    "page_link": "./blocks/carmen170796/index.html",
+    "block_icon": "./blocks/carmen170796/icon.png",
+    "author_name": "Carmen Mendoza",
+    "author_github_url": "https://github.com/carmen170796"
+  },
+  {
+    "name": "Ferris-wheel component",
+    "page_link": "./blocks/carmen170796.2/index.html",
+    "block_icon": "./blocks/carmen170796.2/icon.png",
+    "author_name": "Carmen Mendoza",
+    "author_github_url": "https://github.com/carmen170796"
+  },
+  {
+    "name": "CSS Toggle",
+    "page_link": "./blocks/cherbear263/index.html",
+    "block_icon": "./blocks/cherbear263/icon.png",
+    "author_name": "Cheryl",
+    "author_github_url": "https://github.com/cherbear263/"
+  },
+  {
+    "name": "Water Calculator",
+    "page_link": "./blocks/cherbear263-2/index.html",
+    "block_icon": "./blocks/cherbear263-2/icon.png",
+    "author_name": "Cheryl",
+    "author_github_url": "https://github.com/cherbear263/"
   },
   {
     "name": "Movie Component",
@@ -113,11 +735,109 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "switch box",
+    "page_link": "./blocks/conor-v/index.html",
+    "block_icon": "./blocks/conor-v/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
+    "name": "social links",
+    "page_link": "./blocks/conor-v2/index.html",
+    "block_icon": "./blocks/conor-v2/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
+    "name": "credit card",
+    "page_link": "./blocks/conor-v3/index.html",
+    "block_icon": "./blocks/conor-v3/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
+    "name": "Neumorphism form element",
+    "page_link": "./blocks/conor-v4/index.html",
+    "block_icon": "./blocks/conor-v4/icon.png",
+    "author_name": "conor-v",
+    "author_github_url": "https://github.com/conor-v"
+  },
+  {
+    "name": "ZTM Guardian Live Widget",
+    "page_link": "./blocks/cquaid/index.html",
+    "block_icon": "./blocks/cquaid/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
+    "name": "Button with Popup Modal",
+    "page_link": "./blocks/cquaid_2/index.html",
+    "block_icon": "./blocks/cquaid_2/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
+    "name": "Dropdown Menu",
+    "page_link": "./blocks/cquaid_3/index.html",
+    "block_icon": "./blocks/cquaid_3/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
+    "name": "Timeline",
+    "page_link": "./blocks/danicc/index.html",
+    "block_icon": "./blocks/danicc/icon.png",
+    "author_name": "Daniel Esquinazi",
+    "author_github_url": "https://github.com/danicc"
+  },
+  {
+    "name": "Dante's Color Button",
+    "page_link": "./blocks/danteSadeghi/index.html",
+    "block_icon": "./blocks/danteSadeghi/icon.png",
+    "author_name": "Dante",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
+    "name": "Dante's Hacktober Form",
+    "page_link": "./blocks/danteSadeghi2/index.html",
+    "block_icon": "./blocks/danteSadeghi2/icon.png",
+    "author_name": "Dante",
+    "author_github_url": "https://github.com/dantesadeghi"
+  },
+  {
+    "name": "Background_Color_Changer",
+    "page_link": "./blocks/divs14/index.html",
+    "block_icon": "./blocks/divs14/icon.png",
+    "author_name": "Divyanshu Gupta",
+    "author_github_url": "https://github.com/divs14"
+  },
+  {
     "name": "ZTM Focus",
     "page_link": "./blocks/dmitriifomin/index.html",
     "block_icon": "./blocks/dmitriifomin/icon.png",
     "author_name": "Dmitrii",
     "author_github_url": "https://github.com/Kanadets"
+  },
+  {
+    "name": "Rating Component",
+    "page_link": "./blocks/dsnoeijer/index.html",
+    "block_icon": "./blocks/dsnoeijer/icon.png",
+    "author_name": "W.D. Snoeijer",
+    "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "List item with favorite button",
+    "page_link": "./blocks/dsnoeijer2/index.html",
+    "block_icon": "./blocks/dsnoeijer2/icon.png",
+    "author_name": "W.D. Snoeijer",
+    "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "Feedback component",
+    "page_link": "./blocks/getRicha/index.html",
+    "block_icon": "./blocks/getRicha/icon.png",
+    "author_name": "Richa",
+    "author_github_url": "https://github.com/getRicha/"
   },
   {
     "name": "Project Card",
@@ -141,11 +861,130 @@
     "author_github_url": "https://github.com/Haider-Ali-Dev/"
   },
   {
+    "name": "Different Types of Buttons",
+    "page_link": "./blocks/haider-ali2/index.html",
+    "block_icon": "./blocks/haider-ali2/icon.png",
+    "author_name": "Haider Ali",
+    "author_github_url": "https://github.com/Haider-Ali-Dev/"
+  },
+  {
+    "name": "TowerBlock",
+    "page_link": "./blocks/hardeeppatel/index.html",
+    "block_icon": "./blocks/hardeeppatel/icon.png",
+    "author_name": "HardeepPatel",
+    "author_github_url": "https://github.com/HardeepPatel"
+  },
+  {
+    "name": "VirtuCard",
+    "page_link": "./blocks/henrykhosasih/index.html",
+    "block_icon": "./blocks/henrykhosasih/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
+    "name": "AstroToday",
+    "page_link": "./blocks/henrykhosasih-v2/index.html",
+    "block_icon": "./blocks/henrykhosasih-v2/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
+    "name": "DiscoHacktoberfest",
+    "page_link": "./blocks/henrykhosasih-v3/index.html",
+    "block_icon": "./blocks/henrykhosasih-v3/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
+    "name": "DriveSafe",
+    "page_link": "./blocks/henrykhosasih-v4/index.html",
+    "block_icon": "./blocks/henrykhosasih-v4/icon.png",
+    "author_name": "Henry Khosasih",
+    "author_github_url": "https://github.com/HenryKhosasih"
+  },
+  {
+    "name": "css-button",
+    "page_link": "./blocks/heyraeh/index.html",
+    "block_icon": "./blocks/heyraeh/icon.png",
+    "author_name": "Rachel (heyraeh)",
+    "author_github_url": "https://github.com/heyraeh/"
+  },
+  {
+    "name": "Loader",
+    "page_link": "./blocks/hinedy/index.html",
+    "block_icon": "./blocks/hinedy/icon.png",
+    "author_name": "Ahmed Hinedy",
+    "author_github_url": "https://github.com/hinedy"
+  },
+  {
+    "name": "Country card",
+    "page_link": "./blocks/ifeoluwah2/index.html",
+    "block_icon": "./blocks/ifeoluwah2/icon.png",
+    "author_name": "Ifeoluwa Oludare",
+    "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
+    "name": "Budget Chart",
+    "page_link": "./blocks/ifeoluwah21/index.html",
+    "block_icon": "./blocks/ifeoluwah21/icon.png",
+    "author_name": "Ifeoulwa Oludare",
+    "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
+    "name": "Random Quotes",
+    "page_link": "./blocks/ifeoluwah3/index.html",
+    "block_icon": "./blocks/ifeoluwah3/icon.png",
+    "author_name": "Ifeoluwa Oludare",
+    "author_github_url": "https://github.com/ifeoluwah21"
+  },
+  {
+    "name": "Swipecard",
+    "page_link": "./blocks/images-grid-nattkits/index.html",
+    "block_icon": "./blocks/images-grid-nattkits/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Animated Monitor design",
     "page_link": "./blocks/imashi/index.html",
     "block_icon": "./blocks/imashi/icon.png",
     "author_name": "MadhaviImashi",
     "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
+    "name": "Toggle Background Image",
+    "page_link": "./blocks/imashi2/index.html",
+    "block_icon": "./blocks/imashi2/icon.png",
+    "author_name": "MadhaviImashi",
+    "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
+    "name": "Space website welcome page",
+    "page_link": "./blocks/imashi3/index.html",
+    "block_icon": "./blocks/imashi3/icon.png",
+    "author_name": "MadhaviImashi",
+    "author_github_url": "https://github.com/MadhaviImashi"
+  },
+  {
+    "name": "Words and Characters Counter",
+    "page_link": "./blocks/incognion/index.html",
+    "block_icon": "./blocks/incognion/icon.png",
+    "author_name": "Ashutosh Kumar",
+    "author_github_url": "https://github.com/incognion"
+  },
+  {
+    "name": "ZTM Modal Signup Form",
+    "page_link": "./blocks/ingridclaire/index.html",
+    "block_icon": "./blocks/ingridclaire/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
+    "name": "Responsive Navbar",
+    "page_link": "./blocks/ingridclaire2/index.html",
+    "block_icon": "./blocks/ingridclaire2/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
   },
   {
     "name": "Animated CSS Properties",
@@ -155,9 +994,65 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Minimal Calculator",
+    "page_link": "./blocks/joedravarol/index.html",
+    "block_icon": "./blocks/joedravarol/icon.png",
+    "author_name": "JD",
+    "author_github_url": "https://github.com/joedravarol"
+  },
+  {
+    "name": "Keyboard interactions with sounds ft. DBZ and Naruto",
+    "page_link": "./blocks/karan919/index.html",
+    "block_icon": "./blocks/karan919/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
+    "name": "Bouncing DVD",
+    "page_link": "./blocks/karan919_2/index.html",
+    "block_icon": "./blocks/karan919_2/icon.png",
+    "author_name": "Karan",
+    "author_github_url": "https://github.com/karan919/"
+  },
+  {
+    "name": "Console",
+    "page_link": "./blocks/kwiczling/index.html",
+    "block_icon": "./blocks/kwiczling/icon.png",
+    "author_name": "K-Wiczling",
+    "author_github_url": "https://github.com/K-Wiczling/"
+  },
+  {
+    "name": "Responsive Header",
+    "page_link": "./blocks/kwiczling2/index.html",
+    "block_icon": "./blocks/kwiczling2/icon.png",
+    "author_name": "K-Wiczling",
+    "author_github_url": "https://github.com/K-Wiczling/"
+  },
+  {
     "name": "Navbar Bottom Sticky Top",
     "page_link": "./blocks/leocsdev/index.html",
     "block_icon": "./blocks/leocsdev/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
+    "name": "Return To Top Button",
+    "page_link": "./blocks/leocsdev2/index.html",
+    "block_icon": "./blocks/leocsdev2/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
+    "name": "Simple Form With Validation",
+    "page_link": "./blocks/leocsdev3/index.html",
+    "block_icon": "./blocks/leocsdev3/icon.png",
+    "author_name": "leocsdev",
+    "author_github_url": "https://github.com/leocsdev"
+  },
+  {
+    "name": "Countdown Timer",
+    "page_link": "./blocks/leocsdev4/index.html",
+    "block_icon": "./blocks/leocsdev4/icon.png",
     "author_name": "leocsdev",
     "author_github_url": "https://github.com/leocsdev"
   },
@@ -169,11 +1064,144 @@
     "author_github_url": "https://github.com/lordkerwin"
   },
   {
+    "name": "My Pets",
+    "page_link": "./blocks/luicmarin/index.html",
+    "block_icon": "./blocks/luicmarin/icon.png",
+    "author_name": "Marin Luic",
+    "author_github_url": "https://github.com/AcidBurnHen"
+  },
+  {
+    "name": "DragDrop",
+    "page_link": "./blocks/manavukani/index.html",
+    "block_icon": "./blocks/manavukani/icon.png",
+    "author_name": "ManavUkani",
+    "author_github_url": "https://github.com/manavukani/"
+  },
+  {
+    "name": "Amazon sign-up",
+    "page_link": "./blocks/mariko971/index.html",
+    "block_icon": "./blocks/mariko971/icon.png",
+    "author_name": "Mark",
+    "author_github_url": "https://github.com/mariko971/"
+  },
+  {
     "name": "ZTM Button",
     "page_link": "./blocks/mattcsmith/index.html",
     "block_icon": "./blocks/mattcsmith/icon.png",
     "author_name": "Matt",
     "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
+    "name": "3dFest",
+    "page_link": "./blocks/meetkavathiya/index.html",
+    "block_icon": "./blocks/meetkavathiya/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
+    "name": "ZTM Button",
+    "page_link": "./blocks/mherzog4/index.html",
+    "block_icon": "./blocks/mherzog4/icon.png",
+    "author_name": "Matt Herzog",
+    "author_github_url": "https://github.com/Mherzog4/"
+  },
+  {
+    "name": "Chill Zone",
+    "page_link": "./blocks/michaella23/index.html",
+    "block_icon": "./blocks/michaella23/icon.png",
+    "author_name": "Micha",
+    "author_github_url": "https://github.com/michaella23/"
+  },
+  {
+    "name": "Month Animation",
+    "page_link": "./blocks/mk2/index.html",
+    "block_icon": "./blocks/mk2/icon.png",
+    "author_name": "MeetKavathiya",
+    "author_github_url": "https://github.com/mk-8"
+  },
+  {
+    "name": "Door to Motivation",
+    "page_link": "./blocks/mrxshinji/index.html",
+    "block_icon": "./blocks/mrxshinji/icon.png",
+    "author_name": "mrxShinji",
+    "author_github_url": "https://github.com/mrxshinji"
+  },
+  {
+    "name": "Link Card",
+    "page_link": "./blocks/mustafadede/index.html",
+    "block_icon": "./blocks/mustafadede/icon.png",
+    "author_name": "Mustafa DEDE",
+    "author_github_url": "https://github.com/mustafadede"
+  },
+  {
+    "name": "Desktop Navigation",
+    "page_link": "./blocks/mustafadede-1/index.html",
+    "block_icon": "./blocks/mustafadede-1/icon.png",
+    "author_name": "Mustafa DEDE",
+    "author_github_url": "https://github.com/mustafadede"
+  },
+  {
+    "name": "Login and Signup form",
+    "page_link": "./blocks/nikhil_mishra/index.html",
+    "block_icon": "./blocks/nikhil_mishra/icon.png",
+    "author_name": "Nikhil Mishra",
+    "author_github_url": "https://github.com/codewizard26/"
+  },
+  {
+    "name": "Flip Card",
+    "page_link": "./blocks/nikkikal/index.html",
+    "block_icon": "./blocks/nikkikal/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
+    "name": "Button",
+    "page_link": "./blocks/nikkikal2/index.html",
+    "block_icon": "./blocks/nikkikal2/icon.png",
+    "author_name": "NikkiKal",
+    "author_github_url": "https://github.com/NikkiKal/"
+  },
+  {
+    "name": "Web Developer Tasks",
+    "page_link": "./blocks/nuha/index.html",
+    "block_icon": "./blocks/nuha/icon.png",
+    "author_name": "Nuha",
+    "author_github_url": "https://github.com/nuhacodes/"
+  },
+  {
+    "name": "Simple Progress Bar",
+    "page_link": "./blocks/oluwatomilola/index.html",
+    "block_icon": "./blocks/oluwatomilola/icon.png",
+    "author_name": "Oluwatomilola",
+    "author_github_url": "https://github.com/DevTomilola-OS/"
+  },
+  {
+    "name": "Github Login Page",
+    "page_link": "./blocks/pankaj485/index.html",
+    "block_icon": "./blocks/pankaj485/icon.png",
+    "author_name": "Pankaj Thapaliya",
+    "author_github_url": "https://github.com/pankaj485/"
+  },
+  {
+    "name": "TypeWriter Component",
+    "page_link": "./blocks/pellizzon/index.html",
+    "block_icon": "./blocks/pellizzon/icon.png",
+    "author_name": "Luis Pellizzon",
+    "author_github_url": "https://github.com/lhpellizzon"
+  },
+  {
+    "name": "HEX Quiz",
+    "page_link": "./blocks/philipbos/index.html",
+    "block_icon": "./blocks/philipbos/icon.png",
+    "author_name": "Philip Bos",
+    "author_github_url": "https://github.com/Philip-Bos"
+  },
+  {
+    "name": "Halloween Navbar",
+    "page_link": "./blocks/phyllis-wb-1/index.html",
+    "block_icon": "./blocks/phyllis-wb-1/icon.png",
+    "author_name": "Phyllis",
+    "author_github_url": "https://github.com/phylliswong"
   },
   {
     "name": "TicTacToe",
@@ -190,11 +1218,32 @@
     "author_github_url": "https://github.com/pritindra/"
   },
   {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra2/index.html",
+    "block_icon": "./blocks/pritindra2/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
+    "name": "Subscribe Icons",
+    "page_link": "./blocks/pritindra3/index.html",
+    "block_icon": "./blocks/pritindra3/icon.png",
+    "author_name": "Pritindra Das",
+    "author_github_url": "https://github.com/pritindra/"
+  },
+  {
     "name": "Card Profile PunGrumpy",
     "page_link": "./blocks/pungrumpy/index.html",
     "block_icon": "./blocks/pungrumpy/icon.png",
     "author_name": "PunGrumpy",
     "author_github_url": "https://github.com/PunGrumpy/"
+  },
+  {
+    "name": "ZTM Card",
+    "page_link": "./blocks/qashifpeer/index.html",
+    "block_icon": "./blocks/qashifpeer/icon.png",
+    "author_name": "Qashif Peer",
+    "author_github_url": "https://github.com/qashifpeer/"
   },
   {
     "name": "Ripped Paper Effect",
@@ -204,6 +1253,69 @@
     "author_github_url": "https://github.com/rachelktyjohnson/"
   },
   {
+    "name": "Accessible Accordion",
+    "page_link": "./blocks/raissa-k/index.html",
+    "block_icon": "./blocks/raissa-k/icon.png",
+    "author_name": "Raissa",
+    "author_github_url": "https://github.com/raissa-k/"
+  },
+  {
+    "name": "Note Card Component",
+    "page_link": "./blocks/rajarshiRoy/index.html",
+    "block_icon": "./blocks/rajarshiRoy/icon.png",
+    "author_name": "Rajarshi Roy",
+    "author_github_url": "https://github.com/Royincog"
+  },
+  {
+    "name": "Interactive Rating Card",
+    "page_link": "./blocks/saga-sanga/index.html",
+    "block_icon": "./blocks/saga-sanga/icon.png",
+    "author_name": "Reckson Khiangte",
+    "author_github_url": "https://github.com/Saga-sanga/"
+  },
+  {
+    "name": "Dark Mode Toggle Switch",
+    "page_link": "./blocks/sammneto/index.html",
+    "block_icon": "./blocks/sammneto/icon.png",
+    "author_name": "Samm",
+    "author_github_url": "https://github.com/sammkodes96"
+  },
+  {
+    "name": "Tab Switch",
+    "page_link": "./blocks/sanjithpk/index.html",
+    "block_icon": "./blocks/sanjithpk/icon.png",
+    "author_name": "Sanjith",
+    "author_github_url": "https://github.com/sanjithpk"
+  },
+  {
+    "name": "Product Card",
+    "page_link": "./blocks/satyam73/index.html",
+    "block_icon": "./blocks/satyam73/icon.png",
+    "author_name": "satyam73",
+    "author_github_url": "https://github.com/satyam73/"
+  },
+  {
+    "name": "Black Jack",
+    "page_link": "./blocks/shemils/index.html",
+    "block_icon": "./blocks/shemils/icon.png",
+    "author_name": "shemil076",
+    "author_github_url": "https://github.com/shemil076"
+  },
+  {
+    "name": "Animated Navigation Bar",
+    "page_link": "./blocks/shubham2/index.html",
+    "block_icon": "./blocks/shubham2/icon.png",
+    "author_name": "Shubham Kumar",
+    "author_github_url": "https://github.com/shubham7668"
+  },
+  {
+    "name": "Animated Search Widget",
+    "page_link": "./blocks/shubham7668/index.html",
+    "block_icon": "./blocks/shubham7668/icon.png",
+    "author_name": "Shubham Kumar",
+    "author_github_url": "https://github.com/shubham7668/"
+  },
+  {
     "name": "Flash Button",
     "page_link": "./blocks/siddharthsinghvats/index.html",
     "block_icon": "./blocks/siddharthsinghvats/icon.png",
@@ -211,11 +1323,46 @@
     "author_github_url": "https://github.com/siddharthsinghvats/"
   },
   {
+    "name": "Quote Cards",
+    "page_link": "./blocks/siddharthsinghvats2/index.html",
+    "block_icon": "./blocks/siddharthsinghvats2/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
+  },
+  {
     "name": "Moving Bus",
     "page_link": "./blocks/siddharthsinghvats3/index.html",
     "block_icon": "./blocks/siddharthsinghvats3/icon.png",
     "author_name": "Siddharth Singh",
     "author_github_url": "https://github.com/siddharthsinghvats"
+  },
+  {
+    "name": "Timer Background",
+    "page_link": "./blocks/siddharthsinghvats4/index.html",
+    "block_icon": "./blocks/siddharthsinghvats4/icon.png",
+    "author_name": "Siddharth Singh",
+    "author_github_url": "https://github.com/siddharthsinghvats"
+  },
+  {
+    "name": "Click Button",
+    "page_link": "./blocks/sourabhsathe/index.html",
+    "block_icon": "./blocks/sourabhsathe/icon.png",
+    "author_name": "Sourabh Sathe",
+    "author_github_url": "https://github.com/sourhub226"
+  },
+  {
+    "name": "Swipecard",
+    "page_link": "./blocks/swipe-card-nattkits/index.html",
+    "block_icon": "./blocks/swipe-card-nattkits/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
+    "name": "Eat Sleep Code Repeat",
+    "page_link": "./blocks/t-moennich/index.html",
+    "block_icon": "./blocks/t-moennich/icon.png",
+    "author_name": "Tommy Mönnich",
+    "author_github_url": "https://github.com/t-moennich"
   },
   {
     "name": "Beautiful Timeline Design",
@@ -239,11 +1386,53 @@
     "author_github_url": "https://github.com/terrifricker/"
   },
   {
+    "name": "Share Social Media Button",
+    "page_link": "./blocks/terrifricker2/index.html",
+    "block_icon": "./blocks/terrifricker2/icon.png",
+    "author_name": "Terri Fricker",
+    "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
+    "name": "Conversation Bubble",
+    "page_link": "./blocks/terrifricker3/index.html",
+    "block_icon": "./blocks/terrifricker3/icon.png",
+    "author_name": "Terri Fricker",
+    "author_github_url": "https://github.com/terrifricker/"
+  },
+  {
+    "name": "Drum 🥁 Kit",
+    "page_link": "./blocks/vanithaak/index.html",
+    "block_icon": "./blocks/vanithaak/icon.png",
+    "author_name": "Vanitha",
+    "author_github_url": "https://github.com/vanithaak"
+  },
+  {
+    "name": "3D Flip Card",
+    "page_link": "./blocks/vijay2249/index.html",
+    "block_icon": "./blocks/vijay2249/icon.png",
+    "author_name": "Vijay2249",
+    "author_github_url": "https://github.com/Vijay2249/"
+  },
+  {
     "name": "CHILL WAVES",
     "page_link": "./blocks/vishalpatil20/index.html",
     "block_icon": "./blocks/vishalpatil20/icon.png",
     "author_name": "vishalpatil20",
     "author_github_url": "https://github.com/vishalpatil20"
+  },
+  {
+    "name": "Water Loading animation",
+    "page_link": "./blocks/water-loading-nattkit/index.html",
+    "block_icon": "./blocks/water-loading-nattkit/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
+    "name": "Simple To Do List",
+    "page_link": "./blocks/yashraj2003e/index.html",
+    "block_icon": "./blocks/yashraj2003e/icon.png",
+    "author_name": "Yashraj",
+    "author_github_url": "https://github.com/yashraj2003e/"
   }
 ]
 
