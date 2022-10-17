@@ -1,0 +1,237 @@
+body {
+  background: linear-gradient(to right, #e66465, #9198e5);
+  height: 100px;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.track-listing-container {
+  margin: 0 auto;
+}
+
+.row-titles {
+  text-align: left;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 12px;
+  background-color: rgba(255,0,0,.5);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 32px #555;
+}
+
+table { 
+  border-collapse: collapse;
+  margin: 24px auto;
+  width: 500px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 32px #555;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+tr {
+  border-top: 1px solid #000;
+  border-bottom-right-radius: 8px;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.track-list {
+  list-style: none;
+}
+
+.track-link {
+  cursor: pointer;
+  margin: 24px 0;
+}
+
+.player-container {
+  margin: 24px auto;
+  padding: 12px 0;
+  width: 332px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #eee;
+  border-radius: 8px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 32px #555;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.now-playing {
+  font-size: 1rem;
+  padding-top: 12px;
+}
+
+.track-name {
+  font-size: 2rem;
+  text-align: center;
+}
+ 
+.track-artist {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.track-art {
+  margin: 24px;
+  height: 250px;
+  width: 250px;
+  background-image: URL("https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15%;
+
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 12px #555;
+}
+
+.buttons-container,
+.slider-container,
+.volume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-container i {
+  color: red;
+  opacity: 0.8;
+}
+
+.play-pause-track,
+.prev-track,
+.next-track {
+  padding: 24px 4px;
+  opacity: 0.8;
+ 
+  /* Smoothly transition the opacity */
+  transition: opacity .2s;
+}
+
+/* Change the opacity when mouse is hovered */
+.play-pause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1.0;
+}
+
+/* Define the slider width so that it scales properly */
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.slider-container input,
+.volume-container input {
+  background: red;
+  border-radius: 8px;
+}
+
+.slider-container div {
+  font-size: 12px;
+}
+
+.current-time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ background-color: red;
+ opacity: 1;
+}
+
+/* Modify the appearance of the slider */
+.seek-slider, .volume-slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Modify the appearance of the slider thumb */
+.seek-slider::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Change the opacity when mouse is hovered */
+.seek-slider:hover,
+.volume-slider:hover {
+  opacity: 1.0;
+}
+
+.seek-slider {
+  width: 60%;
+}
+ 
+.volume-slider {
+  width: 30%;
+}
+
+.current-time,
+.total-duration {
+  padding: 10px;
+  min-width: 50px;
+}
+ 
+i.fa-volume-down,
+i.fa-volume-up {
+  padding: 10px;
+}
+
+/* Change the mouse cursor to a pointer when hovered over */
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer;
+}
