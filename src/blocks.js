@@ -92,6 +92,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Creative background",
+    "page_link": "./blocks/Atul/index.html",
+    "block_icon": "./blocks/Atul/icon.png",
+    "author_name": "Atul Yadav",
+    "author_github_url": "https://github.com/atulyadav745/"
+  },
+  {
     "name": "NOTES TAKING APP",
     "page_link": "./blocks/Ayush-Dahala/index.html",
     "block_icon": "./blocks/Ayush-Dahala/icon.png",
@@ -616,6 +623,13 @@
     "author_github_url": "https://github.com/betiniakarandut/"
   },
   {
+    "name": "betiniakarandut02",
+    "page_link": "./blocks/betiniakarandut02/index.html",
+    "block_icon": "./blocks/betiniakarandut02/icon.png",
+    "author_name": "Betini Akarandut",
+    "author_github_url": "https://github.com/betiniakarandut"
+  },
+  {
     "name": "Flipping Text",
     "page_link": "./blocks/billlunger/index.html",
     "block_icon": "./blocks/billlunger/icon.png",
@@ -948,6 +962,13 @@
     "name": "ZTM Modal Signup Form",
     "page_link": "./blocks/ingridclaire/index.html",
     "block_icon": "./blocks/ingridclaire/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
+    "name": "Responsive Navbar",
+    "page_link": "./blocks/ingridclaire2/index.html",
+    "block_icon": "./blocks/ingridclaire2/icon.png",
     "author_name": "Ingrid",
     "author_github_url": "https://github.com/ingridclaire/"
   },
