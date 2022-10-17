@@ -92,6 +92,13 @@
     "author_github_url": "https://github.com/Arihant1009"
   },
   {
+    "name": "Creative background",
+    "page_link": "./blocks/Atul/index.html",
+    "block_icon": "./blocks/Atul/icon.png",
+    "author_name": "Atul Yadav",
+    "author_github_url": "https://github.com/atulyadav745/"
+  },
+  {
     "name": "NOTES TAKING APP",
     "page_link": "./blocks/Ayush-Dahala/index.html",
     "block_icon": "./blocks/Ayush-Dahala/icon.png",
