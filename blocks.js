@@ -742,6 +742,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Paragraph Test",
+    "page_link": "./blocks/conda121/index.html",
+    "block_icon": "./blocks/conda121/icon.png",
+    "author_name": "conda121",
+    "author_github_url": "https://github.com/conda121/"
+  },
+  {
     "name": "switch box",
     "page_link": "./blocks/conor-v/index.html",
     "block_icon": "./blocks/conor-v/icon.png",
