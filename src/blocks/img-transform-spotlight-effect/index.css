@@ -32,31 +32,3 @@
     transition: 0.24s;
     background-image: url("https://picsum.photos/300");
   }
-  
-  /* .container div:nth-child(1) {
-    background-position: 0% 0%;
-  }
-  .container div:nth-child(2) {
-    background-position: 25% 0%;
-  }
-  .container div:nth-child(3) {
-    background-position: 50% 0%;
-  }
-  .container div:nth-child(4) {
-    background-position: 75% 0%;
-  }
-  .container div:nth-child(5) {
-    background-position: center center;
-  }
-  .container div:nth-child(6) {
-    background-position: right center;
-  }
-  .container div:nth-child(7) {
-    background-position: left bottom;
-  }
-  .container div:nth-child(8) {
-    background-position: center bottom;
-  }
-  .container div:nth-child(9) {
-    background-position: right bottom;
-  } */
