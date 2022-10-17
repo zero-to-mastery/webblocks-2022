@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/HubGitShree"
   },
   {
+    "name": "A transparent login form",
+    "page_link": "./blocks/AnushreePal2/index.html",
+    "block_icon": "./blocks/AnushreePal2/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
