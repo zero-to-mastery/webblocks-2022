@@ -952,6 +952,13 @@
     "author_github_url": "https://github.com/ingridclaire/"
   },
   {
+    "name": "Responsive Navbar",
+    "page_link": "./blocks/ingridclaire2/index.html",
+    "block_icon": "./blocks/ingridclaire2/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
