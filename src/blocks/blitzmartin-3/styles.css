@@ -22,7 +22,7 @@
 .main-container {
   width: 100%;
   height: 100vh;
-  padding: 50px;
+  padding: 100px;
   background-color: rgb(231, 231, 231);
 }
 
@@ -68,13 +68,13 @@
   padding: 20px;
 }
 
-.info-details p {
-  margin-bottom: 13px;
+.info-details * {
+  margin-bottom: 10px;
 }
 
 table {
   border: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .table-row * {
