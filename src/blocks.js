@@ -1253,6 +1253,13 @@
     "author_github_url": "https://github.com/PunGrumpy/"
   },
   {
+    "name": "DJ Chai's Audio Player",
+    "page_link": "./blocks/pyllis-wb-2/index.html",
+    "block_icon": "./blocks/pyllis-wb-2/icon.png",
+    "author_name": "Phyllis Wong",
+    "author_github_url": "https://github.com/phylliswong"
+  },
+  {
     "name": "ZTM Card",
     "page_link": "./blocks/qashifpeer/index.html",
     "block_icon": "./blocks/qashifpeer/icon.png",
