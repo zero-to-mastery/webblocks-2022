@@ -1,0 +1,123 @@
+:root{
+    --yellow: #f5dd41;
+    --gray: #333533;
+    --dark: #212121;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    color: var(--yellow);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px black;
+    background-color: beige;
+}
+.profile-pic{
+    position: relative;
+    top: 40px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 125px;
+    animation: animation 3s infinite;
+    box-shadow: 5px 10px 20px black;
+}
+/* 
+@keyframes animation{
+    0%{transform: translateY(0px)}
+    50%{transform: translateY(30px)}
+    100%{transform: translateY(0px)}
+} */
+
+.card{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    flex-direction: column;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.theme-changer{
+    border: 3px solid var(--yellow);
+    width: 110px;
+    height: 60px;
+    background-color: var(--dark);
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 5px;
+    position: relative;
+
+}
+.toggle-button{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: var(--yellow);
+}
+.toggle-button:hover{
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--gray);
+    border-radius: 20px;
+    height: 70%;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--yellow);
+}
+a:hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+h3{
+    font-weight: 600;
+}
+.twitter i{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-mode{
+    background-color: var(--yellow);
+    color: var(--dark);
+    font-weight: bold;
+    text-shadow: none;
+}
+.dark-bckg{
+    background-color: var(--gray);
+}
+.button-switch{
+    right:5px; 
+}

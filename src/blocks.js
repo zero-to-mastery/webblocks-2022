@@ -85,11 +85,25 @@
     "author_github_url": "https://github.com/HubGitShree"
   },
   {
+    "name": "A transparent login form",
+    "page_link": "./blocks/AnushreePal2/index.html",
+    "block_icon": "./blocks/AnushreePal2/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
     "author_name": "Arihant Pal",
     "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
+    "name": "Creative background",
+    "page_link": "./blocks/Atul/index.html",
+    "block_icon": "./blocks/Atul/icon.png",
+    "author_name": "Atul Yadav",
+    "author_github_url": "https://github.com/atulyadav745/"
   },
   {
     "name": "NOTES TAKING APP",
@@ -531,6 +545,13 @@
     "block_icon": "./blocks/Sunainacode/icon.png",
     "author_name": "Sunaina Agarwal",
     "author_github_url": "https://github.com/Sunainacode"
+  },
+  {
+    "name": "Card Information",
+    "page_link": "./blocks/TheaAleksovDev/index.html",
+    "block_icon": "./blocks/TheaAleksovDev/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
   },
   {
     "name": "Toggle Button",
