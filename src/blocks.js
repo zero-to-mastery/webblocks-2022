@@ -798,6 +798,13 @@
     "author_github_url": "https://github.com/corquaid/"
   },
   {
+    "name": "Loading Spinner",
+    "page_link": "./blocks/cquaid_4/index.html",
+    "block_icon": "./blocks/cquaid_4/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
     "name": "Timeline",
     "page_link": "./blocks/danicc/index.html",
     "block_icon": "./blocks/danicc/icon.png",
