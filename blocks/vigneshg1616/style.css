@@ -1,0 +1,93 @@
+body{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todo-div{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    width: 400px;
+    padding: 10px 20px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.todo-heading{
+  color: white;
+ 
+}
+
+#todo-input{
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+   
+}
+
+#todo-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    padding: 2px;
+    opacity: 1; /* Firefox */
+  }
+  
+  #todo-input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    padding: 2px;
+  }
+  
+  #todo-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    padding: 2px;
+  }
+
+  #add, #clear{
+    padding: 10px;
+    background: rgba(250, 250, 250, 0.4);
+    color: white;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+  }
+
+  #mytodo{
+    padding: 20px 30px;
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    height: 150px;
+    overflow-y: auto;
+  }
+
+  /* width */
+#mytodo::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#mytodo::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+#mytodo::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#mytodo::-webkit-scrollbar-thumb:hover {
+  background: gainsboro; 
+}
+ 
+#mytodo li{
+  padding: 2px;
+}
