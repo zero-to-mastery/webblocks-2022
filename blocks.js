@@ -847,6 +847,13 @@
     "author_github_url": "https://github.com/dsnoeijer/"
   },
   {
+    "name": "Responsive-Cards",
+    "page_link": "./blocks/geet/index.html",
+    "block_icon": "./blocks/geet/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005"
+  },
+  {
     "name": "Feedback component",
     "page_link": "./blocks/getRicha/index.html",
     "block_icon": "./blocks/getRicha/icon.png",
