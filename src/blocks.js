@@ -197,6 +197,13 @@
     "author_github_url": "https://github.com/LadyClairekt"
   },
   {
+    "name": "Image Transition on Hover",
+    "page_link": "./blocks/Claire04-img-transition-on-hover/index.html",
+    "block_icon": "./blocks/Claire04-img-transition-on-hover/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
     "name": "Breakout Game",
     "page_link": "./blocks/DhanushNehru/index.html",
     "block_icon": "./blocks/DhanushNehru/icon.png",
@@ -554,6 +561,20 @@
     "author_github_url": "https://github.com/TheaAleksovDev"
   },
   {
+    "name": "Random Hex Color Generator",
+    "page_link": "./blocks/TheaAleksovDev2/index.html",
+    "block_icon": "./blocks/TheaAleksovDev2/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
+    "name": "Love Calculator",
+    "page_link": "./blocks/TheaAleksovDev3/index.html",
+    "block_icon": "./blocks/TheaAleksovDev3/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
     "name": "Toggle Button",
     "page_link": "./blocks/Ukesh-dev/index.html",
     "block_icon": "./blocks/Ukesh-dev/icon.png",
@@ -735,6 +756,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Paragraph Test",
+    "page_link": "./blocks/conda121/index.html",
+    "block_icon": "./blocks/conda121/icon.png",
+    "author_name": "conda121",
+    "author_github_url": "https://github.com/conda121/"
+  },
+  {
     "name": "switch box",
     "page_link": "./blocks/conor-v/index.html",
     "block_icon": "./blocks/conor-v/icon.png",
@@ -780,6 +808,13 @@
     "name": "Dropdown Menu",
     "page_link": "./blocks/cquaid_3/index.html",
     "block_icon": "./blocks/cquaid_3/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
+    "name": "Loading Spinner",
+    "page_link": "./blocks/cquaid_4/index.html",
+    "block_icon": "./blocks/cquaid_4/icon.png",
     "author_name": "Cormac Quaid",
     "author_github_url": "https://github.com/corquaid/"
   },
@@ -831,6 +866,13 @@
     "block_icon": "./blocks/dsnoeijer2/icon.png",
     "author_name": "W.D. Snoeijer",
     "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "Responsive-Cards",
+    "page_link": "./blocks/geet/index.html",
+    "block_icon": "./blocks/geet/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005"
   },
   {
     "name": "Feedback component",
@@ -1237,6 +1279,13 @@
     "block_icon": "./blocks/pungrumpy/icon.png",
     "author_name": "PunGrumpy",
     "author_github_url": "https://github.com/PunGrumpy/"
+  },
+  {
+    "name": "DJ Chai's Audio Player",
+    "page_link": "./blocks/pyllis-wb-2/index.html",
+    "block_icon": "./blocks/pyllis-wb-2/icon.png",
+    "author_name": "Phyllis Wong",
+    "author_github_url": "https://github.com/phylliswong"
   },
   {
     "name": "ZTM Card",
