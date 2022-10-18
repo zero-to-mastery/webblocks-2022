@@ -5,7 +5,6 @@
 }
 
 #mainDiv {
-    /* border: 2px solid red; */
     height: 100vh;
     display: flex;
     flex-direction: column-reverse;
@@ -18,21 +17,17 @@
 }
 
 .footerDiv {
-    /* border: 2px solid black; */
     height: 86%;
     width: 100%;
     display: flex;
 }
 
 .footerPart {
-    /* border: 2px solid red; */
-    /* background-color: black; */
     width: 25%;
     padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .footerPart h3 {
@@ -41,7 +36,6 @@
 }
 
 .footerPart li {
-    /* border: 2px solid green;s */
     list-style: none;
     margin: 1.3rem 0rem;
 }
@@ -49,6 +43,10 @@
 .footerPart li a {
     text-decoration: none;
     color: #7D7F80;
+}
+
+.footerPart li a:hover {
+    color: white;
 }
 
 .footerPart p {
@@ -86,6 +84,11 @@
     margin-top: 1rem;
     filter: invert(50%);
     margin-right: 2rem;
+    cursor: pointer;
+}
+
+.footerPart img:hover {
+    filter: invert(100%);
 }
 
 .footerPart button:hover {
