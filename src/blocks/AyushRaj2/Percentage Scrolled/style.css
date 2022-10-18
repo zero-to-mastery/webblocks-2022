@@ -1,0 +1,28 @@
+.container{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px solid black;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    margin-left: 36%;
+    font-size: 5rem;
+}
+#scrolled{
+    position: fixed;
+    top: 3%;
+    left: 86%;
+    background-color: black;
+    color: wheat;
+    box-shadow: 2px 2px 10px 1px black;
+    font-size: 1.25rem;
+    padding: 0.25% 1%;
+    border-radius: 20px;
+    margin-right: 4%;
+    z-index: 1;
+}
+#percent{
+    font-size: 1.75rem;
+}
