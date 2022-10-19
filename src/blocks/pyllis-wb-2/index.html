@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>DJ Chai's Audio Player</title>
+    <link 
+      rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'
+    />
+    <link rel='stylesheet' href='styles.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap' rel='stylesheet'>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <div class='main-container'>
+      <div class='track-listing-container'>
+        <table class='track-list-table'>
+          <caption>Tracklist</caption>
+          <tr class='table-row row-titles'>
+            <th>Release</th>
+            <th>Track Name</th>
+            <th>Length</th>
+          </tr>
+          <tr class='table-row'>
+            <td>2015</td>
+            <td class='track-link'>Scorpio Harvest</td>
+            <td>01:04:42</td>
+          </tr>
+          <tr class='table-row'>
+            <td>2019</td>
+            <td class='track-link'>FnF Fall Classic</td>
+            <td>01:18:51</td>
+          </tr>
+          <tr class='table-row'>
+            <td>2019</td>
+            <td class='track-link'>Just Another Tuesday</td>
+            <td>01:09:29</td>
+          </tr>
+        </table>
+      </div>
+      <div class='player-container'>
+        <div class='details-container'>
+          <div class='now-playing'>PLAYING x OF y</div>
+          <div class='track-art'></div>
+          <div class='track-name'>Track Name</div>
+          <div class='track-artist'>Track Artist</div>
+        </div>
+  
+        <div class='buttons-container'>
+          <div class='prev-track' onclick='prevTrack()'>
+            <i class='fa fa-step-backward fa-2x'></i>
+          </div>
+          <div class='play-pause-track' onclick='playPauseTrack()'>
+            <i class='fa fa-play-circle fa-3x'></i>
+          </div>
+          <div class='next-track' onclick='nextTrack()'>
+            <i class='fa fa-step-forward fa-2x'></i>
+          </div>
+        </div>
+  
+        <div class='slider-container'>
+          <div class='current-time'>0:00</div>
+          <input type='range' min='1' max='100'
+            value='0' class='seek-slider' onchange='seekTo()'>
+          <div class='total-duration'>0:00</div>
+        </div>
+  
+        <div class='volume-container'>
+          <div class='volume-low'>
+            <i class='fa fa-volume-down'></i>
+          </div>
+          <input type='range' min='1' max='100'
+            value='60' class='volume-slider' onchange='setVolume()'>
+          <div class='volume-high'>
+            <i class='fa fa-volume-up'></i>
+          </div>
+        </div>
+      </div>
+    </div>
+	<script src='scripts.js'></script>
+  </body>
+</html>
