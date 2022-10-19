@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+:root {
+  --col-primary: rgb(93, 178, 204);
+  --col-accent: rgb(25, 72, 118);
+  --col-accent-lighter: rgb(66, 123, 163);
+  --col-white: #ffff;
+  --col-light: rgb(231, 231, 231);
+  --col-dark: rgb(31, 31, 31);
+  --col-shadow: 2px 3px 25px rgb(25, 72, 118);
+  --font-primary: 'Raleway', sans-serif;
+  --font-accent:  'Merriweather', serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-accent);
+  color: var(--col-accent);
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--font-primary);
+  background: linear-gradient(160deg,
+      rgb(29, 22, 75) 0%,
+      rgb(22, 126, 133) 50%,
+      rgb(12, 163, 189) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
