@@ -148,6 +148,13 @@
     "author_github_url": "https://github.com/ayushraaaj"
   },
   {
+    "name": "Five Digit Up Counter",
+    "page_link": "./blocks/AyushRaj1/index.html",
+    "block_icon": "./blocks/AyushRaj1/icon.png",
+    "author_name": "Ayush Raj",
+    "author_github_url": "https://github.com/ayushraaaj"
+  },
+  {
     "name": "ZTM Stop clock",
     "page_link": "./blocks/BGS89/index.html",
     "block_icon": "./blocks/BGS89/icon.png",
@@ -223,6 +230,13 @@
     "block_icon": "./blocks/HaimHamiel/icon.png",
     "author_name": "HaimHamiel",
     "author_github_url": "https://github.com/HaimHamiel"
+  },
+  {
+    "name": "Random Gradient",
+    "page_link": "./blocks/HardikBatra/index.html",
+    "block_icon": "./blocks/HardikBatra/icon.png",
+    "author_name": "Hardik Batra",
+    "author_github_url": "https://github.com/hardiikkkk"
   },
   {
     "name": "Toggle Luxury Mode",
@@ -557,6 +571,20 @@
     "name": "Card Information",
     "page_link": "./blocks/TheaAleksovDev/index.html",
     "block_icon": "./blocks/TheaAleksovDev/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
+    "name": "Random Hex Color Generator",
+    "page_link": "./blocks/TheaAleksovDev2/index.html",
+    "block_icon": "./blocks/TheaAleksovDev2/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
+    "name": "Love Calculator",
+    "page_link": "./blocks/TheaAleksovDev3/index.html",
+    "block_icon": "./blocks/TheaAleksovDev3/icon.png",
     "author_name": "Thea Aleksov",
     "author_github_url": "https://github.com/TheaAleksovDev"
   },
@@ -1440,6 +1468,13 @@
     "block_icon": "./blocks/vanithaak/icon.png",
     "author_name": "Vanitha",
     "author_github_url": "https://github.com/vanithaak"
+  },
+  {
+    "name": "Todo Task",
+    "page_link": "./blocks/vigneshg1616/index.html",
+    "block_icon": "./blocks/vigneshg1616/icon.png",
+    "author_name": "Vignesh G",
+    "author_github_url": "https://github.com/VigneshG1616"
   },
   {
     "name": "3D Flip Card",
