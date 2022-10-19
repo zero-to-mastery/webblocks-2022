@@ -1,0 +1,70 @@
+
+
+.card {
+    width: 40%;
+    margin-left: 30%;
+    background: cyan;
+    min-height: 300px;
+    color: #9CE37D;
+    background: #0A122A;
+    border-radius: 30px;
+}
+
+i {
+    font-size: 280%;
+}
+
+#right {
+    margin-top: 5%;
+    float: right;
+    margin-right: 30px;
+}
+#left {
+
+    float: left;
+    margin-left: 30px;
+}
+.quote-box {
+
+    min-height: 50px;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+p {
+    text-align:center; 
+margin-top: 40%;
+}
+button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    margin-left: 10%;
+    color: #0A122A;
+    background-color: #9CE37D;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 945px) {
+    .card {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
