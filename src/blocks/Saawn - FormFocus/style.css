@@ -1,0 +1,21 @@
+form {
+  padding: 2em;
+}
+form .field {
+  margin: 3em auto;
+  opacity: 0.5;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: 300px;
+}
+form .field.active {
+  opacity: 1;
+  transform: scale(1.5);
+}
+form .field.semi-active {
+  opacity: 0.75;
+  transform: scale(1.25);
+}
+form .field label {
+  display: block;
+}
