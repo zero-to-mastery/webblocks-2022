@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato&display=swap");
 
 :root {
-    --col-light: rgb(255, 255, 255);
-    --col-dark: rgb(43, 43, 43);
-    --col-accent: rgb(30, 22, 119);
-    --font-primary: 'Lato', sans-serif;
-    --font-accent: 'Inter', sans-serif;
+  --col-light: rgb(255, 255, 255);
+  --col-dark: rgb(43, 43, 43);
+  --col-accent:  #C8102E;
+  --col-primary: #001b69;
+  --font-primary: "Lato", sans-serif;
+  --font-accent: "Inter", sans-serif;
 }
 
 *,
 * ::after,
 * ::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -27,7 +28,11 @@ h6 {
 }
 
 body {
-  background: linear-gradient(135deg, rgb(162, 187, 204) 0%, rgb(93, 127, 202) 100%);
+  background: linear-gradient(
+    135deg,
+    rgb(194, 3, 3) 0%,
+    rgb(0, 142, 236) 100%
+  );
   width: 100%;
   height: 100vh;
 }
@@ -41,13 +46,27 @@ body {
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  border:transparent;
+  border: transparent;
   border-radius: 10px;
-  padding: 50px 10px;
+  padding: 20px 10px;
 }
 
 #title {
-  margin-bottom: 15px;
+  color: var(--col-primary);
+  background-color: white;
+  font-size: 2.5rem;
+  padding: 10px;
+  margin: 40px;
+}
+
+.title-container {
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  background-image: url("./Flag_of_the_United_Kingdom.svg.webp");
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 form {
@@ -57,8 +76,14 @@ form {
   flex-direction: column;
 }
 
-textarea {
+input {
   padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid var(--col-accent)
 }
 
 .row {
@@ -73,13 +98,13 @@ textarea {
 #translate-btn {
   padding: 10px;
   font-size: 1.2rem;
-  background-color:rgb(93, 127, 202);
+  background-color: var(--col-primary);
   color: white;
   border: none;
   border-radius: 5px;
 }
- 
+
 #translate-btn:hover {
-  background-color: rgb(43, 43, 43);
-  color:rgb(140, 169, 233);
+  background-color: var(--col-accent);
+  color:var(--col-primary);
 }

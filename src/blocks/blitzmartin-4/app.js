@@ -1,28 +1,19 @@
 const translateBtn = document.querySelector("#translate-btn");
-const textarea = document.querySelector("textarea");
-const langSelection = document.querySelector("select");
+const input = document.querySelector("input");
 
 translateBtn.addEventListener("click", (event) => {
   event.preventDefault();
-  if( textarea.value !== '') {
-    textToSpeech(textarea.value);
+  if( input.value !== '') {
+    textToSpeech(input.value);
+    input.value = "";
   }
 });
 
-speechSynthesis.addEventListener('voiceschanged', changeLang)
-
-/* langSelectio.addEventListener('click', (e) => {
- changeLang(lang.value);   
-}) */
-
 
 const textToSpeech = (text) => {
-    let utterance = new SpeechSynthesisUtterance(text);
-    speechSynthesis.speak(utterance);
+  let utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang='en-GB';
+  speechSynthesis.speak(utterance);
 }
 
-const changeLang = (option) => {
-    for (let lang of speechSynthesis.getVoices()) {
 
-    }
-}
