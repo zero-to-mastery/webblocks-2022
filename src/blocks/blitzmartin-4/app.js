@@ -1,3 +1,3 @@
-const title = document.querySelector('#title');
+const translateBtn = document.querySelector('#translate-btn');
 
-title.innerHTML = "Testing title!";
+

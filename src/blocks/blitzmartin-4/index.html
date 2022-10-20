@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Text to speech</title>
+  </head>
+  <body>
     <div class="main-container">
-        <h1 id="title"></h1>
+      <h1 id="title">Text to speech</h1>
+
+      <form action="#">
+
+        <div class="row">
+          <label id="label">Enter text:</label>
+          <textarea rows="10"></textarea>
+        </div>
+
+        <div class="row">
+            <label>Select voice</label>
+            <div class="outer">
+                <select name="voices" id="voices">
+                    <option value="">Select language</option>
+                    <option value="">Google US English (en-US)</option>
+                    <option value="">Google UK English Male (en-GB)</option>
+                    <option value="">Google UK English Female (en-GB)</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="translate-btn">Convert to speech</button>
+
+      </form>
     </div>
-<script src="./app.js"></script>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
