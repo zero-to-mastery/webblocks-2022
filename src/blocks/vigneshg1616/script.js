@@ -27,7 +27,7 @@ const clearTask = function (){
 
 
 document.getElementById("todo-input").addEventListener("keypress", (e) => {
-  if (e.code === "Enter") {
+  if (e.keyCode == 13  ) {
       addTask();
   }
 });
