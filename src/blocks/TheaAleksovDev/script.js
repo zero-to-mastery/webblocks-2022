@@ -1,0 +1,10 @@
+const switchTheme = document.querySelector(".toggle-button")
+const card = document.querySelector(".card")
+const info = document.querySelector(".info")
+const link = document.querySelector("i")
+switchTheme.addEventListener('click',()=>{
+    info.classList.toggle("dark-mode")
+    switchTheme.classList.toggle("button-switch")
+    card.classList.toggle("dark-bckg")
+    link.classList.toggle("dark-mode")
+})

@@ -85,11 +85,25 @@
     "author_github_url": "https://github.com/HubGitShree"
   },
   {
+    "name": "A transparent login form",
+    "page_link": "./blocks/AnushreePal2/index.html",
+    "block_icon": "./blocks/AnushreePal2/icon.png",
+    "author_name": "Anushree",
+    "author_github_url": "https://github.com/HubGitShree"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/ArihantPal/index.html",
     "block_icon": "./blocks/ArihantPal/icon.png",
     "author_name": "Arihant Pal",
     "author_github_url": "https://github.com/Arihant1009"
+  },
+  {
+    "name": "Creative background",
+    "page_link": "./blocks/Atul/index.html",
+    "block_icon": "./blocks/Atul/icon.png",
+    "author_name": "Atul Yadav",
+    "author_github_url": "https://github.com/atulyadav745/"
   },
   {
     "name": "NOTES TAKING APP",
@@ -130,6 +144,13 @@
     "name": "Catch Me If You Can",
     "page_link": "./blocks/AyushRaj/index.html",
     "block_icon": "./blocks/AyushRaj/icon.png",
+    "author_name": "Ayush Raj",
+    "author_github_url": "https://github.com/ayushraaaj"
+  },
+  {
+    "name": "Five Digit Up Counter",
+    "page_link": "./blocks/AyushRaj1/index.html",
+    "block_icon": "./blocks/AyushRaj1/icon.png",
     "author_name": "Ayush Raj",
     "author_github_url": "https://github.com/ayushraaaj"
   },
@@ -183,6 +204,13 @@
     "author_github_url": "https://github.com/LadyClairekt"
   },
   {
+    "name": "Image Transition on Hover",
+    "page_link": "./blocks/Claire04-img-transition-on-hover/index.html",
+    "block_icon": "./blocks/Claire04-img-transition-on-hover/icon.png",
+    "author_name": "LadyClaire",
+    "author_github_url": "https://github.com/LadyClairekt"
+  },
+  {
     "name": "Breakout Game",
     "page_link": "./blocks/DhanushNehru/index.html",
     "block_icon": "./blocks/DhanushNehru/icon.png",
@@ -202,6 +230,13 @@
     "block_icon": "./blocks/HaimHamiel/icon.png",
     "author_name": "HaimHamiel",
     "author_github_url": "https://github.com/HaimHamiel"
+  },
+  {
+    "name": "Random Gradient",
+    "page_link": "./blocks/HardikBatra/index.html",
+    "block_icon": "./blocks/HardikBatra/icon.png",
+    "author_name": "Hardik Batra",
+    "author_github_url": "https://github.com/hardiikkkk"
   },
   {
     "name": "Toggle Luxury Mode",
@@ -533,6 +568,27 @@
     "author_github_url": "https://github.com/Sunainacode"
   },
   {
+    "name": "Card Information",
+    "page_link": "./blocks/TheaAleksovDev/index.html",
+    "block_icon": "./blocks/TheaAleksovDev/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
+    "name": "Random Hex Color Generator",
+    "page_link": "./blocks/TheaAleksovDev2/index.html",
+    "block_icon": "./blocks/TheaAleksovDev2/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
+    "name": "Love Calculator",
+    "page_link": "./blocks/TheaAleksovDev3/index.html",
+    "block_icon": "./blocks/TheaAleksovDev3/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
     "name": "Toggle Button",
     "page_link": "./blocks/Ukesh-dev/index.html",
     "block_icon": "./blocks/Ukesh-dev/icon.png",
@@ -614,6 +670,13 @@
     "block_icon": "./blocks/betiniakarandut/icon.png",
     "author_name": "Betini",
     "author_github_url": "https://github.com/betiniakarandut/"
+  },
+  {
+    "name": "betiniakarandut02",
+    "page_link": "./blocks/betiniakarandut02/index.html",
+    "block_icon": "./blocks/betiniakarandut02/icon.png",
+    "author_name": "Betini Akarandut",
+    "author_github_url": "https://github.com/betiniakarandut"
   },
   {
     "name": "Flipping Text",
@@ -707,6 +770,13 @@
     "author_github_url": "https://github.com/ChrRepou/"
   },
   {
+    "name": "Paragraph Test",
+    "page_link": "./blocks/conda121/index.html",
+    "block_icon": "./blocks/conda121/icon.png",
+    "author_name": "conda121",
+    "author_github_url": "https://github.com/conda121/"
+  },
+  {
     "name": "switch box",
     "page_link": "./blocks/conor-v/index.html",
     "block_icon": "./blocks/conor-v/icon.png",
@@ -752,6 +822,13 @@
     "name": "Dropdown Menu",
     "page_link": "./blocks/cquaid_3/index.html",
     "block_icon": "./blocks/cquaid_3/icon.png",
+    "author_name": "Cormac Quaid",
+    "author_github_url": "https://github.com/corquaid/"
+  },
+  {
+    "name": "Loading Spinner",
+    "page_link": "./blocks/cquaid_4/index.html",
+    "block_icon": "./blocks/cquaid_4/icon.png",
     "author_name": "Cormac Quaid",
     "author_github_url": "https://github.com/corquaid/"
   },
@@ -803,6 +880,13 @@
     "block_icon": "./blocks/dsnoeijer2/icon.png",
     "author_name": "W.D. Snoeijer",
     "author_github_url": "https://github.com/dsnoeijer/"
+  },
+  {
+    "name": "Responsive-Cards",
+    "page_link": "./blocks/geet/index.html",
+    "block_icon": "./blocks/geet/icon.png",
+    "author_name": "Geetika Bhatnagar",
+    "author_github_url": "https://github.com/geetika005"
   },
   {
     "name": "Feedback component",
@@ -952,6 +1036,13 @@
     "author_github_url": "https://github.com/ingridclaire/"
   },
   {
+    "name": "Responsive Navbar",
+    "page_link": "./blocks/ingridclaire2/index.html",
+    "block_icon": "./blocks/ingridclaire2/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
@@ -1041,6 +1132,13 @@
     "block_icon": "./blocks/manavukani/icon.png",
     "author_name": "ManavUkani",
     "author_github_url": "https://github.com/manavukani/"
+  },
+  {
+    "name": "Movie Seat Booking",
+    "page_link": "./blocks/manuelachamoso/index.html",
+    "block_icon": "./blocks/manuelachamoso/icon.png",
+    "author_name": "Manuela Chamoso",
+    "author_github_url": "https://github.com/manuelachamoso"
   },
   {
     "name": "Amazon sign-up",
@@ -1202,6 +1300,13 @@
     "block_icon": "./blocks/pungrumpy/icon.png",
     "author_name": "PunGrumpy",
     "author_github_url": "https://github.com/PunGrumpy/"
+  },
+  {
+    "name": "DJ Chai's Audio Player",
+    "page_link": "./blocks/pyllis-wb-2/index.html",
+    "block_icon": "./blocks/pyllis-wb-2/icon.png",
+    "author_name": "Phyllis Wong",
+    "author_github_url": "https://github.com/phylliswong"
   },
   {
     "name": "ZTM Card",
@@ -1370,6 +1475,13 @@
     "block_icon": "./blocks/vanithaak/icon.png",
     "author_name": "Vanitha",
     "author_github_url": "https://github.com/vanithaak"
+  },
+  {
+    "name": "Todo Task",
+    "page_link": "./blocks/vigneshg1616/index.html",
+    "block_icon": "./blocks/vigneshg1616/icon.png",
+    "author_name": "Vignesh G",
+    "author_github_url": "https://github.com/VigneshG1616"
   },
   {
     "name": "3D Flip Card",
