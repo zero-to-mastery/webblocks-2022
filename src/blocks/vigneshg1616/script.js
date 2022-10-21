@@ -1,7 +1,7 @@
 const addTask = function (){
 
    let getValue=  document.getElementById("todo-input").value;
-   console.log(getValue);
+   
    if(getValue == ""){
     
   alert("Please add a task, Task cannot be empty");
@@ -24,3 +24,19 @@ const clearTask = function (){
         parent.removeChild(parent.firstChild);
 }
 }
+
+
+document.getElementById("todo-input").addEventListener("keypress", (e) => {
+  if (e.code === "Enter") {
+      addTask();
+  }
+});
+
+
+
+
+document.querySelectorAll('#mytodo').forEach((item) => {
+  item.addEventListener('click', (e) => {
+      e.target.classList.toggle("strikeClass");
+  })
+});
