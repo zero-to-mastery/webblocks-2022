@@ -491,6 +491,13 @@
     "author_github_url": "https://github.com/S44WN/"
   },
   {
+    "name": "3D - Button",
+    "page_link": "./blocks/Saawn-3dbutton/index.html",
+    "block_icon": "./blocks/Saawn-3dbutton/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "Digital Clock",
     "page_link": "./blocks/SahilRawat/index.html",
     "block_icon": "./blocks/SahilRawat/icon.png",
