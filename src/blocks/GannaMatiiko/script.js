@@ -10,7 +10,7 @@ const successCallback = (position) => {
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
 
-    let apiURL = `http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=5&appid=${apiKey}`;
+    let apiURL = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=5&appid=${apiKey}`;
     fetch(apiURL)
         .then(res => res.json())
         .then(data => {
