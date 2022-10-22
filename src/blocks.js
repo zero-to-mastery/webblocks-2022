@@ -631,6 +631,13 @@
     "author_github_url": "https://github.com/Ukesh-dev/"
   },
   {
+    "name": "Button-Ripple Effect",
+    "page_link": "./blocks/UtkarshS/index.html",
+    "block_icon": "./blocks/UtkarshS/icon.png",
+    "author_name": "Utkarsh Siddhpura",
+    "author_github_url": "https://github.com/UtkarshSiddhpura/"
+  },
+  {
     "name": "Hamburger Menu Icon Animation",
     "page_link": "./blocks/VedantAndhale/index.html",
     "block_icon": "./blocks/VedantAndhale/icon.png",
