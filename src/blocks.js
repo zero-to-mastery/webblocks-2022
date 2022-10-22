@@ -43,6 +43,13 @@
     "author_github_url": "https://github.com/the-anomalous/"
   },
   {
+    "name": "FAQ-Template",
+    "page_link": "./blocks/AmanPathan/index.html",
+    "block_icon": "./blocks/AmanPathan/icon.png",
+    "author_name": "AmanPathan",
+    "author_github_url": "https://github.com/AmanPathan"
+  },
+  {
     "name": "Popup prompt",
     "page_link": "./blocks/AmoghRao2@arioum/index.html",
     "block_icon": "./blocks/AmoghRao2@arioum/icon.png",
