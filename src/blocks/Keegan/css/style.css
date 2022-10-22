@@ -6,11 +6,8 @@
 body {
     height: 100vh;
     font-family: 'Crete Round', serif;
-    /* border:5px red solid; */
-    /* background-color: #61890c; */
     background-image: url("/src/blocks/Keegan/img/img1.avif");
     overflow: hidden;
-    /* background-size: 100vw; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,10 +38,8 @@ header {
 
     display: inline-block;
     position: absolute;
-    right: 35%;
-    /* width: 33%; */
+    right: 35%;  
     margin: 18px auto;
-    /* border:2px rebeccapurple solid; */
 }
 
 .navbar ul li {
@@ -124,11 +119,11 @@ text-align: center;
 
 .gender{
     margin:8px;
-    /* margin-right: 153px; */
     padding-right: 11px;
   }
-  .gender label{
-    padding:0px 8px;
+
+.gender label{
+  padding:0px 8px;
 
   }
   .logo-txt{
