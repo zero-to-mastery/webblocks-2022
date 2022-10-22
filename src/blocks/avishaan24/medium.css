@@ -41,7 +41,6 @@ h2{
     display: block;
     margin: 10px auto ;
     padding: 0px;
-    /* border: 2px solid black; */
     border-radius: 3px;
     width: 390px;
     height: 9vh;
@@ -68,7 +67,7 @@ body{
 .background{
     width: 100%;
     height: 100vh;
-    background-image: url("download\ \(4\).jpg");
+    background-color: rgb(237, 159, 172);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -156,7 +155,7 @@ body{
 .dark-mode .background{
     width: 100%;
     height: 100vh;
-    background-image: url("download\ \(5\).jpg");
+    background-color: rgb(88, 87, 87);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -177,7 +176,6 @@ body{
     display: block;
     margin: 10px auto ;
     padding: 0px;
-    /* border: 2px solid black; */
     border-radius: 3px;
     width: 390px;
     height: 9vh;
