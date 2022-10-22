@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	background: #000428; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#004e92,
+		#000428
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#004e92,
+		#000428
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: 'Work Sans', sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: white;
+	height: 100vh;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 34em) {
+	.body {
+		height: 90vh;
+	}
+}
+
+.form-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 2rem 4rem;
+	border-radius: 0.5rem;
+}
+
+.form-heading--1 {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 7rem;
+}
+
+.form-link {
+	text-decoration: none;
+	color: #00d563;
+}
+
+.form-control {
+	position: relative;
+	margin: 2rem 0;
+	width: 30rem;
+}
+
+.form-input {
+	display: block;
+	border: none;
+	font-family: inherit;
+	font-size: 1.8rem;
+	color: #222;
+	background-color: #ecedf7c5;
+	border-radius: 5px;
+	margin-bottom: 5rem;
+	width: 100%;
+	padding: 1.5rem;
+}
+
+.form-text {
+	font-size: 1.5rem;
+}
+
+.form-label {
+	color: #000428;
+	position: absolute;
+	top: 1.5rem;
+	left: 0;
+}
+
+.form-input:focus,
+.form-input:valid {
+	outline: none;
+	border-bottom: 0.5rem #00d563 solid;
+}
+
+.form-label span {
+	display: inline-block;
+	font-size: 1.8rem;
+	min-width: 0.5rem;
+	transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-input:focus + .form-label span,
+.form-input:valid + .form-label span {
+	color: #00d563;
+	transform: translateY(-5rem);
+}
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	width: 100%;
+	background-color: lightblue;
+	padding: 1.5rem;
+	font-family: inherit;
+	font-size: 1.6rem;
+	border: 0;
+	border-radius: 0.5rem;
+	margin-bottom: 2rem;
+	transition: all 0.3s;
+}
+.btn:focus {
+	outline: none;
+}
+.btn:active {
+	transform: scale(0.98);
+}
+.btn:hover {
+	background-color: #00d563;
+}
