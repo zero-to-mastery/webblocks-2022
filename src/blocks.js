@@ -1106,6 +1106,13 @@
     "author_github_url": "https://github.com/ingridclaire/"
   },
   {
+    "name": "Autosuggest search",
+    "page_link": "./blocks/ingridclaire3/index.html",
+    "block_icon": "./blocks/ingridclaire3/icon.png",
+    "author_name": "Ingrid",
+    "author_github_url": "https://github.com/ingridclaire/"
+  },
+  {
     "name": "Animated CSS Properties",
     "page_link": "./blocks/insidiae/index.html",
     "block_icon": "./blocks/insidiae/icon.png",
