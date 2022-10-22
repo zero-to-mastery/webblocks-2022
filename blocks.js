@@ -225,6 +225,13 @@
     "author_github_url": "https://github.com/Esinnation/"
   },
   {
+    "name": "Location detector",
+    "page_link": "./blocks/GannaMatiiko/index.html",
+    "block_icon": "./blocks/GannaMatiiko/icon.png",
+    "author_name": "Hanna Matiiko",
+    "author_github_url": "https://github.com/GannaMatiiko"
+  },
+  {
     "name": "Pop-up Button",
     "page_link": "./blocks/Geetika/index.html",
     "block_icon": "./blocks/Geetika/icon.png",
@@ -419,6 +426,13 @@
     "block_icon": "./blocks/Mysta3/icon.png",
     "author_name": "Mysta3",
     "author_github_url": "https://github.com/Mysta3/"
+  },
+  {
+    "name": "Animated Login Form",
+    "page_link": "./blocks/Ndimofor Aretas/index.html",
+    "block_icon": "./blocks/Ndimofor Aretas/icon.png",
+    "author_name": "Ndimofor Aretas",
+    "author_github_url": "https://github.com/ndimoforaretas/"
   },
   {
     "name": "Slide Menu",
