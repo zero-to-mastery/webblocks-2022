@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Royal Fitness</title>
+</head>
+
+<body>
+    <!-- Navigation bar starts here -->
+    <header class="header">
+        <div class="logo">
+            <p class="logo-txt"> Royal Fitness</p>
+            <img src="/src/blocks/Keegan/img/logo.png"   alt="logo">
+          
+        </div>
+       
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+
+        <div class="help">
+            <button class="btn">Register Now</button>
+            <button class="btn">Call Us</button>
+
+        </div>
+    </header>
+    <!-- Navigation bar ends here -->
+    <div class="container">
+        <!-- conatct us form -->
+        <h1>It's Time To Transform Yourself, Join Now!! </h1>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                Name: <label for="myName">
+                    <input type="text" name="name" placeholder="Enter Your Name" id="myName">
+                </label>
+            </div>
+
+            <div class="form-group">
+                Age: <label for="myAge">
+                    <input type="number" name="Age" placeholder="Enter Your Age" id="myAge">
+                </label>
+            </div>
+             <div class="gender">
+          
+                Gender: <label for="myGender">
+                 <input type="radio" name="gender" placeholder="Enter Your Gender" id="myGender">Male
+                 </label>
+                 <label for="myGender">
+                 <input type="radio" name="gender" placeholder="Enter Your Gender" id="myGender"> Female
+                </label> 
+                <label for="myGender">
+                    <input type="radio" name="gender" placeholder="Enter Your Gender" id="myGender"> Others
+                   </label> 
+         
+        </div>
+              <div class="contact">
+            <div class="form-group">
+                Contact Number: <label for="myNumber">
+                    <input type="text" name="number" placeholder="Enter Your Contact Number" id="myNumber" required>
+                </label>
+            </div>
+        </div>
+            
+            <button class="btn" type="submit">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+        
+        </form>
+    </div>
+</body>
+</html>
