@@ -29,6 +29,7 @@ body{
     color: white;
     padding: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-transform: capitalize;
    
 }
 
@@ -55,14 +56,30 @@ body{
     border: 2px solid white;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     cursor: pointer;
+    transition:all;
   }
+
+  #add:hover, #clear:hover{
+    transform: scale(1.03);
+  }
+.info{
+  color: white;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  animation: blinkLine 3s infinite;
+}
+
+.info span{
+  font-size: 1rem;
+  font-weight: 900;
+}
 
   #mytodo{
     padding: 20px 30px;
     color: white;
     text-align: left;
-    font-size: 1.5rem;
-    height: 150px;
+    font-size: 1.2rem;
+    height: 120px;
     overflow-y: auto;
   }
 
@@ -90,4 +107,32 @@ body{
  
 #mytodo li{
   padding: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  
+}
+
+.strikeClass{
+  position: relative;
+  width: fit-content;
+   
+}
+
+
+.strikeClass::before {
+  content: '';
+  border-bottom: 4px solid red;
+  border-radius: 50% ;
+  display: inline-block;
+  width:100%;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  opacity: 70%;
+}
+
+@keyframes blinkLine {
+  0% {opacity: 0;}
+  
+  40% {opacity: 1;}
 }
