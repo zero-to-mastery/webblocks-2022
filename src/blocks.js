@@ -218,6 +218,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Unit Converter",
+    "page_link": "./blocks/Esinnation/index.html",
+    "block_icon": "./blocks/Esinnation/icon.png",
+    "author_name": "Esinnation",
+    "author_github_url": "https://github.com/Esinnation/"
+  },
+  {
     "name": "Pop-up Button",
     "page_link": "./blocks/Geetika/index.html",
     "block_icon": "./blocks/Geetika/icon.png",
