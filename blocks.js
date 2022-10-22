@@ -742,6 +742,13 @@
     "author_github_url": "https://github.com/blitzmartin/"
   },
   {
+    "name": "english-rp",
+    "page_link": "./blocks/blitzmartin-4/index.html",
+    "block_icon": "./blocks/blitzmartin-4/icon.png",
+    "author_name": "blitzmartin",
+    "author_github_url": "https://github.com/blitzmartin/"
+  },
+  {
     "name": "Testimonials Grid",
     "page_link": "./blocks/carls13/index.html",
     "block_icon": "./blocks/carls13/icon.png",
