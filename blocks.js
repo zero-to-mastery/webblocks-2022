@@ -994,6 +994,13 @@
     "author_github_url": "https://github.com/hinedy"
   },
   {
+    "name": "Clean Landing Page",
+    "page_link": "./blocks/humbl3man/index.html",
+    "block_icon": "./blocks/humbl3man/icon.png",
+    "author_name": "Konstantin",
+    "author_github_url": "https://github.com/humbl3man/"
+  },
+  {
     "name": "Country card",
     "page_link": "./blocks/ifeoluwah2/index.html",
     "block_icon": "./blocks/ifeoluwah2/icon.png",
