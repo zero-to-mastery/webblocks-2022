@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+:root {
+  --blur: 6px;
+  --shine-blur: calc(var(--blur) * 4);
+  --size: 25vmin;
+  --transition: 0.1s;
+  --depth: 25px;
+  --icon-size: 75%;
+  --radius: 24%;
+  --shine: rgba(255, 255, 255, 0.85);
+  --button-bg: rgba(0, 0, 0, 0.025);
+  --icon-fill: #000;
+  --shadow-bg: rgba(0, 0, 0, 0.115);
+  --shadow-alpha: 0.4;
+  --shadow-icon: rgba(0, 0, 0, 0.5);
+  --bg: #eaf6fb;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  transform-style: preserve-3d;
+  touch-action: none;
+  overflow: hidden;
+}
+body:before {
+  content: "";
+  position: absolute;
+  height: 300vh;
+  width: 300vw;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, calc(var(--size) * -1));
+  background: var(--bg);
+}
+.scene {
+  height: var(--size);
+  position: relative;
+  min-height: 150px;
+  min-width: 150px;
+  width: var(--size);
+  transform: rotateX(-34deg) rotateY(22deg) rotateX(90deg);
+}
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  height: 100%;
+  outline: transparent;
+  position: absolute;
+  width: 100%;
+}
+.button__content,
+.button__shadow {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius);
+}
+.button__content {
+  --fill: var(--icon-fill);
+  background: var(--button-bg);
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(calc(var(--blur) * 0.25));
+  backdrop-filter: blur(calc(var(--blur) * 0.25));
+  transform: translate3d(0, 0, var(--depth));
+  transition: transform var(--transition),
+    -webkit-backdrop-filter var(--transition);
+  transition: transform var(--transition), backdrop-filter var(--transition);
+  transition: transform var(--transition), backdrop-filter var(--transition),
+    -webkit-backdrop-filter var(--transition);
+}
+.button__shadow {
+  --shadow-fill: hsla(0, 0%, 0%, var(--shadow-alpha));
+  --fill: var(--shadow-fill);
+  background: var(--shadow-bg);
+  filter: blur(var(--blur));
+  transition: filter var(--transition);
+}
+.button__text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.button__shine {
+  --shine-size: calc(var(--size) * 0.5);
+  background: var(--shine);
+  border-radius: 50%;
+  height: var(--shine-size);
+  filter: blur(var(--shine-blur)) brightness(1.25);
+  min-height: 75px;
+  min-width: 75px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate3d(-50%, -50%, 1vmin)
+    translate(calc(var(--x, -150) * 1%), calc(var(--y, -150) * 1%));
+  width: var(--shine-size);
+}
+.button__icon {
+  height: var(--icon-size);
+  fill: var(--fill);
+  width: var(--icon-size);
+  transition: fill var(--transition);
+}
+.button:active {
+  --depth: 0;
+  --blur: 0;
+  --shadow-alpha: 1;
+}

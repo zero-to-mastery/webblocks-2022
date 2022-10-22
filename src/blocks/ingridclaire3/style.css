@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+#search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search > h2 {
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.highlight {
+  background-color: yellow;
+}

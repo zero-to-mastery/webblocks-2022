@@ -2,88 +2,87 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-  <link rel="icon" type="image/png"
-    href="https://www.google.com/s2/favicons?domain=https://hacktoberfest.digitalocean.com/" />
-  <title>Web Blocks - ZTM Hacktoberfest 2022</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Zero To Mastery">
+    <meta name="description" content="Library of components using vanilla HTML, CSS and Javascript">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=https://hacktoberfest.digitalocean.com/" />
+    <title>Web Blocks - ZTM Hacktoberfest 2022</title>
 </head>
 
 <body>
-  <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
-  <header class="header" id="head">
-    <h1>Web Blocks</h1>
-    <h2>Hacktoberfest 2022</h2>
-  </header>
-  
-  <section>
-    <ul class="flex" id="cards">
-      <!-- Content is generated dynamically  -->
-    </ul>
-  </section>
-  
+    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+    <header class="header" id="head">
+        <h1>Web Blocks</h1>
+        <h2>Hacktoberfest 2022</h2>
+    </header>
 
-  <footer id="footer">
-    <div>© 2022 Zero To Mastery Inc.</div>
-  </footer>
-  
-  <script src="blocks.js"></script>
-  <script>
-    const backToTopButton = document.querySelector("#back-to-top-btn");
-
-window.addEventListener("scroll", scrollFunction);
-
-function scrollFunction() {
-  if (window.pageYOffset > 300) { // Show backToTopButton
-    if(!backToTopButton.classList.contains("btnEntrance")) {
-      backToTopButton.classList.remove("btnExit");
-      backToTopButton.classList.add("btnEntrance");
-      backToTopButton.style.display = "block";
-    }
-  }
-  else { // Hide backToTopButton
-    if(backToTopButton.classList.contains("btnEntrance")) {
-      backToTopButton.classList.remove("btnEntrance");
-      backToTopButton.classList.add("btnExit");
-      setTimeout(function() {
-        backToTopButton.style.display = "none";
-      }, 250);
-    }
-  }
-}
-
-backToTopButton.addEventListener("click", smoothScrollBackToTop);
+    <section>
+        <ul class="flex" id="cards">
+            <!-- Content is generated dynamically  -->
+        </ul>
+    </section>
 
 
+    <footer id="footer">
+        <div>© 2022 Zero To Mastery Inc.</div>
+    </footer>
 
-function smoothScrollBackToTop() {
-  const targetPosition = 0;
-  const startPosition = window.pageYOffset;
-  const distance = targetPosition - startPosition;
-  const duration = 750;
-  let start = null;
-  
-  window.requestAnimationFrame(step);
+    <script src="blocks.js"></script>
+    <script>
+        const backToTopButton = document.querySelector("#back-to-top-btn");
 
-  function step(timestamp) {
-    if (!start) start = timestamp;
-    const progress = timestamp - start;
-    window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-    if (progress < duration) window.requestAnimationFrame(step);
-  }
-}
+        window.addEventListener("scroll", scrollFunction);
 
-function easeInOutCubic(t, b, c, d) {
-	t /= d/2;
-	if (t < 1) return c/2*t*t*t + b;
-	t -= 2;
-	return c/2*(t*t*t + 2) + b;
-};
-  </script>
+        function scrollFunction() {
+            if (window.pageYOffset > 300) { // Show backToTopButton
+                if (!backToTopButton.classList.contains("btnEntrance")) {
+                    backToTopButton.classList.remove("btnExit");
+                    backToTopButton.classList.add("btnEntrance");
+                    backToTopButton.style.display = "block";
+                }
+            } else { // Hide backToTopButton
+                if (backToTopButton.classList.contains("btnEntrance")) {
+                    backToTopButton.classList.remove("btnEntrance");
+                    backToTopButton.classList.add("btnExit");
+                    setTimeout(function() {
+                        backToTopButton.style.display = "none";
+                    }, 250);
+                }
+            }
+        }
+
+        backToTopButton.addEventListener("click", smoothScrollBackToTop);
+
+
+
+        function smoothScrollBackToTop() {
+            const targetPosition = 0;
+            const startPosition = window.pageYOffset;
+            const distance = targetPosition - startPosition;
+            const duration = 750;
+            let start = null;
+
+            window.requestAnimationFrame(step);
+
+            function step(timestamp) {
+                if (!start) start = timestamp;
+                const progress = timestamp - start;
+                window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+                if (progress < duration) window.requestAnimationFrame(step);
+            }
+        }
+
+        function easeInOutCubic(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t * t + b;
+            t -= 2;
+            return c / 2 * (t * t * t + 2) + b;
+        };
+    </script>
 </body>
 
 </html>
