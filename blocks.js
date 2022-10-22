@@ -1134,6 +1134,13 @@
     "author_github_url": "https://github.com/manavukani/"
   },
   {
+    "name": "Movie Seat Booking",
+    "page_link": "./blocks/manuelachamoso/index.html",
+    "block_icon": "./blocks/manuelachamoso/icon.png",
+    "author_name": "Manuela Chamoso",
+    "author_github_url": "https://github.com/manuelachamoso"
+  },
+  {
     "name": "Amazon sign-up",
     "page_link": "./blocks/mariko971/index.html",
     "block_icon": "./blocks/mariko971/icon.png",

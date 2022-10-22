@@ -1,0 +1,97 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #dee9da, #c6cfc7);
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  border: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #d0d7cd;
+  box-shadow: inset 0 10px 20px 0 rgba(51, 51, 51, 0.375),
+    0 2px 0 0 rgba(255, 255, 255, 0.25);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+button:before {
+  position: absolute;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+  background-image: linear-gradient(to bottom, #e7f2e1, #afb0aa);
+  box-shadow: 0 15px 20px 0 rgba(51, 51, 51, 0.375),
+    inset 0 -3px 0 0 rgba(51, 51, 51, 0.125);
+  transition: 0.5s ease;
+}
+button:after {
+  position: absolute;
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 30%;
+  background-image: linear-gradient(to bottom, #d6ded1, #e1ebdb);
+  box-shadow: inset 0 -3px 0 0 rgba(238, 238, 238, 0.75),
+    inset 0 3px 0 0 rgba(51, 51, 51, 0.1);
+}
+button span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.25s ease;
+  z-index: 1;
+}
+button span:before,
+button span:after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+  background-color: #b6b5b1;
+  box-shadow: inset 2px -3px 4px 0 rgba(51, 51, 51, 0.25);
+  transform: translate(-50%, -50%);
+  border-radius: 99em;
+  transition: 0.25s ease;
+}
+button span:before {
+  left: -10px;
+}
+button span:after {
+  left: 10px;
+}
+button:focus {
+  outline: 0;
+}
+button[aria-checked="true"] {
+  outline: 0;
+}
+button[aria-checked="true"]:before {
+  box-shadow: 0 5px 20px 0 rgba(51, 51, 51, 0.25),
+    inset 0 -3px 0 0 rgba(51, 51, 51, 0.125);
+}
+button[aria-checked="true"] span:before,
+button[aria-checked="true"] span:after {
+  background-color: #e05879;
+  box-shadow: inset 2px -3px 4px 0 rgba(51, 51, 51, 0.75);
+}
