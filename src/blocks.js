@@ -323,6 +323,12 @@
     "author_github_url": "https://github.com/IreeHale"
   },
   {
+    "page_link": "./blocks/IshanGupta/index.html",
+    "block_icon": "./blocks/IshanGupta/icon.png",
+    "author_name": "Ishan Gupta",
+    "author_github_url": "https://github.com/ishan-gupt"
+  },
+  {
     "name": "little Zoo",
     "page_link": "./blocks/Jeven/index.html",
     "block_icon": "./blocks/Jeven/icon.png",
