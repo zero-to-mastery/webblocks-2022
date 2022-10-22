@@ -561,6 +561,13 @@
     "author_github_url": "https://github.com/cosmicqbit/"
   },
   {
+    "name": "BG Generator",
+    "page_link": "./blocks/Slye-Man/index.html",
+    "block_icon": "./blocks/Slye-Man/icon.png",
+    "author_name": "Selaelo Sebola",
+    "author_github_url": "https://github.com/Slye-Man/"
+  },
+  {
     "name": "Modern Responsive Testimonial",
     "page_link": "./blocks/SubramanyaRao11/index.html",
     "block_icon": "./blocks/SubramanyaRao11/icon.png",
