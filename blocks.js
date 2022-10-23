@@ -1112,6 +1112,13 @@
     "author_github_url": "https://github.com/MadhaviImashi"
   },
   {
+    "name": "Swipecard",
+    "page_link": "./blocks/img-transform-spotlight-effect/index.html",
+    "block_icon": "./blocks/img-transform-spotlight-effect/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Words and Characters Counter",
     "page_link": "./blocks/incognion/index.html",
     "block_icon": "./blocks/incognion/icon.png",
