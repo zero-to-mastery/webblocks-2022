@@ -546,6 +546,20 @@
     "author_github_url": "https://github.com/S44WN/"
   },
   {
+    "name": "Neumorphism - Wave Animation",
+    "page_link": "./blocks/Saawn - NueroWave/index.html",
+    "block_icon": "./blocks/Saawn - NueroWave/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Add to cart animation button",
+    "page_link": "./blocks/Saawn - cartAnim/index.html",
+    "block_icon": "./blocks/Saawn - cartAnim/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "DevTo Hovering Icon",
     "page_link": "./blocks/Saawn - hoverbutton/index.html",
     "block_icon": "./blocks/Saawn - hoverbutton/icon.png",
