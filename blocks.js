@@ -343,6 +343,13 @@
     "author_github_url": "https://github.com/Jeven212"
   },
   {
+    "name": "Grocery List",
+    "page_link": "./blocks/K_SANIL/index.html",
+    "block_icon": "./blocks/K_SANIL/icon.png",
+    "author_name": "K Sanil",
+    "author_github_url": "https://github.com/K-Sanil"
+  },
+  {
     "name": "Put the bunny back",
     "page_link": "./blocks/KajaDabrowska/index.html",
     "block_icon": "./blocks/KajaDabrowska/icon.png",
