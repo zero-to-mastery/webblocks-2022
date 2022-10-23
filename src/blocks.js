@@ -364,6 +364,13 @@
     "author_github_url": "https://github.com/geetika005/"
   },
   {
+    "name": "Spooky Button",
+    "page_link": "./blocks/KshitijSrivastava/index.html",
+    "block_icon": "./blocks/KshitijSrivastava/icon.png",
+    "author_name": "Kshitij",
+    "author_github_url": "https://github.com/Kshitij978"
+  },
+  {
     "name": "Colorful Hoverboard",
     "page_link": "./blocks/Lhpellizzon/index.html",
     "block_icon": "./blocks/Lhpellizzon/icon.png",
