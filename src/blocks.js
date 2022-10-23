@@ -714,6 +714,13 @@
     "author_github_url": "https://github.com/ankeshp03/"
   },
   {
+    "name": "Footer",
+    "page_link": "./blocks/ankitbajpai65/index.html",
+    "block_icon": "./blocks/ankitbajpai65/icon.png",
+    "author_name": "Ankit Bajpai",
+    "author_github_url": "https://github.com/ankitbajpai65"
+  },
+  {
     "page_link": "./blocks/anudeep/index.html",
     "block_icon": "./blocks/anudeep/icon.png",
     "author_name": "Anudeep-313",
