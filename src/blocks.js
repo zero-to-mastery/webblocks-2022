@@ -546,9 +546,30 @@
     "author_github_url": "https://github.com/S44WN/"
   },
   {
+    "name": "Stylish Button",
+    "page_link": "./blocks/Saawn - ClickButton/index.html",
+    "block_icon": "./blocks/Saawn - ClickButton/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Magnetic Animation Button",
+    "page_link": "./blocks/Saawn - MagbtnAni/index.html",
+    "block_icon": "./blocks/Saawn - MagbtnAni/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
     "name": "Neumorphism - Wave Animation",
     "page_link": "./blocks/Saawn - NueroWave/index.html",
     "block_icon": "./blocks/Saawn - NueroWave/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Trig background",
+    "page_link": "./blocks/Saawn - TrigBackground/index.html",
+    "block_icon": "./blocks/Saawn - TrigBackground/icon.png",
     "author_name": "S44WN",
     "author_github_url": "https://github.com/S44WN/"
   },
