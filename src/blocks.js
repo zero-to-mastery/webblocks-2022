@@ -43,6 +43,13 @@
     "author_github_url": "https://github.com/the-anomalous/"
   },
   {
+    "name": "FAQ-Template",
+    "page_link": "./blocks/AmanPathan/index.html",
+    "block_icon": "./blocks/AmanPathan/icon.png",
+    "author_name": "AmanPathan",
+    "author_github_url": "https://github.com/AmanPathan"
+  },
+  {
     "name": "Popup prompt",
     "page_link": "./blocks/AmoghRao2@arioum/index.html",
     "block_icon": "./blocks/AmoghRao2@arioum/icon.png",
@@ -341,6 +348,13 @@
     "block_icon": "./blocks/KajaDabrowska/icon.png",
     "author_name": "Kaja",
     "author_github_url": "https://github.com/KajaDabrowska"
+  },
+  {
+    "name": "GYM_LANDING_PAGE",
+    "page_link": "./blocks/Keegan/index.html",
+    "block_icon": "./blocks/Keegan/icon.png",
+    "author_name": "KEEGAN_COLACO",
+    "author_github_url": "https://github.com/theanimator20"
   },
   {
     "name": "Name-in-Space",
