@@ -6,14 +6,25 @@ const carousel = () => {
     {
       author: 'Melanie Dretvic on Unsplash',
       location: 'Unsplash',
+      copyright: {
+        name: 'Aoraki Mount Cook Village, New Zealand',
+        Published: 'June 13, 2018',
+        PublishedBy: 'NIKON CORPORATION, NIKON D90',
+        license: 'Free to use under the Unsplash License'
+      },
       src: './assets/melanie-dretvic-wblqwJnjepI-unsplash.jpg',
       alt: 'Mount Cook at sunset',
       id: 'img-1',
       class: 'photo',
     },
     {
-      author: 'David Billings on Unsplash',
+      author: 'David Billings',
       location: 'Unsplash',
+      copyright: {
+        name: 'Mt Cook, New Zealand',
+        Published: 'June 8, 2019',
+        license: 'Free to use under the Unsplash License'
+      },
       src: './assets/david-billings-85rGc_g6b4E-unsplash.jpg',
       alt: 'Mount Cook in snow',
       id: 'img-2',
@@ -22,6 +33,12 @@ const carousel = () => {
     {
       author: 'Peter Burdon',
       location: 'Unsplash',
+      copyright: {
+        name: 'Mount Cook, Canterbury, New Zealand',
+        Published: 'May 10, 2021',
+        PublishedBy: 'OLYMPUS IMAGING CORP., E-300',
+        license: 'Free to use under the Unsplash License'
+      },
       src: './assets/peter-burdon-jGfZSSnoOHU-unsplash.jpg',
       alt: 'Mount Cook in the distance',
       id: 'img-3',
