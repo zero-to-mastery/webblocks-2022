@@ -225,6 +225,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Qoute-Generator",
+    "page_link": "./blocks/EmanuelGustafzon/index.html",
+    "block_icon": "./blocks/EmanuelGustafzon/icon.png",
+    "author_name": "Emanuel Gustafzon",
+    "author_github_url": "https://github.com/EmanuelGustafzon"
+  },
+  {
     "name": "Unit Converter",
     "page_link": "./blocks/Esinnation/index.html",
     "block_icon": "./blocks/Esinnation/icon.png",
