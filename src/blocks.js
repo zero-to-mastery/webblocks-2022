@@ -225,6 +225,13 @@
     "author_github_url": "https://github.com/DhanushNehru"
   },
   {
+    "name": "Qoute-Generator",
+    "page_link": "./blocks/EmanuelGustafzon/index.html",
+    "block_icon": "./blocks/EmanuelGustafzon/icon.png",
+    "author_name": "Emanuel Gustafzon",
+    "author_github_url": "https://github.com/EmanuelGustafzon"
+  },
+  {
     "name": "Unit Converter",
     "page_link": "./blocks/Esinnation/index.html",
     "block_icon": "./blocks/Esinnation/icon.png",
@@ -343,6 +350,13 @@
     "author_github_url": "https://github.com/Jeven212"
   },
   {
+    "name": "Grocery List",
+    "page_link": "./blocks/K_SANIL/index.html",
+    "block_icon": "./blocks/K_SANIL/icon.png",
+    "author_name": "K Sanil",
+    "author_github_url": "https://github.com/K-Sanil"
+  },
+  {
     "name": "Put the bunny back",
     "page_link": "./blocks/KajaDabrowska/index.html",
     "block_icon": "./blocks/KajaDabrowska/icon.png",
@@ -362,6 +376,13 @@
     "block_icon": "./blocks/Khushi/icon.png",
     "author_name": "Geetika Bhatnagar",
     "author_github_url": "https://github.com/geetika005/"
+  },
+  {
+    "name": "Spooky Button",
+    "page_link": "./blocks/KshitijSrivastava/index.html",
+    "block_icon": "./blocks/KshitijSrivastava/icon.png",
+    "author_name": "Kshitij",
+    "author_github_url": "https://github.com/Kshitij978"
   },
   {
     "name": "Colorful Hoverboard",
@@ -528,6 +549,41 @@
     "name": "Cards Carousel",
     "page_link": "./blocks/S44WN-cards/index.html",
     "block_icon": "./blocks/S44WN-cards/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Stylish Button",
+    "page_link": "./blocks/Saawn - ClickButton/index.html",
+    "block_icon": "./blocks/Saawn - ClickButton/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Magnetic Animation Button",
+    "page_link": "./blocks/Saawn - MagbtnAni/index.html",
+    "block_icon": "./blocks/Saawn - MagbtnAni/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Neumorphism - Wave Animation",
+    "page_link": "./blocks/Saawn - NueroWave/index.html",
+    "block_icon": "./blocks/Saawn - NueroWave/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Trig background",
+    "page_link": "./blocks/Saawn - TrigBackground/index.html",
+    "block_icon": "./blocks/Saawn - TrigBackground/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Add to cart animation button",
+    "page_link": "./blocks/Saawn - cartAnim/index.html",
+    "block_icon": "./blocks/Saawn - cartAnim/icon.png",
     "author_name": "S44WN",
     "author_github_url": "https://github.com/S44WN/"
   },
