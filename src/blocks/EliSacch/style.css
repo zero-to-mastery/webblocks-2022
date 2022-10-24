@@ -27,7 +27,7 @@ h1 {
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.25em;
-    color: var(--ternary-color);
+    color: var(--secondary-color);
 }
 
 h2 {
@@ -75,6 +75,7 @@ main {
     isolation: isolate;
     width: 40%;
     min-width: 400px;
+    height: 600px;
     margin-inline: auto;  
     overflow: hidden;
     transform: perspective(1000px) rotateY(45deg) scale(.75);
@@ -102,7 +103,10 @@ main {
 }
 
 .card-image > img {
-    width: 100%;
+    position: absolute;
+    top: -30%;
+    left: 0;
+    min-height: 100%;
     z-index: -1;
 }
 
