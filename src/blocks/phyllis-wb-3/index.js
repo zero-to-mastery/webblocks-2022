@@ -4,23 +4,26 @@ const photo = document.getElementById('img-1');
 const carousel = () => {
   const photos = [
     {
-      name: 'mt-cook-1',
-      src: './assets/mt-cook-1.jpg',
+      author: 'Melanie Dretvic on Unsplash',
+      location: 'Unsplash',
+      src: './assets/melanie-dretvic-wblqwJnjepI-unsplash.jpg',
       alt: 'Mount Cook at sunset',
       id: 'img-1',
       class: 'photo',
     },
     {
-      name: 'mt-cook-2',
-      src: './assets/mt-cook-2.jpg',
+      author: 'David Billings on Unsplash',
+      location: 'Unsplash',
+      src: './assets/david-billings-85rGc_g6b4E-unsplash.jpg',
       alt: 'Mount Cook in snow',
       id: 'img-2',
       class: 'photo',
     },
     {
-      name: 'mt-cook-3',
-      src: './assets/mt-cook-3.jpeg',
-      alt: 'Spring wild flowers, Mount Cook in the distance',
+      author: 'Peter Burdon',
+      location: 'Unsplash',
+      src: './assets/peter-burdon-jGfZSSnoOHU-unsplash.jpg',
+      alt: 'Mount Cook in the distance',
       id: 'img-3',
       class: 'photo',
     },
