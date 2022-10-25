@@ -1,0 +1,63 @@
+body{
+    background-color: aqua;
+}
+
+#clock-container {
+    position: relative;
+    /* Using viewport-width to make it more responsive */
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(.\\resources\\clock.png) no-repeat;
+    background-size: 100%;
+}
+
+.dot {
+    /* Using this to avoid the unpleasant look at the center */
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+    top: 48%;
+    left: 47.5%;
+    /* background-color: rgb(81, 253, 196); */
+    background-color: turquoise;
+    border-radius: 50%;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: red;
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+
+#hour {
+    height: 26%;
+    width: 1.5%;
+    top: 24.4%;
+    left: 49.48%;
+    /* opacity: 0.6; */
+    /* display: none; */
+    transform-origin: bottom;
+}
+
+#minute {
+    height: 30%;
+    width: 1.25%;
+    top: 21%;
+    left: 49.66%;
+    /* opacity: 0.6; */
+    /* display: none; */
+    transform-origin: bottom;
+}
+
+#second {
+    height: 40%;
+    width: 1.2%;
+    top: 10.5%;
+    left: 49.68%;
+    /* opacity: 0.6; */
+    /* display: none; */
+    transform-origin: bottom;
+}
