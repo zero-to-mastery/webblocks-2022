@@ -44,7 +44,7 @@ body {
     background-color: var(--primary-color-dark);
     width: 100vw;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 main {
@@ -155,4 +155,12 @@ svg {
 
 .right > svg {
    rotate: 180deg; 
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        min-width: none;
+        width: 90%;
+    }
+    
 }
