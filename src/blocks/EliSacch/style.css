@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Oswald:wght@200;400;600&display=swap');
 
 :root {
-    --primary-color: #254021;
     --primary-color-dark: #182614;
-    --primary-color-light: #50732D;
     --secondary-color: #6A8AA6;
     --ternary-color: #BF877A;
 
@@ -39,12 +37,11 @@ h2 {
 }
 
 * a:hover {
-    color: var(--primary-color-light);
+    color: var(--secondary-color);
 }
 
 body {
     background-color: var(--primary-color-dark);
-    display: flex;
     width: 100vw;
     min-height: 100vh;
     overflow: hidden;
@@ -53,7 +50,6 @@ body {
 main {
     width: 98%;
     max-width: 1200px;
-    height: 80%;
     margin-inline: auto;
     text-align: center;
     margin-bottom: 30px;
@@ -62,6 +58,7 @@ main {
 #cards-container > ul {
     position: relative;
     isolation: isolate;
+    height: 600px; 
 }
 
 .card {
@@ -71,11 +68,12 @@ main {
     isolation: isolate;
     width: 40%;
     min-width: 400px;
-    height: 600px; 
+    height: 100%; 
     overflow: hidden;
     transform: perspective(1000px) rotateY(45deg) scale(.75);
     border-radius: 5px;
     box-shadow: 0px 0px 15px 5px var(--primary-color-dark);
+    transition: transform 2s, translate 2s;
 }
 
 .card:after {
@@ -85,6 +83,7 @@ main {
     z-index: 100;
     background-color: var(--primary-color-dark);
     opacity: .25;
+    transition: 2s;
 }
 
 .active-card {
@@ -94,6 +93,7 @@ main {
 }
 .active-card:after {
     opacity: 0;
+    width: 0;
 }
 
 .after {
@@ -116,9 +116,43 @@ main {
     width: 100%;
     height: 50%;
     clip-path: polygon(0% 0%,100% 20%,100% 100%,0% 100%);
-    background-color: var(--secondary-color);
+    background-color: var(--ternary-color);
     color: var(--primary-color-dark);
     font-size: 1.8em;
 }
 
+#slide {
+    width: fit-content;
+    margin: 20px auto;
+}
 
+#slide > button {
+    position: relative;
+    margin: 0 30px;
+    width: 60px;
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    opacity: .5;
+}
+
+#slide > button:disabled:hover {
+    opacity: .5;
+}
+
+#slide > button:hover {
+    opacity: .8;
+}
+
+svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 25px;
+}
+
+.right > svg {
+   rotate: 180deg; 
+}

@@ -7,6 +7,12 @@ document.addEventListener("DOMContentLoaded",function() {
         cards[i].addEventListener('click', makeActive);
     }
 
+    /* Add event listener to buttons */
+    const buttons = document.getElementsByClassName('btn');
+    for(let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', slideCards);
+    }
+
     pushBack();
     spaceCards(3);
 })
@@ -30,6 +36,7 @@ function makeActive() {
     }
     pushBack();
     spaceCards(position-1);
+    disableButton();
 }
 
 /**
@@ -62,3 +69,39 @@ function makeActive() {
         moveRight += 150;
     } 
 }
+
+/**
+ * This functions changes card on button click
+ */
+function slideCards() {
+    const cards = document.getElementsByClassName('card');
+    const direction = this.getAttribute('data-slide');
+    const currentCard = document.getElementsByClassName('active-card')[0].getAttribute('data-position');
+    
+    switch (direction) {
+        case "left":
+            cards[currentCard-2].click();
+            break;
+        case "right":
+            cards[currentCard].click();
+            break;
+        default:
+            throw `Direction not valid: ${direction}`;
+    }
+}
+
+/**
+ * This function disables buttons when first or last card is active
+ */
+function disableButton() {
+    const buttons = document.getElementsByClassName('btn');
+    const position = document.getElementsByClassName('active-card')[0].getAttribute('data-position');
+    if(position == 1) {
+        buttons[0].disabled = true;
+    } else if(position == 7) {
+        buttons[1].disabled = true;
+    } else {
+            buttons[0].disabled = false;
+            buttons[1].disabled = false;
+        }
+    }
