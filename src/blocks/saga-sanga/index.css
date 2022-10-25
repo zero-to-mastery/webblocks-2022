@@ -196,9 +196,9 @@ label:focus {
   display: none;
   /* position: absolute; */
   justify-items: center; 
-  /* text-align: center; */
+  text-align: center;
   /* align-self: center; */
-  justify-self: center;
+  /* justify-self: center; */
   z-index: 2;
   /* padding-block: 2rem; */
 }
