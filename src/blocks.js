@@ -476,6 +476,13 @@
     "author_github_url": "https://github.com/ndimoforaretas/"
   },
   {
+    "name": "Responsive Navbar",
+    "page_link": "./blocks/Ndimofor Aretas2/index.html",
+    "block_icon": "./blocks/Ndimofor Aretas2/icon.png",
+    "author_name": "Ndimofor Aretas",
+    "author_github_url": "https://github.com/ndimoforaretas/"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
