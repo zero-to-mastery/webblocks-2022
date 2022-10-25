@@ -176,6 +176,13 @@
     "author_github_url": "https://github.com/BrianWhelanDublin"
   },
   {
+    "name": "Halloween Button",
+    "page_link": "./blocks/Caddy121/index.html",
+    "block_icon": "./blocks/Caddy121/icon.png",
+    "author_name": "Caddy121",
+    "author_github_url": "https://github.com/caddy121/"
+  },
+  {
     "name": "Animated Cards on Hover",
     "page_link": "./blocks/Carlos/index.html",
     "block_icon": "./blocks/Carlos/icon.png",
@@ -1245,6 +1252,13 @@
     "author_github_url": "https://github.com/karan919/"
   },
   {
+    "name": "Price Component",
+    "page_link": "./blocks/kent/index.html",
+    "block_icon": "./blocks/kent/icon.png",
+    "author_name": "Kent",
+    "author_github_url": "https://github.com/strykerkent/"
+  },
+  {
     "name": "Console",
     "page_link": "./blocks/kwiczling/index.html",
     "block_icon": "./blocks/kwiczling/icon.png",
@@ -1600,6 +1614,13 @@
     "block_icon": "./blocks/sourabhsathe/icon.png",
     "author_name": "Sourabh Sathe",
     "author_github_url": "https://github.com/sourhub226"
+  },
+  {
+    "name": "Hero CTA Section",
+    "page_link": "./blocks/stryker/index.html",
+    "block_icon": "./blocks/stryker/icon.png",
+    "author_name": "Stryker",
+    "author_github_url": "https://github.com/StrykerKent/"
   },
   {
     "name": "Swipecard",
