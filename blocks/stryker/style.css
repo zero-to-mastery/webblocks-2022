@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.hero {
+    background: linear-gradient(45deg, rgba(249, 250, 251, 1) 35%, rgb(240, 240, 240) 73%);
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+}
+
+button {
+    padding: 0.875rem 1.85rem;
+    border-radius: 0.375rem;
+    background-color: #4F46E5;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    font-size: 0.875rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button:hover {
+    background-color: #1f17b1;
+}
+
+.switch {
+    background-color: #ffffff;
+    color: #4F46E5;
+    margin-left: 20px;
+}
+
+button.switch:hover {
+    background-color: #5A6268;
+    color: white;
+}
+
+.blue {
+    color: #4F46E5;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.my {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pt-1 {
+    padding-top: 0.875rem;
+}
+
+.py {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pb-5 {
+    padding-bottom: 3rem;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+
+.text-lighter {
+    color: #333;
+    opacity: 0.7;
+}
+
+.text-lighter {
+    width: 600px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
