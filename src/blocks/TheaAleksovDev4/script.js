@@ -17,6 +17,6 @@ function addAdoption(animalObj){
 }
 
 
-addAdoption(new Animal("Lily","3 months","012-345678","./images/1.jpeg"))
-addAdoption(new Animal("Bella","1 year","098-765432","./images/2.jpeg"))
-addAdoption(new Animal("Chloe","9 months","045-678900","./images/3.jpg"))
+addAdoption(new Animal("Lily","3 months","012-345678","./images/new1.jpg"))
+addAdoption(new Animal("Bella","1 year","098-765432","./images/new2.jpg"))
+addAdoption(new Animal("Chloe","9 months","045-678900","./images/new3.jpg"))
