@@ -1,0 +1,32 @@
+Angle of a Circle = 360°.
+Therefore, each hand (Hour, Minute, Second) will rotote by 360°.
+Hour hand will rotote 360° in 12 hours.
+Minute hand will rotote 360° in 1 hour or 60 minutes.
+Second hand will rotote 360° in 1 minute or 60 seconds.
+
+
+But, each of the hands has some deviation with respect to each other in a particular time unit.
+So, we have to calculate the deviation of the hands, for accurate & realistic output.
+
+Deviation computation for:
+1. Hour hand-
+    12 hr -> 360°
+    1 hr -> 30°
+    or, 60 min -> 30°
+    => 1 min -> (1/2)°
+
+    So, angle deviation for hour hand = (30 * hr + (min / 2))
+
+2. Minute hand-
+    60 min -> 360°
+    1 min -> 6°
+
+    So, angle deviation for minute hand = (6 * min)
+
+3. Second hand-
+    60 sec -> 360°
+    => 1 sec -> 6°
+
+    So, angle deviation for second hand = (6 * sec)
+
+Now, we are all done to move to coding part.
