@@ -532,6 +532,13 @@
     "author_github_url": "https://github.com/RajputUsman"
   },
   {
+    "name": "Random-Color-Generator",
+    "page_link": "./blocks/Random-Color-Generator/index.html",
+    "block_icon": "./blocks/Random-Color-Generator/icon.png",
+    "author_name": "Arcturus22",
+    "author_github_url": "https://github.com/Arcturus22"
+  },
+  {
     "name": "Item Quantity Counter",
     "page_link": "./blocks/RitikaAgrawal811/index.html",
     "block_icon": "./blocks/RitikaAgrawal811/icon.png",
