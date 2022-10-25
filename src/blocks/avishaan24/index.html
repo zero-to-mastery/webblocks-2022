@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" media="screen and (max-width: 684px)" href="small.css">
+    <link rel="stylesheet" media="screen and (max-width: 684px) and (min-width: 432px)" href="medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 684px)" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="background">
+        <h2>Calculator by Avishaan</h2>
+        <div id="box">
+            <div class="container">
+                <div class="row">
+                    <input type="text" class="input" placeholder="0">
+                </div>
+                <div class="row ">
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button class="button">/</button>
+                    <button class="button">sin</button>
+                    <button class="button">cos</button>
+                    <button class="button">tan</button>
+                </div>
+                <div class="row">
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button">*</button>
+                    <button class="button" value="sqrt">&#8730</button>
+                    <button class="button">e</button>
+                    <button class="button">x!</button>
+                </div>
+                <div class="row">
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button">-</button>
+                    <button class="button">%</button>
+                    <button class="button">(</button>
+                    <button class="button">)</button>
+                </div>
+                <div class="row">
+                    <button class="button">0</button>
+                    <button class="button">.</button>
+                    <button class="button">DEL</button>
+                    <button class="button">+</button>
+                    <button class="button" id="equal">=</button>
+                    <button class="button">log</button>
+                    <button class="button">AC</button>
+                </div>
+            </div>
+        </div>
+        <div id="chan">
+            <button class=" hborder  theme buttons" onclick="changetheme()">Change-theme</button>
+        </div>
+        <br>
+    </div>
+    <script src="avi.js"></script>
+</body>
+
+</html>
