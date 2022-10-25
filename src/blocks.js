@@ -825,6 +825,13 @@
     "author_github_url": "https://github.com/avatar-10000/"
   },
   {
+    "name": "Calculator",
+    "page_link": "./blocks/avishaan24/index.html",
+    "block_icon": "./blocks/avishaan24/icon.png",
+    "author_name": "avishaan24",
+    "author_github_url": "https://github.com/avishaan24/"
+  },
+  {
     "name": "Toggle Switch",
     "page_link": "./blocks/betiniakarandut/index.html",
     "block_icon": "./blocks/betiniakarandut/icon.png",
