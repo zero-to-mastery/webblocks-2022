@@ -518,6 +518,13 @@
     "author_github_url": "https://github.com/rajmishra-47/"
   },
   {
+    "name": "CRUD Notes",
+    "page_link": "./blocks/RajputUsman/index.html",
+    "block_icon": "./blocks/RajputUsman/icon.png",
+    "author_name": "Rajput Usman",
+    "author_github_url": "https://github.com/RajputUsman"
+  },
+  {
     "name": "Item Quantity Counter",
     "page_link": "./blocks/RitikaAgrawal811/index.html",
     "block_icon": "./blocks/RitikaAgrawal811/icon.png",
