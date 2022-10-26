@@ -1,0 +1,69 @@
+.button {
+  --light: #fff;
+  --dark: #414856;
+  --border: #c3c8de;
+  --background: #4f29f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 0;
+  padding: 0 30px;
+  width: auto;
+  height: 60px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--dark);
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.1);
+  transition: transform 0.1s linear, color 0.1s linear, background 0.15s linear;
+  cursor: none;
+}
+.button > span {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font: 400 16px "Varela Round", sans-serif;
+  transition: transform 0.15s linear;
+}
+.button.fill {
+  border: 0;
+  color: var(--light);
+  background: var(--background);
+}
+
+.cursor {
+  --cursor: #c3c8de;
+  position: fixed;
+  top: -50px;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  border: solid 2px var(--cursor);
+  pointer-events: none;
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+[cursor="link"]:hover ~ .cursor {
+  mix-blend-mode: difference;
+  transform: scale(1.5);
+  cursor: none;
+  background: #fff;
+  border-color: #fff;
+}
+
+body {
+  background: #e8ebf3;
+  height: 100vh;
+  font: 400 16px "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .button {
+  margin: 0 10px;
+}

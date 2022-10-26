@@ -113,6 +113,13 @@
     "author_github_url": "https://github.com/atulyadav745/"
   },
   {
+    "name": "Live Chat",
+    "page_link": "./blocks/AyswaryaSivakumar/index.html",
+    "block_icon": "./blocks/AyswaryaSivakumar/icon.png",
+    "author_name": "Ayswarya Sivakumar",
+    "author_github_url": "https://github.com/AyswaryaSivakumar/"
+  },
+  {
     "name": "NOTES TAKING APP",
     "page_link": "./blocks/Ayush-Dahala/index.html",
     "block_icon": "./blocks/Ayush-Dahala/icon.png",
@@ -176,6 +183,13 @@
     "author_github_url": "https://github.com/BrianWhelanDublin"
   },
   {
+    "name": "Halloween Button",
+    "page_link": "./blocks/Caddy121/index.html",
+    "block_icon": "./blocks/Caddy121/icon.png",
+    "author_name": "Caddy121",
+    "author_github_url": "https://github.com/caddy121/"
+  },
+  {
     "name": "Animated Cards on Hover",
     "page_link": "./blocks/Carlos/index.html",
     "block_icon": "./blocks/Carlos/icon.png",
@@ -223,6 +237,13 @@
     "block_icon": "./blocks/DhanushNehru/icon.png",
     "author_name": "Dhanush Nehru",
     "author_github_url": "https://github.com/DhanushNehru"
+  },
+  {
+    "name": "Qoute-Generator",
+    "page_link": "./blocks/EmanuelGustafzon/index.html",
+    "block_icon": "./blocks/EmanuelGustafzon/icon.png",
+    "author_name": "Emanuel Gustafzon",
+    "author_github_url": "https://github.com/EmanuelGustafzon"
   },
   {
     "name": "Unit Converter",
@@ -343,6 +364,13 @@
     "author_github_url": "https://github.com/Jeven212"
   },
   {
+    "name": "Grocery List",
+    "page_link": "./blocks/K_SANIL/index.html",
+    "block_icon": "./blocks/K_SANIL/icon.png",
+    "author_name": "K Sanil",
+    "author_github_url": "https://github.com/K-Sanil"
+  },
+  {
     "name": "Put the bunny back",
     "page_link": "./blocks/KajaDabrowska/index.html",
     "block_icon": "./blocks/KajaDabrowska/icon.png",
@@ -362,6 +390,13 @@
     "block_icon": "./blocks/Khushi/icon.png",
     "author_name": "Geetika Bhatnagar",
     "author_github_url": "https://github.com/geetika005/"
+  },
+  {
+    "name": "Spooky Button",
+    "page_link": "./blocks/KshitijSrivastava/index.html",
+    "block_icon": "./blocks/KshitijSrivastava/icon.png",
+    "author_name": "Kshitij",
+    "author_github_url": "https://github.com/Kshitij978"
   },
   {
     "name": "Colorful Hoverboard",
@@ -455,6 +490,13 @@
     "author_github_url": "https://github.com/ndimoforaretas/"
   },
   {
+    "name": "Responsive Navbar",
+    "page_link": "./blocks/Ndimofor Aretas2/index.html",
+    "block_icon": "./blocks/Ndimofor Aretas2/icon.png",
+    "author_name": "Ndimofor Aretas",
+    "author_github_url": "https://github.com/ndimoforaretas/"
+  },
+  {
     "name": "Slide Menu",
     "page_link": "./blocks/Neha/index.html",
     "block_icon": "./blocks/Neha/icon.png",
@@ -488,6 +530,20 @@
     "block_icon": "./blocks/RajMishra3/icon.png",
     "author_name": "Raj Mishra",
     "author_github_url": "https://github.com/rajmishra-47/"
+  },
+  {
+    "name": "CRUD Notes",
+    "page_link": "./blocks/RajputUsman/index.html",
+    "block_icon": "./blocks/RajputUsman/icon.png",
+    "author_name": "Rajput Usman",
+    "author_github_url": "https://github.com/RajputUsman"
+  },
+  {
+    "name": "Random-Color-Generator",
+    "page_link": "./blocks/Random-Color-Generator/index.html",
+    "block_icon": "./blocks/Random-Color-Generator/icon.png",
+    "author_name": "Arcturus22",
+    "author_github_url": "https://github.com/Arcturus22"
   },
   {
     "name": "Item Quantity Counter",
@@ -528,6 +584,41 @@
     "name": "Cards Carousel",
     "page_link": "./blocks/S44WN-cards/index.html",
     "block_icon": "./blocks/S44WN-cards/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Stylish Button",
+    "page_link": "./blocks/Saawn - ClickButton/index.html",
+    "block_icon": "./blocks/Saawn - ClickButton/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Magnetic Animation Button",
+    "page_link": "./blocks/Saawn - MagbtnAni/index.html",
+    "block_icon": "./blocks/Saawn - MagbtnAni/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Neumorphism - Wave Animation",
+    "page_link": "./blocks/Saawn - NueroWave/index.html",
+    "block_icon": "./blocks/Saawn - NueroWave/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Trig background",
+    "page_link": "./blocks/Saawn - TrigBackground/index.html",
+    "block_icon": "./blocks/Saawn - TrigBackground/icon.png",
+    "author_name": "S44WN",
+    "author_github_url": "https://github.com/S44WN/"
+  },
+  {
+    "name": "Add to cart animation button",
+    "page_link": "./blocks/Saawn - cartAnim/index.html",
+    "block_icon": "./blocks/Saawn - cartAnim/icon.png",
     "author_name": "S44WN",
     "author_github_url": "https://github.com/S44WN/"
   },
@@ -714,6 +805,13 @@
     "author_github_url": "https://github.com/ankeshp03/"
   },
   {
+    "name": "Footer",
+    "page_link": "./blocks/ankitbajpai65/index.html",
+    "block_icon": "./blocks/ankitbajpai65/icon.png",
+    "author_name": "Ankit Bajpai",
+    "author_github_url": "https://github.com/ankitbajpai65"
+  },
+  {
     "page_link": "./blocks/anudeep/index.html",
     "block_icon": "./blocks/anudeep/icon.png",
     "author_name": "Anudeep-313",
@@ -732,6 +830,13 @@
     "block_icon": "./blocks/avatar/icon.png",
     "author_name": "avatar",
     "author_github_url": "https://github.com/avatar-10000/"
+  },
+  {
+    "name": "Calculator",
+    "page_link": "./blocks/avishaan24/index.html",
+    "block_icon": "./blocks/avishaan24/icon.png",
+    "author_name": "avishaan24",
+    "author_github_url": "https://github.com/avishaan24/"
   },
   {
     "name": "Toggle Switch",
@@ -1105,6 +1210,13 @@
     "author_github_url": "https://github.com/MadhaviImashi"
   },
   {
+    "name": "Swipecard",
+    "page_link": "./blocks/img-transform-spotlight-effect/index.html",
+    "block_icon": "./blocks/img-transform-spotlight-effect/icon.png",
+    "author_name": "petchnattkit",
+    "author_github_url": "https://github.com/petchnattkit"
+  },
+  {
     "name": "Words and Characters Counter",
     "page_link": "./blocks/incognion/index.html",
     "block_icon": "./blocks/incognion/icon.png",
@@ -1140,6 +1252,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Responsive Sidebar",
+    "page_link": "./blocks/jasoonmurraay/index.html",
+    "block_icon": "./blocks/jasoonmurraay/icon.png",
+    "author_name": "Jason Murray",
+    "author_github_url": "https://github.com/jasoonmurraay"
+  },
+  {
     "name": "Minimal Calculator",
     "page_link": "./blocks/joedravarol/index.html",
     "block_icon": "./blocks/joedravarol/icon.png",
@@ -1159,6 +1278,13 @@
     "block_icon": "./blocks/karan919_2/icon.png",
     "author_name": "Karan",
     "author_github_url": "https://github.com/karan919/"
+  },
+  {
+    "name": "Price Component",
+    "page_link": "./blocks/kent/index.html",
+    "block_icon": "./blocks/kent/icon.png",
+    "author_name": "Kent",
+    "author_github_url": "https://github.com/strykerkent/"
   },
   {
     "name": "Console",
@@ -1357,6 +1483,13 @@
     "author_github_url": "https://github.com/phylliswong"
   },
   {
+    "name": "Responsive Card",
+    "page_link": "./blocks/phyllis-wb-3/index.html",
+    "block_icon": "./blocks/phyllis-wb-3/icon.png",
+    "author_name": "Phyllis",
+    "author_github_url": "https://github.com/phylliswong/"
+  },
+  {
     "name": "TicTacToe",
     "page_link": "./blocks/pranavpathak08/index.html",
     "block_icon": "./blocks/pranavpathak08/icon.png",
@@ -1509,6 +1642,13 @@
     "block_icon": "./blocks/sourabhsathe/icon.png",
     "author_name": "Sourabh Sathe",
     "author_github_url": "https://github.com/sourhub226"
+  },
+  {
+    "name": "Hero CTA Section",
+    "page_link": "./blocks/stryker/index.html",
+    "block_icon": "./blocks/stryker/icon.png",
+    "author_name": "Stryker",
+    "author_github_url": "https://github.com/StrykerKent/"
   },
   {
     "name": "Swipecard",

@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.button{
+    padding: 15px;
+    width: 66px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+background-color: black;
+    color: aliceblue;
+    font-size: large;
+}
+.button:hover{
+    color: rgb(225, 165, 86);
+}
+.row{
+    margin: 5px 0;
+}
+.row input{
+    margin: 0;
+    padding:40px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+font-size: large;
+}
+.gold{
+    color: rgb(225, 165, 86);
+}
