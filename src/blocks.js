@@ -113,6 +113,13 @@
     "author_github_url": "https://github.com/atulyadav745/"
   },
   {
+    "name": "Live Chat",
+    "page_link": "./blocks/AyswaryaSivakumar/index.html",
+    "block_icon": "./blocks/AyswaryaSivakumar/icon.png",
+    "author_name": "Ayswarya Sivakumar",
+    "author_github_url": "https://github.com/AyswaryaSivakumar/"
+  },
+  {
     "name": "NOTES TAKING APP",
     "page_link": "./blocks/Ayush-Dahala/index.html",
     "block_icon": "./blocks/Ayush-Dahala/icon.png",
@@ -1243,6 +1250,13 @@
     "block_icon": "./blocks/insidiae/icon.png",
     "author_name": "Insidiae",
     "author_github_url": "https://github.com/Insidiae/"
+  },
+  {
+    "name": "Responsive Sidebar",
+    "page_link": "./blocks/jasoonmurraay/index.html",
+    "block_icon": "./blocks/jasoonmurraay/icon.png",
+    "author_name": "Jason Murray",
+    "author_github_url": "https://github.com/jasoonmurraay"
   },
   {
     "name": "Minimal Calculator",
