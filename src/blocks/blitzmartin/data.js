@@ -23,7 +23,7 @@ const songs = [
   {
     id: 3,
     songTitle: "Nyctalopia",
-    artist: "Liz Martin X v a s s h",
+    artist: "Liz Martin x V a s s h",
     source: "./assets/music/Liz Martin - nyctalopia (prod. v a s s h).mp3",
     cover: "https://i1.sndcdn.com/artworks-000097315214-xuheja-t500x500.jpg",
   },
