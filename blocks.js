@@ -1245,6 +1245,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Responsive Sidebar",
+    "page_link": "./blocks/jasoonmurraay/index.html",
+    "block_icon": "./blocks/jasoonmurraay/icon.png",
+    "author_name": "Jason Murray",
+    "author_github_url": "https://github.com/jasoonmurraay"
+  },
+  {
     "name": "Minimal Calculator",
     "page_link": "./blocks/joedravarol/index.html",
     "block_icon": "./blocks/joedravarol/icon.png",
