@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Overpass', sans-serif; 
+   background-color:  hsl(216, 12%, 8%);
+   margin: 1.5rem;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    font-family: inherit;
+}
+.container,.thank{
+    background-color:  hsl(213, 19%, 18%) ;
+    padding: 1.5rem;
+   border-radius: 0.625rem;
+}
+.container img{
+    background-color: hsl(216,20%,22%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.container h1{
+    color: #fff;
+    margin: 2rem 0 1rem;
+    display: block;
+    font-weight: 700;
+}
+p{
+    line-height: 1.8;
+    
+}
+.container p{
+    color: hsl(217,12%,63%);
+    margin-bottom: 1rem;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.container ul li button{
+
+border-radius:50%;
+width: 3rem;
+height: 3rem;
+background-color:hsl(213, 20%, 22%) ;
+color: #fff;
+border: none;
+padding-top: 0.2rem;
+cursor: pointer;
+transition: 0.3s;
+}
+.container ul li button:hover{
+    background-color:hsl(25, 97%, 53%) ;
+}
+.container ul li button:focus{
+    background-color:hsl(217, 12%, 63%) ;
+}
+.btn-submit{
+    background-color:hsl(25, 97%, 53%) ;
+    color:#fff;
+    border-radius: 30px;
+    padding: 0.5rem 0 0.4rem;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-submit:hover{
+    background-color: #fff;
+    color:hsl(25, 97%, 53%) ;
+}
+
+.thank{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.thank img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+.thank h2{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.thank p{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+}
+.thank .score{
+ color: hsl(25, 97%, 53%);
+background-color: hsl(213, 20%, 22%);
+border-radius: 30px;
+padding: 0.2rem  0.5rem 0;
+margin-bottom: 2rem;
+font-size: 0.9rem;
+}
+.hidden{
+    display: none;
+}
+.attribution{
+    margin: 12px;
+    color: #fff;
+}
