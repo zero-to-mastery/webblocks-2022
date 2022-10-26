@@ -113,6 +113,13 @@
     "author_github_url": "https://github.com/atulyadav745/"
   },
   {
+    "name": "Live Chat",
+    "page_link": "./blocks/AyswaryaSivakumar/index.html",
+    "block_icon": "./blocks/AyswaryaSivakumar/icon.png",
+    "author_name": "Ayswarya Sivakumar",
+    "author_github_url": "https://github.com/AyswaryaSivakumar/"
+  },
+  {
     "name": "NOTES TAKING APP",
     "page_link": "./blocks/Ayush-Dahala/index.html",
     "block_icon": "./blocks/Ayush-Dahala/icon.png",
