@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Slider</title>
+
+    <meta name="description" content="Cards slider component for websites">
+    <meta name="keywords" content="cards slider js gallery">
+    <meta name="author" content="Elisa Sacchelli">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        <h1>Cards slider</h1>
+        <div id="cards-container">
+            <ul>
+                <li class="card" data-position="1">
+                    <div class="card-image">
+                        <img src="assets/images/mountain.jpg" alt="Photo of mountains">
+                    </div>
+                    <div class="card-text">
+                        <h2>Mountain</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@mvds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" 
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">Mads Schmidt Rasmussen</a> 
+                        </small>
+                    </div>               
+                </li>
+
+                <li class="card" data-position="2">
+                    <div class="card-image">
+                        <img src="assets/images/forest.jpg" alt="Photo of forest">
+                    </div>
+                    <div class="card-text">
+                        <h2>Forest</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@kazuend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" 
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">kazuend</a> 
+                        </small>
+                    </div>               
+                </li>
+
+                <li class="card" data-position="3">
+                    <div class="card-image">
+                        <img src="assets/images/sea.jpg" alt="Photo of sea">
+                    </div>
+                    <div class="card-text">
+                        <h2>Sea Waves</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@ameliabarklid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" 
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">Amelia Barklid</a> 
+                        </small>
+                    </div>               
+                </li>
+
+                <li class="card active-card" data-position="4">
+                    <div class="card-image">
+                        <img src="assets/images/lake.jpg" alt="Photo of lake">
+                    </div>
+                    <div class="card-text">
+                        <h2>Frozen Lake</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@atondo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">alberto tondo</a> 
+                        </small>
+                    </div>               
+                </li>
+
+                <li class="card after" data-position="5">
+                    <div class="card-image">
+                        <img src="assets/images/palm.jpg" alt="Photo of palm tree">
+                    </div>
+                    <div class="card-text">
+                        <h2>Palm Trees</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@shreyasdbz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">Shreyas Sane</a> 
+                        </small>
+                    </div>               
+                </li>
+
+                <li class="card after" data-position="6">
+                    <div class="card-image">
+                        <img src="assets/images/desert.jpg" alt="Photo of desert">
+                    </div>
+                    <div class="card-text">
+                        <h2>Desert</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@gkumar2175?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">Ganapathy Kumar</a> 
+                        </small>
+                    </div>               
+                </li>
+
+                <li class="card after" data-position="7">
+                    <div class="card-image">
+                        <img src="assets/images/rocks.jpg" alt="Photo of rocks">
+                    </div>
+                    <div class="card-text">
+                        <h2>Giant Causeway</h2>
+                        <small>
+                            Photo by 
+                            <a href="https://unsplash.com/@batjko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                            target="blank" rel="noopener" alt="Link to photographer on unsplash - opens in a new tab">Patrick Metzdorf</a> 
+                        </small>
+                    </div>               
+                </li>
+            </ul>
+        </div>
+    </main>
+    <div id="slide">
+        <button class="btn" data-slide="left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"/></svg>
+        </button>
+        <button class="btn right" data-slide="right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"/></svg>
+        </button>
+    </div>
+
+<script src="script.js"></script>   
+</body>
+</html>

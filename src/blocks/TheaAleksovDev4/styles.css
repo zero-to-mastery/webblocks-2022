@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(122, 175, 184);
+    color: rgb(4, 43, 53);
+}
+
+.container {
+    background-color: rgb(7, 81, 101);
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+
+}
+.animal{
+    margin: 0 30px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(171, 195, 199);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgb(1, 22, 28);
+}
+
+h1{
+ margin-top: 10px;
+ margin-bottom: 3px;
+}
+h2{
+    margin: 0;
+}
+.image{
+    margin-top: 30px;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(1, 22, 28);
+}
