@@ -1,5 +1,3 @@
-let clockSound = new Audio(".\\resources\\clock-sound.mp3");
-
 setInterval(() => {
     date = new Date()
     hrTime = date.getHours()
