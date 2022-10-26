@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GroList </title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <section class="section-center">
+
+        <form class="grocery-form">
+            <p class="alert"></p>
+            <h3>GroList
+            <lord-icon
+            src="https://cdn.lordicon.com/mxzuvjjs.json"
+            trigger="hover"
+            colors="primary:#121331"
+            style="width:30px;height:32px">
+          </lord-icon> </h3>
+            <div class="form-control">
+                <input type="text" id="grocery" placeholder="e.g. Cereal">
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </div>
+        </form>
+
+        <div class="grocery-container">
+            <div class="grocery-list">
+                <!-- article set up dynamically in JS-->
+                
+            </div>
+            
+            <button class="clear-btn">clear items</button>
+        </div>
+
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<!-- Project Description-->
+		<meta
+			name="description"
+			content="An animated login form component"
+		/>
+		<!-- FONTS - Work Sans -->
+
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS STYLE SHEET -->
+
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+
+		<title>Animated CTA Form | A fun login form component</title>
+		<script
+			async
+			defer
+			src="script.js"
+		></script>
+	</head>
+	<body>
+		<div class="form-container">
+			<h1 class="form-heading--1">Please Login</h1>
+
+			<div class="form-control">
+				<input
+					id="name"
+					type="text"
+					required
+					class="form-input"
+					pattern="[A-Za-z]+"
+				/>
+				<label
+					for="name"
+					class="form-label"
+					>Name</label
+				>
+			</div>
+
+			<div class="form-control">
+				<input
+					id="email"
+					type="text"
+					required
+					class="form-input"
+				/>
+				<label
+					for="email"
+					class="form-label"
+					>Email</label
+				>
+			</div>
+
+			<div class="form-control">
+				<input
+					id="password"
+					type="password"
+					required
+					class="form-input"
+				/>
+				<label
+					for="password"
+					class="form-label"
+					>Password</label
+				>
+			</div>
+
+			<button class="btn">Login</button>
+
+			<p class="form-text">
+				Don't have an account?
+				<a
+					href="#"
+					class="form-link"
+					>Register here</a
+				>
+			</p>
+		</div>
+	</body>
+</html>

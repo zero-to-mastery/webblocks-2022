@@ -1,0 +1,246 @@
+:root {
+  --base: #55b9f3;
+  --lighten: #62d5ff;
+  --darken: #489dcf;
+  --white: #c8deeb;
+  --shadow: 6px 6px 12px var(--darken), -6px -6px 12px var(--lighten);
+  --inset: inset 6px 6px 12px var(--darken), inset -6px -6px 12px var(--lighten);
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base);
+  overflow: hidden;
+}
+
+button {
+  z-index: 10;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: var(--base);
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.clicked {
+  -webkit-animation: shadowFadeOut 200ms ease-out forwards,
+    shadowFadeIn 200ms 300ms ease-in forwards;
+  animation: shadowFadeOut 200ms ease-out forwards,
+    shadowFadeIn 200ms 300ms ease-in forwards;
+}
+
+button.clicked svg {
+  -webkit-animation: fillFadeOut 200ms ease-out forwards,
+    fillFadeIn 200ms 300ms ease-in forwards;
+  animation: fillFadeOut 200ms ease-out forwards,
+    fillFadeIn 200ms 300ms ease-in forwards;
+}
+
+.wave {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 20px 20px 60px var(--darken), -20px -20px 60px var(--lighten);
+  opacity: 0;
+  -webkit-animation: fadeIn 400ms ease-out forwards, outside_grow 5s ease-out,
+    fadeOut 3s 2s forwards;
+  animation: fadeIn 400ms ease-out forwards, outside_grow 5s ease-out,
+    fadeOut 3s 2s forwards;
+}
+
+.wave::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow: inset 20px 20px 60px var(--darken),
+    inset -20px -20px 60px var(--lighten);
+  -webkit-animation: inside_grow 5s ease-out;
+  animation: inside_grow 5s ease-out;
+}
+
+/** One of my worst keyframes, animate width & height.. */
+@-webkit-keyframes outside_grow {
+  from {
+    width: 20px;
+    height: 20px;
+  }
+  to {
+    width: 900px;
+    height: 900px;
+  }
+}
+@keyframes outside_grow {
+  from {
+    width: 20px;
+    height: 20px;
+  }
+  to {
+    width: 900px;
+    height: 900px;
+  }
+}
+
+/** This one is ugly too */
+@-webkit-keyframes inside_grow {
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  to {
+    width: 880px;
+    height: 880px;
+  }
+}
+@keyframes inside_grow {
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  to {
+    width: 880px;
+    height: 880px;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes shadowFadeIn {
+  0% {
+    box-shadow: var(--inset);
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: var(--shadow);
+  }
+}
+
+@keyframes shadowFadeIn {
+  0% {
+    box-shadow: var(--inset);
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: var(--shadow);
+  }
+}
+
+@-webkit-keyframes shadowFadeOut {
+  0% {
+    box-shadow: var(--shadow);
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: var(--inset);
+  }
+}
+
+@keyframes shadowFadeOut {
+  0% {
+    box-shadow: var(--shadow);
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: var(--inset);
+  }
+}
+
+@-webkit-keyframes fillFadeOut {
+  from {
+    fill: none;
+  }
+  to {
+    fill: currentColor;
+  }
+}
+
+@keyframes fillFadeOut {
+  from {
+    fill: none;
+  }
+  to {
+    fill: currentColor;
+  }
+}
+
+@-webkit-keyframes fillFadeIn {
+  from {
+    fill: currentcolor;
+  }
+  to {
+    fill: none;
+  }
+}
+
+@keyframes fillFadeIn {
+  from {
+    fill: currentcolor;
+  }
+  to {
+    fill: none;
+  }
+}

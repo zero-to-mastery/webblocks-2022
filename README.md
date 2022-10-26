@@ -25,6 +25,7 @@ These two resources have everything you need to learn about open-source, with a 
 
 - Use only HTML, CSS and vanilla JavaScript
 - Please make sure that the code is your own, and not copied from somewhere else
+- If you use images or audio files, please make sure that you are allowed to use these (don't violate copyright!) - please add a link to the license into the pull request template [(More details here)](#images-and-audio)
 - That's it, have fun and make something unique and creative!
 
 ## ❇️ But what should I create?
@@ -83,3 +84,9 @@ _Please keep `src/blocks.js` as it is._ If you follow step 10 above, a script wi
 > Congratulations! You are now one pull request closer to getting that free t-shirt. Repeat these steps until you have made at least 4 qualifying pull requests. You can check how many qualifying pull requests you have made at <https://hacktoberfest.digitalocean.com/profile> Have Fun and Happy Coding!
 
 **All discussions around this event can now be had in our dedicated Hacktoberfest channels on Discord!**
+
+## Images and Audio
+
+Images and audio files are usually under copyright. [You are not allowed to download or use those images](https://www.copyrightuser.org/faqs/question-17/) unless you are explicitly allowed so by a permissive license or exception.
+
+For free images, see [Unsplash](https://unsplash.com/license) or [Pexels](https://www.pexels.com/license/).
