@@ -12,17 +12,21 @@ fs.readdirSync(path.resolve(JSON_SOURCE_DIR), { withFileTypes: true }).forEach(
 
     let blockDirectory = dir.name;
 
-    const blockMeta = JSON.parse(
-      fs.readFileSync(`${JSON_SOURCE_DIR}/${blockDirectory}/meta.json`, "utf-8")
-    );
+    try {
+      const blockMeta = JSON.parse(
+        fs.readFileSync(`${JSON_SOURCE_DIR}/${blockDirectory}/meta.json`, "utf-8")
+      );
 
-    finalJSON.push({
-      name: blockMeta.block_name,
-      page_link: `./blocks/${blockDirectory}/index.html`,
-      block_icon: `./blocks/${blockDirectory}/icon.png`,
-      author_name: blockMeta.author_name,
-      author_github_url: blockMeta.author_github_url,
-    });
+      finalJSON.push({
+        name: blockMeta.block_name,
+        page_link: `./blocks/${blockDirectory}/index.html`,
+        block_icon: `./blocks/${blockDirectory}/icon.png`,
+        author_name: blockMeta.author_name,
+        author_github_url: blockMeta.author_github_url,
+      });
+    } catch (error) {
+      console.log(`Issue detected in ./blocks/${blockDirectory}/meta.json`)
+    }
   }
 );
 

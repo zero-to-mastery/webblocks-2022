@@ -1,0 +1,101 @@
+ body {
+     background-color: bisque;
+     font-family: 'Playfair Display', serif;
+     font-family: 'Teko', sans-serif;
+     font-size: large;
+ }
+
+ .sidebar {
+     display: block;
+     background-color: #FFFDD0;
+     width: 4rem;
+     height: 100%;
+     top: 0;
+     left: 0;
+     position: absolute;
+     transition: opacity 1s ease-in;
+     transform: translateX(-7rem);
+     transition: 2s;
+ }
+
+ .sidebar.open {
+     display: block;
+     position: absolute;
+     top: 0rem;
+     left: 0px;
+     width: 8rem;
+     height: 100%;
+     transform: translateX(0rem);
+     transition: 2s;
+ }
+
+ .arrowIcon {
+     transition: 1s;
+ }
+
+ .arrowIcon.flipped {
+     transform: rotate(0.5turn);
+     transition: 1s;
+ }
+
+ .sidebar-toggler {
+     background-color: transparent;
+     border-color: none;
+     border: none;
+     display: block;
+     position: fixed;
+     top: 1rem;
+     left: 1rem;
+     transition: 1.2s;
+     z-index: 1;
+ }
+
+ .sidebar-toggler.open {
+     z-index: 1;
+     transition: 1.5s;
+ }
+
+ .sidebar-toggler:hover {
+     cursor: pointer;
+ }
+
+ ul {
+     list-style: none;
+     margin: 0;
+     padding: 3rem 0 0 1.5rem;
+ }
+
+ li {
+     margin-bottom: 2rem;
+ }
+
+ li:nth-child(1) {
+     margin-top: 2rem;
+ }
+
+ a {
+     text-decoration: none;
+     color: #6B818C;
+     margin-bottom: 2rem;
+ }
+
+ a:hover {
+     color: #8C271E;
+     cursor: pointer;
+     font-weight: 700;
+ }
+
+ @media (max-width: 750px) {
+     .sidebar.open {
+         width: 4rem;
+     }
+
+     ul {
+         padding: 3rem 0 0 0.25rem;
+     }
+
+     .sidebar-toggler {
+         top: 0.5rem;
+         left: 0.5rem;
+     }
+ }
