@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div style="height: 500px; width:400px; background-color: rgb(216, 140, 140); margin: 30px 30px; border-radius: 5px; ">
+        <h3 style="text-align: center;" >Rules of Game</h3>
+        
+        <ul>
+           <li>Current is the temporary Score of Player while Rolling the dice.</li>
+           <br>
+           <li>When Player pass the Dice to Another player then Current is Added to the Score.</li>
+           <br>
+           <li>But Point to remember When any player gets Dice roll 1 or 2 then Current score immediately down to 0..And another player gets chance of rolling the dice without pass. </li>
+           <br>
+           <li>Any player roll the dice as many time as wants.</li>
+           <br>
+           <li>Player who Score 100 first,will win the game.</li>
+           <br>
+           <li>Below 'Roll' we get value of Dice that recently rolled.</li>
+           <br>
+        </ul>
+    
+    
+    </div>
+    <br>
+    <div style="background-color: rgb(245, 185, 174); text-align: center; margin: 10px;">
+        <b style=" font-size: larger; color: rgb(218, 32, 180);">Who Score 100 First will win!!</b>
+        <table style="height: 300px; text-align: center;">
+            <tr style="height: 100px;">
+                <td>
+                    <h2>Player 1</h2>
+                </td>
+                <td style="width: 200px;">
+                    <h2>Roll</h2>
+                    <br>
+                    <output id="roll"></output>
+                </td>
+                <td>
+                    <h2>Player 2</h2>
+                </td>
+            </tr>
+            <tr style="height: 100px;">
+                <td>
+                    <label for="p1">Score:</label>
+                    <output style="color: red;  " id="p1">0</output>
+                </td>
+                <td>
+                    <input type="submit" name="Dice" value="Roll Dice" id="rolldice">
+                    <div id="div1" style="color: rgb(218,32,180);"></div>
+                </td>
+                <td>
+                    <label for="p2">Score:</label>
+                    <output style="color: red; " id="p2">0</output>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pc1">Current:</label>
+                    <output id="pc1">0</output>
+                </td>
+                <td>
+                    <input type="submit" value="pass1" id="hold">
+                </td>
+                <td>
+                    <label for="pc2">Current:</label>
+                    <output id="pc2">0</output>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <b id="bold" style=" font-size: larger; color: rgb(218, 32, 180);"></b>
+        </center>
+    </div>
+    <br>
+   
+</body>
+<script>
+    let rolldice = document.getElementById('rolldice');
+    let roll = document.getElementById('roll');
+    let current1 = document.getElementById('pc1');
+    let score1 = document.getElementById('p1');
+    let current2 = document.getElementById('pc2');
+    let score2 = document.getElementById('p2');
+    let hold = document.getElementById('hold');
+
+    hold.addEventListener('click', getScore);
+    rolldice.addEventListener('click', getNumber);
+    function getNumber() {
+        if (hold.value === 'pass1') {
+            document.getElementById('div1').innerHTML = 'Player 1 is rolling';
+            roll.value = Math.round(1 + 5 * Math.random());
+            if (roll.value >2 ) {
+                current1.value = parseInt(current1.value) + parseInt(roll.value);
+            }
+            else {
+                current1.value = 0;
+                hold.value = 'pass2';
+                document.getElementById('div1').innerHTML = "Player 2 is rolling";
+            }
+        } else {
+            document.getElementById('div1').innerHTML = "Player 2 is rolling";
+            roll.value = Math.round(1 + 5 * Math.random());
+            if (roll.value >2 ) {
+                current2.value = parseInt(current2.value) + parseInt(roll.value);
+            }
+            else {
+                current2.value = 0;
+                hold.value = 'pass1';
+                document.getElementById('div1').innerHTML = 'Player 1 is rolling';
+            }
+
+        }
+    }
+
+    function getScore() {
+        if (hold.value === 'pass1') {
+            hold.value = 'pass2';
+            document.getElementById('div1').innerHTML = "Player 2 is rolling";
+            score1.value = parseInt(score1.value) + parseInt(current1.value);
+            current1.value = 0;
+        }
+        else if (hold.value === 'pass2') {
+
+            hold.value = 'pass1';
+            document.getElementById('div1').innerHTML = 'Player 1 is rolling';
+            score2.value = parseInt(score2.value) + parseInt(current2.value);
+            current2.value = 0;
+
+        }
+        
+        if ((parseInt(score1.value)) >= 100) {
+            
+            document.getElementById('bold').innerHTML = " Congratulations !!! Player 1 wins"
+         
+        }
+        if ((parseInt(score2.value)) >= 100) {
+        
+            document.getElementById('bold').innerHTML = " Congratulations !!! Player 2 wins"
+           
+        }
+    }
+</script>
+
+</html>
