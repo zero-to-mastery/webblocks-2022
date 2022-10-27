@@ -183,6 +183,13 @@
     "author_github_url": "https://https://github.com/BGS89"
   },
   {
+    "name": "Dice Game ",
+    "page_link": "./blocks/Bhushan(SpiDEr)/index.html",
+    "block_icon": "./blocks/Bhushan(SpiDEr)/icon.png",
+    "author_name": " SpiDEr ",
+    "author_github_url": "https://github.com/SpiDEr-9"
+  },
+  {
     "name": "Login Form",
     "page_link": "./blocks/BrianWhelanDublin/index.html",
     "block_icon": "./blocks/BrianWhelanDublin/icon.png",
@@ -700,6 +707,13 @@
     "author_github_url": "https://github.com/Slye-Man/"
   },
   {
+    "name": "Blending Carousel",
+    "page_link": "./blocks/Sridarshan/index.html",
+    "block_icon": "./blocks/Sridarshan/icon.png",
+    "author_name": "B.Sridarshan",
+    "author_github_url": "https://github.com/sridarshan-webjava/"
+  },
+  {
     "name": "Modern Responsive Testimonial",
     "page_link": "./blocks/SubramanyaRao11/index.html",
     "block_icon": "./blocks/SubramanyaRao11/icon.png",
@@ -766,6 +780,13 @@
     "name": "Adopt a cat page",
     "page_link": "./blocks/TheaAleksovDev4/index.html",
     "block_icon": "./blocks/TheaAleksovDev4/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
+    "name": "How are you feeling today",
+    "page_link": "./blocks/TheaAleksovDev5/index.html",
+    "block_icon": "./blocks/TheaAleksovDev5/icon.png",
     "author_name": "Thea Aleksov",
     "author_github_url": "https://github.com/TheaAleksovDev"
   },
