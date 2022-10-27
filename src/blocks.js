@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/anki009/"
   },
   {
+    "name": "Waving Ghost Animation",
+    "page_link": "./blocks/Ankita Mhatre2/index.html",
+    "block_icon": "./blocks/Ankita Mhatre2/icon.png",
+    "author_name": "Ankita Mhatre",
+    "author_github_url": "https://github.com/anki009/"
+  },
+  {
     "name": "Simple Calculator",
     "page_link": "./blocks/AnubhavChakraborty/index.html",
     "block_icon": "./blocks/AnubhavChakraborty/icon.png",
