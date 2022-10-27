@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  text-align: center;
+  background-color: aquamarine;
+  padding-top: 20px;
+}
+
+div {
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 100px;
+}
