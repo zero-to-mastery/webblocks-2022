@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blending Carousel</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/carousel.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Blending Carousel</h1>
+      </header>
+      <main>
+        <section>
+          <div class="carousel-container">
+            <div class="carousel-wrapper">
+              <div class="carousel-item active">
+                <div class="content">
+                  <h2>Slide 1</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content">
+                  <h2>Slide 2</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content">
+                  <h2>Slide 3</h2>
+                </div>
+              </div>
+            </div>
+            <button class="btn controls prev">
+              <img src="./assets/arrow-left.svg" alt="Move Left" />
+            </button>
+            <button class="btn controls next">
+              <img src="./assets/arrow-right.svg" alt="Move Right" />
+            </button>
+          </div>
+        </section>
+        <div>
+          <input id="toggle-type" class="toggle-type" type="checkbox" />
+          <label for="toggle-type" class="toggle">
+            <span>Fade</span>
+            <span>Slide</span>
+          </label>
+        </div>
+      </main>
+    </div>
+    <button class="toggle-bg"></button>
+    <script src="./script.js"></script>
+  </body>
+</html>
