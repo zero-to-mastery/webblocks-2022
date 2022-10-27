@@ -1245,6 +1245,13 @@
     "author_github_url": "https://github.com/Insidiae/"
   },
   {
+    "name": "Magic 8 Ball",
+    "page_link": "./blocks/irvrivera/index.html",
+    "block_icon": "./blocks/irvrivera/icon.png",
+    "author_name": "IrvRivera",
+    "author_github_url": "https://github.com/irvrivera"
+  },
+  {
     "name": "Minimal Calculator",
     "page_link": "./blocks/joedravarol/index.html",
     "block_icon": "./blocks/joedravarol/icon.png",
