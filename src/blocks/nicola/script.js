@@ -26,3 +26,30 @@ function word_counter() {
   }
 }
 
+// Clear textarea function
+function clear_textarea() {
+  // Empty the textarea element value
+  textarea.value = ""
+  // Update word count to zero
+  words_element.innerHTML = "Word: 0"
+  // Update character count to zero
+  characters_element.innerHTML = "Character: 0"
+  // Update line count to zero
+  lines_element.innerHTML = "Line: 1"
+}
+
+// When the input data changed
+textarea.oninput = function() {
+  // Call word counter function
+  word_counter()
+  // Call character counter function
+  character_counter()
+  // Call line counter function
+  line_counter()
+}
+
+// When the clear button clicked
+clear_button_element.onclick = function() {
+  // Call clear textarea function
+  clear_textarea()
+}
