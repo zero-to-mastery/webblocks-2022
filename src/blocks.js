@@ -700,6 +700,13 @@
     "author_github_url": "https://github.com/Slye-Man/"
   },
   {
+    "name": "Blending Carousel",
+    "page_link": "./blocks/Sridarshan/index.html",
+    "block_icon": "./blocks/Sridarshan/icon.png",
+    "author_name": "B.Sridarshan",
+    "author_github_url": "https://github.com/sridarshan-webjava/"
+  },
+  {
     "name": "Modern Responsive Testimonial",
     "page_link": "./blocks/SubramanyaRao11/index.html",
     "block_icon": "./blocks/SubramanyaRao11/icon.png",
