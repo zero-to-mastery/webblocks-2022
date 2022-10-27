@@ -183,6 +183,13 @@
     "author_github_url": "https://https://github.com/BGS89"
   },
   {
+    "name": "Dice Game ",
+    "page_link": "./blocks/Bhushan(SpiDEr)/index.html",
+    "block_icon": "./blocks/Bhushan(SpiDEr)/icon.png",
+    "author_name": " SpiDEr ",
+    "author_github_url": "https://github.com/SpiDEr-9"
+  },
+  {
     "name": "Login Form",
     "page_link": "./blocks/BrianWhelanDublin/index.html",
     "block_icon": "./blocks/BrianWhelanDublin/icon.png",
