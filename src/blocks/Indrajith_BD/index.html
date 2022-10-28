@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Fancy Responsive NavBar</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-container">
+        <h3><a href="#">Fancy Navbar</a></h3>
+        <ul id="menu-container">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Courses</a></li>
+            <li class="menu-item"><a href="#">FAQ</a></li>
+            <li class="menu-item"><a href="#">About us</a></li>
+            <li class="menu-item drop-down">DropDown <i class="fa-solid fa-chevron-down"></i>
+                <ul id="drop-down-item-lg" class="drop-down-item">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+            </li>
+            <li><button id="btn-theme-lg" class="btn-theme"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+        </ul>
+        <button id="btn-toggle"><i class="fa-solid fa-bars"></i></button>
+        <ul id="menu-container-toggle">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Courses</a></li>
+            <li class="menu-item"><a href="#">FAQ</a></li>
+            <li class="menu-item"><a href="#">About us</a></li>
+            <li class="menu-item drop-down">DropDown <i class="fa-solid fa-chevron-down"></i>
+                <ul id="drop-down-item-sm" class="drop-down-item">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+            </li>
+            <li><button id="btn-theme-sm" class="btn-theme"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
