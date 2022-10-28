@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1000px;
+    min-height: 100vh;
+}
+
+.card {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img {
+    width: 200px;
+    max-height: 125px;
+    background: #5A6268;
+    overflow:hidden;
+}
+
+.img {
+    object-fit: cover; object-position: bottom right;
+    height: 200px;
+    width: 200px;
+}
+
+.card-body {
+    width: 400px;
+    text-align: left;
+    padding: 10px 0 10px 10px;
+}
+
+.pt-1 {
+    padding-top: 0.875rem;
+}
+
+.text-lighter {
+    color: #333;
+    opacity: 0.7;
+    font-size: 0.875rem;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
