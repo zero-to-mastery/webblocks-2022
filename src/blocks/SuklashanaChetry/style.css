@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+
+body{
+   overflow: hidden;
+   margin: 0;
+   background-image: url(https://wallpapercave.com/wp/wp2919998.jpg);
+   background-size: 100% 100% ;
+   position: absolute;
+   top: 20%;
+   left:10%;
+   
+}
+
+.container{
+    height: 600px;
+    width: 700px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Fasthand', cursive;
+}
+p{
+    height: 80px;
+    width: 600px;
+    font-size: 75px;
+}
+
+@media (max-width:700px) {
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxM3E2_DdhVkc8BYNZLnWYbAjTjh97ZehWxukS6KcGn2ANWuXpioyIwWHCChvKfjtIHHU&usqp=CAU);
+     background-size: cover ; }
+
+    
+}

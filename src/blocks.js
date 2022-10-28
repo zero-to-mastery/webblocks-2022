@@ -85,6 +85,13 @@
     "author_github_url": "https://github.com/anki009/"
   },
   {
+    "name": "Waving Ghost Animation",
+    "page_link": "./blocks/Ankita Mhatre2/index.html",
+    "block_icon": "./blocks/Ankita Mhatre2/icon.png",
+    "author_name": "Ankita Mhatre",
+    "author_github_url": "https://github.com/anki009/"
+  },
+  {
     "name": "Simple Calculator",
     "page_link": "./blocks/AnubhavChakraborty/index.html",
     "block_icon": "./blocks/AnubhavChakraborty/icon.png",
@@ -200,6 +207,20 @@
     "name": "Halloween Button",
     "page_link": "./blocks/Caddy121/index.html",
     "block_icon": "./blocks/Caddy121/icon.png",
+    "author_name": "Caddy121",
+    "author_github_url": "https://github.com/caddy121/"
+  },
+  {
+    "name": "intro",
+    "page_link": "./blocks/Caddy121-2/index.html",
+    "block_icon": "./blocks/Caddy121-2/icon.png",
+    "author_name": "Caddy121",
+    "author_github_url": "https://github.com/caddy121/"
+  },
+  {
+    "name": "Navbar Animation",
+    "page_link": "./blocks/Caddy121-3/index.html",
+    "block_icon": "./blocks/Caddy121-3/icon.png",
     "author_name": "Caddy121",
     "author_github_url": "https://github.com/caddy121/"
   },
@@ -747,6 +768,13 @@
     "block_icon": "./blocks/SudiptoMlJS/icon.png",
     "author_name": "Sudipto Das",
     "author_github_url": "https://github.com/Sudip200/"
+  },
+  {
+    "name": "Birthday-Counter",
+    "page_link": "./blocks/SuklashanaChetry/index.html",
+    "block_icon": "./blocks/SuklashanaChetry/icon.png",
+    "author_name": "Sulakshana",
+    "author_github_url": "https://github.com/sulakshanachetry"
   },
   {
     "name": "Animation Card",
@@ -1724,6 +1752,13 @@
     "name": "Hero CTA Section",
     "page_link": "./blocks/stryker/index.html",
     "block_icon": "./blocks/stryker/icon.png",
+    "author_name": "Stryker",
+    "author_github_url": "https://github.com/StrykerKent/"
+  },
+  {
+    "name": "Picture Card",
+    "page_link": "./blocks/stryker2/index.html",
+    "block_icon": "./blocks/stryker2/icon.png",
     "author_name": "Stryker",
     "author_github_url": "https://github.com/StrykerKent/"
   },
