@@ -1749,6 +1749,13 @@
     "author_github_url": "https://github.com/StrykerKent/"
   },
   {
+    "name": "Picture Card",
+    "page_link": "./blocks/stryker2/index.html",
+    "block_icon": "./blocks/stryker2/icon.png",
+    "author_name": "Stryker",
+    "author_github_url": "https://github.com/StrykerKent/"
+  },
+  {
     "name": "Swipecard",
     "page_link": "./blocks/swipe-card-nattkits/index.html",
     "block_icon": "./blocks/swipe-card-nattkits/icon.png",
