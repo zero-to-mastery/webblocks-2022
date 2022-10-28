@@ -40,6 +40,7 @@ ul {
 }
 
 .title {
+  height: 100vh;
   width: 600px;
   color: white;
   text-align: center;
@@ -59,14 +60,25 @@ ul {
 }
 
 .slide-image {
-  top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
   height: 100vh;
   width: 100%;
   z-index: -1;
   background-size: cover;
+}
+
+.img-credit {
+  color: white;
+  opacity: 0.8;
+  font-size: 0.5em;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.img-credit a {
+  color: aqua;
+  text-decoration: none;
 }
 
 .slide-container .current .slide-image {
@@ -135,6 +147,12 @@ ul {
   }
 }
 
+.title {
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 100vh;
+}
+
 .title.current {
   opacity: 0;
   animation: current-title-entry 0.5s cubic-bezier(0.694, 0, 0.335, 1) 0.5s forwards;
@@ -166,6 +184,10 @@ ul {
     opacity: 0;
     transform: translateX(-20%);
   }
+}
+
+.quote {
+  align-self: center;
 }
 
 .slide-buttons {
