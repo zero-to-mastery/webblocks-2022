@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+           url("/fonts/OpenSans-Regular-webfont.woff") format("woff");   
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+}
+/*
+#landscape{
+    width:266 padding:1rem border 2px solid black;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Snow_background_3%2C_snowy_mountains%2C_3D_rendered_animation.png/1024px-Snow_background_3%2C_snowy_mountains%2C_3D_rendered_animation.png") fixed no-repeat top right;
+ 
+}
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.moving-snowflakes{
+
+    padding: 50 px;
+    animation: movingdown 4s infinite;
+    display: inline-flex;
+    list-style-type: none;
+
+
+}
+@keyframes movingdown{
+    
+        0% { background-color: rgba(0, 255, 0, 0.5);}
+        50% { background-color: rgba(218, 112, 214, 0.5); }
+        100% { background-color: rgba(0, 0, 0, 0.5); }
+        }
+
+  /*  0%{transform-origin : 0 50 ; }
+    50%{transform-origin : 25% 75% ;}
+    100%{transform-origin : 100% 50%;}
+}
+*/
+
+/* MEDIA QUERY */
+
+@media(min-width:300px){
+}
+
+
+/* MEDIA QUERY */
+@media(min-width:800px){
+}
