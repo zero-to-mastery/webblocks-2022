@@ -770,6 +770,13 @@
     "author_github_url": "https://github.com/Sudip200/"
   },
   {
+    "name": "Birthday-Counter",
+    "page_link": "./blocks/SuklashanaChetry/index.html",
+    "block_icon": "./blocks/SuklashanaChetry/icon.png",
+    "author_name": "Sulakshana",
+    "author_github_url": "https://github.com/sulakshanachetry"
+  },
+  {
     "name": "Animation Card",
     "page_link": "./blocks/Sunainacode/index.html",
     "block_icon": "./blocks/Sunainacode/icon.png",
