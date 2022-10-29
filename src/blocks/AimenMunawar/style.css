@@ -1,0 +1,10 @@
+.cat_gallery{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px;
+    flex-flow: row wrap;
+    gap: 30px;
+}

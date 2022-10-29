@@ -1852,7 +1852,13 @@
     "block_icon": "./blocks/yashraj2003e/icon.png",
     "author_name": "Yashraj",
     "author_github_url": "https://github.com/yashraj2003e/"
-  }
+  },{
+        "name": "Cats Gallery",
+        "page_link": "./blocks/AimenMunawar/index.html",
+        "block_icon": "./blocks/AimenMunawar/icon.png",
+        "author_name": "Aimen Munawar",
+        "author_github_url": "https://github.com/AimenMunawarDeveloper"
+}
 ]
 
     
