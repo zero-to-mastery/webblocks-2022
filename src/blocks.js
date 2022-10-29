@@ -78,6 +78,13 @@
     "author_github_url": "https://github.com/anayatkhan1/"
   },
   {
+    "name": "Login Page",
+    "page_link": "./blocks/AnishInamdar/index.html",
+    "block_icon": "./blocks/AnishInamdar/icon.png",
+    "author_name": "Anish Inamdar",
+    "author_github_url": "https://github.com/AnishInamdar/"
+  },
+  {
     "name": "Geometrical Shapes and Heart Shape using CSS",
     "page_link": "./blocks/Ankita Mhatre/index.html",
     "block_icon": "./blocks/Ankita Mhatre/icon.png",
