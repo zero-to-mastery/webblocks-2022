@@ -372,6 +372,13 @@
     "author_github_url": "https://github.com/ImieboGodson"
   },
   {
+    "name": "Fancy Navbar",
+    "page_link": "./blocks/Indrajith_BD/index.html",
+    "block_icon": "./blocks/Indrajith_BD/icon.png",
+    "author_name": "Indrajith Goswami",
+    "author_github_url": "https://github.com/indrajith76/"
+  },
+  {
     "name": "ZTM Button",
     "page_link": "./blocks/IreeHale/index.html",
     "block_icon": "./blocks/IreeHale/icon.png",
