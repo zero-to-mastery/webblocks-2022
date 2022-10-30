@@ -28,7 +28,7 @@ Please confirm that your pull request contains all the required information that
 Go over all the following points, and put an `x` in all the boxes that apply.
 
 - [ ] I have created my block in my own directory
-- [ ] I have made sure to include a meta.json file inside my directory that contains the correct information about **YOUR** block
+- [ ] I have made sure to include a meta.json file inside my directory that contains the correct information about **MY** block
 - [ ] I have made sure to include a screenshot of my block and named it `icon.png` inside of my directory
-- [ ] I have **NOT** edited `src/blocks.js`, `package.json`, `readme.md`, `package.lock` or any other file outside of my directory
+- [ ] I have **NOT** edited `src/blocks.js`, `package.json`, `readme.md`, `package-lock.json` or any other file outside of my directory
 - [ ] I haven't used any copyrighted materials and have documented where the assets came from in this PR
