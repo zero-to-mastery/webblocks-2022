@@ -448,6 +448,13 @@
     "author_github_url": "https://github.com/Kshitij978"
   },
   {
+    "name": "Clip-path Animated Carousel",
+    "page_link": "./blocks/KshitijSrivastava-2/index.html",
+    "block_icon": "./blocks/KshitijSrivastava-2/icon.png",
+    "author_name": "Kshitij",
+    "author_github_url": "https://github.com/Kshitij978"
+  },
+  {
     "name": "Colorful Hoverboard",
     "page_link": "./blocks/Lhpellizzon/index.html",
     "block_icon": "./blocks/Lhpellizzon/icon.png",
