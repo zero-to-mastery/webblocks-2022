@@ -17,17 +17,20 @@
 
       <div class="form-group">
         <label for="price">Price</label>
-        <input type="text" class="form-control" name="price" value="20" />
+        <input type="text" name="price" value="20" />
+      </div>
+
+      <div>
+        <p class="error-msg"></p>
       </div>
 
       <div class="form-group">
         <label for="quantity">
           Quantity
-          <span class="label label-primary quantity-label">1</span>
+          <span class="quantity-label">1</span>
         </label>
         <input
           type="range"
-          class="form-control"
           name="quantity"
           value="1"
           min="1"
@@ -35,7 +38,7 @@
           step="1" />
       </div>
 
-      <div class="total">$20.00</div>
+      <div class="total"></div>
     </div>
     <script src="./app.js"></script>
   </body>

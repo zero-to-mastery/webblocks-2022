@@ -22,8 +22,11 @@ input {
   font: inherit;
   width: 100%;
   border: 1px solid rgb(53, 52, 53);
-  padding: 1em;
   display: inline-block;
+}
+
+input[name='price'] {
+  padding: 1em;
 }
 
 input[type='range'] {
@@ -118,17 +121,12 @@ input[type='range']:focus::-ms-fill-upper {
 .row {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 h2 {
   margin: 0;
   font-weight: 400;
-}
-
-.row h2 {
-  align-self: flex-start;
 }
 
 .row h2 {
@@ -150,5 +148,10 @@ h2 {
 .total {
   align-self: flex-end;
   font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.error-msg {
+  color: red;
   font-weight: 700;
 }
