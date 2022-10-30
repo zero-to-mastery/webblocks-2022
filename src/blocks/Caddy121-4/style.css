@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  scroll-padding-top: 3.7em;
+  background-color: #264653;
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
+  text-align: left;
+}
+
+.caddy {
+  background-color: hsl(329, 25%, 45%);
+  display: block;
+  font-weight: bold;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 100px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  25% {
+    width: 255px;
+  }
+
+  50% {
+    width: 255px;
+  }
+
+  100% {
+    width: 0;
+  }
+}

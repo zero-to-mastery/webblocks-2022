@@ -1,56 +1,34 @@
 # Zero To Mastery - Webblocks 2022 📦📦
 
- ## PR contains:
-- INFO ABOUT YOUR PULL REQUEST GOES HERE (Please be as descriptive as possible) 🤜
-<!---
-## Breaking changes
-- IF ANYTHING YOU'RE COMMITTING WOULD BREAK SOMETHING, INCLUDE HERE WHAT WOULD BREAK
-- IF YOU HAVE NO BREAKING CHANGES, ENTER 'None'
+Thank you for creating a pull request to the Web Blocks 2022 project 🙏 <br>
+Please provide the following details below so your pull request can be processed more efficiently.
 
-## Screenshots
-- IF YOU HAVE ANY SCREENSHOTS, INCLUDE THEM HERE.
-- IF YOU HAVE NO SCREENSHOTS, ENTER 'None'
+## WHAT THIS PULL REQUEST INTRODUCES
 
-## Related Issue
-- Mention issue for which this pull request is a part of (please mention issue number # )
+Please provide detailed information here about what your pull request introduces, please be as descriptive as possible 🤜
 
-## Proposed Changes
-- Change 1
-- Change 2
+> My pull request introduces ...
 
-## Additional Info
-- Any additional information or context
- -->
-## Checklist
- Put an `x` in all the boxes that apply: <br>
- 
-<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
-- [ ] 📝 My change requires a change to the documentation.
-- [ ] 🎀 I have updated the documentation accordingly.
+## ABOUT THE ASSETS IN THIS PROJECT
 
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+Please provide the copyright status of any images or media included in your block. The more information you can provide the more likely your PR will be merged quickly and efficiently.  
+<br /> <br />
+Go over all the following points, and put an `x` in all the boxes that apply.
 
- ## What types of changes does your code introduce?
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
+- [ ] There are no images or media assets in this PR
+- [ ] I own the intellectual rights to the assets in this PR
+- [ ] I utilised a free use media site such as `Unsplash` or `Pexels`
+- [ ] I am unsure
 
+## PULL REQUEST CHECKLIST
 
-<!--- Provide a general summary of your changes in the Title above -->
+Please confirm that your pull request contains all the required information that we need to merge your pull request. <br />
+⚠ **We are likely unable to merge any PRs that can't check all of these boxes**
+<br /><br />
+Go over all the following points, and put an `x` in all the boxes that apply.
 
-<!--- If it fixes an open issue, please link to the issue here. -->
-
-<!--- Describe your changes in detail -->
-
-<!--- Why is this change required? What problem does it solve? -->
-
-<!--- see how your change affects other areas of the code, etc. -->
-
-
-
-## Output Screenshots
-| Screenshot #1      | Screenshot #2  |
-| ----------- | ----------- |
-| Title goes here  | Title goes here   |
-| Image goes here  | Image goes here   |
+- [ ] I have created my block in my own directory
+- [ ] I have made sure to include a meta.json file inside my directory that contains the correct information about **MY** block
+- [ ] I have made sure to include a screenshot of my block and named it `icon.png` inside of my directory
+- [ ] I have **NOT** edited `src/blocks.js`, `package.json`, `readme.md`, `package-lock.json` or any other file outside of my directory
+- [ ] I haven't used any copyrighted materials and have documented where the assets came from in this PR

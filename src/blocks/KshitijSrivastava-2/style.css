@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  font-size: 16px;
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.main,
+.slide-container {
+  height: max-content;
+}
+
+.slide-texts-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.slide:not(.current, .prev) {
+  visibility: hidden;
+}
+
+.title {
+  height: 100vh;
+  width: 600px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 2em;
+}
+
+.slide-image,
+.title {
+  position: absolute;
+}
+
+.author {
+    display: block;
+    padding-top: 24px;
+}
+
+.slide-image {
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
+}
+
+.img-credit {
+  color: white;
+  opacity: 0.8;
+  font-size: 0.5em;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.img-credit a {
+  color: aqua;
+  text-decoration: none;
+}
+
+.slide-container .current .slide-image {
+  transform: translateY(100%);
+  clip-path: circle(25% at 50% 50%);
+  animation: slide-entry 0.5s cubic-bezier(0.694, 0, 0.335, 1) 0.5s forwards, expand 0.8s cubic-bezier(0.694, 0, 0.335, 1) 1s forwards;
+}
+
+@keyframes slide-entry {
+  0% {
+    opacity: 0;
+    transform: translate(100%, 100%);
+  }
+  25% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes expand {
+  0% {
+    clip-path: circle(25% at 50% 50%);
+  }
+  100% {
+    clip-path: circle(100%);
+  }
+}
+
+.slide-container .prev .slide-image {
+  opacity: 1;
+  clip-path: circle(100%);
+  animation: contract 0.5s cubic-bezier(0.694, 0, 0.335, 1) forwards,
+    slide-exit 0.5s cubic-bezier(0.694, 0, 0.335, 1) 0.5s forwards;
+}
+
+@keyframes slide-exit {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-100%, 100%);
+  }
+}
+
+@keyframes contract {
+  0% {
+    clip-path: circle(100%);
+  }
+
+  100% {
+    clip-path: circle(25% at 50% 50%);
+  }
+}
+
+.title {
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 100vh;
+}
+
+.title.current {
+  opacity: 0;
+  animation: current-title-entry 0.5s cubic-bezier(0.694, 0, 0.335, 1) 0.5s forwards;
+}
+
+@keyframes current-title-entry {
+  0% {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.title.prev {
+  opacity: 1;
+  animation: prev-title-exit 0.5s cubic-bezier(0.694, 0, 0.335, 1) 0.5s forwards;
+}
+
+@keyframes prev-title-exit {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+}
+
+.quote {
+  align-self: center;
+}
+
+.slide-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  transform: translateY(-50vh);
+  padding: 0 50px;
+}
+
+.slide-buttons li {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.slide-buttons li:hover {
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.slide-buttons li:hover span {
+    color: black;
+}
