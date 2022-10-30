@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+#btn {
+  display: inline;
+  font-size: 70px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  cursor: pointer;
+}
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: 70px;
+}
+.cardCounter {
+  display: inline;
+  padding: 10px;
+  border: 1px solid white;
+  margin: 0 10px;
+  position: relative;
+}
+#count {
+  background-color: red;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  padding: 8px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.shopping {
+  display: flex;
+}
+
+/* animation */
+
+.cardCounter span:not(.animatedCounter) {
+  display: none;
+}
+.cardCounter span.animatedCounter {
+  animation: countAnimation 0.4s ease-in-out;
+}
+@keyframes countAnimation {
+  from {
+    top: 0.2rem;
+    right: -1.8rem;
+    transform: rotate(120deg);
+  }
+  25% {
+    top: -0.2rem;
+    right: -1.6rem;
+    transform: rotate(80deg);
+  }
+  50% {
+    top: -0.4rem;
+    right: -0.6rem;
+    transform: rotate(60deg);
+  }
+  75% {
+    top: -0.4rem;
+    right: 0rem;
+    transform: rotate(30deg);
+  }
+  to {
+    top: 0.2rem;
+    right: 0.3rem;
+    transform: rotate(0deg);
+  }
+}
