@@ -1532,6 +1532,13 @@
     "author_github_url": "https://github.com/mk1121/"
   },
   {
+    "name": "cart animation",
+    "page_link": "./blocks/mk1121-3/index.html",
+    "block_icon": "./blocks/mk1121-3/icon.png",
+    "author_name": "abdullah al maruf",
+    "author_github_url": "https://github.com/mk1121/"
+  },
+  {
     "name": "Month Animation",
     "page_link": "./blocks/mk2/index.html",
     "block_icon": "./blocks/mk2/icon.png",
