@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://raw.githubusercontent.com/bergstenarn/form-validator/main/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Price Calculator</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h2>How much do pies cost?</h2>
+
+      <div class="form-group">
+        <label for="price">Price</label>
+        <input type="text" class="form-control" name="price" value="20" />
+      </div>
+
+      <div class="form-group">
+        <label for="quantity">
+          Quantity
+          <span class="label label-primary quantity-label">1</span>
+        </label>
+        <input
+          type="range"
+          class="form-control"
+          name="quantity"
+          value="1"
+          min="1"
+          max="10"
+          step="1" />
+      </div>
+
+      <div class="text-right text-giant total"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
