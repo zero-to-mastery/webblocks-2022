@@ -742,6 +742,13 @@
     "author_github_url": "https://github.com/cosmicqbit/"
   },
   {
+    "name": "Analog Clock",
+    "page_link": "./blocks/ShubhanshuJha/index.html",
+    "block_icon": "./blocks/ShubhanshuJha/icon.png",
+    "author_name": "ShubhanshuJha",
+    "author_github_url": "https://github.com/shubhanshuJha"
+  },
+  {
     "name": "BG Generator",
     "page_link": "./blocks/Slye-Man/index.html",
     "block_icon": "./blocks/Slye-Man/icon.png",
