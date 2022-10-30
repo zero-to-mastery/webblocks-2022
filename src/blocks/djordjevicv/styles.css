@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+ }
+ body{
+    background: url("https://images.pexels.com/photos/2322726/pexels-photo-2322726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center fixed;
+    background-size:cover;
+    height: 700px;
+    margin: 0;
+    font-family: tahoma;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+img{
+    max-width: 100%;
+}
+h1,h1+p{
+    text-align: center;
+    margin: 1em auto;
+}
+form{
+    margin: auto auto;
+    margin-top: 20px;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(2, 85, 83, 0.6);
+}
+label{
+    display: block;
+    margin:0.3rem 0;
+}
+fieldset{
+    border:none;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+}
+#name,#email,#number,select,textarea,input[type="submit"]{
+    width: 100%;
+    min-height: 2em;
+    margin-top:0.3rem;
+}
+#name-label{
+    margin-top: 0px;
+}
+#comments-label{
+    margin-top: 0px;
+}
+input[type="submit"]{
+    display: block;
+    width: 50%;
+    min-width: 100px;
+    background-color: rgba(0, 52, 51, 1);
+    border: none;
+    font-size: 1.1rem;
+    color: inherit;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgba(0, 40, 51, 1);
+}
+::placeholder {
+    font-family: tahoma;
+    font-size: 15px;
+}
+option{
+    font-family: tahoma;
+    font-size: 15px;
+}
+fieldset{
+    padding: unset;
+}
