@@ -372,13 +372,6 @@
     "author_github_url": "https://github.com/ImieboGodson"
   },
   {
-    "name": "Fancy Navbar",
-    "page_link": "./blocks/Indrajith_BD/index.html",
-    "block_icon": "./blocks/Indrajith_BD/icon.png",
-    "author_name": "Indrajith Goswami",
-    "author_github_url": "https://github.com/indrajith76/"
-  },
-  {
     "name": "ZTM Button",
     "page_link": "./blocks/IreeHale/index.html",
     "block_icon": "./blocks/IreeHale/icon.png",
@@ -1343,6 +1336,13 @@
     "author_github_url": "https://github.com/incognion"
   },
   {
+    "name": "ZTM fancy button",
+    "page_link": "./blocks/indrajithgoswami/index.html",
+    "block_icon": "./blocks/indrajithgoswami/icon.png",
+    "author_name": "Indrajith Goswami",
+    "author_github_url": "https://github.com/indrajith76/"
+  },
+  {
     "name": "ZTM Modal Signup Form",
     "page_link": "./blocks/ingridclaire/index.html",
     "block_icon": "./blocks/ingridclaire/icon.png",
@@ -1509,6 +1509,13 @@
     "block_icon": "./blocks/michaella23/icon.png",
     "author_name": "Micha",
     "author_github_url": "https://github.com/michaella23/"
+  },
+  {
+    "name": "arrow animation",
+    "page_link": "./blocks/mk1121/index.html",
+    "block_icon": "./blocks/mk1121/icon.png",
+    "author_name": "abdullah al maruf",
+    "author_github_url": "https://github.com/mk1121/"
   },
   {
     "name": "Month Animation",
