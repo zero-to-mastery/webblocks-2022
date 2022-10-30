@@ -1812,6 +1812,13 @@
     "author_github_url": "https://github.com/t-moennich"
   },
   {
+    "name": "Two Player Ping Pong Score Keeper",
+    "page_link": "./blocks/tanishqsindhu/index.html",
+    "block_icon": "./blocks/tanishqsindhu/icon.png",
+    "author_name": "Tanishq Sindhu",
+    "author_github_url": "https://github.com/tanishqsindhu"
+  },
+  {
     "name": "Beautiful Timeline Design",
     "page_link": "./blocks/tarunmankar/index.html",
     "block_icon": "./blocks/tarunmankar/icon.png",
