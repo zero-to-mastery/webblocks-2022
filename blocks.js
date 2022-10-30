@@ -1525,6 +1525,13 @@
     "author_github_url": "https://github.com/mk1121/"
   },
   {
+    "name": "images slide animation",
+    "page_link": "./blocks/mk1121-2/index.html",
+    "block_icon": "./blocks/mk1121-2/icon.png",
+    "author_name": "abdullah al maruf",
+    "author_github_url": "https://github.com/mk1121/"
+  },
+  {
     "name": "Month Animation",
     "page_link": "./blocks/mk2/index.html",
     "block_icon": "./blocks/mk2/icon.png",
