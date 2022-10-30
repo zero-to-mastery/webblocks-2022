@@ -232,6 +232,13 @@
     "author_github_url": "https://github.com/caddy121/"
   },
   {
+    "name": "intro",
+    "page_link": "./blocks/Caddy121-4/index.html",
+    "block_icon": "./blocks/Caddy121-4/icon.png",
+    "author_name": "Caddy121",
+    "author_github_url": "https://github.com/caddy121/"
+  },
+  {
     "name": "Animated Cards on Hover",
     "page_link": "./blocks/Carlos/index.html",
     "block_icon": "./blocks/Carlos/icon.png",
