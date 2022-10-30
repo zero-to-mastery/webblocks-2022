@@ -1833,6 +1833,13 @@
     "author_github_url": "https://github.com/tanishqsindhu"
   },
   {
+    "name": "Price Tiers UI/UX",
+    "page_link": "./blocks/tanishqsindhu3/index.html",
+    "block_icon": "./blocks/tanishqsindhu3/icon.png",
+    "author_name": "Tanishq Sindhu",
+    "author_github_url": "https://github.com/tanishqsindhu"
+  },
+  {
     "name": "Beautiful Timeline Design",
     "page_link": "./blocks/tarunmankar/index.html",
     "block_icon": "./blocks/tarunmankar/icon.png",
