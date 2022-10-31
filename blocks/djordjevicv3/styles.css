@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    margin-bottom: 5px;
+}
+.delClass{
+    margin-left: 10px;
+}
+.done{
+    text-decoration: line-through;
+}
