@@ -1217,6 +1217,13 @@
     "author_github_url": "https://github.com/djordjevicv/"
   },
   {
+    "name": "Portfolio Webpage",
+    "page_link": "./blocks/djordjevicv4/index.html",
+    "block_icon": "./blocks/djordjevicv4/icon.png",
+    "author_name": "Vojin",
+    "author_github_url": "https://github.com/djordjevicv/"
+  },
+  {
     "name": "ZTM Focus",
     "page_link": "./blocks/dmitriifomin/index.html",
     "block_icon": "./blocks/dmitriifomin/icon.png",
