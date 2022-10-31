@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif !important;
-    color: #ffffff !important;
-    background-color: #000000 !important;
-    background-image: url("");
+    font-family: 'Nosifer', sans-serif !important;
+    color: #000000 !important;
+    background-color: #E66C2C !important;
+    opacity: 150%;
+    background-image: url('/src/blocks/nicola/images/witches-hat.png') !important;
   }
   
   .form-control {
     color: #ffffff !important;
     border: 2px solid #ffffff !important;
     border-radius: 12px !important;
-    background-color: transparent !important;
+    background-color: black!important;
     transition: 0.5s !important;
   }
   
   .form-control:focus {
-    box-shadow: 0 0 0 0.25rem #ef9b0f !important;
+    box-shadow: 0 0 0 0.25rem #090400 !important;
   }
   
   .field {
@@ -36,7 +37,7 @@ body {
   
   .btn-clear:hover {
     transform: scale(1.05);
-    background-color: #ff0000 !important;
+    background-color: #E66C2C !important;
   }
   
   .page_title {
