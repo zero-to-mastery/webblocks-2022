@@ -756,6 +756,13 @@
     "author_github_url": "https://github.com/Slye-Man/"
   },
   {
+    "name": "Quote Generator",
+    "page_link": "./blocks/Slye-Man2/index.html",
+    "block_icon": "./blocks/Slye-Man2/icon.png",
+    "author_name": "SELAELO SEBOLA",
+    "author_github_url": "https://github.com/Slye-Man/"
+  },
+  {
     "name": "Blending Carousel",
     "page_link": "./blocks/Sridarshan/index.html",
     "block_icon": "./blocks/Sridarshan/icon.png",

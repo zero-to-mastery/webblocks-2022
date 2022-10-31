@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <style></style>
+    <title>Product Landing Hero</title>
+  </head>
+  <body>
+    <header class="landing-header">
+      <h1 class="visually-hidden">Page header</h1>
+
+      <nav class="landing-nav">
+        <h4 class="nav-logo">🌿 mindful space</h4>
+        <button type="button" class="nav-menu" href="#">Menu</button>
+      </nav>
+
+      <aside class="menu-content">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a href="#">About us</a>
+          </li>
+          <li class="menu-list-item"><a>Brand stroy</a></li>
+          <li class="menu-list-item"><a>Programs</a></li>
+          <li class="menu-list-item"><a>Shop</a></li>
+        </ul>
+      </aside>
+    </header>
+
+    <aside class="modal-with-backdrop">
+      <div class="modal">
+        <header class="modal-header">
+          <h1 class="visually-hidden">modal-header</h1>
+          <button class="header-close" aria-label="close button">
+            <img src="./close.svg" alt="" />
+          </button>
+          <h3 class="header-text">log in or sign up</h3>
+          <span class="header-space" />
+        </header>
+
+        <div class="modal-content">
+          <h1 class="modal-content-greeting">Welcome to Mindful Space</h1>
+
+          <form class="modal-content-form" action="GET">
+            <div class="form-input-email-wrapper">
+              <input
+                class="form-input-email"
+                type="email"
+                placeholder="your.email@email.com"
+              />
+              <p class="form-input-email-warning">
+                Please check your email to log in:)
+              </p>
+            </div>
+            <div class="form-input-password-wrapper">
+              <input
+                class="form-input-password"
+                type="text"
+                placeholder="Password"
+              />
+              <p class="form-input-password-warning">
+                Please check your password to log in:)
+              </p>
+            </div>
+
+            <p class="modal-content-caption">
+              We’ll call or text you to confirm your number. Standard message
+              and data rates apply.
+              <a href="#"><strong>Privacy Policy</strong></a>
+            </p>
+
+            <button class="modal-content-button" type="submit">Log in</button>
+          </form>
+        </div>
+      </div>
+    </aside>
+
+    <section class="hero">
+      <h1 class="hero-title">
+        <strong> eat, pray, meditate </strong>
+        Stay mindful.<br />
+        Here and now.
+      </h1>
+      <button class="hero-button" type="button">
+        <a href="#"> log in </a>
+      </button>
+    </section>
+
+    <script>
+      document
+        .getElementsByClassName("hero-button")[0]
+        .addEventListener("click", function () {
+          document.getElementsByClassName(
+            "modal-with-backdrop"
+          )[0].style.display = "flex";
+        });
+
+      document
+        .getElementsByClassName("header-close")[0]
+        .addEventListener("click", function () {
+          document.getElementsByClassName(
+            "modal-with-backdrop"
+          )[0].style.display = "none";
+        });
+
+      document
+        .getElementsByClassName("nav-menu")[0]
+        .addEventListener("click", function () {
+          document.getElementsByClassName("menu-content")[0].style.display =
+            "flex";
+        });
+    </script>
+  </body>
+</html>
