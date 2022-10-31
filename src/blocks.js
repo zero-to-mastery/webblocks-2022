@@ -1637,6 +1637,20 @@
     "author_github_url": "https://github.com/mustafadede"
   },
   {
+    "name": "Word-Count WebBlock",
+    "page_link": "./blocks/nicola/index.html",
+    "block_icon": "./blocks/nicola/icon.png",
+    "author_name": "nicola",
+    "author_github_url": "https://github.com/nikimacm"
+  },
+  {
+    "name": "Auto typing effect",
+    "page_link": "./blocks/nicola2/index.html",
+    "block_icon": "./blocks/nicola2/icon.png",
+    "author_name": "nicola2",
+    "author_github_url": "https://github.com/nikimacm/"
+  },
+  {
     "name": "Login and Signup form",
     "page_link": "./blocks/nikhil_mishra/index.html",
     "block_icon": "./blocks/nikhil_mishra/icon.png",
