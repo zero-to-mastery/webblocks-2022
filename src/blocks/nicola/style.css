@@ -2,10 +2,14 @@
 
 body {
     font-family: 'Nosifer', sans-serif !important;
-    color: #000000 !important;
-    background-color: #E66C2C !important;
-    opacity: 150%;
-    background-image: url('/src/blocks/nicola/images/witches-hat.png') !important;
+    color: silver !important;
+    background-image: url('/src/blocks/nicola/images/halloween.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) !important;
+    background-blend-mode: multiply;
+    
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
   }
   
   .form-control {
