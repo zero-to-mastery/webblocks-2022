@@ -1168,6 +1168,13 @@
     "author_github_url": "https://github.com/dantesadeghi"
   },
   {
+    "name": "Lenses",
+    "page_link": "./blocks/dimitrisz123/index.html",
+    "block_icon": "./blocks/dimitrisz123/icon.png",
+    "author_name": "Dimitrios Zervas",
+    "author_github_url": "https://github.com/dimitrisz123/"
+  },
+  {
     "name": "Background_Color_Changer",
     "page_link": "./blocks/divs14/index.html",
     "block_icon": "./blocks/divs14/icon.png",
