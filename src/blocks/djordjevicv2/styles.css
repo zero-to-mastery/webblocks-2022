@@ -11,9 +11,9 @@ body{
 button{
     background:linear-gradient(45deg,#004e92,#000428);
     padding: 10px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
+    min-width: 150px;
     transition: all 0.1s;
     color: rgb(255,255,255,0.8);
     box-shadow: 1px 1px 4px black;
@@ -21,7 +21,7 @@ button{
 }
 button:hover{
     background:linear-gradient(45deg,#c33764,#1d2671);
-    transform:rotate(10deg);
+    transform:rotate(0deg);
     color: rgb(255,255,255,0.8);
     transition: all 0.2s;
 }
