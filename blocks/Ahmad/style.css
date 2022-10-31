@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 5em;
+    background: white;
+    border-radius: 10px ;
+}
+p{
+    font-size: 30px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+h4{
+    padding-top: 1px;
+    margin-top: 5px;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background: darkred;
+}
+
+#save-btn{
+    background: darkgreen;
+}
+#reset-btn{
+    background: darkgray;
+}

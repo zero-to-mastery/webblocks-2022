@@ -1889,6 +1889,20 @@
     "author_github_url": "https://github.com/techtuner/"
   },
   {
+    "name": "price calculator",
+    "page_link": "./blocks/teri/index.html",
+    "block_icon": "./blocks/teri/icon.png",
+    "author_name": "Teri",
+    "author_github_url": "https://github.com/terieyenike/"
+  },
+  {
+    "name": "Shopping list that remembers",
+    "page_link": "./blocks/teri_1/index.html",
+    "block_icon": "./blocks/teri_1/icon.png",
+    "author_name": "teri",
+    "author_github_url": "https://github.com/terieyenike/"
+  },
+  {
     "name": "Animated Hamburger Menu Icon",
     "page_link": "./blocks/terrifricker/index.html",
     "block_icon": "./blocks/terrifricker/icon.png",
