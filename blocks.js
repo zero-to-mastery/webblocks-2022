@@ -43,6 +43,13 @@
     "author_github_url": "https://github.com/the-anomalous/"
   },
   {
+    "name": "Passenter Counter App",
+    "page_link": "./blocks/Ahmad/index.html",
+    "block_icon": "./blocks/Ahmad/icon.png",
+    "author_name": "Adejumo",
+    "author_github_url": "https://github.com/ahmadadejumo"
+  },
+  {
     "name": "FAQ-Template",
     "page_link": "./blocks/AmanPathan/index.html",
     "block_icon": "./blocks/AmanPathan/icon.png",
@@ -209,6 +216,13 @@
     "block_icon": "./blocks/BrianWhelanDublin/icon.png",
     "author_name": "Brian Whelan",
     "author_github_url": "https://github.com/BrianWhelanDublin"
+  },
+  {
+    "name": "Pingu",
+    "page_link": "./blocks/Brienyll/index.html",
+    "block_icon": "./blocks/Brienyll/icon.png",
+    "author_name": "Brienyll",
+    "author_github_url": "https://github.com/Brienyll"
   },
   {
     "name": "Halloween Button",
