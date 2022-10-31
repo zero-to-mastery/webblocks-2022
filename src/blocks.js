@@ -1203,6 +1203,20 @@
     "author_github_url": "https://github.com/divs14"
   },
   {
+    "name": "Funny button",
+    "page_link": "./blocks/djordjevicv2/index.html",
+    "block_icon": "./blocks/djordjevicv2/icon.png",
+    "author_name": "Vojin",
+    "author_github_url": "https://github.com/djordjevicv/"
+  },
+  {
+    "name": "To-do list",
+    "page_link": "./blocks/djordjevicv3/index.html",
+    "block_icon": "./blocks/djordjevicv3/icon.png",
+    "author_name": "Vojin",
+    "author_github_url": "https://github.com/djordjevicv/"
+  },
+  {
     "name": "ZTM Focus",
     "page_link": "./blocks/dmitriifomin/index.html",
     "block_icon": "./blocks/dmitriifomin/icon.png",
