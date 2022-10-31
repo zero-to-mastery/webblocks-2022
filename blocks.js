@@ -854,6 +854,13 @@
     "author_github_url": "https://github.com/TheaAleksovDev"
   },
   {
+    "name": "Get A Quote",
+    "page_link": "./blocks/TheaAleksovDev6/index.html",
+    "block_icon": "./blocks/TheaAleksovDev6/icon.png",
+    "author_name": "Thea Aleksov",
+    "author_github_url": "https://github.com/TheaAleksovDev"
+  },
+  {
     "name": "Toggle Button",
     "page_link": "./blocks/Ukesh-dev/index.html",
     "block_icon": "./blocks/Ukesh-dev/icon.png",

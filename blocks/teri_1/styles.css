@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --dark-green: #344d2f;
+  --light-green: #77a047;
+  --gold: #fac57d;
+  --snow: #f0f4f7;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  height: 100vh;
+  text-align: center;
+  color: var(--snow);
+  background-color: var(--bright-red);
+  padding: 2em 0;
+}
+
+.container {
+  max-width: 75rem;
+  margin-inline: auto;
+  width: 85%;
+}
+
+input {
+  font: inherit;
+  width: 100%;
+  border: 1px solid rgb(53, 52, 53);
+  display: inline-block;
+  padding: 1em;
+}
+
+.checklist {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  color: var(--dark-green);
+  background: var(--snow);
+  padding: 3em;
+  border-radius: 5px;
+  position: relative;
+}
+
+.checklist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.shopping {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+button {
+  border: unset;
+  background: var(--light-green);
+  color: var(--snow);
+  cursor: pointer;
+}
+
+.shopping-item {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+}
+
+.shopping-item input[type='checkbox'] {
+  margin-right: 1rem;
+}
+
+.shopping-item input[type='checkbox']:checked + .itemName {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.shopping-item button {
+  padding: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background: none;
+  color: var(--bright-red);
+}
+
+.shopping-item button:hover {
+  transform: scale(1.4);
+}
+
+.left {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 100%;
+  }
+
+  input {
+    font: revert;
+    padding: 0.75rem;
+  }
+}
