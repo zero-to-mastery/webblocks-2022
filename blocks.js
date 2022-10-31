@@ -1896,6 +1896,13 @@
     "author_github_url": "https://github.com/terrifricker/"
   },
   {
+    "name": "Notification Component",
+    "page_link": "./blocks/thomashockaday/index.html",
+    "block_icon": "./blocks/thomashockaday/icon.png",
+    "author_name": "Thomas Hockaday",
+    "author_github_url": "https://github.com/thomashockaday/"
+  },
+  {
     "name": "Drum 🥁 Kit",
     "page_link": "./blocks/vanithaak/index.html",
     "block_icon": "./blocks/vanithaak/icon.png",
