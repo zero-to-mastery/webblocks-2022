@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+body {
+    font-family: 'Nosifer', sans-serif !important;
+    color: silver !important;
+    background-image: url('/src/blocks/nicola/images/halloween.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) !important;
+    background-blend-mode: multiply;
+    
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+  }
+  
+  .form-control {
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 12px !important;
+    background-color: black!important;
+    transition: 0.5s !important;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 0.25rem #090400 !important;
+  }
+  
+  .field {
+    margin: 30px 0;
+  }
+  
+  .btn-clear {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    border: 2px solid #ffffff !important;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin: 16px 16px -16px 0;
+    transition: 0.5s;
+  }
+  
+  .btn-clear:hover {
+    transform: scale(1.05);
+    background-color: #E66C2C !important;
+  }
+  
+  .page_title {
+    text-align: center;
+    margin: 20px 0 40px;
+  }
+  
+  #word_counter {
+    font-size: 24px;
+    color: #00ffbb;
+    font-weight: bold;
+  }
