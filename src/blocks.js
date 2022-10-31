@@ -1936,6 +1936,13 @@
     "block_icon": "./blocks/yashraj2003e/icon.png",
     "author_name": "Yashraj",
     "author_github_url": "https://github.com/yashraj2003e/"
+  },
+  {
+    "name": "Login Modal",
+    "page_link": "./blocks/yejinc/index.html",
+    "block_icon": "./blocks/yejinc/icon.png",
+    "author_name": "yejinc",
+    "author_github_url": "https://github.com/yejinc"
   }
 ]
 
