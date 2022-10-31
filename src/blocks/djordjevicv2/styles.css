@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background:linear-gradient(45deg,#bdc3c7,#2c3e50);
+    overflow: hidden;
+}
+button{
+    background:linear-gradient(45deg,#004e92,#000428);
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    min-width: 150px;
+    transition: all 0.1s;
+    color: rgb(255,255,255,0.8);
+    box-shadow: 1px 1px 4px black;
+    position: absolute;
+}
+button:hover{
+    background:linear-gradient(45deg,#c33764,#1d2671);
+    transform:rotate(0deg);
+    color: rgb(255,255,255,0.8);
+    transition: all 0.2s;
+}
