@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Sen, sans-serif;
+  background: #efefef;
+}
+
+.container {
+  max-width: 75rem;
+  width: 85%;
+  margin-inline: auto;
+}
+
+.content {
+  background: whitesmoke;
+  padding: 2em;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  min-height: 3000px;
+}
+
+.scroll-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #1ce;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) width;
+}

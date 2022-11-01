@@ -1973,6 +1973,13 @@
     "author_github_url": "https://github.com/terieyenike/"
   },
   {
+    "name": "FAQs",
+    "page_link": "./blocks/teri_2/index.html",
+    "block_icon": "./blocks/teri_2/icon.png",
+    "author_name": "teri",
+    "author_github_url": "https://github.com/terieyenike"
+  },
+  {
     "name": "Animated Hamburger Menu Icon",
     "page_link": "./blocks/terrifricker/index.html",
     "block_icon": "./blocks/terrifricker/icon.png",
