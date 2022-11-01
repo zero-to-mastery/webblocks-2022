@@ -1210,6 +1210,13 @@
     "author_github_url": "https://github.com/divs14"
   },
   {
+    "name": "MYA Survey Form",
+    "page_link": "./blocks/djordjevicv/index.html",
+    "block_icon": "./blocks/djordjevicv/icon.png",
+    "author_name": "Vojin",
+    "author_github_url": "https://github.com/djordjevicv/"
+  },
+  {
     "name": "Funny button",
     "page_link": "./blocks/djordjevicv2/index.html",
     "block_icon": "./blocks/djordjevicv2/icon.png",
