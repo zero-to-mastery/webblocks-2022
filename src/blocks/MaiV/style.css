@@ -1,0 +1,61 @@
+* {
+  background-color: #ffffff;
+  font-family: Copperplate;
+}
+
+#first {
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #dc143c;
+  overflow: hidden;
+  position: center;
+  border: 7px black solid;
+}
+
+#second {
+  position: relative;
+  width: 50vh;
+  height: 50vwh;
+  margin: auto;
+  background: #dc143c;
+}
+
+.image-play {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#commands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  background: #b22222;
+}
+
+.song {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.slider_container,
+.artist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#volume-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.current-time,
+.total-duration {
+  padding: 10px;
+}
