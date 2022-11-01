@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="first">
+      <h1 style="text-align: center">Playlist</h1>
+
+      <!-- Cover -->
+      <div id="second">
+        <img
+          class="image-play"
+          src=""
+          alt="image"
+        />
+        <br />
+
+        <!-- Song and Arist-->
+        <p class="song"> </p>
+        <p class="artist"> </p>
+
+        <!-- Song and Arist-->
+        <div class="slider_container">
+            <div class="current-time">00:00</div>
+            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                <div class="total-duration">00:00</div>
+    </div>
+
+        <!-- Commands -->
+        <div id="commands">
+          <button id="rewind" onclick="previous()">
+            <i class="bi bi-skip-backward" style="font-size: 48px; text-shadow:2px 2px 4px #000000"></i>
+            
+          </button>
+          <button id="play" onclick="playpauseTrack()">
+            <i class="bi bi-file-play-fill" style="font-size: 48px; text-shadow:2px 2px 4px #000000"></i>
+          </button>
+          <button id="forward" onclick="next()">
+            <i class="bi bi-skip-forward" style="font-size: 48px; text-shadow:2px 2px 4px #000000"></i>
+          </button>
+        </div>
+        <br />
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
