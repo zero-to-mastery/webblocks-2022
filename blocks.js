@@ -497,6 +497,13 @@
     "author_github_url": "https://github.com/lhpellizzon"
   },
   {
+    "name": "Shotkallar715 playlist",
+    "page_link": "./blocks/MaiV/index.html",
+    "block_icon": "./blocks/MaiV/icon.png",
+    "author_name": "Mai",
+    "author_github_url": "https://github.com/vmaineng"
+  },
+  {
     "name": "Contact Form",
     "page_link": "./blocks/Manas_Jayaswal/index.html",
     "block_icon": "./blocks/Manas_Jayaswal/icon.png",
