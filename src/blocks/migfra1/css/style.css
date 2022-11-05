@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face{
+	font-family: 'gillsans';
+	src:  url('../fonts/GillSans/GillSans-01.woff2');
+	font-weight: 400;
+	font-style: normal;}
+@font-face{
+	font-family: 'gillsans';
+	src:  url('../fonts/GillSans/GillSans-Bold-02.woff2');
+	font-weight: 700;
+	font-style: normal;}
+*{box-sizing: border-box;}
+html,body{padding: 0px;margin: 0px;}
+img{max-width: 100%;}
+
+body{
+	background-color: blue;
+}
+.face{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	transition: 1s;
+	text-align: center;
+	color: black;
+	line-height: 200px;
+	font-size: 50px;
+}
+
+.btnSort{
+	position: absolute;
+	top: calc(50% + 200px);
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.dir{
+	width: 20%;
+	height: 100vh;
+	background-color: darkblue;
+	color: white;
+	padding: 50px 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.esq{
+	width: 20%;
+	height: 100vh;
+	background-color: darkblue;
+	color: white;
+	padding: 50px 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+/* <= 1440 HD Ready */
+@media screen and (max-width:1440px){}
+/* <= 1280 HD */
+@media screen and (max-width:1280px){}
+/* <= 1024 iPad Landscape */
+@media screen and (max-width:1024px){}
+/* <= 998 Bootstrap MD */
+@media screen and (max-width:998px){}
+/* <= 768 iPad Portrait */
+@media screen and (max-width:768px){}
+/* <= 667 iPhone Landscape */
+@media screen and (max-width:667px){}
+/* <= 414 iPhone Plus Portrait */
+@media screen and (max-width:414px){}
+/* <= 375 iPhone Portrait */
+@media screen and (max-width:375px){}
+/* <= 320 iPhone 4 ao 5S Portrait */
+@media screen and (max-width:320px){}
+
+
+
