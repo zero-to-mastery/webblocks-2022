@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face{
+	font-family: 'gillsans';
+	src:  url('../fonts/GillSans/GillSans-01.woff2');
+	font-weight: 400;
+	font-style: normal;}
+@font-face{
+	font-family: 'gillsans';
+	src:  url('../fonts/GillSans/GillSans-Bold-02.woff2');
+	font-weight: 700;
+	font-style: normal;}
+*{box-sizing: border-box;}
+html,body{padding: 0px;margin: 0px;}
+img{max-width: 100%;}
+
+body{
+	
+}
+
+.dado{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	background-color: whitesmoke;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 20px 20px -4px black;
+	border-radius: 10%;
+}
+
+.bola1, .bola2, .bola3, .bola4, .bola5, .bola6, .bola7{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: black;
+	position: absolute;
+}
+
+.bola1{
+	left: 16.5%;
+	top: 16.5%;
+	transform: translate(-16.5%, -16.5%);
+}
+
+.bola2{
+	right: 16.5%;
+	top: 16.5%;
+	transform: translate(16.5%, -16.5%);
+}
+
+.bola3{
+	left: 16.5%;
+	top: 50%;
+	transform: translate(-16.5%, -50%);
+}
+
+.bola4{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.bola5{
+	right: 16.5%;
+	top: 50%;
+	transform: translate(16.5%, -50%);
+}
+
+.bola6{
+	left: 16.5%;
+	bottom: 16.5%;
+	transform: translate(-16.5%, 16.5%);
+}
+
+.bola7{
+	right: 16.5%;
+	bottom: 16.5%;
+	transform: translate(16.5%, 16.5%);
+}
+
+.esq{
+	position: fixed;
+	width: 25%;
+	background-color: #F2AA4CFF;
+	height: 100vh;
+}
+
+.dir{
+	position: fixed;
+	width: 25%;
+	background-color: #F2AA4CFF;
+	height: 100vh;
+	right: 0px;
+}
+
+.btnSort{
+	position: absolute;
+	top: calc(50% + 200px);
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+h2{
+	font-size: 20px;
+	line-height: 1px;
+	display: inline;
+	text-align: center;
+}
+
+h4{
+	font-size: 20px;
+	line-height: 1px;
+	display: inline;
+	text-align: center;
+}
+
+.ganhou{
+	position: absolute;
+	width: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.perdeu{
+
+}
+
+.boaa{
+	text-align: center;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+}
+
+.barra{
+	position: absolute;
+	height: 20px;
+	width: 40%;
+	border-radius: 10px;
+	border: black solid;
+	bottom: 30%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	z-index: 1;
+}
+
+.enchimento{
+	width: 0%;
+	background-color: #F2AA4CFF;
+	height: 100%;
+	border: white;
+	border-radius: 10px;
+}
+
+
+/* <= 1440 HD Ready */
+@media screen and (max-width:1440px){}
+/* <= 1280 HD */
+@media screen and (max-width:1280px){}
+/* <= 1024 iPad Landscape */
+@media screen and (max-width:1024px){}
+/* <= 998 Bootstrap MD */
+@media screen and (max-width:998px){}
+/* <= 768 iPad Portrait */
+@media screen and (max-width:768px){}
+/* <= 667 iPhone Landscape */
+@media screen and (max-width:667px){}
+/* <= 414 iPhone Plus Portrait */
+@media screen and (max-width:414px){}
+/* <= 375 iPhone Portrait */
+@media screen and (max-width:375px){}
+/* <= 320 iPhone 4 ao 5S Portrait */
+@media screen and (max-width:320px){}
+
+
+
