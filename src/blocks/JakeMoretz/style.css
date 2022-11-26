@@ -1,0 +1,50 @@
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-tag {
+    font-size: 100px;
+}
+
+.btn-1 {
+    color:aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #00a69b;
+    border: none;
+    box-shadow: 5px 5px gray
+    
+}
+#first-button {
+    padding: 20px 10px;
+    
+}
+
+.btn-1:hover {
+    background-color: rgb(4, 126, 85);
+}
+
+
+
+.btn-2 {
+    color:aliceblue;
+    height: 3em;
+    width: 100px;
+    border-radius: 40px 10px;
+    background-color: rgb(90, 54, 132);
+    border: none;
+    
+}
+
+#second-button {
+    padding: 20px 10px;
+}
+
+.btn-2:hover {
+    background-color: rgb(142, 104, 176);
+    color:rgb(2, 1, 1);
+}
