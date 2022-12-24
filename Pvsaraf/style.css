@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    border-left: 100px;
+    padding-left: 30%;
+    line-height: 300%;
+}
+
+label {
+    border: dashed;
+    border-radius: 1px;
+    padding: 5px 10px;
+}
+
