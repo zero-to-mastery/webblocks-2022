@@ -1,3 +1,4 @@
+/* Set specifications of card */
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -6,3 +7,39 @@
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
+/* Set specifications necessary for front and back of card */
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Flip to the other side */
+.flip {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back od the card */
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style for front of card */
+.card-front {
+  background-color: #545C52;
+  color: white;
+}
+
+/* Style for back of card */
+.card-back {
+  background-color: #BBC7CE;
+  color: black;
+  transform: rotateY(180deg);
+}
