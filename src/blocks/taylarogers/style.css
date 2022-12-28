@@ -1,11 +1,28 @@
+/* Set the specifications of the screen */
+body {
+  margin: auto 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F4CB;
+}
+
 /* Set specifications of card */
 .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+/* Header style */
+h3 {
+  color: #cabd83;
+}
 
 /* Set specifications necessary for front and back of card */
 .card-content {
@@ -29,17 +46,20 @@
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Style for front of card */
 .card-front {
-  background-color: #545C52;
+  background-color: #110B11;
   color: white;
 }
 
 /* Style for back of card */
 .card-back {
-  background-color: #BBC7CE;
-  color: black;
+  background-color: #B7990D;
+  color: white;
   transform: rotateY(180deg);
 }
