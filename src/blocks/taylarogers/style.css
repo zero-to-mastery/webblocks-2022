@@ -22,6 +22,8 @@ body {
 /* Header style */
 h3 {
   color: #cabd83;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: large;
 }
 
 /* Set specifications necessary for front and back of card */
@@ -62,4 +64,8 @@ h3 {
   background-color: #B7990D;
   color: white;
   transform: rotateY(180deg);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
