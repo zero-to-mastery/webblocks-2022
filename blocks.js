@@ -427,6 +427,13 @@
     "author_github_url": "https://github.com/ishan-gupt"
   },
   {
+    "name": "Buttons",
+    "page_link": "./blocks/JakeMoretz/index.html",
+    "block_icon": "./blocks/JakeMoretz/icon.png",
+    "author_name": "Jake",
+    "author_github_url": "https://github.com/JakeMoretz/"
+  },
+  {
     "name": "little Zoo",
     "page_link": "./blocks/Jeven/index.html",
     "block_icon": "./blocks/Jeven/icon.png",

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  max-width: 600px;
+  height: 100vh;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions {
+  font-size: 1.2rem;
+  padding: 1em;
+}
+#text {
+  text-align: center;
+  margin: 1em;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+.robot {
+  width: 300px;
+}
+#btn {
+  width: 200px;
+  margin: 1em 2em;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 1em 2em;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+#btn:link,
+#btn:visited {
+  background-color: transparent;
+  border: 1px solid black;
+}
+#btn:focus,
+#btn:hover {
+  background-color: black;
+  color: skyblue;
+  border-radius: 10px;
+}
+
+/*aux*/
+.hide {
+  display: none;
+}
