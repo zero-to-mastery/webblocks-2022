@@ -1980,6 +1980,13 @@
     "author_github_url": "https://github.com/terieyenike"
   },
   {
+    "name": "Scroll Progress",
+    "page_link": "./blocks/teri_3/index.html",
+    "block_icon": "./blocks/teri_3/icon.png",
+    "author_name": "Teri",
+    "author_github_url": "https://github.com/terieyenike"
+  },
+  {
     "name": "Animated Hamburger Menu Icon",
     "page_link": "./blocks/terrifricker/index.html",
     "block_icon": "./blocks/terrifricker/icon.png",
