@@ -2036,6 +2036,13 @@
     "author_github_url": "https://github.com/thomashockaday/"
   },
   {
+    "name": "Words and Visuals",
+    "page_link": "./blocks/unhenei/index.html",
+    "block_icon": "./blocks/unhenei/icon.png",
+    "author_name": "unhenei",
+    "author_github_url": "https://github.com/unhenei"
+  },
+  {
     "name": "Drum 🥁 Kit",
     "page_link": "./blocks/vanithaak/index.html",
     "block_icon": "./blocks/vanithaak/icon.png",
