@@ -50,6 +50,13 @@
     "author_github_url": "https://github.com/ahmadadejumo"
   },
   {
+    "name": "ZTM Button",
+    "page_link": "./blocks/Alex/index.html",
+    "block_icon": "./blocks/Alex/icon.png",
+    "author_name": "Matt",
+    "author_github_url": "https://github.com/MattCSmith/"
+  },
+  {
     "name": "FAQ-Template",
     "page_link": "./blocks/AmanPathan/index.html",
     "block_icon": "./blocks/AmanPathan/icon.png",
