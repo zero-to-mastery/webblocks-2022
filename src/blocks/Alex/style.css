@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    font-family: "calibri";
+}
+.shape {
+    display: grid;
+    grid-template: 50px 400px 50px / 50px 400px 50px;
+    justify-content: center;
+    grid-gap: 50px;    
+}
+.r {
+    background-color: aqua;
+}
+.r:hover {
+    border-radius: 20px;
+    background-color: blue;
+    transform: skew(30deg, 20deg);
+}
+.s:hover {
+    transform: scale(2);
+}
+img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
