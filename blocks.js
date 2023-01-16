@@ -1560,6 +1560,13 @@
     "author_github_url": "https://github.com/AcidBurnHen"
   },
   {
+    "name": "Suggestion Robot",
+    "page_link": "./blocks/luis2605/index.html",
+    "block_icon": "./blocks/luis2605/icon.png",
+    "author_name": "Luis Rondon",
+    "author_github_url": "https://github.com/luis2605/"
+  },
+  {
     "name": "DragDrop",
     "page_link": "./blocks/manavukani/index.html",
     "block_icon": "./blocks/manavukani/icon.png",

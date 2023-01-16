@@ -1,0 +1,58 @@
+
+
+
+
+
+.side {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.side .fancy {
+     font-family: 'Lobster', cursive;
+     font-size: 1.3em;
+     line-height: 0.8em;
+    
+}
+
+
+.side .title {
+    color: white;
+    font-size: 8vw;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px 15vw;
+    width: 70vw;
+}
+
+#left-side{
+    background-color: rgb(136, 30, 212);
+    z-index: 2;
+}
+
+#right-side {
+    background-color: rgb(232, 125, 59);
+}
+
+
+#left-side .title {
+    color: white;
+}
+
+
+#left-side .fancy {
+    color: rgb(199, 100, 29);
+}
+
+#right-side .title {
+    color: black;
+}
+
+
+#right-side .fancy {
+    color: white;
+}
