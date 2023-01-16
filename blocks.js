@@ -1854,6 +1854,13 @@
     "author_github_url": "https://github.com/satyam73/"
   },
   {
+    "name": "Fancy header",
+    "page_link": "./blocks/shawnjamil/index.html",
+    "block_icon": "./blocks/shawnjamil/icon.png",
+    "author_name": "shawnjamil",
+    "author_github_url": "https://github.com/shawnjamil/"
+  },
+  {
     "name": "Black Jack",
     "page_link": "./blocks/shemils/index.html",
     "block_icon": "./blocks/shemils/icon.png",
