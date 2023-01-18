@@ -1,0 +1,126 @@
+body {
+  background-image: linear-gradient(to right, rgb(116, 115, 114), rgb(5, 5, 5));
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -64.5px;
+  margin-top: -85.5px;
+}
+
+.ghost {
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+.shadowFrame {
+  width: 130px;
+  margin-top: 15px;
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes shrink {
+  0% {
+    width: 90%;
+    margin: 0 5%;
+  }
+  50% {
+    width: 60%;
+    margin: 0 18%;
+  }
+  100% {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+/*loading bar css*/
+
+.progress2 {
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.progress-bar2 {
+  height: 18px;
+  border-radius: 30px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+  background-color: #f3c623;
+  animation: progress 5s infinite;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+    background: #f9bcca;
+  }
+
+  100% {
+    width: 100%;
+    background: #f3c623;
+    box-shadow: 0 0 40px #f3c623;
+  }
+}
+
+.icon {
+  color: #f3c623;
+  animation: icon 5s infinite;
+  background-color: transparent;
+  padding-right: 400px;
+  padding-bottom: 20px;
+}
+
+@keyframes icon {
+  0% {
+    opacity: 0.2;
+    text-shadow: 0 0 0 #f3c623;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 10px #f3c623;
+  }
+}
+
+.loader {
+  --p: 0;
+  animation: p 5s steps(100) infinite;
+  counter-reset: p var(--p);
+  font-size: 2.1em;
+  position: absolute;
+  bottom: 45px;
+  left: 325px;
+  color: #f3c623;
+}
+
+.loader:after {
+  content: counter(p) "%";
+}
+
+@keyframes p {
+  90%,
+  100% {
+    --p: 100;
+  }
+}
+
+.container-load {
+  margin: 100px auto;
+  margin-top: 520px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
