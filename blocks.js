@@ -448,6 +448,13 @@
     "author_github_url": "https://github.com/Jeven212"
   },
   {
+    "name": "Magic 8 Ball",
+    "page_link": "./blocks/Justin62913/index.html",
+    "block_icon": "./blocks/Justin62913/icon.png",
+    "author_name": "Justin Johnson",
+    "author_github_url": "https://github.com/Justin62913/"
+  },
+  {
     "name": "Grocery List",
     "page_link": "./blocks/K_SANIL/index.html",
     "block_icon": "./blocks/K_SANIL/icon.png",
