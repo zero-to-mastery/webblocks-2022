@@ -1826,6 +1826,13 @@
     "author_github_url": "https://github.com/qashifpeer/"
   },
   {
+    "name": "Rabo Background Generator",
+    "page_link": "./blocks/raboyusuf/index.html",
+    "block_icon": "./blocks/raboyusuf/icon.png",
+    "author_name": "Rabo Yusuf",
+    "author_github_url": "https://github.com/rabobahago"
+  },
+  {
     "name": "Ripped Paper Effect",
     "page_link": "./blocks/rachelktyjohnson/index.html",
     "block_icon": "./blocks/rachelktyjohnson/icon.png",
