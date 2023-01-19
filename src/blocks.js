@@ -616,6 +616,13 @@
     "author_github_url": "https://github.com/Neha045/"
   },
   {
+    "name": "IPL Auction 2023",
+    "page_link": "./blocks/Pvsaraf/index.html",
+    "block_icon": "./blocks/Pvsaraf/icon.png",
+    "author_name": "Pvsaraf",
+    "author_github_url": "https://github.com/Pvsaraf"
+  },
+  {
     "name": "Simple_Text",
     "page_link": "./blocks/RajMishra/index.html",
     "block_icon": "./blocks/RajMishra/icon.png",
