@@ -2001,6 +2001,13 @@
     "author_github_url": "https://github.com/tarunmankar/"
   },
   {
+    "name": "Flip Card",
+    "page_link": "./blocks/taylarogers/index.html",
+    "block_icon": "./blocks/taylarogers/icon.png",
+    "author_name": "Tayla Rogers",
+    "author_github_url": "https://github.com/taylarogers"
+  },
+  {
     "name": "Modal Window Component",
     "page_link": "./blocks/techtuner/index.html",
     "block_icon": "./blocks/techtuner/icon.png",
