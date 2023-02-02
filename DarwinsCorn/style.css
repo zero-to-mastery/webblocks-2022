@@ -1,0 +1,60 @@
+:root {
+    --page-bkgrd-color:white;
+    --color:black;
+}
+
+body {
+    margin: 0%;
+    background-color: var(--page-bkgrd-color);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 600px;
+    background-color: var(--page-bkgrd-color);
+}
+
+.text {
+    color: var(--color, black);
+    font-size: 150px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.seg1 { --color-background: orangered; --border-radius: 100px 1px 1px 100px; --transform: rotate(180deg)}
+.seg2 { --color-background: hsl(16, 100%, 65%) ; --border-radius: 1px 100px 100px 1px; --transform: rotateX(-180deg)}
+.seg3 { --color-background: hsl(300, 50%, 40%); --border-radius: 100px 1px 1px 100px; --transform: rotate3d(1,1,1,180deg)}
+.seg4 { --color-background: hsl(210, 100%, 70%); --border-radius: 100px; --transform: rotateY(180deg)}
+.seg5 { --color-background: green; --border-radius: 100px 0px 100px 100px; --transform: rotate3d(1,1,1,-180deg)}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background, gray);
+    border-radius: var(--border-radius, 100px);
+    width: 200px;
+    height:200px;
+    transition: 1s;
+}
+
+.circle:hover {
+    transform: var(--transform);
+}
+
+button {
+    background-color: hsl(0, 0%, 80%);
+    border: 1px solid hsl(0, 0%, 50%) ;
+    border-radius: 10px;
+    margin: 10px;;
+}
+
+#dark {
+    font-size: large;
+}
