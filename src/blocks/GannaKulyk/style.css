@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax {
+    position: relative;
+    height: 100%;
+}
+
+.parallax__mountain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax__mountain_1 {
+    background: url(images/m_1.png) 0 0 / cover no-repeat;
+}
+
+.parallax__mountain_2 {
+    z-index: 1;
+    background: url(images/m_2.png) bottom right / 45% no-repeat;
+}
+
+.parallax__mountain_3 {
+    z-index: 1;
+    background: url(images/m_3.png) bottom left / 100% no-repeat;
+}
+ 
+.parallax__fog {
+    background: url(images/fog_1.png) bottom / 100% no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: opacity 0.3s ease 0s;
+}
+.content {
+    position: relative;
+}
+
+.content__body {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content__header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.content__title {
+    font-size: 150px;
+}
+
+.content__subtitle {
+    font-size: 80px;
+    text-transform: capitalize;
+}
+
+.content__article {
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 18px;
+    line-height: 24px;
+}
