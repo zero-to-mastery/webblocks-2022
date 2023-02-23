@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 2.5em;
+    color: rgb(74, 77, 77);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    font-size: 1.5em;
+    padding: .5em 0em;
+}
+.main-content{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0.5rem 3rem;
+    border: .1rem solid gray;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: .2rem 2rem;
+}
+.img-section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem 2rem;
+}
+.img-section__bigcover{
+    font-size: 0;
+}
+.img-section__bigcover > img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.img-section__bigcover > img.active-cover {
+    display: block;
+    opacity: 1;
+    transition: .8s ease;
+    transform: rotateY(90deg);
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+}
+.img-section__bigcover > img.prev {
+    display: block;
+    animation-name: fadeout;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+.but{
+    transition: .8s ease;
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+    opacity: 0;
+    background-color: rgb(34, 149, 111);
+    padding: 1rem 1.5rem;
+    border:rgba(0, 0, 0, 0.3) solid .1rem;
+    border-radius: 8px;
+}
+.but:hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.3);
+}
+.read-button{
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(239, 239, 239);  
+}
+.img-section__bigcover:hover .but{
+    opacity: 1;
+    cursor: pointer;
+}
+.img-section__bigcover:hover .active-cover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+.img-section__subnails{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(227, 227, 227, 0.8);
+}
+.img-section__subnails img{
+    width: 16%;
+    height: 14%;
+    margin: 1.2% 0%;
+    opacity: .4;    
+}
+.img-section__subnails img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.img-section__subnails img.active__img{
+    cursor: default;
+    opacity: 1;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5), 0 10px 24px 0 rgba(0, 0, 0, 0.3);
+}
+@keyframes fadein {
+   to {transform: rotateY(0deg)};
+}
+@keyframes fadeout {
+    to {transform: rotateY(90deg);
+        opacity: .05;};
+ }
+ .coverdesc{
+    display: none;
+ }
+ .active-cover__desc {
+    display: block;
+ }
