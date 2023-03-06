@@ -1,0 +1,32 @@
+    #container {
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    max-height: 90vh;
+}
+
+.images > img { height: 40vh;}
+.images {
+    min-width: 90vw;
+    height: auto;
+    position: absolute;
+    max-height: 90vh;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    color: rgb(165 39 82);
+}
+
+a,p {
+    color: silver;
+}
+
+intro {position: relative;
+    left: 5%;
+    text-align: center;
+
+}
