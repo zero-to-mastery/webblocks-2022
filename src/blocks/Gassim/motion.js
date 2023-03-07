@@ -13,7 +13,7 @@ window.onload = function() {
     var keyword = "nature,greenscreen";
     var images = document.getElementsByClassName('images');
     var t = setInterval(move, 10);
-    var t = setInterval(insert, 50);
+    var i = setInterval(insert, 50);
     var index = 1;
     
     window.addEventListener('resize', checkWindowSize)
@@ -32,18 +32,31 @@ window.onload = function() {
         else if (keyword == "male,shirtless") {keyword= "nature,greenscreen"}
     }
 
+    var div;
+    
+function replace() {
+    for(let x = 0; x <= 2; x++)
+    {
+        div = document.createElement('div');
+        div.className = "images";
+        div.append(document.createElement("img"));
+        document.querySelector("#container").append(div);  
+    }
+        }
 
+    function mixFix() {
+        document.querySelector("#container").replaceChildren();
+        replace();
+    }
     
     function move() {
-        images[b].innerHTML = `<img src="https://source.unsplash.com/random/${windowWidth}x${windowHeight}/?${keyword};SameSite=Lax"/>`
-        images[b].style.zIndex = index++;
-        if(b>=0&&b<2){b++}else{b=0;}
+        if(b>=0&&b<2){b++;}else{b=0;}
         if(pos >= pwin) {
+            console.log("here")
             pos2 += 1;       
             images[b].style.top = pos2 + 'px';
             document.querySelector("body").style = "background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 55%, rgba(8,44,51,1) 100%) !important;";
             if(pos2 >= pwin2) {
-
                 pos3 -= 1;
                 pos2 -= 1;
                 images[b].style.left = pos3 + 'px';
@@ -65,7 +78,12 @@ window.onload = function() {
             }
         }
         else {
-            pos += 1;
+        replace();
+        mixFix();
+        let request = document.querySelectorAll(".images img");
+        request[b].src = `https://source.unsplash.com/random/${windowWidth}x${windowHeight}/?${keyword};SameSite=Lax`;
+        images[b].style.zIndex = index++;
+        pos += 1;
             images[b].style.left = pos +'px';
             document.querySelector("body").style = "background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(8,44,51,1) 100%) !important;";
         }
