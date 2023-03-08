@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Auto-calculate</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+                <div class="input-section">
+                    <input type="number" placeholder="enter a number" name="first-number" id="first-number" value="0"   >
+                    <select name="operator" id="operator-select" >
+                        <option value="+">Sum</option>
+                        <option value="-">Difference</option>
+                        <option value="*">Product</option>
+                        <option value="/">Quotient</option>
+                    </select>
+                    <input type="number" placeholder="enter the second number" name="second-number" id="second-number" value="0" >
+                </div>
+                    
+                    <div class="ans-section">
+                        <span id="answer"></span>
+                    </div>
+                
+        </div>
+    </div>
+    
+    <script src="script.js" ></script>
+</body>
+</html>
