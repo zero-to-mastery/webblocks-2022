@@ -1,0 +1,46 @@
+.background {
+    height: 100vh;
+    background-image: url('./background-plane.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+}
+
+.plane {
+    position: absolute;
+    top: 30%;
+
+    animation: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes fly {
+    0% {
+        transform: translate(0);
+    }
+
+    40% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateX(calc(100vw - 150px)) rotate(-50deg);
+    }
+
+    110% {
+        transform: translateX(calc(100vw - 150px)) rotate(-50deg);
+        transform: translateX(calc(100vw - 150px)) rotate(-90deg);
+    }
+
+    140% {
+        transform: translateX(calc(100vw - 150px)) rotate(-50deg);
+        transform: translateX(calc(100vh - 150px)) rotate(-90deg);
+    }
+}
