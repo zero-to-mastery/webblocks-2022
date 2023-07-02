@@ -1,0 +1,289 @@
+/*
+Template Name: Roundy
+Template  URI: https://newtodesign.com/roundy
+Author: NewToDesign
+Author URI: https://newtodesign.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	text-rendering : optimizeLegibility;
+	-webkit-font-smoothing : antialiased;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+.nav-item a {
+	font-weight: bold;
+	color: #000000 !important;
+}
+
+.container-fluid {
+	background-color: #FCFAFA;
+}
+
+#hero {
+	padding: 80px 0;
+	min-height: 700px;
+	position: relative;
+}
+
+.date {
+	display: inline-block;
+	font-size: 18px;
+	color: #818181;
+}
+
+.tags .badge-light{
+	background-color: #EDEDED;
+	color: #555;
+	font-weight: normal;
+}
+
+.hero-img-container {
+	position: absolute;
+	left: 0px;
+	padding: 0;
+}
+
+.hero-img {
+	max-width: 540px !important;
+	height: 540px;
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.hero-img img {
+	width: 100%;
+	height: auto;
+}
+
+.hero-title {
+	background-color: #FCFAFA;
+	border-radius: 150px;
+	padding: 25px 60px;
+	padding-right: 10px;
+	margin-top: 95px;
+	font-family: 'Playfair display'
+}
+
+.hero-title h1 {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 70px;
+	color: #000;
+	text-decoration: none;
+	transition: 500ms;
+
+}
+.hero-title a h1:hover {
+	transform: scale(1.01);
+}
+
+.hero-meta p {
+	font-size: 22px;
+	line-height: 30px;
+	color: #404040;
+}
+
+.author-img , .author-meta{
+	display: inline-block;
+	vertical-align: top;
+}
+.author-img {
+	margin-right: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+.author-img img{
+	max-width: 100%;
+	height: auto;
+}
+
+.author-meta span{ 
+	display: block;
+}
+
+.author-name {
+	font-size: 18px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.author-tag {
+	font-size: 14px;
+	color: #818181;
+}
+
+.article-card {
+	margin: 20px 0; 
+	transition: 400ms;
+}
+.article-card:hover {
+	transform: scale(1.05);
+}
+
+.article-img , .article-meta {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.article-img {
+	max-width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 100px;
+}
+
+.article-img img {
+	width: 100%;
+	height: auto;
+}
+
+.article-meta {
+	max-width: 360px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.article-meta h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+	font-family: 'Playfair display'
+}
+
+.article-meta p {
+	color: #404040;
+}
+
+.btn-lg {
+	font-size: 18px;
+	padding: 10px 30px;
+}
+
+.btn-light {
+	border-radius: 50px;
+	font-weight: bold;
+	background-color: #FCFAFA;
+	border: none;
+}
+
+.btn-light:hover , footer .btn-light {
+		background-color: #EDEDED !important;
+		border: none;
+}
+
+footer .btn-light , #social-share .btn-light {
+	width : 40px;
+	height: 40px;
+	text-align: center;
+	padding: 0;
+	padding-top: 8px;
+	margin: 0 5px;
+}
+
+footer a {
+	color: #000;
+}
+
+
+
+#content .lead {
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 35px;
+	margin-top: 0;
+}
+
+#content p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#social-share .btn-light{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+/* Media Queries */
+
+@media(max-width: 1200px) {
+
+	.hero-img {
+		width: 500px;
+		height: 500px;
+	}
+
+	.article-card {
+		text-align: center;
+	}
+	.article-meta {
+		max-width: 450px;
+		text-align: left;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer .justify-content-end {
+		justify-content: center!important;
+	}
+}
+
+
+@media(max-width: 992px) {
+	#hero {
+		padding: 30px 0 60px;
+	}
+
+	.hero-img-container {
+		position: static;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.hero-img-container .hero-img {
+		display: inline-block;
+	}
+
+	.hero-title {
+		padding: 0;
+		margin: 0;
+	}
+		#hero {
+		text-align: center !important;
+	}
+}
+
+@media(max-width: 585px){
+
+	.article-card .text-left{
+		text-align: center !important;
+	}
+
+	.hero-img {
+		width: 350px;
+		height: 350px;
+	}
+	.hero-title h1 {
+	font-size: 40px;
+	line-height: 50px;
+	}
+}
+
+@media(max-width: 320px){
+	.hero-img {
+		width: 300px;
+		height: 300px;
+	}
+}
