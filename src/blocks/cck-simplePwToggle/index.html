@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge ,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Simple Password Toggle Visibility</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" />
+
+<body>
+	<div class="wrapper">
+		<div class="form-box">
+			<h1>Login Here</h1>
+			<div class="input-box">
+				<i class="fa-solid fa-envelope"></i>
+				<input type="email" placeholder="Email" />
+			</div>
+			<div class="input-box">
+				<i class="fa-solid fa-key"></i>
+				<input id="inp_pw" type="password" placeholder="Password" />
+				<span class="eye" onclick="toggleShowHide()">
+					<!-- toggle between "fa-eye-slash" & "fa-eye" class -->
+					<i class="fa-sharp fa-regular fa-eye"></i>
+				</span>
+			</div>
+			<button class="login-btn">LOGIN</button>
+		</div>
+	</div>
+	<span class="shout-out">
+		Photo by
+		<a
+			href="https://unsplash.com/@amgras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">MarkoSun</a>
+		on
+		<a
+			href="https://unsplash.com/photos/-Mbs5_RHkNI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+	</span>
+	<script src="index.js"></script>
+</body>
+
+</html>

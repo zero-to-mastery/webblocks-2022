@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url("./assets/marko-sun--Mbs5_RHkNI-unsplash.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 12% 33%;
+}
+.form-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+    color: white;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-box {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 10px 0 5px;
+    border-bottom: 1px solid white;
+}
+.input-box > input {
+    width: 87%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+::placeholder {
+    color: #cccccc;
+}
+.fa-solid {
+    margin-right: 10px;
+}
+.eye {
+    position: absolute;
+}
+#hide {
+    display: none;
+}
+.login-btn {
+    display: block;
+    width: 80%;
+    margin: 40px auto 20px;
+    padding: 10px 0;
+    outline: none;
+    border: 1px solid white;
+    letter-spacing: 0.3em;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.shout-out {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    color: white;
+}
+.shout-out a {
+    text-decoration: none;
+}
