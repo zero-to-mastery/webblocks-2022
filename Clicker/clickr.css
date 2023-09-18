@@ -1,0 +1,71 @@
+html {
+  font-family: "Press Start 2P";
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  --color: rgb(34, 178, 77);
+  --border-color: firebrick;
+  --shadow-color: rgb(112, 20, 20);
+
+  position: relative;
+  font-size: 0.75rem;
+  width: 200px;
+  height: 75px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2rem;
+  border: none;
+  background-size: cover;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-family: "Press Start 2P", monospace;
+  font-weight: bold;
+  background-color: var(--color);
+  box-shadow: 0 -3px var(--color), 3px 0 var(--color), 0 3px var(--color),
+    -3px 0 var(--color), 0 -6px var(--border-color),
+    3px -3px var(--border-color), 6px 0 var(--border-color),
+    0 6px var(--border-color), -3px 3px var(--border-color),
+    -6px 0 var(--border-color), -3px -3px var(--border-color),
+    3px 3px var(--border-color), 0px 9px var(--shadow-color),
+    3px 6px var(--shadow-color), 6px 3px var(--shadow-color),
+    0px 9px var(--shadow-color), -3px 6px var(--shadow-color),
+    -6px 3px var(--shadow-color);
+}
+
+#button:active {
+  top: 6px;
+  box-shadow: 0 -3px var(--color), 3px 0 var(--color), 0 3px var(--color),
+    -3px 0 var(--color), 0 -6px var(--border-color),
+    3px -3px var(--border-color), 6px 0 var(--border-color),
+    0 6px var(--border-color), -3px 3px var(--border-color),
+    -6px 0 var(--border-color), -3px -3px var(--border-color),
+    3px 3px var(--border-color), 0px 6px var(--shadow-color),
+    3px 3px var(--shadow-color), 6px 0px var(--shadow-color),
+    0px 6px var(--shadow-color), -3px 3px var(--shadow-color),
+    -6px 0px var(--shadow-color);
+}
+
+#display,
+#counter {
+  height: 32px;
+}
