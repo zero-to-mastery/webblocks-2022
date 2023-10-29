@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f6e5d1; /* A light coffee shade */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  border: 1px solid #d1c1ad;
+}
+
+#coffeeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.coffee-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 80px;
+  margin-top: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #d1c1ad;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f9f4e9;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8b7355; /* Coffee brown */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6e573f;
+}
+
+#totalCost {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.coffee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d1c1ad;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f4e9;
+}
+
+.coffee-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type="number"] {
+  width: 50px; /* Adjusting the width of the number input */
+}
